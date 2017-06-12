@@ -14,17 +14,17 @@
       "forceSmartVote":false
    },
    "ccc":{
-      "admin":null,
-      "ambassador":null,
-      "host":"#C42E3B",
-      "cohost":"#C42E3B",
-      "manager":"#F46B40",
-      "bouncer":"#F46B40",
-      "rdj":"#5784C5",
-      "subscriber":"null",
-      "silversubscriber":"null",
+      "admin":"#42a5dc",
+      "ambassador":"#9C0",
+      "host":"#5BF",
+      "cohost":"#58f",
+      "manager":"#E15,
+      "bouncer":"#F45",
+      "rdj":"#F95",
+      "subscriber":"#FB3",
+      "silversubscriber":"#8694b2",
       "friend":"null",
-      "user":"#F46B40"
+      "user":"null"
    },
    "images":{
       "background":"http://i.imgur.com/Y38SlxK.png",
@@ -39,7 +39,7 @@
       "subscriber":"null",
       "silversubscriber":"null",
       "friend":"null",
-      "user":""
+      "user":"null"
    },
    "autocomplete":{
       "!add":"2",
@@ -47,6 +47,11 @@
       "!kick":"2",
       "!ban":"2",
       "!getban":"2"
+      "!clearchat":"2",
+      "!skip":"2",
+      "!rcs":"0",
+      "!staff":"0",
+      "!website":"0",
    },
    "emotes":{
       "emote_name":"null"
