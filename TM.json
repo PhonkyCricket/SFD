@@ -4,27 +4,27 @@
    "icon":"",
    "css":"",
    "rules":{
-      "allowAutorespond":"false",
-      "allowAutowoot":"true",
-      "allowAutojoin":"false",
-      "allowAutograb":"true",
-      "allowSmartVote":"true",
-      "allowEmotes":"true",
-      "allowShowingMehs":"false",
-      "forceSmartVote":"false"
+      "allowAutorespond":false,
+      "allowAutowoot":true,
+      "allowAutojoin":false,
+      "allowAutograb":true,
+      "allowSmartVote":true,
+      "allowEmotes":true,
+      "allowShowingMehs":false,
+      "forceSmartVote":false
    },
    "ccc":{
       "admin":"#42A5dC",
       "ambassador":"#99CC00",
       "host":"#55BBFF",
       "cohost":"#5588FF",
-      "manager":"#EE1155,
+      "manager":"#EE1155",
       "bouncer":"#FF4455",
       "rdj":"#FF9955",
       "subscriber":"#FFBB33",
       "silversubscriber":"#8694B2",
-      "friend":"null",
-      "user":"null"
+      "friend": null,
+      "user": null
    },
    "images":{
       "background":"http://i.imgur.com/Y38SlxK.png",
@@ -36,10 +36,8 @@
       "manager":"http://i.imgur.com/eDk2kYq.png",
       "bouncer":"http://i.imgur.com/JDGGZyL.png",
       "rdj":"http://i.imgur.com/Cn5JgfV.png",
-      "subscriber":"null",
-      "silversubscriber":"null",
-      "friend":"null",
-      "user":"null"
+      "subscriber": null,
+      "silversubscriber":"https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
    },
    "autocomplete":{
       "!add":"2",
@@ -51,7 +49,7 @@
       "!skip":"2",
       "!rcs":"0",
       "!staff":"0",
-      "!website":"0",
+      "!website":"0"
    },
    "emotes":{
       "emote_name":"null"
