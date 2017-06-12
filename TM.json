@@ -44,7 +44,7 @@
       "!lock":"2",
       "!kick":"2",
       "!ban":"2",
-      "!getban":"2"
+      "!getban":"2",
       "!clearchat":"2",
       "!skip":"2",
       "!rcs":"0",
