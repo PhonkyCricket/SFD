@@ -1,0 +1,23 @@
+[data-cid^="20168147-"] .badge-box .bdg {
+    border-radius: 5px ;
+    background-image: url("http://i.imgur.com/GqRyjQb.png") ;
+    background-repeat: round ;
+    background-size: 30px ;
+}
+
+#user-rollover.id-20168147 .badge-box .bdg {
+    border-radius: 5px ;
+    background-image: url("http://i.imgur.com/GqRyjQb.png") ;
+    background-repeat: round ;
+    background-size: 30px ;
+}
+
+[data-cid^="20168147-"] .msg .from .un {
+    color: #25b961 ;
+}
+
+[data-cid^="20168147-"] #chat .emote {
+    background: rgba(37,185,97,0.3) ;
+    border-left: rgb(37,185,97) 3px solid ;
+}
+
