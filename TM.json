@@ -1,8 +1,8 @@
 {
    "room":"Titan + Music",
    "author":"TitanMusic | Developer & Trigstur",
-   "icon":"",
-   "css":"",
+   "icon":"http://i.imgur.com/GqRyjQb.png",
+   "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.css",
    "rules":{
       "allowAutorespond":false,
       "allowAutowoot":true,
