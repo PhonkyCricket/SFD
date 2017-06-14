@@ -7,7 +7,7 @@
 
 #user-rollover.id-20168147 .badge-box .bdg {
     border-radius: 5px ;
-    background-image: url("2") ;
+    background-image: url("http://i.imgur.com/GqRyjQb.png") ;
     background-repeat: round ;
     background-size: 30px ;
 }
@@ -46,7 +46,7 @@
     top: -3px ;
  }
  #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5096489-'] .un:before, #chat [data-cid^='3544413-'] .un:before, #chat [data-cid^='4409204-'] .un:before {
-    content: http://i.imgur.com/UZBtOvE.png?1"
+    content: http://i.imgur.com/UZBtOvE.png?1 ;
     left: -3px ;
     position: relative ;
     top: 3px ;
@@ -54,7 +54,7 @@
  #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5096489-'] .un:hover:after, #chat [data-cid^='3544413-'] .un:hover:after, #chat [data-cid^='4409204-'] .un:hover:after {
     background: url("https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png") ;
     bottom: 20px ;
-    color: red ;
+    color: white ;
     content: T+M Supporter and Staff ;
     height: 26px ;
     left: 5px ;
