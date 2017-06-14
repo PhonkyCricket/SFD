@@ -7,7 +7,7 @@
 
 #user-rollover.id-20168147 .badge-box .bdg {
     border-radius: 5px ;
-    background-image: url("http://i.imgur.com/GqRyjQb.png") ;
+    background-image: url("2") ;
     background-repeat: round ;
     background-size: 30px ;
 }
@@ -19,7 +19,6 @@
 [data-cid^="20168147-"] #chat .emote {
     background: rgba(37,185,97,0.3) ;
     border-left: rgb(37,185,97) 3px solid ;
-}
 
 }
 #user-rollover.role-manager .meta:before {
@@ -64,7 +63,7 @@
     width: 79px ;
  }
  #user-rollover.id-3669054 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5096489 .meta:before, #user-rollover.id-3544413 .meta:before, #user-rollover.id-4409204 .meta:before {
-    content: http://i.imgur.com/UZBtOvE.png?1 ;
+    content: T+M Supporter and Staff ;
     left: 109px ;
     position: absolute ;
     top: 120px ;
@@ -74,3 +73,78 @@
  }
  #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-5712221 .meta #isSpecial {
     top: 145px ;
+   },
+   "#user-lists .group":{
+      "background":"linear-gradient(hsl(220,10%,10%), hsl(220,10%,5%)) !important"
+   },
+   "#user-lists .list.staff .group":{
+      "border-top":"1px solid rgba(40, 120, 60, 1)",
+      "border-bottom":"1px solid rgba(40, 120, 60, 1)",
+      "background":"rgba(40, 120, 60, 0.2)"
+   },
+   "#user-lists .user:hover":{
+      "background":"linear-gradient(to right, hsla(200,100%,20%,.5), hsla(200,100%,40%,.5)) !important"
+   },
+   "#user-lists .list-header":{
+      "top":"44px"
+   },
+   "#user-lists .list.staff .user:hover .name":{
+      "color":"#EEE !important"
+   },
+   "#user-lists .header":{
+      "height":"42px"
+   },
+   "#user-lists .header .button.selected":{
+      "border-radius":"0px",
+      "background":"radial-gradient(hsla(210,10%,50%,.5), hsla(210,10%,40%,.3))",
+      "border":"none !important"
+   },
+   "#user-lists .header .button":{
+      "top":"0px"
+   },
+   "#user-lists .group.host":{
+      "color":"#5BF",
+      "background":"linear-gradient(to right, hsla(210,100%,30%,.5), hsla(210,100%,40%,.5)) !important",
+      "top":"1px"
+   },
+   "#user-lists .group.host ~ .user:nth-child(2) span":{
+      "color":"#5Bf"
+   },
+   "#user-lists .group.host ~ .user span":{
+      "color":"#58F"
+   },
+   "#user-lists .group.manager":{
+      "color":"#E15",
+      "background":"linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) !important"
+   },
+   "#user-lists .group.manager ~ .user span":{
+      "color":"#E15"
+   },
+   "#user-lists .group.bouncer":{
+      "color":"#F45",
+      "background":"linear-gradient(to right, hsla(10,100%,30%,.5), hsla(10,100%,40%,.5)) !important"
+   },
+   "#user-lists .group.bouncer ~ .user span":{
+      "color":"#F45"
+   },
+   "#user-lists .group.dj":{
+      "color":"#F95",
+      "background":"linear-gradient(to right, hsla(20,100%,30%,.5), hsla(30,100%,40%,.5)) !important"
+   },
+   "#user-lists .group.dj ~ .user span":{
+      "color":"#F95"
+   },
+   ".icon-chat-host + span, #user-lists .group.host ~ .user span, #dialog-user-role .role-menu .menu ul .host span":{
+      "color":"#5BF"
+   },
+   ".icon-chat-cohost + span, #user-lists .group.cohost ~ .user span, #dialog-user-role .role-menu .menu ul .cohost span":{
+      "color":"#58f"
+   },
+   ".icon-chat-manager + span, #user-lists .group.manager ~ .user span, #dialog-user-role .role-menu .menu ul .manager span":{
+      "color":"#E15"
+   },
+   ".icon-chat-bouncer + span, #user-lists .group.bouncer ~ .user span, #dialog-user-role .role-menu .menu ul .bouncer span":{
+      "color":"#F45"
+   },
+   ".icon-chat-dj + span, #user-lists .group.dj ~ .user span, #dialog-user-role .role-menu .menu ul .dj span":{
+      "color":"#F95"    
