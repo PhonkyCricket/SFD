@@ -73,49 +73,49 @@
  }
  #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-5712221 .meta #isSpecial {
     top: 145px ;
-   },
-   "#user-lists .group {
-      "background":"linear-gradient(hsl(220,10%,10%), hsl(220,10%,5%)) !important"
-   },
-   "#user-lists .list.staff .group {
-      "border-top":"1px solid rgba(40, 120, 60, 1)",
-      "border-bottom":"1px solid rgba(40, 120, 60, 1)",
-      "background":"rgba(40, 120, 60, 0.2)"
-   },
-   "#user-lists .user:hover {
-      "background":"linear-gradient(to right, hsla(200,100%,20%,.5), hsla(200,100%,40%,.5)) !important"
-   },
-   "#user-lists .list-header {
-      "top":"44px"
-   },
-   "#user-lists .list.staff .user:hover .name {
-      "color":"#EEE !important"
-   },
-   "#user-lists .header {
-      "height":"42px"
-   },
-   "#user-lists .header .button.selected {
-      "border-radius":"0px",
-      "background":"radial-gradient(hsla(210,10%,50%,.5), hsla(210,10%,40%,.3))",
-      "border":"none !important"
-   },
-   "#user-lists .header .button {
-      "top":"0px"
-   },
-   "#user-lists .group.host {
-      "color":"#5BF",
-      "background":"linear-gradient(to right, hsla(210,100%,30%,.5), hsla(210,100%,40%,.5)) !important",
-      "top":"1px"
-   },
-   "#user-lists .group.host ~ .user:nth-child(2) span {
-      "color":"#5Bf"
-   },
-   "#user-lists .group.host ~ .user span {
-      "color":"#58F"
-   },
-   "#user-lists .group.manager {
-      "color":"#E15",
-      "background":"linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) !important"
+ }
+ #user-lists .group {
+    background: linear-gradient(hsl(220,10%,10%), hsl(220,10%,5%)) !important ;
+ }
+ #user-lists .list.staff .group {
+    border-top: 1px solid rgba(40, 120, 60, 1) ;
+    border-bottom: 1px solid rgba(40, 120, 60, 1) ;
+    background: rgba(40, 120, 60, 0.2) ;
+ }
+ #user-lists .user:hover {
+    background: linear-gradient(to right, hsla(200,100%,20%,.5), hsla(200,100%,40%,.5)) !important ;
+ }
+ #user-lists .list-header {
+    top: 44px ;
+ }
+ #user-lists .list.staff .user:hover .name {
+    color: #EEE !important ;
+ }
+ #user-lists .header {
+    height: 42px ;
+ }
+ #user-lists .header .button.selected {
+    border-radius: 0px ;
+    background: radial-gradient(hsla(210,10%,50%,.5), hsla(210,10%,40%,.3)) ;
+    border: none !important ;
+ }
+ #user-lists .header .button {
+    top: 0px ;
+ }
+ #user-lists .group.host {
+    color: #5BF ;
+    background: linear-gradient(to right, hsla(210,100%,30%,.5), hsla(210,100%,40%,.5)) !important ;
+    top: 1px ;
+ }
+ #user-lists .group.host ~ .user:nth-child(2) span {
+    color: #5Bf ;
+ }
+ #user-lists .group.host ~ .user span {
+    color: #58F ;
+ }
+ #user-lists .group.manager {
+    color: #E15 ;
+    background: linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) !important ;
    },
    "#user-lists .group.manager ~ .user span {
       "color":"#E15"
