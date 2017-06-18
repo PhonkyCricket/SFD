@@ -1,12 +1,12 @@
 [data-cid^="20168147-"] .badge-box .bdg {
     border-radius: 5px;
-    background-image: url("http://i.imgur.com/GqRyjQb.png");
+    background-image: url("http://i.imgur.com/eKqnlGD.jpg?1");
     background-repeat: round;
     background-size: 30px;
 }
 #user-rollover.id-20168147 .badge-box .bdg {
     border-radius: 5px;
-    background-image: url("http://i.imgur.com/GqRyjQb.png");
+    background-image: url("http://i.imgur.com/eKqnlGD.jpg?1");
     background-repeat: round;
     background-size: 30px;
 }
@@ -14,12 +14,12 @@
     color: #25b961;
 }
 [data-cid^="20168147-"] #chat .emote {
-    background: rgba(37,185,97,0.3);
+    background: rgba(37,185,97,0.5);
     border-left: rgb(37,185,97) 3px solid;
 }
 #user-rollover.role-manager .meta:before {
     position: absolute;
-    content: TitanMusic Supporter and Staff;
+    content: TitanMusic Staff;
     color: white;
     top: 117px;
     left: 108px;
@@ -42,7 +42,7 @@
     top: -3px;
  }
  #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5096489-'] .un:before, #chat [data-cid^='3544413-'] .un:before, #chat [data-cid^='4409204-'] .un:before {
-    content: http://i.imgur.com/UZBtOvE.png?1;
+    content: http://i.imgur.com/eKqnlGD.jpg?1;
     left: -3px;
     position: relative;
     top: 3px;
