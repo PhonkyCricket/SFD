@@ -17,7 +17,7 @@
     background: rgba(37,185,97,0.5);
     border-left: rgb(37,185,97) 3px solid;
 }
-#user-rollover.role-manager .meta:before {
+#user-rollover.role-host .meta:before {
     position: absolute;
     content: TitanMusic Staff;
     color: white;
@@ -145,13 +145,13 @@
  .icon-chat-dj + span, #user-lists .group.dj ~ .user span, #dialog-user-role .role-menu .menu ul .dj span {
     color: #F95;  
  }
- #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-T+M-supporter.role-subscriber.role-none div.meta.subscriber i#isSpecial {
+ #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-supporter.role-subscriber.role-none div.meta.subscriber i#isSpecial {
     content: TitanMusic Staff;
     left: 109px;
     position: absolute;
     top: 120px;
  }  
- #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-T+M-supporter.role-subscriber.role-none div.meta.subscriber span#isSpecialtxt {
+ #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-supporter.role-subscriber.role-none div.meta.subscriber span#isSpecialtxt {
     content: TitanMusic Staff;
     left: 109px;
     position: absolute;
@@ -216,7 +216,7 @@
 	border-radius: 0 20px 20px 0;
 	background: linear-gradient(rgba(255,255,255,.2), rgba(0,0,0,0)) !important;
 }	
-html.app.win.firefox body div#user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-developer.is-titanmusicstaff.role-host.role-host.role-subscriber div.meta.subscriber i#isSpecial {
+div#user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-developer.is-titanmusicstaff.role-host.role-host.role-subscriber div.meta.subscriber i#isSpecial {
 
 }
-html.app.win.firefox body div#user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-developer.is-titanmusicstaff.role-host.role-host.role-subscriber div.meta.subscriber span#isSpecialtxt {
+div#user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-developer.is-titanmusicstaff.role-host.role-host.role-subscriber div.meta.subscriber span#isSpecialtxt {
