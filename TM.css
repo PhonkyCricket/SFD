@@ -95,18 +95,6 @@
  .icon-chat-dj + span, #user-lists .group.dj ~ .user span, #dialog-user-role .role-menu .menu ul .dj span {
     color: #F95;  
  }
- #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-supporter.role-subscriber.role-none div.meta.subscriber i#isSpecial {
-    content: TitanMusic Staff;
-    left: 109px;
-    position: absolute;
-    top: 120px;
- }  
- #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-supporter.role-subscriber.role-none div.meta.subscriber span#isSpecialtxt {
-    content: TitanMusic Staff;
-    left: 109px;
-    position: absolute;
-    top: 120px;
- }
  #the-user-profile .notifications.section .row {
 	border-radius: 10px;
 	background: linear-gradient(hsl(210,100%,20%), hsl(210,100%,10%));
