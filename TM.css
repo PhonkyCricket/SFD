@@ -315,3 +315,12 @@ div#user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-devel
 	background: rgba(0, 0, 0, 0.61); 
 	text-align: center; 
 	cursor: pointer;
+}
+::-webkit-scrollbar-thumb { 
+	background: #002964; 
+}
+#footer { 
+	z-index: 90; 
+	width: 100%; 
+	background: rgba(40, 44, 53, 0.73); 
+	box-shadow: inset 0 2px 0 -1px #0A0A0A;
