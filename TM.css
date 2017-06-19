@@ -19,59 +19,6 @@
 [data-cid^="20168147-"] #chat .emote {
     background: rgba(37,185,97,0.5);
     border-left: rgb(37,185,97) 3px solid;
-}
-#user-rollover.role-host .meta:before {
-    position: absolute;
-    content: TitanMusic Staff;
-    color: white;
-    top: 117px;
-    left: 108px;
-    cursor: text;
-    font-weight: 400px;
-    font-size: 12px;
- }
- #user-rollover.id-3669054 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5096489 .meta:after, #user-rollover.id-3544413 .meta:after, #user-rollover.id-4409204 .meta:after {
-    color: white;
-    content: TitanMusic Supporter and Staff;
-    left: 130px;
-    position: absolute;
-    top: 118px;
- }
- #user-rollover.id-3669054 .meta, #user-rollover.id-5712221 .meta, #user-rollover.id-5096489 .meta {
-    height: 146px;
- }
- #chat [data-cid^='3669054-'] .un, #chat [data-cid^='5712221-'] .un, #chat [data-cid^='5096489-'] .un, #chat [data-cid^='3544413-'] .un, #chat [data-cid^='4409204-'] .un {
-    position: relative;
-    top: -3px;
- }
- #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5096489-'] .un:before, #chat [data-cid^='3544413-'] .un:before, #chat [data-cid^='4409204-'] .un:before {
-    content: http://i.imgur.com/eKqnlGD.jpg?1;
-    left: -3px;
-    position: relative;
-    top: 3px;
- }
- #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5096489-'] .un:hover:after, #chat [data-cid^='3544413-'] .un:hover:after, #chat [data-cid^='4409204-'] .un:hover:after {
-    background: url("https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png");
-    bottom: 20px;
-    color: white;
-    content: TitanMusic Supporter and Staff;
-    height: 26px;
-    left: 5px;
-    padding: 3px 6px;
-    position: absolute;
-    width: 79px;
- }
- #user-rollover.id-3669054 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5096489 .meta:before, #user-rollover.id-3544413 .meta:before, #user-rollover.id-4409204 .meta:before {
-    content: TitanMusic Supporter and Staff;
-    left: 109px;
-    position: absolute;
-    top: 120px;
- }
- #user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-5712221 .meta #isSpecialtxt {
-    top: 143px;
- }
- #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-5712221 .meta #isSpecial {
-    top: 145px;
  }
  #user-lists .group {
     background: linear-gradient(hsl(220,10%,10%), hsl(220,10%,5%)) !important;
