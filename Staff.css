@@ -1,0 +1,68 @@
+/*donators:
+TitanMusic | Developer: 3669054
+*/
+
+/*fix for glitching*/
+
+#user-rollover .meta {
+    min-height: 126px;
+}
+
+#chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
+    content: url("https://dl.dropboxusercontent.com/s/snctnlwc2lz5b0p/EDT-supporter.png");
+    top: 3px;
+    left: -3px;
+    position: relative;
+}
+
+#chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un {
+    top: -3px ;
+    position: relative;
+}
+
+#chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after {
+    content: 'TitanMusic Supporter';
+    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
+    padding: 3px 6px;
+    color: white;
+    bottom: 20px;
+    position: absolute;
+    left: 5px;
+    width: 79px;
+    height: 26px;
+}
+
+/*normal supporters*/
+
+#user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
+    height: 146px ;
+}
+
+#user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before {
+    content: url("https://dl.dropboxusercontent.com/s/snctnlwc2lz5b0p/EDT-supporter.png");
+    top: 120px;
+    left: 109px;
+    position: absolute;
+}
+
+#user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
+    content: 'TitanMusic Supporter';
+    color: #808691;
+    position: absolute;
+    top: 118px;
+    left: 130px;
+}
+
+/*People who also support another things (eg. RCS)*/
+
+#user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
+    height: 170px ;
+}
+
+#user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial {
+    top: 145px ;
+}
+
+#user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt {
+    top: 143px ;
+}
