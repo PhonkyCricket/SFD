@@ -53,16 +53,25 @@ TitanMusic | Developer: 3669054
     left: 130px;
 }
 
-/*People who also support another things (eg. RCS)*/
-
+/*People who also staff another things (eg. RCS)*/
+}
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
     height: 170px ;
 }
-
 #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial {
     top: 145px ;
 }
-
 #user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt {
     top: 143px ;
 }
+#user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-Staff.role-subscriber.role-none div.meta.subscriber i#isSpecial {
+    content: TitanMusic Staff;
+    left: 109px;
+    position: absolute;
+    top: 120px;
+}  
+#user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-Staff.role-subscriber.role-none div.meta.subscriber span#isSpecialtxt {
+    content: TitanMusic Staff;
+    left: 109px;
+    position: absolute;
+    top: 120px;
