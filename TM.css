@@ -220,3 +220,88 @@ div#user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-devel
 
 }
 div#user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-developer.is-titanmusicstaff.role-host.role-host.role-subscriber div.meta.subscriber span#isSpecialtxt {
+
+}
+.dialog {
+	border-radius: 20px;
+	background: hsla(210,10%,20%,.5);
+}
+.dialog .dialog-body {
+	background: hsla(210,10%,5%,.8) !important;
+}
+.dialog .cancel {
+	border-radius: 0 0 0 20px;
+	background: linear-gradient(hsla(15,80%,50%,.5), hsla(15,80%,30%,.5)) !important;
+}
+.dialog .submit {
+	border-radius: 0 0 20px 0;
+	background: linear-gradient(hsla(210,100%,50%,.5), hsla(210,100%,30%,.5)) !important;
+}
+#dialog-restricted-media .divider {
+	background: hsl(225,50%,20%);
+}
+#dialog-restricted-media .submit {
+	border-radius: 0 0 20px 20px;
+}
+#dialog-level-up {
+	background: linear-gradient(hsl(210,10%,20%), hsl(210,10%,10%));
+	box-shadow: 0 0 20px #000;
+}
+#dialog-level-up .dialog-body {
+	background: transparent;
+}
+#dialog-preview .submit {
+	border-radius: 0 0 20px 20px;
+	background: transparent !important;
+}
+#dialog-user-role .button.submit {
+	border-radius: 0 0 20px;
+}
+#dialog-user-role .button.cancel {
+	border-radius: 0 0 0 20px;
+}
+#dialog-user-role .button.cancel span {
+	color: hsl(15,80%,50%);
+}
+#search-suggestion {
+	top: 48px;
+}
+#user-inventory .history .row {background: linear-gradient(hsl(220,10%,12%), hsl(220,10%,10%)) !important;}
+#user-inventory .history .row .item {background: linear-gradient(hsl(220,10%,20%), hsl(220,10%,15%)) !important;}
+#user-inventory .history .row:nth-child(1) {border-radius: 20px 20px 0 0;}
+#user-inventory .history .row:nth-child(1) .item {border-radius: 20px 0 0 0;}
+#user-inventory .history .row:nth-last-child(1) {border-radius: 0 0 20px 20px;}
+#user-inventory .history .row:nth-last-child(1) .item {border-radius: 0 0 0 20px;}
+#user-inventory .history .row .col {box-shadow: -1px 0 0 0 hsl(210,50%,20%) !important;}
+#user-inventory .history .jspPane .row {border-color: hsl(210,50%,20%); !important}
+
+.icon {
+	background-image: url('https://raw.githubusercontent.com/Plug-It/pi/pre-release/img/other/icons.png');
+}
+.app-right {
+	background: hsla(210,10%,5%,.9) !important;
+}	
+#app-menu .button, #room .friends.has-requests .header {
+	background: linear-gradient(to right, hsl(215,100%,30%), hsl(215,100%,20%));
+	box-shadow: inset 0 0 40px 1px hsla(0,0%,0%,.3);
+}
+#app-menu .button:hover, #room .friends.has-requests .header:hover {
+	background: linear-gradient(to right, hsl(210,100%,40%), hsl(210,100%,30%));
+}
+#app-menu .list {
+	background: linear-gradient(hsl(220,10%,10%), hsl(220,10%,20%));
+}
+#app-menu .list .item {
+	box-shadow: none;
+}
+#app-menu .list .item:hover {
+	box-shadow: inset 0 0 7px 0px hsla(0,0%,100%,.5);
+	background: linear-gradient(to right, hsl(210,100%,20%), hsl(200,100%,20%));
+}
+#app-menu .list .logout {
+	background: hsl(220,10%,15%);
+}
+#app-menu .list .logout:hover {
+	background: linear-gradient(to right, hsl(10,90%,20%), hsl(0,90%,20%));
+	box-shadow: 0 0 5px #000;
+	border: 1px solid #F55;	
