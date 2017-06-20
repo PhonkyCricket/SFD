@@ -3,6 +3,11 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Supporters.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Developer.css");
 
+
+element.style {
+    /* height: 126px; */
+}
+
 #user-rollover.id-5712221 .meta, #user-rollover.id-5712221 .meta, #user-rollover.id-5712221 .meta {
     height: 150px;
 }
