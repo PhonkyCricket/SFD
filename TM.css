@@ -53,9 +53,88 @@ rcs.css:61
 #dashboard {
     z-index: 80;
     background: rgba(17, 19, 23, 0.81);
+}	
+#room-settings a:hover, #chat a:hover {
+	color: hsl(200,100%,55%) !important;
+	text-shadow: 0 0 5px;
 }
-#user-rollover .meta {
-    min-height: 150px;
+#search-menu .menu ul i, #search-menu-icon {
+	/*Adblock fix*/
+	display: inline !important;
+}
+.slider .line, #user-settings .slider .bar {
+	background: linear-gradient(to right, hsl(120,100%,50%), hsl(0,100%,50%)) !important;
+}
+#user-settings .slider .bar {
+	width: calc(100% - 1px) !important;
+}
+.slider .circle, #user-settings .slider .circle {
+	background: #fff !important;
+	box-shadow: inset 0 0 10px rgba(0,0,0,.4);
+}
+#tooltip span, #tooltip.blue span {
+	background: radial-gradient(hsla(210,100%,30%,.9), hsla(220,100%,20%,.9));
+	border-radius: 13px 13px 13px 0
+}
+#tooltip.green span {
+	background: radial-gradient(hsla(90,70%,45%,.9), hsla(90,70%,40%,.9));
+}
+#tooltip.green .corner {
+	border-top: 10px solid transparent !important;
+	border-right: 0px solid transparent !important;
+	border-left: 10px solid hsla(90,70%,40%,.9) !important;
+	border-bottom: 10px solid transparent !important;
+}
+#tooltip.green.right .corner {
+	border-top: 10px solid hsla(90,70%,40%,.9) !important;
+	border-right: 10px solid hsla(90,70%,40%,.9) !important;
+	border-left: 10px solid transparent !important;
+	border-bottom: 10px solid transparent !important;
+}
+#tooltip.orange span {
+	background: radial-gradient(hsla(20,100%,50%,.9), hsla(10,100%,40%,.9));
+}
+#tooltip.orange .corner {
+	border-top: 10px solid transparent !important;
+	border-right: 0px solid transparent !important;
+	border-left: 10px solid hsla(10,100%,45%,.9) !important;
+	border-bottom: 10px solid transparent !important;
+}
+#tooltip.orange.right .corner {
+	border-top: 10px solid hsla(10,100%,45%,.9) !important;
+	border-right: 10px solid hsla(10,100%,45%,.9) !important;
+	border-left: 10px solid transparent !important;
+	border-bottom: 10px solid transparent !important;
+}
+#tooltip.purple span {
+	background: radial-gradient(hsla(270,70%,60%,.9), hsla(270,70%,50%,.9));
+}
+#tooltip.purple .corner {
+	border-top: 10px solid transparent !important;
+	border-right: 0px solid transparent !important;
+	border-left: 10px solid hsla(270,70%,52%,.9) !important;
+	border-bottom: 10px solid transparent !important;
+}
+#tooltip.purple.right .corner {
+	border-top: 10px solid hsla(270,70%,52%,.9) !important;
+	border-right: 10px solid hsla(270,70%,52%,.9) !important;
+	border-left: 10px solid transparent !important;
+	border-bottom: 10px solid transparent !important;
+}
+#tooltip.right span {
+	border-radius: 13px 13px 0 13px
+}
+#tooltip .corner {
+	border-top: 10px solid transparent !important;
+	border-right: 0px solid transparent !important;
+	border-left: 10px solid hsla(220,100%,22%,.9) !important;
+	border-bottom: 10px solid transparent !important;
+}
+#tooltip.right .corner {
+	border-top: 10px solid hsla(220,100%,20%,.9) !important;
+	border-right: 10px solid hsla(220,100%,22%,.9) !important;
+	border-left: 10px solid transparent !important;
+	border-bottom: 10px solid transparent !important;	
 }
  #user-lists .group {
     background: linear-gradient(hsl(220,10%,10%), hsl(220,10%,5%)) !important;
@@ -287,15 +366,15 @@ element.style {
 	background: rgba(40, 44, 53, 0.73); 
 	box-shadow: inset 0 2px 0 -1px #0A0A0A;
 }
-#playlist-button { 
-	top: 0; 
-	z-index: 100; 
-	width: 53px; 
-	-webkit-box-shadow: inset 0 2px 0 -1px #0A0A0A; 
-	background: #002a65; 
-	background: -moz-linear-gradient(top,#ac76ff 0,#925aff 100%); 
+#playlist-button {
+	background: linear-gradient(hsl(205,100%,50%), hsl(205,100%,40%));
 }
-
+#playlist-import, #playlist-create {
+	background: linear-gradient(135deg, hsl(205,10%,30%), hsl(205,10%,20%));
+}
+#playlist-import:hover, #playlist-create:hover {
+	background: linear-gradient(hsl(205,80%,50%), hsl(205,80%,40%));
+}
 /* Trigstur/Co host thingies */
  
 .id-5712221 > .badge-box > i.bdg
