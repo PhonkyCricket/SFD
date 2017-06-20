@@ -23,16 +23,15 @@
       "rdj":"#FF9955",
       "subscriber":"#FFBB33",
       "silversubscriber":"#8694B2",
-      "friend": null,
-      "user": null
+      "user":"#cc3300"
    },
    "images":{
       "background":"http://i.imgur.com/7QbkwHn.jpg?1",
       "playback":"http://i.imgur.com/ZmmogAS.png",
       "admin":"http://i.imgur.com/7TJFPhY.png",
       "ambassador":"http://i.imgur.com/teFRHLU.png",
-      "host":"http://i.imgur.com/3WAxI63.png?1",
-      "cohost":"http://i.imgur.com/3WAxI63.png?1",
+      "host":"http://egorganisation.com/images/etat_termine.png",
+      "cohost":"http://egorganisation.com/images/etat_termine.png",
       "manager":"http://i.imgur.com/eDk2kYq.png",
       "bouncer":"http://i.imgur.com/JDGGZyL.png",
       "rdj":"http://i.imgur.com/Cn5JgfV.png",
