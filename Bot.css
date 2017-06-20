@@ -1,3 +1,15 @@
+#chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after {
+    content: TitanMusic Bot;
+    background: url('http://egorganisation.com/images/Medal%20Silver.png');
+    padding: 3px 6px;
+    color: white;
+    bottom: 20px;
+    position: absolute;
+    left: 5px;
+    width: 79px;
+    height: 26px;
+}
+
 }
 [data-cid^="20168147-"] .badge-box .bdg {
     border-radius: 5px;
