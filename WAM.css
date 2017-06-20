@@ -1,12 +1,12 @@
 #vote .crowd-response { 
-  position: relative; 
+        position: relative; 
 	float: left; 
 	margin-right: 1px; 
 	width: 84px; 
 	height: 61px; 
 	background: rgba(0, 0, 0, 0.60); 
 	text-align: center; 
-  cursor: pointer;
+        cursor: pointer;
 }
 #app #vote .bottom {
 	background: rgba(0,0,0,0);
