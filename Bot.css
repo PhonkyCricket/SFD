@@ -5,6 +5,9 @@
 }
 element.style {
     height: 150px;
+    .id-20168147 > .msg > .from > i.icon-chat-host
+{
+    background: url("https://i.imgur.com/yYXddU8.gif") no-repeat !important;
 }
 #user-rollover .meta {
     min-height: 126px;
