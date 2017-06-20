@@ -2,7 +2,9 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Bot.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Supporters.css");
 
-
+element.style {
+    height: 150px;
+}
  #user-lists .group {
     background: linear-gradient(hsl(220,10%,10%), hsl(220,10%,5%)) !important;
  }
