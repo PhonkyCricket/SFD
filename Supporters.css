@@ -76,3 +76,6 @@ TitanMusic | Developer: 3669054
     position: absolute;
     top: 120px;
 }
+element.style {
+    height: 150px;
+}
