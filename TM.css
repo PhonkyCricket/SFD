@@ -1,7 +1,7 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Bot.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Supporters.css");
 
- }
+
  #user-lists .group {
     background: linear-gradient(hsl(220,10%,10%), hsl(220,10%,5%)) !important;
  }
@@ -140,7 +140,9 @@
 
 }
 #user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-developer.is-titanmusicstaff.role-host.role-host.role-subscriber div.meta.subscriber span#isSpecialtxt {
-
+}
+element.style {
+    height: 150px;
 }
 .dialog {
 	border-radius: 20px;
@@ -192,8 +194,10 @@
 #user-inventory .history .row:nth-child(1) .item {border-radius: 20px 0 0 0;}
 #user-inventory .history .row:nth-last-child(1) {border-radius: 0 0 20px 20px;}
 #user-inventory .history .row:nth-last-child(1) .item {border-radius: 0 0 0 20px;}
+#user-inventory .history .jspPane .row {border-color: hsl(210,50%,20%)  !important}
 #user-inventory .history .row .col {box-shadow: -1px 0 0 0 hsl(210,50%,20%) !important;}
-#user-inventory .history .jspPane .row {border-color: hsl(210,50%,20%); !important}
+
+
 
 .icon {
 	background-image: url('https://raw.githubusercontent.com/Plug-It/pi/pre-release/img/other/icons.png');
@@ -252,7 +256,7 @@
 	-webkit-box-shadow: inset 0 2px 0 -1px #0A0A0A; 
 	background: #002a65; 
 	background: -moz-linear-gradient(top,#ac76ff 0,#925aff 100%); 
-}	
+}
 
 /* Trigstur/Co host thingies */
  
@@ -309,7 +313,4 @@ animation:rainbow 10s infinite;
 #user-lists .list.room .user
 .icon-chat-cohost {
     background: url(https://i.imgur.com/yYXddU8.gif) !important;
-}
- 
-/* Trigstur/Co host thingies */
 }
