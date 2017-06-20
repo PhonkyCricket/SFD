@@ -21,7 +21,7 @@ TitanMusic | Developer: 3669054
 }
 
 #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after {
-    content: TitanMusic Supporter;
+    content: TitanMusic Staff;
     background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
     padding: 50px 50px;
     color: white;
