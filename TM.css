@@ -314,3 +314,5 @@ animation:rainbow 10s infinite;
 .icon-chat-cohost {
     background: url(https://i.imgur.com/yYXddU8.gif) !important;
 }
+overflow: hidden;
+}
