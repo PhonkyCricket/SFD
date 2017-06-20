@@ -1,3 +1,6 @@
+
+
+/* Developers */
 /* Trigstur: 5712221 */
 
 #user-rollover.id-3669054 .meta, #user-rollover.id-5712221 .meta, #user-rollover.id-5712221 .meta {
@@ -22,8 +25,8 @@ element.style {
     position: relative;
 }
 
-#chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after {
-    content: TitanMusic Staff;
+#chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after {
+    content: TitanMusic Developer;
     background: url('http://canberra.naturemapr.org/Images/Badges/100-sightings-16.png');
     padding: 3px 6px;
     color: white;
@@ -45,8 +48,8 @@ element.style {
     position: absolute;
 }
 
-#user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
-    content: 'TitanMusic Staff';
+#user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
+    content: 'TitanMusic Developer';
     color: #808691;
     position: absolute;
     top: 118px;
