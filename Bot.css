@@ -1,26 +1,25 @@
 /* Bot: 20168147 */
 
+/* Trigstur: 5712221 */
+
 #user-rollover.id-20168147 .meta, #user-rollover.id-20168147 .meta, #user-rollover.id-20168147 .meta {
     height: 150px;
 }
 element.style {
     height: 150px;
-    .id-20168147 > .msg > .from > i.icon-chat-host
-{
-    background: url("https://i.imgur.com/yYXddU8.gif") no-repeat !important;
 }
 #user-rollover .meta {
     min-height: 126px;
 }
 
 #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before {
-    content: url("https://d2xfcmp96gbhl7.cloudfront.net/layout/f16077feaec0b7991962dcbfd75850d436f040a9/images/2011/robot.png");
+    content: url("http://egorganisation.com/images/Medal%20Silver.png");
     top: 3px;
     left: -3px;
     position: relative;
 }
 
-#chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un, #chat [data-cid^='5712221-'] .un {
+#chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un {
     top: -3px ;
     position: relative;
 }
@@ -37,31 +36,19 @@ element.style {
     height: 26px;
 }
 
-#user-rollover.id-20168147 .meta, #user-rollover.id-20168147 .meta {
+#user-rollover.id-3669054 .meta, #user-rollover.id-20168147 .meta {
     height: 150px ;
 }
 
-#user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before {
+#user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before {
     content: url("https://d2xfcmp96gbhl7.cloudfront.net/layout/f16077feaec0b7991962dcbfd75850d436f040a9/images/2011/robot.png");
     top: 120px;
     left: 109px;
     position: absolute;
+}
 
-}
-[data-cid^="20168147-"] .badge-box .bdg {
-    border-radius: 5px;
-    background-image: url("http://i.imgur.com/eKqnlGD.jpg?1");
-    background-repeat: round;
-    background-size: 30px;
-}
-#user-rollover.id-20168147 .badge-box .bdg {
-    border-radius: 5px;
-    background-image: url("http://i.imgur.com/eKqnlGD.jpg?1");
-    background-repeat: round;
-    background-size: 30px;
-}
 #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after {
-    content: 'TitanMusic Bot';
+    content: 'TitanMusic Developer';
     color: #808691;
     position: absolute;
     top: 118px;
@@ -69,11 +56,4 @@ element.style {
 }
 
 
-}
-[data-cid^="20168147-"] .msg .from .un {
-    color: #25b961;
-}
-[data-cid^="20168147-"] #chat .emote {
-    background: rgba(37,185,97,0.5);
-    border-left: rgb(37,185,97) 3px solid;
-}
+    
