@@ -3,11 +3,9 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Supporters.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Developer.css");
 
-
-element.style {
-     height: 150px; 
+#user-rollover .meta {
+    min-height: 150px;
 }
-
 
 }
  #user-lists .group {
