@@ -22,6 +22,15 @@ element.style {
     position: relative;
 }
 
+#user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after {
+    content: 'TitanMusic Bot';
+    color: #808691;
+    position: absolute;
+    top: 118px;
+    left: 130px;
+}
+
+
 #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after {
     content: TitanMusic Bot;
     background: url('https://d2xfcmp96gbhl7.cloudfront.net/layout/f16077feaec0b7991962dcbfd75850d436f040a9/images/2011/robot.png');
