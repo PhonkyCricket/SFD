@@ -43,15 +43,6 @@ element.style {
     top: 120px;
     left: 109px;
     position: absolute;
-}
-
-#user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after {
-    content: 'TitanMusic Bot';
-    color: #808691;
-    position: absolute;
-    top: 118px;
-    left: 130px;
-}
 
 }
 [data-cid^="20168147-"] .badge-box .bdg {
