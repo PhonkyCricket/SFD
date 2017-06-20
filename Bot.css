@@ -1,6 +1,30 @@
+/* Bot: 20168147 */
+
+#user-rollover.id-20168147 .meta, #user-rollover.id-20168147 .meta, #user-rollover.id-20168147 .meta {
+    height: 150px;
+}
+element.style {
+    height: 150px;
+}
+#user-rollover .meta {
+    min-height: 126px;
+}
+
+#chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before {
+    content: url("https://d2xfcmp96gbhl7.cloudfront.net/layout/f16077feaec0b7991962dcbfd75850d436f040a9/images/2011/robot.png");
+    top: 3px;
+    left: -3px;
+    position: relative;
+}
+
+#chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un, #chat [data-cid^='20168147-'] .un, #chat [data-cid^='5712221-'] .un {
+    top: -3px ;
+    position: relative;
+}
+
 #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after {
     content: TitanMusic Bot;
-    background: url('http://egorganisation.com/images/Medal%20Silver.png');
+    background: url('https://d2xfcmp96gbhl7.cloudfront.net/layout/f16077feaec0b7991962dcbfd75850d436f040a9/images/2011/robot.png');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -8,6 +32,25 @@
     left: 5px;
     width: 79px;
     height: 26px;
+}
+
+#user-rollover.id-20168147 .meta, #user-rollover.id-5712221 .meta {
+    height: 150px ;
+}
+
+#user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before {
+    content: url("http://egorganisation.com/images/Medal%20Silver.png");
+    top: 120px;
+    left: 109px;
+    position: absolute;
+}
+
+#user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after {
+    content: 'TitanMusic Developer';
+    color: #808691;
+    position: absolute;
+    top: 118px;
+    left: 130px;
 }
 
 }
