@@ -5,77 +5,82 @@ TitanMusic | Developer: 3669054
 /*fix for glitching*/
 
 #user-rollover .meta {
-    min-height: 126px;
+    min-height: 150px;
 }
 
 #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
     content: url("http://i.imgur.com/3WAxI63.png?1");
-    top: 3px;
-    left: -3px;
+    top: 4px;
+    left: 1px;
     position: relative;
 }
 
 #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un {
-    top: -3px ;
+    top: px;
     position: relative;
 }
 
 #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after {
     content: TitanMusic Supporter;
     background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
-    padding: 3px 6px;
+    padding: 50px 50px;
     color: white;
-    bottom: 20px;
+    bottom: 50px;
     position: absolute;
-    left: 5px;
-    width: 79px;
-    height: 26px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
 }
 
 /*normal supporters*/
 
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 146px ;
+    height: 150px ;
 }
 
 #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before {
     content: url("http://i.imgur.com/3WAxI63.png?1");
-    top: 120px;
-    left: 109px;
+    top: 150px;
+    left: 150px;
     position: absolute;
 }
 
 #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
-    content: 'TitanMusic Supporter';
+    content: 'TitanMusic Staff';
     color: #808691;
     position: absolute;
-    top: 118px;
-    left: 130px;
+    top: 150px;
+    left: 150px;
 }
 
 /*People who also staff another things (eg. RCS)*/
-}
+
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 170px ;
+    height: 150px ;
 }
+
 #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial {
-    top: 145px ;
+    top: 150px ;
 }
+
 #user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt {
-    top: 143px ;
+    top: 150px ;
 }
+
 #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-Staff.role-subscriber.role-none div.meta.subscriber i#isSpecial {
     content: TitanMusic Staff;
-    left: 109px;
+    left: 150px;
     position: absolute;
-    top: 120px;
-}  
+    top: 150px;
+}
+
 #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-Staff.role-subscriber.role-none div.meta.subscriber span#isSpecialtxt {
     content: TitanMusic Staff;
-    left: 109px;
+    left: 150px;
     position: absolute;
-    top: 120px;
+    top: 150px;
 }
+
 element.style {
     height: 150px;
 }
