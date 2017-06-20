@@ -34,11 +34,11 @@ element.style {
     height: 26px;
 }
 
-#user-rollover.id-20168147 .meta, #user-rollover.id-5712221 .meta {
+#user-rollover.id-20168147 .meta, #user-rollover.id-20168147 .meta {
     height: 150px ;
 }
 
-#user-rollover.id-20168147 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before {
+#user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before {
     content: url("https://d2xfcmp96gbhl7.cloudfront.net/layout/f16077feaec0b7991962dcbfd75850d436f040a9/images/2011/robot.png");
     top: 120px;
     left: 109px;
