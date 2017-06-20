@@ -38,14 +38,14 @@ element.style {
     height: 150px ;
 }
 
-#user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before {
-    content: url("http://egorganisation.com/images/Medal%20Silver.png");
+#user-rollover.id-20168147 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before {
+    content: url("https://d2xfcmp96gbhl7.cloudfront.net/layout/f16077feaec0b7991962dcbfd75850d436f040a9/images/2011/robot.png");
     top: 120px;
     left: 109px;
     position: absolute;
 }
 
-#user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after {
+#user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after {
     content: 'TitanMusic Developer';
     color: #808691;
     position: absolute;
