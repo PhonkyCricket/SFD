@@ -1,7 +1,4 @@
 /* Bot: 20168147 */
-
-/* Trigstur: 5712221 */
-
 #user-rollover.id-20168147 .meta, #user-rollover.id-20168147 .meta, #user-rollover.id-20168147 .meta {
     height: 150px;
 }
@@ -13,7 +10,7 @@ element.style {
 }
 
 #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before, #chat [data-cid^='20168147-'] .un:before {
-    content: url("http://egorganisation.com/images/Medal%20Silver.png");
+    content: url("https://h30434.www3.hp.com/i/smilies/16x16_robot-very-happy.gif");
     top: 3px;
     left: 3px;
     position: relative;
@@ -26,7 +23,7 @@ element.style {
 
 #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after, #chat [data-cid^='20168147-'] .un:hover:after {
     content: TitanMusic Bot;
-    background: url('https://d2xfcmp96gbhl7.cloudfront.net/layout/f16077feaec0b7991962dcbfd75850d436f040a9/images/2011/robot.png');
+    background: url('https://h30434.www3.hp.com/i/smilies/16x16_robot-very-happy.gif');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -36,24 +33,25 @@ element.style {
     height: 26px;
 }
 
-#user-rollover.id-3669054 .meta, #user-rollover.id-20168147 .meta {
+#user-rollover.id-20168147 .meta, #user-rollover.id-20168147 .meta {
     height: 150px ;
 }
 
-#user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before {
-    content: url("https://d2xfcmp96gbhl7.cloudfront.net/layout/f16077feaec0b7991962dcbfd75850d436f040a9/images/2011/robot.png");
+#user-rollover.id-v .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-3669054 .meta:before {
+    content: url("http://canberra.naturemapr.org/Images/Badges/100-sightings-16.png");
     top: 120px;
     left: 109px;
     position: absolute;
 }
 
 #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after, #user-rollover.id-20168147 .meta:after {
-    content: 'TitanMusic Developer';
+    content: 'TitanMusic Bot';
     color: #808691;
     position: absolute;
     top: 118px;
     left: 130px;
 }
+
 
 
     
