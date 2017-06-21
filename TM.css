@@ -425,9 +425,9 @@ animation:rainbow 10s infinite;
 100% {color: #ff0080;}
 }
 #user-rollover.role-cohost .role i {
-    background: url("https://i.imgur.com/yYXddU8.gif") !important;
+    background: url(https://i.imgur.com/yYXddU8.gif) !important;
 }
 #user-lists .list.room .user
 .icon-chat-cohost {
-    background: url("https://i.imgur.com/yYXddU8.gif") !important;
+    background: url(https://i.imgur.com/yYXddU8.gif) !important;
 }
