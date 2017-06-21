@@ -1,5 +1,14 @@
 /* Trigstur: 5712221 */
 
+
+#user-rollover.id-5712221 .badge-box > i.bdg {
+    background-image: url(http://25.media.tumblr.com/bf311a757586df96ba089aaad0484674/tumblr_mhfc9nHvos1r7c13zo1_500.gif);
+    background-size: cover;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .list.room .user.id-5712221 .icon-chat-dj {
     background: url(https://pastebin.com/favicon.ico) no-repeat !important;
 }
