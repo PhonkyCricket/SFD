@@ -1,5 +1,8 @@
 /* Trigstur: 5712221 */
 
+#user-lists .list.room .user .icon-chat-cohost {
+    background: url(https://pastebin.com/favicon.ico) !important;
+}
 
 #user-rollover.id-5712221 .badge-box > i.bdg {
     background-image: url(http://25.media.tumblr.com/bf311a757586df96ba089aaad0484674/tumblr_mhfc9nHvos1r7c13zo1_500.gif);
