@@ -34,19 +34,19 @@ keekz🐺 Hardstyle 2017 ♫: 4766242
 
 /*normal supporters*/
 
-#user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
+#user-rollover.id-4766242 .meta, #user-rollover.id-4766242 .meta {
     height: 150px ;
 }
 
-#user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before {
+#user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before {
     content: url("http://egorganisation.com/images/Medal%20Silver.png");
     top: 150px;
     left: 150px;
     position: absolute;
 }
 
-#user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
-    content: 'TitanMusic Staff';
+#user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after {
+    content: 'TM Supporter';
     color: #808691;
     position: absolute;
     top: 150px;
@@ -85,10 +85,10 @@ element.style {
     height: 150px;
 }
 	
-#user-rollover.is-host.can-mention.can-friend.expand.chat.id-16021074.is-developer.is-tmstaff.role-host.role-host.role-subscriber div.meta.subscriber i#isSpecial {
+#user-rollover.is-co-host.can-mention.can-friend.expand.chat.id-16021074.is-developer.is-tmstaff.role-co-host.role-co-host.role-subscriber div.meta.subscriber i#isSpecial {
 
 }
 
-#user-rollover.is-host.can-mention.can-friend.expand.chat.id-16021074.is-developer.is-tmstaff.role-host.role-host.role-subscriber div.meta.subscriber span#isSpecialtxt {
+#user-rollover.is-co-host.can-mention.can-friend.expand.chat.id-16021074.is-developer.is-tmstaff.role-co-host.role-co-host.role-subscriber div.meta.subscriber span#isSpecialtxt {
 
 }
