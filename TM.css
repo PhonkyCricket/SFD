@@ -253,6 +253,9 @@ element.style {
 .app-right {
 	background: hsla(210,10%,5%,.9) !important;
 }	
+#app #vote .bottom {
+    background: rgba(0,0,0,0);	
+}	
 #app-menu .button, #room .friends.has-requests .header {
 	background: linear-gradient(to right, hsl(215,100%,30%), hsl(215,100%,20%));
 	box-shadow: inset 0 0 40px 1px hsla(0,0%,0%,.3);
@@ -286,4 +289,155 @@ element.style {
 	width: 100%; 
 	background: rgba(40, 44, 53, 0.73); 
 	box-shadow: inset 0 2px 0 -1px #0A0A0A;
+}
+
+#footer #playlist-meta .bar-button {
+    width: calc(100% - 53px) ;
+}
+
+#footer #twitter-menu, #footer #facebook-menu, #footer #iosbadge-menu, #footer #androidbadge-menu {
+    /* The important here is necessary because,
+	when you open and close your playlists, the div has:
+	display:block; as a style attribute */
+    display: none ;
+}
+
+#footer #your-next-media.in-history {
+    color: hsl(10,80%,55%);
+}
+
+#footer .back {
+    background: linear-gradient(hsl(200,10%,20%), hsl(200,10%,10%)) ;
+}
+
+#footer .chevron:before, #footer .chevron:after {
+    background: hsl(200,100%,40%);
+}
+
+#footer-user .buttons .button.inventory:hover .thumb, #video-only-dj:hover .thumb {
+    border-color: #5bf ;
+    box-shadow: 0 0 7px #5bf ;
+}
+
+#footer-user .buttons .button:hover, #footer .back:hover, #video-only-dj:hover {
+    background: linear-gradient(hsl(200,50%,40%), hsl(200,50%,35%)) ;
+    box-shadow: inset 0 0 1px 2px hsla(0,0%,100%,.3) ;
+}
+
+#footer-user .info {
+    background: linear-gradient(hsla(210,5%,10%,.8), hsla(210,5%,5%,.8));
+    text-shadow: 0 0 5px #000;
+}
+
+#footer-user .info .meta .bar .progress {
+    box-shadow: 0 0 10px hsl(205,100%,50%) ;
+}
+
+#footer-user .info .points .pp {
+    color: hsl(200,100%,70%);
+}
+
+#footer-user .name span {
+    font-weight: bold;	
+}
+
+#chat .cm {
+    background: linear-gradient(hsla(220,10%,20%,.5), hsla(220,10%,15%,.5));
+    box-shadow: inset 1px 1px 0 hsla(220,10%,20%,.8);
+}
+
+#chat .cm .badge-box {
+    background: transparent ;
+}
+
+#chat .cm .delete-button {
+    background: linear-gradient(hsl(0,0%,30%), hsl(0,0%,40%));
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px hsl(0,0%,50%);
+    transition: all linear .25s;
+}
+
+#chat .cm .delete-button::selection {
+    background: transparent;
+}
+
+#chat .cm .delete-button:hover {
+    background: linear-gradient(hsl(5,100%,60%), hsl(5,100%,50%));
+    box-shadow: 0 0 10px hsl(5,100%,50%);
+    color: #000;
+}
+
+#chat .cm.message .timestamp {
+    color: #818285;
+}
+
+#chat .cm.message:nth-child(odd) {
+    background: linear-gradient(hsla(220,10%,10%,.5), hsla(220,10%,12%,.5));
+    box-shadow: inset 1px 1px 0 hsla(220,10%,5%,.8);
+    color: #ccc;
+}
+
+#chat .cm.moderation {
+    background: linear-gradient(hsla(260,50%,25%,.8), hsla(260,50%,15%,.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,.2)) ;
+    border: none ;
+    box-shadow: inset 0 0 0 1px hsl(260,50%,50%);
+}
+
+#chat .cm.moderation .timestamp {
+    color: hsl(260,70%,70%);
+}
+
+#chat .cm.rsshit.message {
+    border: none ;
+}
+
+#chat .cm.user-action {
+    background: linear-gradient(hsla(60,100%,20%,.8), hsla(60,100%,10%,.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,.2)) ;
+    box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.1);
+}
+
+#chat .cm.user-action .msg .from .un, #chat .cm.user-action .timestamp {
+    color: hsl(60,90%,70%) ;
+}
+
+#chat .cm.welcome {
+    box-shadow: inset 0 0 0 1px hsl(210,50%,30%);
+    color: hsl(210,80%,60%);
+}
+
+#chat .disconnect {
+    background: rgb(0,0,0) ;
+    opacity: .6 ;
+}
+
+#chat .log {
+    background: linear-gradient(hsla(220,30%,20%,.8), hsla(220,30%,15%,.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,.2)) ;
+    box-shadow: inset 0 -1px 1px hsla(220,30%,10%,.8);
+}
+
+#chat-header {
+    background: rgba(30,35,40,.7);
+    border: none ;
+}
+
+#chat-input-field {
+    color: #888 ;
+    font-weight: bold;
+}
+
+#chat-input.focused #chat-input-field {
+    color: #EEE ;
+}
+
+#chat-messages {
+    border-color: #555;
+    box-shadow: 0 51px 0 rgba(30,35,40,.7);
+}
+
+#chat-messages::-webkit-scrollbar, .dropdown dd::-webkit-scrollbar, #woot-rs-list::-webkit-scrollbar, #grab-rs-list::-webkit-scrollbar, #meh-rs-list::-webkit-scrollbar, .dialog::-webkit-scrollbar {
+    box-shadow: inset -1px 0 7px hsla(0,0%,0%,.7);
+    width: 7px ;
 }
