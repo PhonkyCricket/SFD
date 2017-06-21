@@ -22,8 +22,7 @@
       "bouncer":"#FF4455",
       "rdj":"#FF9955",
       "subscriber":"#FFBB33",
-      "silversubscriber":"#8694B2",
-      "user":"#cc3300"
+      "silversubscriber":"#8694B2"
    },
    "images":{
       "background":"http://i.imgur.com/7QbkwHn.jpg?1",
@@ -35,7 +34,7 @@
       "manager":"http://egorganisation.com/images/etat_encours.png",
       "bouncer":"http://egorganisation.com/images/etat_inscription.png",
       "rdj":"https://cdn4.iconfinder.com/data/icons/6x16-free-application-icons/16/Shield_16x16.png",
-      "subscriber": null,
+      "subscriber":"http://egorganisation.com/images/Medal%20Gold.png",
       "silversubscriber":"https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
    },
    "autocomplete":{
