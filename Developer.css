@@ -11,7 +11,7 @@ element.style {
 }
 
 #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before {
-    content: url("https://img.alibaba.com//wimg/feedback/icon/11-s.gif");
+    content: url("http://www.ac-web.org/forums/images/award_iconsnew/award_star_bronze_2.png");
     top: 3px;
     left: -3px;
     position: relative;
@@ -24,7 +24,7 @@ element.style {
 
 #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after {
     content: TitanMusic Developer;
-    background: url('https://img.alibaba.com//wimg/feedback/icon/11-s.gif');
+    background: url('http://www.ac-web.org/forums/images/award_iconsnew/award_star_bronze_2.png');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
