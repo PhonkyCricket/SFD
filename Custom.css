@@ -144,3 +144,7 @@ background: linear-gradient(135deg, hsla(0,0%,10%,.9), hsla(0,0%,5%,.9));
     background: linear-gradient(to right, hsl(220,100%,30%), hsl(220,100%,40%)) ;
     box-shadow: 0 0 2px 1px hsl(205,100%,50%);
 }
+.playlist-media-item:nth-child(2n+1) {
+    background: hsla(219,15%,15%,.6);
+    color: #AAA;
+}
