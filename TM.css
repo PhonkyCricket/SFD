@@ -325,7 +325,7 @@ element.style {
 #user-inventory .history .row:nth-last-child(1) .item {border-radius: 0 0 0 20px;}
 #user-inventory .history .jspPane .row {border-color: hsl(210,50%,20%)  !important}
 #user-inventory .history .row .col {box-shadow: -1px 0 0 0 hsl(210,50%,20%) !important;}
-}
+
 .icon {
 	background-image: url('https://raw.githubusercontent.com/Plug-It/pi/pre-release/img/other/icons.png');
 }
