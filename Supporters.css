@@ -1,5 +1,5 @@
-/*Developer:
-TitanMusic | Developer: 3669054
+/*Supporter:
+keekz🐺 Hardstyle 2017 ♫: 4766242
 */
 
 /*fix for glitching*/
@@ -8,20 +8,20 @@ TitanMusic | Developer: 3669054
     min-height: 126px;
 }
 
-#chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
+#chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before {
     content: url("http://egorganisation.com/images/Medal%20Silver.png");
     top: 4px;
     left: 1px;
     position: relative;
 }
 
-#chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un {
+#chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un {
     top: px;
     position: relative;
 }
 
-#chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after {
-    content: TitanMusic Staff;
+#chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after {
+    content: TM Supporter;
     background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
     padding: 5px 5px;
     color: red;
@@ -55,27 +55,27 @@ TitanMusic | Developer: 3669054
 
 /*People who also staff another things (eg. RCS)*/
 
-#user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
+#user-rollover.id-16021074 .meta, #user-rollover.id-16021074 .meta, #user-rollover.id-16021074 .meta {
     height: 150px ;
 }
 
-#user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial {
+#user-rollover.id-16021074 .meta #isSpecial, #user-rollover.id-16021074 .meta #isSpecial, #user-rollover.id-16021074 .meta #isSpecial {
     top: 150px ;
 }
 
-#user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt {
+#user-rollover.id-16021074 .meta #isSpecialtxt, #user-rollover.id-16021074 .meta #isSpecialtxt, #user-rollover.id-16021074 .meta #isSpecialtxt {
     top: 150px ;
 }
 
-#user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-Staff.role-subscriber.role-none div.meta.subscriber i#isSpecial {
-    content: TitanMusic Staff;
+#user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-16021074.is-TM-Staff.role-subscriber.role-none div.meta.subscriber i#isSpecial {
+    content: TM Staff;
     left: 150px;
     position: absolute;
     top: 150px;
 }
 
-#user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-Staff.role-subscriber.role-none div.meta.subscriber span#isSpecialtxt {
-    content: TitanMusic Staff;
+#user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-16021074.is-TM-Staff.role-subscriber.role-none div.meta.subscriber span#isSpecialtxt {
+    content: TM Staff;
     left: 150px;
     position: absolute;
     top: 150px;
@@ -85,9 +85,10 @@ element.style {
     height: 150px;
 }
 	
-#user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-developer.is-titanmusicstaff.role-host.role-host.role-subscriber div.meta.subscriber i#isSpecial {
+#user-rollover.is-host.can-mention.can-friend.expand.chat.id-16021074.is-developer.is-tmstaff.role-host.role-host.role-subscriber div.meta.subscriber i#isSpecial {
 
 }
 
-#user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-developer.is-titanmusicstaff.role-host.role-host.role-subscriber div.meta.subscriber span#isSpecialtxt {
+#user-rollover.is-host.can-mention.can-friend.expand.chat.id-16021074.is-developer.is-tmstaff.role-host.role-host.role-subscriber div.meta.subscriber span#isSpecialtxt {
+
 }
