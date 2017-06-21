@@ -5,7 +5,7 @@ TitanMusic | Developer: 3669054
 /*fix for glitching*/
 
 #user-rollover .meta {
-    min-height: 150px;
+    min-height: 126px;
 }
 
 #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
