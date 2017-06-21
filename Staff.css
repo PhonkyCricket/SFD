@@ -55,6 +55,13 @@ element.style {
 
 /* TitanMusic | Developer = 3669054 */
 
+#chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
+    content: url(http://www.gotigersolutions.com/images/medal-gold.png);
+    top: -1px;
+    left: -3px;
+    position: relative;
+}
+
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
     height: 150px;
 }
