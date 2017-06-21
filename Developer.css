@@ -21,7 +21,7 @@
 
 .id-5712221  > .msg > .from > i.icon-chat-cohost, 
 #waitlist .list .user[data-uid="5712221 "] .meta.is-staff .name .icon-chat-cohost, 
-#user-rollover.id-13585808 > .info > .role > i.icon-chat-cohost, 
+#user-rollover.id-5712221 > .info > .role > i.icon-chat-cohost, 
 #user-lists .list.room .user.id-5712221  .icon-chat-cohost
 {
 	background: url("https://pastebin.com/favicon.ico") no-repeat !important;
