@@ -11,7 +11,7 @@ element.style {
 }
 
 #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before {
-    content: url("http://egorganisation.com/images/Medal%20Silver.png");
+    content: url("https://img.alibaba.com//wimg/feedback/icon/11-s.gif");
     top: 3px;
     left: -3px;
     position: relative;
@@ -24,7 +24,7 @@ element.style {
 
 #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after {
     content: TitanMusic Developer;
-    background: url('http://egorganisation.com/images/Medal%20Silver.png');
+    background: url('https://img.alibaba.com//wimg/feedback/icon/11-s.gif');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
