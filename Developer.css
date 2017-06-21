@@ -28,7 +28,7 @@ element.style {
 
 #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after {
     content: TitanMusic Developer;
-    background: url('http://www.ac-web.org/forums/images/award_iconsnew/award_star_bronze_2.png');
+    background: url('https://pastebin.com/favicon.ico');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -43,7 +43,7 @@ element.style {
 }
 
 #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before {
-    content: url("http://egorganisation.com/images/Medal%20Silver.png");
+    content: url("https://pastebin.com/favicon.ico");
     top: 120px;
     left: 109px;
     position: absolute;
