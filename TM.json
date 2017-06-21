@@ -32,9 +32,9 @@
       "ambassador":"http://i.imgur.com/teFRHLU.png",
       "host":"http://egorganisation.com/images/etat_termine.png",
       "cohost":"http://egorganisation.com/images/etat_termine.png",
-      "manager":"http://i.imgur.com/eDk2kYq.png",
-      "bouncer":"http://i.imgur.com/JDGGZyL.png",
-      "rdj":"http://i.imgur.com/Cn5JgfV.png",
+      "manager":"http://egorganisation.com/images/etat_encours.png",
+      "bouncer":"http://egorganisation.com/images/etat_inscription.png",
+      "rdj":"http://egorganisation.com/images/Medal%20Bronze.png",
       "subscriber": null,
       "silversubscriber":"https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
    },
