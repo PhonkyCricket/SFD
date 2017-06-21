@@ -55,3 +55,31 @@ element.style {
 
 
     
+.id-20168147  > .msg > .from > i.icon-chat-manager, 
+#waitlist .list .user[data-uid="20168147 "] .meta.is-staff .name .icon-chat-manager, 
+#user-rollover.id-20168147 > .info > .role > i.icon-chat-manager, 
+#user-lists .list.room .user.id-20168147  .icon-chat-manager
+{
+	background: url("http://storage.proboards.com/forum/images/icon-options.png") no-repeat !important;
+}
+
+
+.id-5712221 > .badge-box > i.bdg
+{
+    background-image:    url("https://cdn.pixabay.com/photo/2014/10/03/17/16/gear-472006_960_720.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#user-lists .list.room .user .icon-chat-cohost {
+    background: url(https://pastebin.com/favicon.ico) !important;
+}
+
+#user-rollover.id-5712221 .badge-box > i.bdg {
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/03/17/16/gear-472006_960_720.jpg");
+    background-size: cover;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
