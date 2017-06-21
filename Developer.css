@@ -1,5 +1,9 @@
 /* Trigstur: 5712221 */
 
+.list.room .user.id-5712221 .icon-chat-dj {
+    background: url(https://pastebin.com/favicon.ico) no-repeat !important;
+}
+
 #user-rollover.id-5712221 .meta, #user-rollover.id-5712221 .meta, #user-rollover.id-5712221 .meta {
     height: 150px;
 }
