@@ -5,7 +5,7 @@
 }
 #search-menu .menu ul i, #search-menu-icon {
 	/*Adblock fix*/
-	display: inline !important;
+	display: inline !important;	
 }
 .slider .line, #user-settings .slider .bar {
 	background: linear-gradient(to right, hsl(120,100%,50%), hsl(0,100%,50%)) !important;
@@ -118,4 +118,29 @@ background: linear-gradient(135deg, hsla(0,0%,10%,.9), hsla(0,0%,5%,.9));
 }
 #playlist-import:hover, #playlist-create:hover {
 	background: linear-gradient(hsl(205,80%,50%), hsl(205,80%,40%));
+}
+#playlist-activate-button i, #playlist-menu .row i {
+    background-position: -70px -140px;
+}
+
+#playlist-create .drop-zone {
+    margin: 0;
+    padding: 24px 27px;
+}
+
+#playlist-create.drag-over {
+    background: linear-gradient(hsl(210,50%,50%), hsl(220,50%,50%));
+}
+
+#playlist-menu .count, #playlist-menu .menu .row.drag-over .name {
+    color: hsl(205,100%,60%) ;
+}
+
+#playlist-menu .menu .row.drag-over {
+    background: hsla(210,80%,50%,.3);
+}
+
+#playlist-menu .row.selected {
+    background: linear-gradient(to right, hsl(220,100%,30%), hsl(220,100%,40%)) ;
+    box-shadow: 0 0 2px 1px hsl(205,100%,50%);
 }
