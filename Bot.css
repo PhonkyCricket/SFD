@@ -1,6 +1,15 @@
 /* Bot: 20168147 */
 
+#user-rollover.id-20168147 > .info > .role span
+{
+    visibility: hidden;
+}
 
+#user-rollover.id-20168147 > .info > .role span:after
+{
+    visibility: visible;
+    content:'BOT';
+}
 #user-rollover.id-20168147 .badge-box > i.bdg {
     background-image: url("https://cdn.pixabay.com/photo/2014/10/03/17/16/gear-472006_960_720.jpg");
     background-size: cover;
