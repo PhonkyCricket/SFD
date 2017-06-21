@@ -5,7 +5,7 @@ TitanMusic | Developer: 3669054
 /*fix for glitching*/
 
 #user-rollover .meta {
-    min-height: 130px;
+    min-height: 150px;
 }
 
 #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
@@ -35,13 +35,13 @@ TitanMusic | Developer: 3669054
 /*normal supporters*/
 
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 130px ;
+    height: 150px ;
 }
 
 #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before {
     content: url("http://egorganisation.com/images/Medal%20Silver.png");
-    top: 130px;
-    left: 130px;
+    top: 150px;
+    left: 150px;
     position: absolute;
 }
 
@@ -49,40 +49,40 @@ TitanMusic | Developer: 3669054
     content: 'TitanMusic Staff';
     color: #808691;
     position: absolute;
-    top: 130px;
-    left: 130px;
+    top: 150px;
+    left: 150px;
 }
 
 /*People who also staff another things (eg. RCS)*/
 
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 130px ;
+    height: 150px ;
 }
 
 #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial, #user-rollover.id-3669054 .meta #isSpecial {
-    top: 130px ;
+    top: 150px ;
 }
 
 #user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt, #user-rollover.id-3669054 .meta #isSpecialtxt {
-    top: 130px ;
+    top: 150px ;
 }
 
 #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-Staff.role-subscriber.role-none div.meta.subscriber i#isSpecial {
     content: TitanMusic Staff;
-    left: 130px;
+    left: 150px;
     position: absolute;
-    top: 130px;
+    top: 150px;
 }
 
 #user-rollover.is-none.can-mention.can-friend.can-ignore.can-shop.expand.chat.id-3669054.is-TitanMusic-Staff.role-subscriber.role-none div.meta.subscriber span#isSpecialtxt {
     content: TitanMusic Staff;
-    left: 130px;
+    left: 150px;
     position: absolute;
-    top: 130px;
+    top: 150px;
 }
 
 element.style {
-    height: 130px;
+    height: 150px;
 }
 	
 #user-rollover.is-host.can-mention.can-friend.expand.chat.id-3669054.is-developer.is-titanmusicstaff.role-host.role-host.role-subscriber div.meta.subscriber i#isSpecial {
