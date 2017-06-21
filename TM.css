@@ -52,6 +52,13 @@ rcs.css:61
     bottom: 0;
     background-color: #0d1927;
     overflow: hidden;
+}	
+#rcs-menu-container .container .group {
+    background: linear-gradient(hsla(220,50%,10%,.8), hsla(220,50%,7%,.8));
+    border-color: hsl(220,50%,20%);
+}	
+.rcs.item.selected span {
+    color: hsl(200,60%,50%) ;	
 }
 #dashboard {
     z-index: 80;
@@ -256,6 +263,30 @@ element.style {
 .app-right {
 	background: hsla(210,10%,5%,.9) !important;
 }	
+.app-header {
+    box-shadow: 0px 1px 10px #000;
+}
+
+.app-header #header-panel-bar .selected, .app-header #history-button.selected {
+    background: linear-gradient(hsl(220,60%,40%), hsl(220,60%,20%));
+}
+
+.app-header #history-button {
+    background: linear-gradient(hsl(210,10%,20%), hsl(210,0%,15%));
+}
+
+.app-header, #app-menu.in-room, #footer, #search, #video-only-dj {
+    background: linear-gradient(hsla(210,10%,20%,.8), hsla(210,10%,10%,.8));
+}
+
+.app-right {
+    background: hsla(210,10%,5%,.9) ;
+}
+
+.app-right #chat-input, #dashboard .search, #search-bar, #filter-bar, #user-friends .search, .app-right .friends .list-header .input-background {
+    background: linear-gradient(to top, hsla(220,100%,15%,.7), hsla(220,100%,10%,.7));
+    border-radius: 20px;
+}	
 #app #vote .bottom {
     background: rgba(0,0,0,0);	
 }	
@@ -285,7 +316,12 @@ element.style {
 	border: 1px solid #F55;
 }
 ::-webkit-scrollbar-thumb { 
-	background: #002964; 
+	background: #002964;
+}	
+.focused {
+    background: linear-gradient(to top, hsl(220,100%,30%), hsl(220,100%,20%)) ;
+    box-shadow: inset 0 0 0 1px #05F ;
+    color: #EEE ;	
 }
 #footer { 
 	z-index: 90; 
@@ -350,7 +386,14 @@ element.style {
 }
 
 #chat .cm .badge-box {
-    background: transparent ;
+    background: transparent;
+}	
+.cm em {
+    color: #999;
+}
+
+.cm strong {
+    color: #fff;	
 }
 
 #chat .cm .delete-button {
