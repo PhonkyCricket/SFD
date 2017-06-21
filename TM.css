@@ -140,9 +140,9 @@ rcs.css:61
     background: linear-gradient(hsl(220,10%,10%), hsl(220,10%,5%)) !important;
  }
  #user-lists .list.staff .group {
-    border-top: 1px solid rgba(40, 120, 60, 1);
-    border-bottom: 1px solid rgba(40, 120, 60, 1);
-    background: rgba(40, 120, 60, 0.2);
+    border-top: 1px solid rgba(40, 120, 60, 8);
+    border-bottom: 1px solid rgba(40, 120, 60, 8);
+    background: rgba(40, 120, 60, 0.3);
  }
  #user-lists .user:hover {
     background: linear-gradient(to right, hsla(200,100%,20%,.5), hsla(200,100%,40%,.5)) !important;
