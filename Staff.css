@@ -55,12 +55,7 @@ element.style {
 
 /* TitanMusic | Developer = 3669054 */
 
-#chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
-    content: url('http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png);
-    top: -1px;
-    left: -3px;
-    position: relative;
-}
+
 
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
     height: 150px;
@@ -74,8 +69,8 @@ element.style {
 
 #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
     content: url("http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png");
-    top: 3px;
-    left: 3px;
+    top: -1px;
+    left: -3px;
     position: relative;
 }
 
