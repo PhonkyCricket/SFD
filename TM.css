@@ -53,6 +53,9 @@ rcs.css:61
 #dashboard {
     z-index: 80;
     background: rgba(17, 19, 23, 0.81);
+}
+#user-rollover .meta {
+    min-height: 150px;	
 }	
 #room-settings a:hover, #chat a:hover {
 	color: hsl(200,100%,55%) !important;
