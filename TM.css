@@ -592,3 +592,7 @@ element.style {
 
 #media-panel .media-list.playlist-media .meta {
     border: none ;
+}	
+#room-settings .general-settings .description .value a:last-of-type {
+    display: none ;
+}
