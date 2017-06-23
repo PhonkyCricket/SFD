@@ -1,1 +1,106 @@
-/* 🖕 */
+-/* Trigstur: 5712221 */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -/* DO NOT TOUCH */
+ -
+ -.id-5712221  > .msg > .from > i.icon-chat-cohost, 
+ -#waitlist .list .user[data-uid="5712221 "] .meta.is-staff .name .icon-chat-cohost, 
+ -#user-rollover.id-5712221 > .info > .role > i.icon-chat-cohost, 
+ -#user-lists .list.room .user.id-5712221  .icon-chat-cohost
+ -{
+ -	background: url("https://pastebin.com/favicon.ico") no-repeat !important;
+ -}
+ -
+ -
+ -.id-5712221 > .badge-box > i.bdg
+ -{
+ -    background-image:    url("http://25.media.tumblr.com/bf311a757586df96ba089aaad0484674/tumblr_mhfc9nHvos1r7c13zo1_500.gif");
+ -    background-size:     cover;
+ -    background-repeat:   no-repeat;
+ -    background-position: center center;
+ -}
+ -
+ -#user-lists .list.room .user .icon-chat-cohost {
+ -    background: url(https://pastebin.com/favicon.ico) !important;
+ -}
+ -
+ -#user-rollover.id-5712221 .badge-box > i.bdg {
+ -    background-image: url("http://25.media.tumblr.com/bf311a757586df96ba089aaad0484674/tumblr_mhfc9nHvos1r7c13zo1_500.gif");
+ -    background-size: cover;
+ -    border-radius: 6px;
+ -    background-repeat: no-repeat;
+ -    background-position: center center;
+ -}
+ -
+ -.list.room .user.id-5712221 .icon-chat-dj {
+ -    background: url(https://pastebin.com/favicon.ico) no-repeat !important;
+ -}
+ -
+ -#user-rollover.id-5712221 .meta, #user-rollover.id-5712221 .meta, #user-rollover.id-5712221 .meta {
+ -    height: 150px;
+ -}
+ -element.style {
+ -    height: 150px;
+ -}
+ -#user-rollover .meta {
+ -    min-height: 126px;
+ -}
+ -
+ -#chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before, #chat [data-cid^='5712221-'] .un:before {
+ -    content: url("https://pastebin.com/favicon.ico");
+ -    top: 3px;
+ -    left: -3px;
+ -    position: relative;
+ -}
+ -
+ -#chat [data-cid^='5712221-'] .un, #chat [data-cid^='5712221-'] .un, #chat [data-cid^='5712221-'] .un, #chat [data-cid^='5712221-'] .un, #chat [data-cid^='5712221-'] .un {
+ -    top: -3px ;
+ -    position: relative;
+ -}
+ -
+ -#chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after {
+ -    content: TitanMusic Developer;
+ -    background: url('https://pastebin.com/favicon.ico');
+ -    padding: 3px 6px;
+ -    color: white;
+ -    bottom: 20px;
+ -    position: absolute;
+ -    left: 5px;
+ -    width: 79px;
+ -    height: 26px;
+ -}
+ -
+ -#user-rollover.id-5712221 .meta, #user-rollover.id-5712221 .meta {
+ -    height: 150px ;
+ -}
+ -
+ -#user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before {
+ -    content: url("https://pastebin.com/favicon.ico");
+ -    top: 120px;
+ -    left: 109px;
+ -    position: absolute;
+ -}
+ -
+ -#user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after {
+ -    content: 'TitanMusic Developer';
+ -    color: #808691;
+ -    position: absolute;
+ -    top: 118px;
+ -    left: 130px;
+ -}
