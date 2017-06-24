@@ -75,8 +75,8 @@ element.style {
 }
 
 #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after {
-    content: TitanMusic Developer;
-    background: url('https://pastebin.com/favicon.ico');
+    content: TitanMusic Head-Developer;
+    background: url('https://lh3.ggpht.com/-JkqsXEOZDhY/UZJrsptMOWI/AAAAAAAADqY/ZsI2QK4SK6I/s1600/thunder-symbol-facebook-symbol.png');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -91,16 +91,18 @@ element.style {
 }
 
 #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before, #user-rollover.id-5712221 .meta:before {
-    content: url("https://pastebin.com/favicon.ico");
+    content: url("https://lh3.ggpht.com/-JkqsXEOZDhY/UZJrsptMOWI/AAAAAAAADqY/ZsI2QK4SK6I/s1600/thunder-symbol-facebook-symbol.png");
     top: 120px;
     left: 109px;
     position: absolute;
 }
 
 #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after, #user-rollover.id-5712221 .meta:after {
-    content: 'TitanMusic Developer';
+    content: 'TitanMusic Head-Developer';
     color: #808691;
     position: absolute;
     top: 118px;
     left: 130px;
 }
+
+/* https://pastebin.com/favicon.ico */
