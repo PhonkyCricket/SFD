@@ -37,14 +37,14 @@ element.style {
     height: 150px ;
 }
 
- -#user-rollover.id-v .meta:before, #user-rollover.id-3544413 .meta:before, #user-rollover.id-3544413 .meta:before, #user-rollover.id-3544413 .meta:before, #user-rollover.id-3669054 .meta:before {
+#user-rollover.id-v .meta:before, #user-rollover.id-3544413 .meta:before, #user-rollover.id-3544413 .meta:before, #user-rollover.id-3544413 .meta:before, #user-rollover.id-3669054 .meta:before {
     content: url("http://www.gotigersolutions.com/images/medal-gold.png");
     top: 120px;
     left: 109px;
     position: absolute;
 }
 
- -#user-rollover.id-3544413 .meta:after, #user-rollover.id-3544413 .meta:after, #user-rollover.id-3544413 .meta:after, #user-rollover.id-3544413 .meta:after, #user-rollover.id-3544413 .meta:after {
+#user-rollover.id-3544413 .meta:after, #user-rollover.id-3544413 .meta:after, #user-rollover.id-3544413 .meta:after, #user-rollover.id-3544413 .meta:after, #user-rollover.id-3544413 .meta:after {
     content: 'TitanMusic Staff';
     color: #808691;
     position: absolute;
@@ -89,8 +89,8 @@ element.style {
     left: 5px;
     width: 79px;
     height: 26px;
- }
- 
+}
+
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
     height: 150px ;
 }
@@ -102,120 +102,119 @@ element.style {
     position: absolute;
 }
 
- -#user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
- -    content: 'TitanMusic Owner';
- -    color: #808691;
- -    position: absolute;
- -    top: 118px;
- -    left: 130px;
- -}
- -
- -/* keekz🐺 Hardstyle 2017 ♫ = 4766242 */
- -
- -#user-rollover.id-4766242 .meta, #user-rollover.id-4766242 .meta, #user-rollover.id-4766242 .meta {
- -    height: 150px;
- -}
- -element.style {
- -    height: 150px;
- -}
- -#user-rollover .meta {
- -    min-height: 126px;
- -}
- -
- -#chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before {
- -    content: url("http://www.gotigersolutions.com/images/medal-gold.png");
- -    top: -2px;
- -    left: -3px;
- -    position: relative;
- -}
- -
- -#chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un {
- -    top: 3px ;
- -    position: relative;
- -}
- -
- -#chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after {
- -    content: TitanMusic Staff;
- -    background: url('http://www.gotigersolutions.com/images/medal-gold.png');
- -    padding: 3px 6px;
- -    color: white;
- -    bottom: 20px;
- -    position: absolute;
- -    left: 5px;
- -    width: 79px;
- -    height: 26px;
- -}
- -
- -#user-rollover.id-4766242 .meta, #user-rollover.id-4766242 .meta {
- -    height: 150px ;
- -}
- -
- -#user-rollover.id-v .meta:before, #user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before {
- -    content: url("http://www.gotigersolutions.com/images/medal-gold.png");
- -    top: 120px;
- -    left: 109px;
- -    position: absolute;
- -}
- -
- -#user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after {
- -    content: 'TitanMusic Staff';
- -    color: #808691;
- -    position: absolute;
- -    top: 118px;
- -    left: 130px;
- -}
- -
- -/* ONEANDONLY23 = 16021074 */
- -
- -#user-rollover.id-16021074 .meta, #user-rollover.id-16021074 .meta, #user-rollover.id-16021074 .meta {
- -    height: 150px;
- -}
- -element.style {
- -    height: 150px;
- -}
- -#user-rollover .meta {
- -    min-height: 126px;
- -}
- -
- -#chat [data-cid^='16021074-'] .un:before, #chat [data-cid^='16021074-'] .un:before, #chat [data-cid^='16021074-'] .un:before, #chat [data-cid^='16021074-'] .un:before, #chat [data-cid^='16021074-'] .un:before {
- -    content: url("https://pastebin.com/favicon.ico");
- -    top: 30px;
- -    left: -30px;
- -    position: relative;
- }
- -
- -#chat [data-cid^='16021074-'] .un, #chat [data-cid^='16021074-'] .un, #chat [data-cid^='16021074-'] .un, #chat [data-cid^='16021074-'] .un, #chat [data-cid^='16021074-'] .un {
- -    top: -3px ;
- -    position: relative;
- -}
- -
- -#chat [data-cid^='16021074-'] .un:hover:after, #chat [data-cid^='16021074-'] .un:hover:after, #chat [data-cid^='16021074-'] .un:hover:after, #chat [data-cid^='16021074-'] .un:hover:after, #chat [data-cid^='16021074-'] .un:hover:after {
- -    content: TitanMusic Co-Owner;
- -    background: url('http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png');
- -    padding: 3px 6px;
- -    color: white;
- -    bottom: 20px;
- -    position: absolute;
- -    left: 5px;
- -    width: 79px;
- -    height: 26px;
- -}
- -
- -#user-rollover.id-16021074 .meta, #user-rollover.id-16021074 .meta {
- -    height: 150px ;
- -}
- -
- -#user-rollover.id-v .meta:before, #user-rollover.id-16021074 .meta:before, #user-rollover.id-16021074 .meta:before, #user-rollover.id-16021074 .meta:before, #user-rollover.id-16021074 .meta:before {
- -    content: url("http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png");
- -    top: 120px;
- -    left: 109px;
- -    position: absolute;
- -}
- -
- -#user-rollover.id-16021074 .meta:after, #user-rollover.id-16021074 .meta:after, #user-rollover.id-16021074 .meta:after, #user-rollover.id-16021074 .meta:after, #user-rollover.id-16021074 .meta:after {
- -    content: 'TitanMusic Co-Owner';
- -    color: #808691;
- -    position: absolute;
- -    top: 118px;
- -    left: 130px;
-  }
+#user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
+    content: 'TitanMusic Owner';
+    color: #808691;
+    position: absolute;
+    top: 118px;
+    left: 130px;
+}
+
+/* keekz🐺 Hardstyle 2017 ♫ = 4766242 */
+
+#user-rollover.id-4766242 .meta, #user-rollover.id-4766242 .meta, #user-rollover.id-4766242 .meta {
+    height: 150px;
+}
+element.style {
+    height: 150px;
+}
+#user-rollover .meta {
+    min-height: 126px;
+}
+
+#chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before, #chat [data-cid^='4766242-'] .un:before {
+    content: url("http://www.gotigersolutions.com/images/medal-gold.png");
+    top: -2px;
+    left: -3px;
+    position: relative;
+}
+
+#chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un, #chat [data-cid^='4766242-'] .un {
+    top: 3px ;
+    position: relative;
+}
+
+#chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after, #chat [data-cid^='4766242-'] .un:hover:after {
+    content: TitanMusic Staff;
+    background: url('http://www.gotigersolutions.com/images/medal-gold.png');
+    padding: 3px 6px;
+    color: white;
+    bottom: 20px;
+    position: absolute;
+    left: 5px;
+    width: 79px;
+    height: 26px;
+}
+
+#user-rollover.id-4766242 .meta, #user-rollover.id-4766242 .meta {
+    height: 150px ;
+}
+
+#user-rollover.id-v .meta:before, #user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before, #user-rollover.id-4766242 .meta:before {
+    content: url("http://www.gotigersolutions.com/images/medal-gold.png");
+    top: 120px;
+    left: 109px;
+    position: absolute;
+}
+
+#user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after, #user-rollover.id-4766242 .meta:after {
+    content: 'TitanMusic Staff';
+    color: #808691;
+    position: absolute;
+    top: 118px;
+    left: 130px;
+}
+
+/* ONEANDONLY23 = 16021074 */
+
+#user-rollover.id-16021074 .meta, #user-rollover.id-16021074 .meta, #user-rollover.id-16021074 .meta {
+    height: 150px;
+}
+element.style {
+    height: 150px;
+}
+#user-rollover .meta {
+    min-height: 126px;
+}
+
+#chat [data-cid^='16021074-'] .un:before, #chat [data-cid^='16021074-'] .un:before, #chat [data-cid^='16021074-'] .un:before, #chat [data-cid^='16021074-'] .un:before, #chat [data-cid^='16021074-'] .un:before {
+    content: url("https://pastebin.com/favicon.ico");
+    top: 3px;
+    left: -3px;
+    position: relative;
+}
+
+#chat [data-cid^='16021074-'] .un, #chat [data-cid^='16021074-'] .un, #chat [data-cid^='16021074-'] .un, #chat [data-cid^='16021074-'] .un, #chat [data-cid^='16021074-'] .un {
+    top: -3px ;
+    position: relative;
+}
+
+#chat [data-cid^='16021074-'] .un:hover:after, #chat [data-cid^='16021074-'] .un:hover:after, #chat [data-cid^='16021074-'] .un:hover:after, #chat [data-cid^='16021074-'] .un:hover:after, #chat [data-cid^='16021074-'] .un:hover:after {
+    content: TitanMusic Co-Owner;
+    background: url('http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png');
+    padding: 3px 6px;
+    color: white;
+    bottom: 20px;
+    position: absolute;
+    left: 5px;
+    width: 79px;
+    height: 26px;
+}
+
+#user-rollover.id-16021074 .meta, #user-rollover.id-16021074 .meta {
+    height: 150px ;
+}
+
+#user-rollover.id-v .meta:before, #user-rollover.id-16021074 .meta:before, #user-rollover.id-16021074 .meta:before, #user-rollover.id-16021074 .meta:before, #user-rollover.id-16021074 .meta:before {
+    content: url("http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png");
+    top: 120px;
+    left: 109px;
+    position: absolute;
+}
+
+#user-rollover.id-16021074 .meta:after, #user-rollover.id-16021074 .meta:after, #user-rollover.id-16021074 .meta:after, #user-rollover.id-16021074 .meta:after, #user-rollover.id-16021074 .meta:after {
+    content: 'TitanMusic Co-Owner';
+    color: #808691;
+    position: absolute;
+    top: 118px;
+    left: 130px;
