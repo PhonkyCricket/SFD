@@ -75,7 +75,7 @@ element.style {
 }
 
 #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after {
-    content: TitanMusic Head-Developer;
+    content: TM Head-Developer;
     background: url('https://lh3.ggpht.com/-JkqsXEOZDhY/UZJrsptMOWI/AAAAAAAADqY/ZsI2QK4SK6I/s1600/thunder-symbol-facebook-symbol.png');
     padding: 3px 6px;
     color: white;
