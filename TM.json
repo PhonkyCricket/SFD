@@ -1,5 +1,5 @@
 {
-   "room":"Titan + Music",
+   "room":"Titan Music",
    "author":"TitanMusic | Developer & Trigstur",
    "icon":"",
    "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.css",
@@ -35,7 +35,7 @@
       "bouncer":"https://cdn2.iconfinder.com/data/icons/aspneticons_v1.0_Nov2006/law_16x16.gif",
       "rdj":"https://cdn4.iconfinder.com/data/icons/6x16-free-application-icons/16/Shield_16x16.png",
       "subscriber":"",
-      "silversubscriber":"https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
+      "silversubscriber":""
    },
    "autocomplete":{
       "!add":"2",
