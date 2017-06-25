@@ -19,6 +19,11 @@
 /* DO NOT TOUCH */
 /* DO NOT TOUCH */
 
+#chat-messages .id-5712221 {
+    border-left: 3px solid rgb(210,80%,60%,.6);
+    background: rgba(34, 23, 54, 0.33) !important;
+}
+
 .id-5712221  > .msg > .from > i.icon-chat-cohost, 
 #waitlist .list .user[data-uid="5712221 "] .meta.is-staff .name .icon-chat-cohost, 
 #user-rollover.id-5712221 > .info > .role > i.icon-chat-cohost, 
