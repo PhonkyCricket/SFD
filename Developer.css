@@ -20,17 +20,11 @@
 /* DO NOT TOUCH */
 
 
-#chat .cm.message:nth-child(odd) .id-5712221 {
-    background: linear-gradient(hsla(237, 62%, 6%, 0.93), #0d113e), linear-gradient(to right, hsla(0, 81%, 47%, 0), hsla(0, 18%, 40%, 0));
-    border: none;
-    box-shadow: inset 0 0 0 1px hsl(255, 68%, 32%);
-}
-/*
 #chat-messages .id-5712221 {
     border-left: 3px solid rgb(85, 136, 255);
     background: rgba(34, 23, 54, 0.33) !important;
 }
-*/
+
 .id-5712221  > .msg > .from > i.icon-chat-cohost, 
 #waitlist .list .user[data-uid="5712221 "] .meta.is-staff .name .icon-chat-cohost, 
 #user-rollover.id-5712221 > .info > .role > i.icon-chat-cohost, 
