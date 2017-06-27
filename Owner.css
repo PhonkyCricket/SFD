@@ -1,1 +1,13 @@
+/* TitanMusic | Developer */
 
+#user-rollover.id-3669054 .badge-box > i.bdg {
+    border-radius: 6px;
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-3669054 .username:hover, #chat [data-cid^="3669054-"] span.un.clickable:hover {
+    animation: rainbow 10s infinite;
+}
