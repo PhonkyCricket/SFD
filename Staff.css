@@ -218,17 +218,18 @@ element.style {
     position: absolute;
     top: 118px;
     left: 130px;
+}    
     
-
 /* Firebeat1 = 5096489 */
     
-
 #user-rollover.id-5096489 .meta, #user-rollover.id-5096489 .meta, #user-rollover.id-5096489 .meta {
     height: 150px;
 }
+    
 element.style {
     height: 150px;
 }
+    
 #user-rollover .meta {
     min-height: 126px;
 }
