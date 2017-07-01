@@ -1,13 +1,12 @@
 
-#room-name .bar-value {
+#vote, #now-playing-media, #now-playing-bar, #room-name, #room-host, #header-panel-bar, #playlist-menu .title, #your-active-playlist, #your-next-media, #dj-button, #playlist-activate-button, #playlist-activate-button, #user-lists .list-header, #media-panel .header .title, #footer-user .info .name, #footer-user .info .meta .level, #footer-user .info .meta .ep, #playlist-menu .menu .row span:hover {
         display: inline-block;
         box-sizing: border-box;
         border: none;
-        font: normal 18px/normal "Warnes", Helvetica, sans-serif;
-        color: rgb(255, 255, 255);
+        font-family: "Warnes", Helvetica, sans-serif;
+        color: rgba(255,255,255,1);
         text-overflow: clip;
-        white-space: pre;
-        text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #DF0056 , 0 0 70px #DF0056 , 0 0 80px #DF0056 , 0 0 100px #DF0056;
+        text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #297629 , 0 0 70px #297629 , 0 0 80px #297629 , 0 0 100px #297629;
         transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
 #room-settings a:hover, #chat a:hover {
