@@ -35,9 +35,8 @@
     background: rgb(36, 59, 107);
 }
 element.style {
-    width: 33.0769%;
+    width: 35.0000%;
 }
-rcs.css:61
 #rcs-progress-container .bar {
     height: 100%;
     width: 0;
@@ -63,9 +62,14 @@ rcs.css:61
 .rcs.item.selected span {
     color: hsl(200,60%,50%) ;	
 }
-#dashboard {
-    z-index: 80;
-    background: rgba(17, 19, 23, 0.81);
+.app-right,
+.app-right .friends,
+#dashboard,
+#footer, #footer .info, #footer-user .buttons .button:hover,
+#app-menu,
+#user-rollover, #user-rollover .info {
+    /* Most of them are temporary */
+    background: rgba(0,0,0,.75) !important;
 }
 #user-rollover .meta {
     min-height: 150px;	
