@@ -25,52 +25,45 @@
 100% {color: #ff0080;}
 }
 
-TitanMusic | Developer 3669054
-*/
-#user-lists .list .user.id-3669054 .name:after,
-#chat [data-cid^='4405644-'] .un:after,
-#user-lists .list .user.id-3669054 .name:after,
-#chat [data-cid^='4613422-'] .un:after,
-#user-lists .list .user.id-3669054 .name:after,
-#chat [data-cid^='4412452-'] .un:after {
+/* TitanMusic | Developer = 3669054 */
+
+#user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4405644-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4613422-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4412452-'] .un:after {
     content: 'CSS';
     display: inline-block;
-    margin: 0 0 0 5px; 
-	padding: 0 3px;
-    color: #009A80;
+    margin: 4px;
+    padding: 0px;
     background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 10px;
 }
-#user-lists .list .user.id-3669054:hover .name:after,
-#chat [data-cid^='3669054-'] .un:hover:after,
-#user-lists .list .user.id-3669054:hover .name:after,
-#chat [data-cid^='3669054-'] .un:hover:after,
-#user-lists .list .user.id-3669054:hover .name:after,
-#chat [data-cid^='3669054-'] .un:hover:after {
+
+#user-lists .list .user.id-3669054:hover .name:after, #chat [data-cid^='3669054-'] .un:hover:after, #user-lists .list .user.id-3669054:hover .name:after, #chat [data-cid^='3669054-'] .un:hover:after, #user-lists .list .user.id-3669054:hover .name:after, #chat [data-cid^='3669054-'] .un:hover:after {
     background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
 }
 
 /*TitanMusic | Developer*/
-#user-rollover.id-3669054 .meta{
-height: 146px !important;
+
+#user-rollover.id-3669054 .meta {
+    height: 200px ;
 }
-#user-rollover.id-3669054 .meta:before{
+
+#user-rollover.id-3669054 .meta:before {
     content: 'CSS';
-    top: 120px;
-    left: 109px;
+    top: 22px;
+    left: 4px;
     position: absolute;
-	display: inline-block; 
-	padding: 0 3px;
-    color: #009A80;
-    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
-    border-radius: 4px;
-    font-size: 10px;
+    display: inline-block;
+    padding: 0 280px;
+    color: #fff000;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
+    border-radius: 5px;
+    font-size: 9px;
 }
-#user-rollover.id-3669054 .meta:after{
-    content: 'Developer';
-    color: #808691;
+
+#user-rollover.id-3669054 .meta:after {
+    content: 'TM Developer';
+    color: #fff000;
     position: absolute;
-    top: 117px;
-    left: 134px;
+    top: 130px;
+    left: 126px;
 }
