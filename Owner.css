@@ -27,6 +27,61 @@
 
 /* TitanMusic | Developer = 3669054 */
 
+#user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
+    height: 130px;
+}
+element.style {
+    height: 200px;
+}
+#user-rollover .meta {
+    min-height: 200px;
+}
+
+#chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
+    content: url("http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png");
+    top: 3px;
+    left: -3px;
+    position: relative;
+}
+
+#chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un, #chat [data-cid^='3669054-'] .un {
+    top: -3px ;
+    position: relative;
+}
+
+#chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after {
+    content: TM Owner;
+    background: url('http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png');
+    padding: 3px 6px;
+    color: red;
+    bottom: 20px;
+    position: absolute;
+    left: 5px;
+    width: 79px;
+    height: 26px;
+}
+
+#user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
+    height: 130px ;
+}
+
+#user-rollover.id-v .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before {
+    content: url("http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png");
+    top: 130px;
+    left: 130px;
+    position: absolute;
+}
+
+#user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
+    content: 'TM Owner';
+    color: red;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+
+/* TitanMusic | Developer = 3669054 */
+
 #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4405644-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4613422-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4412452-'] .un:after {
     content: 'CSS';
     display: inline-block;
@@ -44,7 +99,7 @@
 /*TitanMusic | Developer*/
 
 #user-rollover.id-3669054 .meta {
-    height: 200px ;
+    height: 170px ;
 }
 
 #user-rollover.id-3669054 .meta:before {
@@ -64,6 +119,6 @@
     content: 'TM Developer';
     color: #fff000;
     position: absolute;
-    top: 130px;
-    left: 126px;
+    top: 170px;
+    left: 170px;
 }
