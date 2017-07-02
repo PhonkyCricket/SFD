@@ -28,10 +28,10 @@
 /* TitanMusic | Developer = 3669054 */
 
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 130px;
+    height: 150px;
 }
 element.style {
-    height: 150px;
+    height: 200px;
 }
 #user-rollover .meta {
     min-height: 200px;
@@ -57,18 +57,18 @@ element.style {
     bottom: 20px;
     position: absolute;
     left: 5px;
-    width: 80px;
+    width: 68px;
     height: 26px;
 }
 
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 130px ;
+    height: 150px ;
 }
 
 #user-rollover.id-v .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before {
     content: url("");
-    top: 130px;
-    left: 130px;
+    top: 150px;
+    left: 150px;
     position: absolute;
 }
 
@@ -76,6 +76,6 @@ element.style {
     content: 'TM Developer';
     color: #808691;
     position: absolute;
-    top: 130px;
-    left: 130px;
+    top: 150px;
+    left: 150px;
 }
