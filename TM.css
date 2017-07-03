@@ -286,7 +286,7 @@ element.style {
 }
 
 .app-right #chat-input, #dashboard .search, #search-bar, #filter-bar, #user-friends .search, .app-right .friends .list-header .input-background {
-    background: linear-gradient(to top, hsla(0,100%,100%,.8), hsla(0,100%,100%,0.75));
+    background: linear-gradient(to top, hsla(220,100%,15%,.8), hsla(220,100%,10%,0.75));
     border-radius: 20px;
 }	
 #app #vote .bottom {
@@ -340,7 +340,7 @@ element.style {
     /* The important here is necessary because,
 	when you open and close your playlists, the div has:
 	display:block; as a style attribute */
-    display: none ;
+    display: none;
 }
 
 #footer #your-next-media.in-history {
