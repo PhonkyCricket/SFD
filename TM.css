@@ -33,7 +33,8 @@
     background: rgb(36, 59, 107);
 }
 element.style {
-    width: 200.0000%;
+    width: 200%;
+    height: 200px;	
 }
 #rcs-progress-container .bar {
     height: 100%;
