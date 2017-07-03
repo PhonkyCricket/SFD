@@ -99,16 +99,16 @@ element.style {
 /*TitanMusic | Developer*/
 
 #user-rollover.id-3669054 .meta {
-    height: 170px ;
+    height: 180px ;
 }
 
 #user-rollover.id-3669054 .meta:before {
-    content: 'CSS';
-    top: 22px;
-    left: 4px;
+    content: 'CSS Devs';
+    top: 175px;
+    left: 106px;
     position: absolute;
     display: inline-block;
-    padding: 0 280px;
+    padding: 0 15px;
     color: #fff000;
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
     border-radius: 5px;
@@ -119,6 +119,6 @@ element.style {
     content: 'TM Developer';
     color: #fff000;
     position: absolute;
-    top: 170px;
-    left: 170px;
+    top: 150px;
+    left: 120px;
 }
