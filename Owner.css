@@ -28,13 +28,13 @@
 /* MsiGaming | Developer = 3669054 */
 
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 200px;
+    height: 300px;
 }
 element.style {
-    height: 200px;
+    height: 300px;
 }
 #user-rollover .meta {
-    min-height: 200px;
+    min-height: 300px;
 }
 #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
     content: url("http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png");
@@ -58,12 +58,12 @@ element.style {
     height: 26px;
 }
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 200px ;
+    height: 300px ;
 }
 #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before {
     content: url("http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png");
-    top: 88px;
-    left: 117px;
+    top: 117px;
+    left: 90px;
     position: absolute;
 }
 #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
@@ -80,10 +80,23 @@ element.style {
 #chat [data-cid^='3669054-'] .un:hover:after,
 #chat [data-cid^='3669054-'] .un:hover:after,
 #chat [data-cid^='3669054-'] .un:hover:after{
+        animation: rainbow 10s infinite;
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
     content: 'TM Developer';
     background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
     padding: 3px 6px;
-    color: red;
     bottom: 20px;
     position: absolute;
     left: 5px;
@@ -108,13 +121,13 @@ element.style {
 /* MsiGaming | Developer */
 
 #user-rollover.id-3669054 .meta {
-    height: 200px;
+    height: 300px;
 }
 element.style {
-    height: 200px;
+    height: 300px;
 }
 #user-rollover .meta {
-    min-height: 200px;
+    min-height: 300px;
 }
 #user-rollover.id-3669054 .meta:before {
     content: 'CSS Devs';
@@ -124,7 +137,7 @@ element.style {
     display: inline-block;
     padding: 0px;
     color: #fff000;
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     border-radius: 0px;
     font-size: 10px;
 }
