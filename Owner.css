@@ -106,21 +106,21 @@ element.style {
 
 #user-rollover.id-3669054 .meta:before {
     content: 'CSS Devs';
-    top: 175px;
-    left: 106px;
+    top: 154px;
+    left: 120px;
     position: absolute;
     display: inline-block;
-    padding: 0 15px;
+    padding: 0px;
     color: #fff000;
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
-    border-radius: 5px;
-    font-size: 9px;
+    border-radius: 0px;
+    font-size: 10px;
 }
 
 #user-rollover.id-3669054 .meta:after {
     content: 'TM Developer';
     color: #fff000;
     position: absolute;
-    top: 150px;
+    top: 135px;
     left: 120px;
 }
