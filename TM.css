@@ -200,9 +200,6 @@
 	border-radius: 0 20px 20px 0;
 	background: linear-gradient(rgba(255,255,255,.2), rgba(0,0,0,0)) !important;
 }
-element.style {
-    height: 150px;
-}
 .dialog {
 	border-radius: 20px;
 	background: hsla(210,10%,20%,.5);
