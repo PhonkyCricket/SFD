@@ -88,7 +88,7 @@ element.style {
 #chat [data-cid^='3669054-'] .un:hover:after,
 #chat [data-cid^='3669054-'] .un:hover:after,
 #chat [data-cid^='3669054-'] .un:hover:after{
-    content: 'TM Developer';
+    content: 'TM Owner';
     background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
     padding: 3px 6px;
     bottom: 20px;
