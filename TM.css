@@ -260,7 +260,7 @@
 	background-image: url('https://raw.githubusercontent.com/Plug-It/pi/pre-release/img/other/icons.png');
 }
 .app-right {
-	background: hsla(210,10%,5%,0.75) !important;
+	background-image: url(https://i.imgur.com/H99gROp.jpg);
 }	
 .app-header {
     box-shadow: 0px 1px 10px #000;
@@ -595,4 +595,10 @@
 }	
 #room-settings .general-settings .description .value a:last-of-type {
     display: none ;
+}
+
+#room-info {
+    -webkit-filter: opacity(90%);
+    background-image: url(https://i.imgur.com/H99gROp.jpg);
+    filter: opacity(90%);
 }
