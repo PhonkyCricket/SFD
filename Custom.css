@@ -513,12 +513,12 @@ background: linear-gradient(135deg, hsla(0,0%,10%,.9), hsla(0,0%,5%,.9));
 
 .user-content .avatars .cell:hover .top, .user-content .avatars .cell.selected .top {
     background: linear-gradient(rgba(0,0,0,0)70%, hsla(0,0%,100%,.2) 80%),
-	url(https://raw.githubusercontent.com/Plug-It/pi/pre-release/img/other/shop-hover.png) ;
+	url() ;
 }
 
 .user-content .avatars .grid .cell .top {
     background: linear-gradient(rgba(0,0,0,0)70%, hsla(210,10%,80%,.2) 80%),
-	url(https://raw.githubusercontent.com/Plug-It/pi/pre-release/img/other/shop.png) ;
+	url() ;
     box-shadow: inset 0 0 40px #000;
 }
 
@@ -532,12 +532,12 @@ background: linear-gradient(135deg, hsla(0,0%,10%,.9), hsla(0,0%,5%,.9));
 }
 
 .user-content .badges .cell.selected {
-    background: url(https://raw.githubusercontent.com/Plug-It/pi/pre-release/img/other/badgebg.png) ;
+    background: url() ;
     box-shadow: inset 0 0 20px 2px hsla(0,0%,100%,.2) ;
 }
 
 .user-content .badges .cell:hover {
-    background: url(https://raw.githubusercontent.com/Plug-It/pi/pre-release/img/other/badgebghover.png) 0 -12px no-repeat ;
+    background: url() 0 -12px no-repeat ;
     box-shadow: 0 0 10px #000;
 }
 
