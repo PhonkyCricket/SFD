@@ -117,7 +117,7 @@ element.style {
 #chat [data-cid^='5712221-'] .un:hover:after,
 #chat [data-cid^='5712221-'] .un:hover:after{
     content: 'TM Head-Developer';
-    background: url('ttps://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
+    background: url('');
     padding: 3px 6px;
     bottom: 20px;
     position: absolute;
