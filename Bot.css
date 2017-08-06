@@ -75,10 +75,7 @@ element.style {
     top: 118px;
     left: 130px;
 }
-
-
-
-    
+   
 .id-20168147  > .msg > .from > i.icon-chat-manager, 
 #waitlist .list .user[data-uid="20168147 "] .meta.is-staff .name .icon-chat-manager, 
 #user-rollover.id-20168147 > .info > .role > i.icon-chat-manager, 
@@ -86,7 +83,6 @@ element.style {
 {
 	background: url("http://storage.proboards.com/forum/images/icon-options.png") no-repeat !important;
 }
-
 
 .id-5712221 > .badge-box > i.bdg
 {
