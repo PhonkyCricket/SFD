@@ -1,10 +1,10 @@
 # TMCss
 
-Welcome to Titan Music Team!
+Welcome to ♫ Titan Music ♫ #TM! 🔥 Team!
 
 come and let music and listen music: https://plug.dj/tittan-music
 
 Best regards!
 
-Titan Music Team.
-By: MsiGaming l Developer in plug.dj name.
+♫ Titan Music ♫ #TM! 🔥 Team.
+By: MsiGaming l pLoT-Member in plug.dj name.
