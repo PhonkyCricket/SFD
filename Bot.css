@@ -16,7 +16,7 @@
     content:'BOT';
 }
 #user-rollover.id-20168147 .badge-box > i.bdg {
-    background-image: url("https://cdn.pixabay.com/photo/2014/10/03/17/16/gear-472006_960_720.jpg");
+    background-image: url("");
     background-size: cover;
     border-radius: 6px;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 }
 .id-20168147 > .badge-box > i.bdg
 {
-    background-image:    url("https://cdn.pixabay.com/photo/2014/10/03/17/16/gear-472006_960_720.jpg");
+    background-image:    url("");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -61,7 +61,7 @@ element.style {
     height: 150px ;
 }
 
-#user-rollover.id-v .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before {
+#user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before, #user-rollover.id-20168147 .meta:before {
     content: url("http://storage.proboards.com/forum/images/icon-options.png");
     top: 120px;
     left: 109px;
@@ -84,9 +84,9 @@ element.style {
 	background: url("http://storage.proboards.com/forum/images/icon-options.png") no-repeat !important;
 }
 
-.id-5712221 > .badge-box > i.bdg
+.id-20168147 > .badge-box > i.bdg
 {
-    background-image:    url("https://cdn.pixabay.com/photo/2014/10/03/17/16/gear-472006_960_720.jpg");
+    background-image:    url("");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -96,8 +96,8 @@ element.style {
     background: url(https://pastebin.com/favicon.ico) !important;
 }
 
-#user-rollover.id-5712221 .badge-box > i.bdg {
-    background-image: url("https://cdn.pixabay.com/photo/2014/10/03/17/16/gear-472006_960_720.jpg");
+#user-rollover.id-20168147 .badge-box > i.bdg {
+    background-image: url("");
     background-size: cover;
     border-radius: 6px;
     background-repeat: no-repeat;
