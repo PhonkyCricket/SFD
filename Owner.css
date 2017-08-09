@@ -76,26 +76,11 @@ element.style {
 
 #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
     content: 'TM Owner';
-    color: darkred;
+    color: none;
     position: absolute;
     top: 110px;
     left: 110px;
 }
-
-/*tooltip Developer*/
-#chat [data-cid^='3669054-'] .un:hover:after,
-#chat [data-cid^='3669054-'] .un:hover:after,
-#chat [data-cid^='3669054-'] .un:hover:after,
-#chat [data-cid^='3669054-'] .un:hover:after,
-#chat [data-cid^='3669054-'] .un:hover:after{
-    content: 'TM Owner';
-    background: url('');
-    padding: 3px 6px;
-    bottom: 20px;
-    position: absolute;
-    left: 5px;
-    width: 79px;
-    height: 26px;
 
 /* MsiGaming | Developer = 3669054 */
 
