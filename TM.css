@@ -1,12 +1,88 @@
+@import url("https://rawgit.com/TitanMusicDev/TMCss/master/Custom.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Users.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/WAM.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Staff.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Bot.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Supporters.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Developer.css");
-@import url("https://rawgit.com/TitanMusicDev/TMCss/master/Custom.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Owner.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Vip.css");
+
+#playlist-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 53px;
+    height: 54px;
+    -webkit-box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    background: #009cdd;
+    background: -moz-linear-gradient(top,#ac76ff 0,#925aff 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#4100a5),color-stop(100%,#262527));
+    background: -webkit-linear-gradient(top,#ac76ff 0,#925aff 100%);
+    background: -o-linear-gradient(top,#ac76ff 0,#925aff 100%);
+    background: -ms-linear-gradient(top,#ac76ff 0,#925aff 100%);
+    background: linear-gradient(to bottom,#30c8fc 0,#03216f 100%);
+    -moz-box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    cursor: pointer;
+}
+#chat .moderation {
+    color: #00ade3;
+}
+#chat .from.staff .un {
+    color: #076289;
+}
+#history-button {
+    position: absolute;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    background: rgba(2, 0, 16, 0.19);
+    -webkit-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    -moz-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    box-shadow: inset 0 -2px 0 -1px #009cdd;
+    cursor: pointer;
+}
+.app-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    overflow: hidden;
+    width: 100%;
+    height: 54px;
+    background: rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    -moz-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+}
+#chat-messages {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    border-bottom: #02c5ff 1px solid;
+    color: #eee;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+}
+#chat .welcome {
+    color: #2dbcf2;
+}
+.header-panel-button.selected {
+    border-right: none;
+    background-color: rgba(0, 156, 221, 0.49);
+    border-bottom: #009cdd;
+    cursor: default;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #26a3dd!important;
+    border: 2px solid #001f56!important;
+    border-radius: 100px!important;
+}
 
 /* Style Codes */
 .communities .grid .cell .meta {
@@ -93,252 +169,6 @@
  }
  #user-lists .header .button {
     top: 0px;
- }
- #user-lists .group.host {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-    background: linear-gradient(to right, hsla(210,100%,30%,.5), hsla(210,100%,40%,.5)) !important;
-    top: 1px;
- }
- #user-lists .group.host ~ .user:nth-child(2) span {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
- }
- #user-lists .group.host ~ .user span {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
- }
- #user-lists .group.manager {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-    background: linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) !important;
- }
- #user-lists .group.manager ~ .user span {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
- }
- #user-lists .group.bouncer {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-    background: linear-gradient(to right, hsla(10,100%,30%,.5), hsla(10,100%,40%,.5)) !important;
- }
- #user-lists .group.bouncer ~ .user span {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
- }
- #user-lists .group.dj {
-    animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-    background: linear-gradient(to right, hsla(20,100%,30%,.5), hsla(30,100%,40%,.5)) !important;
- }
- #user-lists .group.dj ~ .user span {
-    animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-
- }
- .icon-chat-host + span, #user-lists .group.host ~ .user span, #dialog-user-role .role-menu .menu ul .host span {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
- }
- .icon-chat-cohost + span, #user-lists .group.cohost ~ .user span, #dialog-user-role .role-menu .menu ul .cohost span {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
- }
- .icon-chat-manager + span, #user-lists .group.manager ~ .user span, #dialog-user-role .role-menu .menu ul .manager span {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
- }
- .icon-chat-bouncer + span, #user-lists .group.bouncer ~ .user span, #dialog-user-role .role-menu .menu ul .bouncer span {
-        animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-
- }
- .icon-chat-dj + span, #user-lists .group.dj ~ .user span, #dialog-user-role .role-menu .menu ul .dj span {
-    animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-
  }
  #the-user-profile .notifications.section .row {
 	border-radius: 10px;
