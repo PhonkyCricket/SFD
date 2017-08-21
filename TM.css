@@ -8,6 +8,30 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Owner.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Vip.css");
 
+#chat .cm.moderation .timestamp {
+    color: hsl(192, 100%, 50%);
+}
+.social-menu .subscribe {
+    position: relative;
+    top: 0;
+    float: right;
+    padding: 15px 15px;
+    background: #000000;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+}
+.app-right #chat-input, #dashboard .search, #search-bar, #filter-bar, #user-friends .search, .app-right .friends .list-header .input-background {
+    background: linear-gradient(to top, hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.75));
+    border-radius: 20px;
+}
+
+#chat-messages {
+    border-color: #101550;
+    box-shadow: 0 51px 0 rgba(2, 129, 255, 0.7);
+}
 element.style {
 }
 TM.css:455
