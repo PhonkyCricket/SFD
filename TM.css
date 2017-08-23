@@ -8,6 +8,9 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Owner.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Vip.css");
 
+element.style {
+    height: 140px;
+}
 #chat .cm.moderation .timestamp {
     color: hsl(192, 100%, 50%);
 }
