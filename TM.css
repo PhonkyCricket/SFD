@@ -19,8 +19,9 @@
     color: #ffffff;
 }
 element.style {
-    height: 140px;
+        height: 140px;
 }
+
 #chat .cm.moderation .timestamp {
     color: hsl(192, 100%, 50%);
 }
