@@ -7,7 +7,7 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Developer.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Owner.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Vip.css");
-}
+
 #chat .cm.user-action .msg .from .un, #chat .cm.user-action .timestamp {
     color: hsl(0, 0%, 100%);
 }
