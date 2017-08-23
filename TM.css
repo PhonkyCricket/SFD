@@ -513,16 +513,6 @@ TM.css:455
     border: none ;
 }
 
-#chat .cm.user-action {
-    background: linear-gradient(hsla(60,100%,20%,.8), hsla(60,100%,10%,.8)),
-	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,.2)) ;
-    box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.1);
-}
-
-#chat .cm.user-action .msg .from .un, #chat .cm.user-action .timestamp {
-    color: hsl(60,90%,70%) ;
-}
-
 #chat .cm.welcome {
     box-shadow: inset 0 0 0 1px hsl(210,50%,30%);
     color: hsl(210,80%,60%);
