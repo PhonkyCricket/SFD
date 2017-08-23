@@ -1,7 +1,7 @@
 /* Bot: 20168147 */
 
 .role-cohost .msg .from .icon-chat-host .id-20168147 {
-    background: url(http://storage.proboards.com/forum/images/icon-options.png) !important;
+    background: url("http://storage.proboards.com/forum/images/icon-options.png") !important;
 }
 #chat-messages .id-20168147 {
     border-left: 3px solid rgb(29, 5, 255);
