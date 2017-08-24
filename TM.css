@@ -9,6 +9,12 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Vip.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Custom%20PP.css");
 
+#user-rollover .meta {
+    min-height: 140px;
+}
+element.style { 
+    height: 150px!important;
+}
 #chat .cm.user-action .msg .from .un, #chat .cm.user-action .timestamp {
     color: hsl(0, 0%, 100%);
 }
