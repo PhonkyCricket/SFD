@@ -23,7 +23,7 @@ element.style {
 
 #chat [data-cid^='15253919-'] .un:hover:after, #chat [data-cid^='15253919-'] .un:hover:after, #chat [data-cid^='15253919-'] .un:hover:after, #chat [data-cid^='15253919-'] .un:hover:after, #chat [data-cid^='15253919-'] .un:hover:after {
     content: TM Staff;
-    background: url('/*http://www.gotigersolutions.com/images/medal-gold.png*
+    background: url('http://www.gotigersolutions.com/images/medal-gold.png')
     padding: 3px 6px;
     color: white;
     bottom: 20px;
