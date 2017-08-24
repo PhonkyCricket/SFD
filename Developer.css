@@ -117,13 +117,14 @@ element.style {
 #chat [data-cid^='5712221-'] .un:hover:after,
 #chat [data-cid^='5712221-'] .un:hover:after{
     content: 'TM Head-Developer';
-    background: url('');
+    background-color: black;
     padding: 3px 6px;
     bottom: 20px;
     position: absolute;
     left: 5px;
-    width: 79px;
+    width: 115px;
     height: 26px;
+}
 
 
 /* https://pastebin.com/favicon.ico */
