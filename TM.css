@@ -9,6 +9,9 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Vip.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Custom%20PP.css");
 
+element.style {
+    height: 140px;
+}
 #user-rollover .meta {
     min-height: 140px;
 }
