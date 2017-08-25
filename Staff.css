@@ -30,7 +30,7 @@
     content: TM Staff;
     background: url('http://www.gotigersolutions.com/images/medal-gold.png');
     padding: 3px 6px;
-    color: #808691;
+    color: white;
     bottom: 20px;
     position: absolute;
     left: 5px;
@@ -49,12 +49,12 @@
     position: absolute;
 }
 
-#user-rollover.id-15253919 .meta:after {
-    content: 'TM Developer';
+#user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after {
+    content: 'TM Staff';
     color: #808691;
     position: absolute;
-    top: 121px;
-    left: 110px;
+    top: 118px;
+    left: 130px;
 }
 
 /*More comming soon...*/
