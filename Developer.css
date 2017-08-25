@@ -80,18 +80,6 @@ element.style {
     position: relative;
 }
 
-#chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after, #chat [data-cid^='5712221-'] .un:hover:after {
-    content: TM Head-Developer;
-    background: url('https://lh3.ggpht.com/-JkqsXEOZDhY/UZJrsptMOWI/AAAAAAAADqY/ZsI2QK4SK6I/s1600/thunder-symbol-facebook-symbol.png');
-    padding: 3px 6px;
-    color: white;
-    bottom: 20px;
-    position: absolute;
-    left: 5px;
-    width: 79px;
-    height: 26px;
-}
-
 #user-rollover.id-5712221 .meta, #user-rollover.id-5712221 .meta {
     height: 150px ;
 }
