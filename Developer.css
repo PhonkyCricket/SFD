@@ -105,7 +105,7 @@ element.style {
 #chat [data-cid^='5712221-'] .un:hover:after,
 #chat [data-cid^='5712221-'] .un:hover:after{
     content: 'TM|Head-Developer';
-    background: firebrick;
+    background: black;
     padding: 3px 6px;
     bottom: 20px;
     position: absolute;
