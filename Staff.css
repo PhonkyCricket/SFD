@@ -49,7 +49,7 @@
     position: absolute;
 }
 
-#user-rollover.id-15253919.meta:after, #user-rollover.id-15253919.meta:after, #user-rollover.id-15253919.meta:after, #user-rollover.id-15253919.meta:after, #user-rollover.id-15253919.meta:after {
+#user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after {
     content: 'TM Staff';
     color: #808691;
     position: absolute;
@@ -57,6 +57,6 @@
     left: 130px;
 }
 
-/*More comming soon */
+/*More comming soon...*/
 /*http://www.gotigersolutions.com/images/medal-gold.png*/
 /*https://lh3.ggpht.com/-1tkQjLf2C9Q/UZOhoX35OHI/AAAAAAAADts/4-4ZLJ2b7S0/s1600/stars-symbol.png*/
