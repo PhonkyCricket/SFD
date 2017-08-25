@@ -49,12 +49,12 @@
     position: absolute;
 }
 
-#user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after, #user-rollover.id-15253919 .meta:after {
-    content: TM Staff;
-    color: #808691;
+#user-rollover.id-15253919 .meta:after {
+    content: 'TM Developer';
+    color: white;
     position: absolute;
-    top: 118px;
-    left: 130px;
+    top: 121px;
+    left: 110px;
 }
 
 /*More comming soon...*/
