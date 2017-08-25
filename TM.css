@@ -9,6 +9,13 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Vip.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Custom%20PP.css");
 
+#chat-messages .from .icon {
+    position: relative;
+    top: 2px;
+    z-index: 0;
+    float: left;
+    margin-right: 4px;
+}
 element.style {
     height: 140px;
 }
