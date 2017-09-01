@@ -7,4 +7,5 @@ come and let music and listen music: https://plug.dj/tittan-music
 Best regards!
 
 ♫ Titan Music ♫ #TM! 🔥 Team.
-By: MsiGaming l pLoT-Member in plug.dj name.
+
+By: xUndisputed in plug.dj name.
