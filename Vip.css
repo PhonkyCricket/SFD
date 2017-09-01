@@ -11,16 +11,16 @@
 #user-rollover.id-23244654 > .info > .role > i.icon-chat-none, 
 #user-lists .list.room .user.id-23244654  .icon-chat-none
 {
-	background: url("https://www.blackhatprotools.net/images/vip.gif") no-repeat !important;
+	background: url("") no-repeat !important;
 }
 
 
 #user-lists .list.room .user .icon-chat-none {
-    background: url("https://www.blackhatprotools.net/images/vip.gif") !important;
+    background: url("") !important;
 }
 
 .list.room .user.id-23244654 .icon-chat-none {
-    background: url("https://www.blackhatprotools.net/images/vip.gif") no-repeat !important;
+    background: url("") no-repeat !important;
 }
 
 #user-rollover.id-23244654 .meta, #user-rollover.id-23244654 .meta, #user-rollover.id-23244654 .meta {
@@ -31,7 +31,7 @@
 }
 
 #chat [data-cid^='23244654-'] .un:before, #chat [data-cid^='23244654-'] .un:before, #chat [data-cid^='23244654-'] .un:before, #chat [data-cid^='23244654-'] .un:before, #chat [data-cid^='23244654-'] .un:before {
-    content: url("https://www.blackhatprotools.net/images/vip.gif");
+    content: url("");
     top: 3px;
     left: -3px;
     position: relative;
@@ -44,7 +44,7 @@
 
 #chat [data-cid^='23244654-'] .un:hover:after, #chat [data-cid^='23244654-'] .un:hover:after, #chat [data-cid^='23244654-'] .un:hover:after, #chat [data-cid^='23244654-'] .un:hover:after, #chat [data-cid^='23244654-'] .un:hover:after {
     content: TM VIP;
-    background: url('https://www.blackhatprotools.net/images/vip.gif');
+    background: url('');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -59,7 +59,7 @@
 }
 
 #user-rollover.id-23244654 .meta:before, #user-rollover.id-23244654 .meta:before, #user-rollover.id-23244654 .meta:before, #user-rollover.id-23244654 .meta:before, #user-rollover.id-23244654 .meta:before {
-    content: url("https://www.blackhatprotools.net/images/vip.gif");
+    content: url("");
     top: 120px;
     left: 109px;
     position: absolute;
