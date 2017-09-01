@@ -1,1 +1,45 @@
+/* Woot */
 
+#woot.crowd-response.disabled.active .bottom {
+    background: #045eb6;
+}
+.votes-rs .title.woot {
+    background: #045eb6;
+}
+
+/* Grab */
+#grab .bottom, #grab.selected {
+    background: #4a0b8d;
+}
+.votes-rs .title.grab {
+    background: #4a0b8d;
+}
+
+/* Meh */
+
+#meh .bottom, #meh.selected {
+    background: #ff0319b;
+}
+.votes-rs .title.meh {
+    background: #ff0319b;
+}
+
+/* Icons */
+
+.icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(http://i.imgur.com/tacie9a.png);
+}
+
+/* Leave Djing */
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+    background: #ff0319;
+    background: -moz-linear-gradient(top,#f46b40 0,#f04f30 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f46b40),color-stop(100%,#f04f30));
+    background: -webkit-linear-gradient(top,#f46b40 0,#f04f30 100%);
+    background: -o-linear-gradient(top,#f46b40 0,#f04f30 100%);
+    background: -ms-linear-gradient(top,#f46b40 0,#f04f30 100%);
+    background: linear-gradient(to bottom,#030bff 0,#000000 100%);
+}
