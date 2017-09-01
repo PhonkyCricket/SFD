@@ -1,27 +1,27 @@
 /* Woot */
 
 #woot.crowd-response.disabled.active .bottom {
-    background: #045eb6;
+    background: #045eb6 !important;
 }
 .votes-rs .title.woot {
-    background: #045eb6;
+    background: #045eb6 !important;
 }
 
 /* Grab */
 #grab .bottom, #grab.selected {
-    background: #4a0b8d;
+    background: #4a0b8d !important;
 }
 .votes-rs .title.grab {
-    background: #4a0b8d;
+    background: #4a0b8d !important;
 }
 
 /* Meh */
 
 #meh .bottom, #meh.selected {
-    background: #ff0319b;
+    background: #ff0319b !important;
 }
 .votes-rs .title.meh {
-    background: #ff0319b;
+    background: #ff0319b !important;
 }
 
 /* Icons */
