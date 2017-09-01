@@ -28,13 +28,6 @@
 
 /* Icons */
 
-.icon {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background: url(http://i.imgur.com/tacie9a.png);
-}
-
 /* Leave Djing */
 #dj-button.is-leave .left, #dj-button.is-quit .left {
     background: #ff0319;
