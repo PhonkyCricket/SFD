@@ -6,7 +6,9 @@
 .votes-rs .title.woot {
     background: #045eb6 !important;
 }
-
+#woot .bottom, #woot.selected {
+    background: #3c74f9;
+}
 /* Grab */
 #grab .bottom, #grab.selected {
     background: #4a0b8d !important;
@@ -26,7 +28,12 @@
 
 /* Icons */
 
-
+.icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(http://i.imgur.com/tacie9a.png);
+}
 
 /* Leave Djing */
 #dj-button.is-leave .left, #dj-button.is-quit .left {
