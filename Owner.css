@@ -36,7 +36,7 @@ element.style {
 }
 
 #user-rollover .meta {
-    min-height: 126px;
+    min-height: 150px;
 }
 
 #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
@@ -55,7 +55,7 @@ element.style {
     content: TM Owner;
     background: url('http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png');
     padding: 3px 6px;
-    color: ;
+    color: none;
     bottom: 20px;
     position: absolute;
     left: 5px;
@@ -69,23 +69,23 @@ element.style {
 
 #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before {
     content: url("http://www.aeret.eu/layoutfile/mod/users/bdt_img/ellenorzokod.png");
-    top: 113px;
-    left: 91px;
+    top: 120px;
+    left: 109px;
     position: absolute;
 }
 
 #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after, #user-rollover.id-3669054 .meta:after {
-    content: 'TM Owner';
+    content: TM Owner;
     color: none;
     position: absolute;
-    top: 110px;
-    left: 110px;
+    top: 118px;
+    left: 130px;
 }
 
 /* MsiGaming | Developer = 3669054 */
 
 #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4405644-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4613422-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4412452-'] .un:after {
-    content: 'developer/css/theme';
+    content: developer/css/theme;
     display: inline-block;
     margin: 4px;
     padding: 0px;
@@ -115,7 +115,7 @@ element.style {
 }
 
 #user-rollover.id-3669054 .meta:before {
-    content: 'CSS/Devs';
+    content: CSS/Devs;
     top: 136px;
     left: 110px;
     position: absolute;
@@ -128,8 +128,8 @@ element.style {
 }
 
 #user-rollover.id-3669054 .meta:after {
-    content: 'TM Developer';
-    color: ;
+    content: TM Developer;
+    color: none;
     position: absolute;
     top: 121px;
     left: 110px;
