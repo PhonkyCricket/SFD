@@ -1,6 +1,6 @@
 {
    "room":"Titan Music",
-   "author":"MsiGaming l pLoT-Member",
+   "author":"xUndisputed & Trigstur",
    "icon":"http://i.imgur.com/LNXws1G.png",
    "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.css",
    "rules":{
@@ -45,9 +45,9 @@
       "!getban":"2",
       "!clearchat":"2",
       "!skip":"2",
-      "!rcs":"0",
-      "!staff":"0",
-      "!website":"0"
+      "!rcs":"1",
+      "!staff":"1",
+      "!website":"1"
    },
    "emotes":{
       "emote_name":"null"
