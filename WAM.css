@@ -1,1 +1,69 @@
+#grab-rs-list::-webkit-scrollbar, #meh-rs-list::-webkit-scrollbar, #woot-rs-list::-webkit-scrollbar, .dialog::-webkit-scrollbar, .dropdown dd::-webkit-scrollbar {
+    width: 7px;
+    box-shadow: inset -1px 0 7px hsla(0, 0%, 0%, .5);
+}
+
+#grab-rs-list::-webkit-scrollbar-thumb, #meh-rs-list::-webkit-scrollbar-thumb, #woot-rs-list::-webkit-scrollbar-thumb, .dialog::-webkit-thumb, .dropdown dd::-webkit-scrollbar-thumb, .jspDrag {
+    background: rgba(4, 13, 36, 1);
+    box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .2);
+    border-radius: 5px;
+}
+
+.votes-rs i {
+    margin-left: 30%;
+}
+
+.votes-rs .title.woot, .votes-rs .title.grab, .votes-rs .title.meh {
+    background: rgba(4, 13, 36, .75) ;
+}
+
+.votes-rs .voteslist {
+    background: rgba(8, 25, 69, .75);
+}
+
+#meh.selected {
+    animation: meh 3s infinite;
+}
+
+#meh:hover {
+    background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) ;
+}
+
+#grab.selected {
+    animation: grab 3s infinite;
+}
+
+#grab:hover {
+    background: linear-gradient(to top, rgba(75, 0, 130, .75)10%, rgba(255, 255, 255, .05)90%) ;
+}
+
+#woot .bottom, #grab .bottom, #meh .bottom {
+    background: transparent ;
+}
+
+#woot {
+    border-radius: 50px 0 0 50px;
+    border-left: 1px solid rgb(50, 50, 225);
+}
+
+#meh {
+    border-radius: 0 50px 50px 0;
+    border-right: 1px solid rgb(50, 50, 225);
+}
+
+#woot, #grab, #meh {
+    border-top: 2px solid rgb(50, 50, 255);
+    border-bottom: 1px solid rgb(50, 50, 255);
+    margin: 0 ;
+    background: linear-gradient(135deg, rgba(150, 150, 150, .15), rgba(100, 100, 100, .15)) ;
+    box-shadow: inset 0 0 5px rgb(50, 50, 255) ;
+}
+
+#woot.selected {
+    animation: woot 3s infinite;
+}
+
+#woot:hover {
+    background: linear-gradient(to top, rgba(0, 128, 0,.75)10%, rgba(255, 255, 255, .05)90%) ;
+}
 
