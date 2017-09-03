@@ -14,15 +14,15 @@
       "forceSmartVote":false
    },
    "ccc":{
-      "admin":"#00d6ff",
-      "ambassador":"#33cc33",
-      "host":"#0099ff",
-      "cohost":"#004cff",
-      "manager":"#ff1e00",
-      "bouncer":"#9900ff",
-      "rdj":"#ff9900",
-      "subscriber":"#FFBB33",
-      "silversubscriber":"#8694B2"
+      "admin":"",
+      "ambassador":"",
+      "host":"#FF3D3F",
+      "cohost":"#FF4C42",
+      "manager":"#80A3DF",
+      "bouncer":"#FFB042",
+      "rdj":"#A084CC",
+      "subscriber":"#919191",
+      "silversubscriber":"#C1C100"
    },
    "images":{
       "background":"http://i.imgur.com/IFbao75.jpg",
