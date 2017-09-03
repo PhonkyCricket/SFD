@@ -80,3 +80,54 @@
     opacity: 1.0;
         z-index: -1;
 }
+
+/* down - bar */
+#footer {
+    position: absolute;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 54px;
+    background-image: url(http://i.imgur.com/JGhcvtF.jpg);
+    -webkit-box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    -moz-box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    box-shadow: inset 0 2px 0 -1px #0a0a0a;
+}
+.app-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    overflow: hidden;
+    width: 100%;
+    height: 54px;
+    background-image: url(http://i.imgur.com/JGhcvtF.jpg);
+    -webkit-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    -moz-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+}
+.social-menu .subscribe {
+    position: relative;
+    top: 5;
+    float: right;
+    padding: 15px 15px;
+    background-image: url("https://eashankadam.files.wordpress.com/2014/03/background.jpg");
+    color: #eee;
+    background-position-x: center;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+}
+
+#room .app-right {
+       background-color: #111317;
+}
+
+.app-right {
+    position: absolute;
+    top: 54px;
+    right: 0;
+    z-index: 2;
+    width: 345px;
+}
