@@ -1,1 +1,213 @@
+/* Room Icon */
 
+}
+#room-bar .icon-room {
+    top: 8.5px;
+    left: 10px;
+}
+i.icon.icon-room {
+    width: 160px;
+    height: 40px;
+}
+.icon-room {
+    background: url(http://i.imgur.com/LNXws1G.png) no-repeat;
+    width: 0px;
+    height: 0px;
+    background-size: 75%;
+}
+/*#####[HOST]#####*/
+
+.icon-chat-host {
+    background: url("http://plugtop.wz.cz/xzGl7r.png");
+    background-position: 3 0;
+}
+
+.icon-chat-host + span, #user-lists .group.host ~ .user span, #dialog-user-role .role-menu .menu ul .host span {
+    color: #5BF ;
+}
+
+#user-lists .group.host {
+    color: #5BF;
+    background: linear-gradient(to right, hsla(210,100%,30%,.5), hsla(210,100%,40%,.5)) ;
+}
+
+/*#####[CO-HOSTS]#####*/
+
+.icon-chat-cohost {
+    background: url("http://plugtop.wz.cz/4xpAHa.png");
+    background-position: 3 0;
+}
+
+.icon-chat-cohost + span, #user-lists .group.cohost ~ .user span, #dialog-user-role .role-menu .menu ul .cohost span {
+    color: #58f ;
+}
+
+#user-lists .group.cohost {
+    color: #58f ;
+    background: linear-gradient(to right, hsla(222,100%,30%,0.5), hsla(222,100%,40%,0.5)) ;
+}
+
+/*#####[MANAGER]#####*/
+
+.icon-chat-manager {
+    background: url("http://plugtop.wz.cz/LNJyPX.png");
+    background-position: 3 0;
+}
+
+.icon-chat-manager + span, #user-lists .group.manager ~ .user span, #dialog-user-role .role-menu .menu ul .manager span {
+    color: #E15 ;
+}
+
+#user-lists .group.manager {
+    color: #E15;
+    background: linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) ;
+}
+
+/*#####[BOUNCER]#####*/
+
+.icon-chat-bouncer {
+    background: url("http://plugtop.wz.cz/Yh8lpk.png");
+    background-position: 3 0;
+}
+
+.icon-chat-bouncer + span, #user-lists .group.bouncer ~ .user span, #dialog-user-role .role-menu .menu ul .bouncer span {
+    color: #F45 ;
+}
+
+#user-lists .group.bouncer {
+    color: #F45;
+    background: linear-gradient(to right, hsla(10,100%,30%,.5), hsla(10,100%,40%,.5)) ;
+}
+
+/*#####[DJ]#####*/
+
+.icon-chat-dj {
+    background: url("http://plugtop.wz.cz/ff3ChJ.png");
+    background-position: 3 0;
+}
+
+.icon-chat-dj + span, #user-lists .group.dj ~ .user span, #dialog-user-role .role-menu .menu ul .dj span {
+    color: #F95 ;
+}
+
+#user-lists .group.dj {
+    color: #F95;
+    background: linear-gradient(to right, hsla(20,100%,30%,.5), hsla(30,100%,40%,.5)) ;
+}
+
+/*#####[SUBS]#####*/
+
+#user-rollover .meta.subscriber .status i {
+    background-image: url("http://plugtop.wz.cz/CSr2Tx.png");
+    color: #E6CC26;
+    background-position: -1 -1 ;
+}
+
+#user-rollover .meta.subscriber .status span {
+    color: #E6CC26;
+}
+
+#user-rollover .actions .giftsub span {
+    color: #E6CC26;
+}
+
+#user-rollover .actions .giftsub i {
+    background-image: url("http://plugtop.wz.cz/mjkLmW.png");
+    background-position: 0 0 ;
+}
+
+/*#####[SILVERSCUBSRIBER]#####*/
+
+#user-rollover .meta.subscriber.silver .status i {
+    background-image: url("http://plugtop.wz.cz/8Brxr9.png");
+    color: #DC24D9;
+    background-position: -1 -1 ;
+}
+
+#user-rollover .meta.subscriber.silver .status span {
+    color: #DC24D9;
+}
+
+#user-lists .group {
+    border: none ;
+    box-shadow: 0 0 1px 1px;
+}
+
+#user-lists .user:hover {
+    background: linear-gradient(to right, hsla(200,100%,20%,.5), hsla(200,100%,40%,.5)) ;
+}
+
+#user-lists .list.staff .user:hover .name {
+    color: #eee ;
+}
+
+#user-lists .header {
+    height: 42px;
+}
+
+#user-lists .list-header {
+    top: 44px;
+}
+
+#user-lists .header .button {
+    top: 0px;
+}
+
+#user-lists .header .button.selected {
+    border-radius: 0px;
+    background: radial-gradient(hsla(210,10%,50%,.5), hsla(210,10%,40%,.3));
+    border: none ;
+}
+
+.dialog {
+    border-radius: 20px;
+    background: hsla(210,10%,20%,.5);
+}
+
+.dialog .dialog-body {
+    background: hsla(210,10%,5%,.8) ;
+}
+
+.dialog .cancel {
+    border-radius: 0 0 0 20px;
+    background: linear-gradient(hsla(15,80%,50%,.5), hsla(15,80%,30%,.5)) ;
+}
+
+.dialog .submit {
+    border-radius: 0 0 20px 0;
+    background: linear-gradient(hsla(210,100%,50%,.5), hsla(210,100%,30%,.5)) ;
+}
+
+#dialog-restricted-media .divider {
+    background: hsl(225,50%,20%);
+}
+
+#dialog-restricted-media .submit {
+    border-radius: 0 0 20px 20px;
+}
+
+#dialog-level-up {
+    background: linear-gradient(hsl(210,10%,20%), hsl(210,10%,10%));
+    box-shadow: 0 0 20px #000;
+}
+
+#dialog-level-up .dialog-body {
+    background: transparent;
+}
+
+#dialog-preview .submit {
+    border-radius: 0 0 20px 20px;
+    background: transparent ;
+}
+
+#dialog-user-role .button.submit {
+    border-radius: 0 0 20px;
+}
+
+#dialog-user-role .button.cancel {
+    border-radius: 0 0 0 20px;
+}
+
+#dialog-user-role .button.cancel span {
+    color: hsl(15,80%,50%);
+}
