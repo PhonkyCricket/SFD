@@ -24,3 +24,7 @@ element.style {
 element.style { 
     height: 150px !important;
 }
+
+#user-rollover.role-cohost .role span {
+    color: #00b5e6 !important;
+}
