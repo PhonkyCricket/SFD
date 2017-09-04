@@ -18,87 +18,76 @@ i.icon.icon-room {
 /*#####[HOST]#####*/
 
 .icon-chat-host {
-    background: url("http://plugtop.wz.cz/xzGl7r.png");
+    background: url("");
     background-position: 3 0;
 }
-
 .icon-chat-host + span, #user-lists .group.host ~ .user span, #dialog-user-role .role-menu .menu ul .host span {
-    color: #5BF ;
+    color: #7BF ;
 }
-
 #user-lists .group.host {
-    color: #5BF;
+    color: #7BF;
     background: linear-gradient(to right, hsla(210,100%,30%,.5), hsla(210,100%,40%,.5)) ;
 }
-
 /*#####[CO-HOSTS]#####*/
 
 .icon-chat-cohost {
-    background: url("http://plugtop.wz.cz/4xpAHa.png");
+    background: url("");
     background-position: 3 0;
 }
-
 .icon-chat-cohost + span, #user-lists .group.cohost ~ .user span, #dialog-user-role .role-menu .menu ul .cohost span {
-    color: #58f ;
+    color: #68f ;
 }
-
 #user-lists .group.cohost {
-    color: #58f ;
+    color: #68f ;
     background: linear-gradient(to right, hsla(222,100%,30%,0.5), hsla(222,100%,40%,0.5)) ;
 }
-
 /*#####[MANAGER]#####*/
 
 .icon-chat-manager {
-    background: url("http://plugtop.wz.cz/LNJyPX.png");
+    background: url("");
     background-position: 3 0;
 }
-
 .icon-chat-manager + span, #user-lists .group.manager ~ .user span, #dialog-user-role .role-menu .menu ul .manager span {
-    color: #E15 ;
+    color: #E20 ;
 }
-
 #user-lists .group.manager {
-    color: #E15;
+    color: #E20;
     background: linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) ;
 }
-
 /*#####[BOUNCER]#####*/
 
 .icon-chat-bouncer {
-    background: url("http://plugtop.wz.cz/Yh8lpk.png");
+    background: url("");
     background-position: 3 0;
 }
-
 .icon-chat-bouncer + span, #user-lists .group.bouncer ~ .user span, #dialog-user-role .role-menu .menu ul .bouncer span {
-    color: #F45 ;
+    color: #F40 ;
 }
-
 #user-lists .group.bouncer {
-    color: #F45;
+    color: #F40;
     background: linear-gradient(to right, hsla(10,100%,30%,.5), hsla(10,100%,40%,.5)) ;
 }
 
 /*#####[DJ]#####*/
 
 .icon-chat-dj {
-    background: url("http://plugtop.wz.cz/ff3ChJ.png");
+    background: url("");
     background-position: 3 0;
 }
 
 .icon-chat-dj + span, #user-lists .group.dj ~ .user span, #dialog-user-role .role-menu .menu ul .dj span {
-    color: #F95 ;
+    color: #F90 ;
 }
 
 #user-lists .group.dj {
-    color: #F95;
+    color: #F90;
     background: linear-gradient(to right, hsla(20,100%,30%,.5), hsla(30,100%,40%,.5)) ;
 }
 
 /*#####[SUBS]#####*/
 
 #user-rollover .meta.subscriber .status i {
-    background-image: url("http://plugtop.wz.cz/CSr2Tx.png");
+    background-image: url("");
     color: #E6CC26;
     background-position: -1 -1 ;
 }
@@ -119,7 +108,7 @@ i.icon.icon-room {
 /*#####[SILVERSCUBSRIBER]#####*/
 
 #user-rollover .meta.subscriber.silver .status i {
-    background-image: url("http://plugtop.wz.cz/8Brxr9.png");
+    background-image: url("");
     color: #DC24D9;
     background-position: -1 -1 ;
 }
