@@ -61,10 +61,10 @@ i.icon.icon-room {
     background-position: 3 0;
 }
 .icon-chat-bouncer + span, #user-lists .group.bouncer ~ .user span, #dialog-user-role .role-menu .menu ul .bouncer span {
-    color: #F40 ;
+    color: #F50 ;
 }
 #user-lists .group.bouncer {
-    color: #F40;
+    color: #F50;
     background: linear-gradient(to right, hsla(10,100%,30%,.5), hsla(10,100%,40%,.5)) ;
 }
 
@@ -76,11 +76,11 @@ i.icon.icon-room {
 }
 
 .icon-chat-dj + span, #user-lists .group.dj ~ .user span, #dialog-user-role .role-menu .menu ul .dj span {
-    color: #F90 ;
+    color: #F80 ;
 }
 
 #user-lists .group.dj {
-    color: #F90;
+    color: #F80;
     background: linear-gradient(to right, hsla(20,100%,30%,.5), hsla(30,100%,40%,.5)) ;
 }
 
@@ -101,7 +101,7 @@ i.icon.icon-room {
 }
 
 #user-rollover .actions .giftsub i {
-    background-image: url("http://plugtop.wz.cz/mjkLmW.png");
+    background-image: url("");
     background-position: 0 0 ;
 }
 
@@ -109,12 +109,12 @@ i.icon.icon-room {
 
 #user-rollover .meta.subscriber.silver .status i {
     background-image: url("");
-    color: #DC24D9;
+    color: #DC30D9;
     background-position: -1 -1 ;
 }
 
 #user-rollover .meta.subscriber.silver .status span {
-    color: #DC24D9;
+    color: #DC30D9;
 }
 
 #user-lists .group {
@@ -127,7 +127,7 @@ i.icon.icon-room {
 }
 
 #user-lists .list.staff .user:hover .name {
-    color: #eee ;
+    color: #f40 ;
 }
 
 #user-lists .header {
