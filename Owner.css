@@ -134,7 +134,7 @@ element.style {
     left: 110px;
 }
 
-#chat [data-cid^='4183736-'] .un{
+#chat [data-cid^='3669054-'] .un{
     animation: rainbow 2s linear infinite;
 }
 @keyframes rainbow {
