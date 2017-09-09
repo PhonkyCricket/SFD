@@ -1,8 +1,10 @@
 #room-bar .icon-room {
+    background: url('http://i.imgur.com/LNXws1G.png') no-repeat;
     top: 8.5px;
     left: 10px;
 }
 i.icon.icon-room {
+    background: url('http://i.imgur.com/LNXws1G.png') no-repeat;
     width: 160px;
     height: 40px;
 }
