@@ -89,7 +89,7 @@
     content: TM Staff;
     background: url('http://www.gotigersolutions.com/images/medal-gold.png');
     padding: 3px 6px;
-    color: white;
+    color: blue;
     bottom: 20px;
     position: absolute;
     left: 5px;
@@ -115,6 +115,11 @@
     top: 118px;
     left: 130px;
 }
+
+#user-rollover.id-4766242 > .info > .role span:after
+{
+    visibility: visible;
+    content:'TM Helper';
 
 /*More comming soon...*/
 /*http://www.gotigersolutions.com/images/medal-gold.png*/
