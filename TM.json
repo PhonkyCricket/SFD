@@ -1,6 +1,6 @@
 {
    "room":"Titan Music",
-   "author":"xUndisputed & Trigstur",
+   "author":"xUndisputed",
    "icon":"http://i.imgur.com/LNXws1G.png",
    "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.css",
    "rules":{
@@ -8,7 +8,7 @@
       "allowAutowoot":true,
       "allowAutojoin":false,
       "allowAutograb":true,
-      "allowSmartVote":true,
+      "allowSmartVote":false,
       "allowEmotes":true,
       "allowShowingMehs":false,
       "forceSmartVote":false
@@ -40,12 +40,14 @@
    "autocomplete":{
       "!add":"2",
       "!lock":"2",
+      "!unlock":"2",
       "!kick":"2",
       "!ban":"2",
       "!getban":"2",
       "!clearchat":"2",
       "!skip":"2",
       "!rcs":"1",
+      "!plug3":"1",
       "!staff":"1",
       "!website":"1"
    },
