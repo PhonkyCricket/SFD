@@ -12,13 +12,16 @@
 #room-settings .general-settings .option button.off {
     background: linear-gradient(to bottom right, #314673, #263344);
 }
+
 #room-settings .general-settings .option.enabled>button.off {
     color: white;
     background: #0A1328;
 }
+
 #room-settings .general-settings .option.enabled>button.on {
     background: linear-gradient(to bottom right, #314673, #263344);
 }
+
 #room-settings .general-settings .value {
     color: #6bd9ea;
     text-shadow: 1px;
@@ -27,76 +30,95 @@
     width: 60% ;
     overflow: hidden;
 }
+
 #room-settings .general-settings .value a {
     color: #4298a5 ;
     text-shadow: 1px;
 }
+
 #room-settings .general-settings .welcome {
-    margin-left: 22%;
+    margin-left: 20%;
 }
+
 #room-settings .general-settings .edit span {
     display: none;
 }
+
 #room-settings .general-settings .edit i {
     display: none;
 }
+
 #room-settings {
     background: url('https://i.imgur.com/4uxgKWE.jpg?1') no-repeat ;
     background-size: cover ;
 }
+
 #room-settings .general-settings .option button {
-    border-radius: 5px;
+    border-radius: 20px;
     background: #0A1328;
-    color: white;
+    color: blue;
 }
+
 #room-settings .general-settings .description {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.05);
     text-align: center;
     font-weight: bold;
     width: 60% ;
-    border-radius: 30px;
-    margin-left: 22%;
+    border-radius: 50px;
+    margin-left: 20%;
     height: 50% ;
 }
+
 #room-settings .general-settings .option .title {
     color: #c2f2f9;
 }
+
 #room-settings .general-settings .panel .title {
     display: none;
 }
+
 #room-settings .general-settings .description textarea {
-    min-width: 50% ;
-    max-width: 50% ;
-    width: 50% ;
+    min-width: 50%;
+    max-width: 50%;
+    width: 50%;
 }
+
 #room-settings .general-settings .description .value {
-    width: 100% ;
+    width: 70% ;
     height: 100% ;
 }
+
 #room-settings .general-settings .description .value a:nth-of-type(7) {
     display: none;
 }
+
 .dropdown dt {
     background: #0A1328 ;
 }
+
 .dropdown dd .row {
     background: #0A1328 ;
     color: white;
 }
+
 #room-settings-menu {
     background: #0A1328 ;
-    opacity: 0.50;
-    filter: alpha(opacity=70);
+    opacity: 0.5;
+    filter: alpha(opacity=100);
     border-radius: 20px;
 }
+
 #room-settings-menu .item.selected {
-    background: rgba(37, 58, 109, 0.6);
-    border-radius: 7px;
+    background: rgba(255,255,0
+    255, 0.5);
+    border-radius: 255px;
     color: white;
 }
+
 #room-settings-menu .title {
     color: #5b9eea;
 }
+
 #chat-messages .from .icon {
     position: relative;
     top: 2px;
@@ -104,16 +126,15 @@
     float: left;
     margin-right: 4px;
 }
+
 element.style {
-    height: 150px;
+    height: 200px ;
 }
+
 #user-rollover .meta {
-    min-height: 150px;
-}
-element.style { 
-    height: 150px !important;
+    min-height: 200px;
 }
 
 #user-rollover.role-cohost .role span {
-    color: #00b5e6 !important;
+    color: #00b5e6 ;
 }
