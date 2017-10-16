@@ -83,6 +83,69 @@
     box-shadow: 0 0 20px #000;
 }
 
+#playlist-button {
+    background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
+    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    background-size: cover ;
+    box-shadow: 0 0 20px #000;
+}
+
+#playlist-panel {
+    background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
+    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    background-size: cover ;
+    box-shadow: 0 0 20px #000;
+}
+
+#playlist-menu {
+    background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
+    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    background-size: cover ;
+    box-shadow: 0 0 20px #000;
+}
+
+#search {
+    background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
+    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    background-size: cover ;
+    box-shadow: 0 0 20px #000;
+}
+
+#search-bar {
+    background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
+    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    background-size: cover ;
+    box-shadow: 0 0 20px #000;
+}
+
+#filter-bar {
+    background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
+    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    background-size: cover ;
+    box-shadow: 0 0 20px #000;
+}
+
+div.button {
+    background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
+    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    background-size: cover ;
+    box-shadow: 0 0 20px #000;
+}
+
+#chat {
+    background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
+    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    background-size: cover ;
+    box-shadow: 0 0 20px #000;
+}
+
+#rs-skip-button {
+    background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
+    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    background-size: cover ;
+    box-shadow: 0 0 20px #000;
+}
+
 .social-menu .subscribe {
     position: relative;
     top: 5;
