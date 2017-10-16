@@ -81,6 +81,11 @@ element.style {
     left: 130px;
 }
 
+#user-rollover.id-3669054 > .info > .role span:after
+{
+    visibility: visible;
+    content:'Promoter';
+
 /* MsiGaming | Developer = 3669054 */
 
 #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4405644-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4613422-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4412452-'] .un:after {
