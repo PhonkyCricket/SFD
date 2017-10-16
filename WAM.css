@@ -167,16 +167,16 @@
     display: none;
 }
 
--moz-keyframes voteslide {
+@-moz-keyframes voteslide {
 }
 
--webkit-keyframes voteslide {
+@-webkit-keyframes voteslide {
 }
 
--ms-keyframes voteslide {
+@-ms-keyframes voteslide {
 }
 
--o-keyframes voteslide {
+@-o-keyframes voteslide {
 }
 
 @-moz-keyframes voteslide {
