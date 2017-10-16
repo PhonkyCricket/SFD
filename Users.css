@@ -1,66 +1,81 @@
 #room-bar .icon-room {
-    background: url('http://i.imgur.com/LNXws1G.png') no-repeat;
-    top: 8.5px;
-    left: 10px;
+    background: url('https://i.imgur.com/1OMeuwu.png') no-repeat;
+    top: 32px;
+    left: 32px;
 }
+
 i.icon.icon-room {
-    background: url('http://i.imgur.com/LNXws1G.png') no-repeat;
-    width: 160px;
-    height: 40px;
+    background: url('https://i.imgur.com/1OMeuwu.png') no-repeat;
+    width: 32px;
+    height: 32px;
 }
+
 .icon-room {
-    background: url('http://i.imgur.com/LNXws1G.png') no-repeat;
-    width: 0px;
-    height: 0px;
-    background-size: 75%;
+    background: url('https://i.imgur.com/1OMeuwu.png') no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 75%
+;
 }
+
 /*#####[HOST]#####*/
 
 .icon-chat-host {
-    background-position: 3 0;
+    background-position: 4;
 }
+
 .icon-chat-host + span, #user-lists .group.host ~ .user span, #dialog-user-role .role-menu .menu ul .host span {
-    color: #7BF ;
+    color: #00e64d ;
 }
+
 #user-lists .group.host {
-    color: #7BF;
-    background: linear-gradient(to right, hsla(210,100%,30%,.5), hsla(210,100%,40%,.5)) ;
+    color: #00e64d;
+    background: linear-gradient(to right, hsla(140,100%,30%,.4), hsla(255,100%,30%,.4)) ;
 }
+
 /*#####[CO-HOSTS]#####*/
 
 .icon-chat-cohost {
     background-position: 3 0;
 }
+
 .icon-chat-cohost + span, #user-lists .group.cohost ~ .user span, #dialog-user-role .role-menu .menu ul .cohost span {
-    color: #68f ;
+    color: #00e64d ;
 }
+
 #user-lists .group.cohost {
-    color: #68f ;
-    background: linear-gradient(to right, hsla(222,100%,30%,0.5), hsla(222,100%,40%,0.5)) ;
+    color: #00e64d ;
+    background: linear-gradient(to right, hsla(0,230%,77%,0.4), hsla(140,100%,45%,0.4)) ;
 }
+
 /*#####[MANAGER]#####*/
 
 .icon-chat-manager {
     background-position: 3 0;
 }
+
 .icon-chat-manager + span, #user-lists .group.manager ~ .user span, #dialog-user-role .role-menu .menu ul .manager span {
-    color: #E20 ;
+    color: #ff0000 ;
 }
+
 #user-lists .group.manager {
-    color: #E20;
-    background: linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) ;
+    color: #ff0000;
+    background: linear-gradient(to right, hsla(0,100%,40%,.4), hsla(255,100%,40%,.4)) ;
 }
+
 /*#####[BOUNCER]#####*/
 
 .icon-chat-bouncer {
     background-position: 3 0;
 }
+
 .icon-chat-bouncer + span, #user-lists .group.bouncer ~ .user span, #dialog-user-role .role-menu .menu ul .bouncer span {
-    color: #F50 ;
+    color: #F55 ;
 }
+
 #user-lists .group.bouncer {
-    color: #F50;
-    background: linear-gradient(to right, hsla(10,100%,30%,.5), hsla(10,100%,40%,.5)) ;
+    color: #f55;
+    background: linear-gradient(to right, hsla(0,100%,65%,.4), hsla(255,100%,65%,.4)) ;
 }
 
 /*#####[DJ]#####*/
@@ -70,12 +85,12 @@ i.icon.icon-room {
 }
 
 .icon-chat-dj + span, #user-lists .group.dj ~ .user span, #dialog-user-role .role-menu .menu ul .dj span {
-    color: #F80 ;
+    color: #F90 ;
 }
 
 #user-lists .group.dj {
-    color: #F80;
-    background: linear-gradient(to right, hsla(20,100%,30%,.5), hsla(30,100%,40%,.5)) ;
+    color: #F90;
+    background: linear-gradient(to right, hsla(36,100%,45%,.4), hsla(255,153%,45%,.4)) ;
 }
 
 /*#####[SUBS]#####*/
@@ -114,7 +129,7 @@ i.icon.icon-room {
 }
 
 #user-lists .user:hover {
-    background: linear-gradient(to right, hsla(200,100%,20%,.5), hsla(200,100%,40%,.5)) ;
+    background: linear-gradient(to right, hsla(25,10%,20%,.5), hsla(25,10%,20%,.5)) ;
 }
 
 #user-lists .list.staff .user:hover .name {
@@ -135,31 +150,31 @@ i.icon.icon-room {
 
 #user-lists .header .button.selected {
     border-radius: 0px;
-    background: radial-gradient(hsla(210,10%,50%,.5), hsla(210,10%,40%,.3));
+    background: radial-gradient(hsla(25,10%,50%,.5), hsla(25,10%,50%,.3));
     border: none ;
 }
 
 .dialog {
     border-radius: 20px;
-    background: hsla(210,10%,20%,.5);
+    background: hsla(25,10%,20%,.5);
 }
 
 .dialog .dialog-body {
-    background: hsla(210,10%,5%,.8) ;
+    background: hsla(25,10%,20%,.8) ;
 }
 
 .dialog .cancel {
     border-radius: 0 0 0 20px;
-    background: linear-gradient(hsla(15,80%,50%,.5), hsla(15,80%,30%,.5)) ;
+    background: linear-gradient(hsla(25,10%,20%,.5), hsla(25,10%,20%,.5)) ;
 }
 
 .dialog .submit {
     border-radius: 0 0 20px 0;
-    background: linear-gradient(hsla(210,100%,50%,.5), hsla(210,100%,30%,.5)) ;
+    background: linear-gradient(hsla(25,10%,20%,.5), hsla(25,10%,20%,.5)) ;
 }
 
 #dialog-restricted-media .divider {
-    background: hsl(225,50%,20%);
+    background: hsl(25,10%,20%);
 }
 
 #dialog-restricted-media .submit {
@@ -167,7 +182,7 @@ i.icon.icon-room {
 }
 
 #dialog-level-up {
-    background: linear-gradient(hsl(210,10%,20%), hsl(210,10%,10%));
+    background: linear-gradient(hsl(25,10%,20%), hsl(25,10%,20%));
     box-shadow: 0 0 20px #000;
 }
 
@@ -189,5 +204,6 @@ i.icon.icon-room {
 }
 
 #dialog-user-role .button.cancel span {
-    color: hsl(15,80%,50%);
+    color: hsl(25,10%,20%);
 }
+
