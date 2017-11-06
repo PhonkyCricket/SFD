@@ -47,6 +47,11 @@
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
+    
+    #user-rollover .meta {
+    min-height: 138px;
+}
+    
 }
 
 #woot.selected, #woot:hover {
