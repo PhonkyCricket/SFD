@@ -69,7 +69,7 @@
     z-index: 90;
     width: 100%;
     height: 50px;
-    background-image: url(https://i.imgur.com/6NsOwF3.jpg?1);
+    background-image: url(https://i.imgur.com/6FWQBBR.jpg?1);
     background: linear-gradient(rgba(25,0,65, 0.1), rgba(25,0,65, 0.1)) ;
     -webkit-box-shadow: inset 0 2px 0 -1px #0a0a0a;
     -moz-box-shadow: inset 0 2px 0 -1px #0a0a0a;
@@ -78,49 +78,49 @@
 
 .app-header {
     background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
-    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    url('https://i.imgur.com/6FWQBBR.jpg?1') no-repeat ;
     background-size: cover ;
     box-shadow: 0 0 20px #000;
 }
 
 #playlist-button {
     background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
-    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    url('https://i.imgur.com/6FWQBBR.jpg?1') no-repeat ;
     background-size: cover ;
     box-shadow: 0 0 20px #000;
 }
 
 #playlist-panel {
     background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
-    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    url('https://i.imgur.com/6FWQBBR.jpg?1') no-repeat ;
     background-size: cover ;
     box-shadow: 0 0 20px #000;
 }
 
 #playlist-menu {
     background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
-    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    url('https://i.imgur.com/6FWQBBR.jpg?1') no-repeat ;
     background-size: cover ;
     box-shadow: 0 0 20px #000;
 }
 
 #search {
     background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
-    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    url('https://i.imgur.com/6FWQBBR.jpg?1') no-repeat ;
     background-size: cover ;
     box-shadow: 0 0 20px #000;
 }
 
 #search-bar {
     background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
-    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    url('https://i.imgur.com/6FWQBBR.jpg?1') no-repeat ;
     background-size: cover ;
     box-shadow: 0 0 20px #000;
 }
 
 #filter-bar {
     background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
-    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    url('https://i.imgur.com/6FWQBBR.jpg?1') no-repeat ;
     background-size: cover ;
     box-shadow: 0 0 20px #000;
 }
@@ -134,14 +134,14 @@ div.button {
 
 #chat {
     background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
-    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    url('https://i.imgur.com/6FWQBBR.jpg?1') no-repeat ;
     background-size: cover ;
     box-shadow: 0 0 20px #000;
 }
 
 #rs-skip-button {
     background: linear-gradient(rgba(25,0,65 ,0.1), rgba(25,0,65,0.1)),
-    url('https://i.imgur.com/6NsOwF3.jpg?1') no-repeat ;
+    url('https://i.imgur.com/6FWQBBR.jpg?1') no-repeat ;
     background-size: cover ;
     box-shadow: 0 0 20px #000;
 }
@@ -151,7 +151,7 @@ div.button {
     top: 5;
     float: right;
     padding: 15px 15px;
-    background-image: url("https://i.imgur.com/6NsOwF3.jpg?1");
+    background-image: url("https://i.imgur.com/6FWQBBR.jpg?1");
     color: #eee;
     background-position-x: center;
     font-weight: 400;
@@ -178,7 +178,7 @@ div.button {
 }
 
 #history-button, #rs-skip-button, #waitlist .user, #app-menu .list, .badge-box, .thumb .background {
-    background-image: url(https://i.imgur.com/6NsOwF3.jpg?1);
+    background-image: url(https://i.imgur.com/6FWQBBR.jpg?1);
 }
 
 #app-menu .list .item, #app-menu .appbadges a::before {
