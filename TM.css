@@ -9,18 +9,6 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Custom.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/WAM.css");
 
-#room-bar .icon-room {
-    background: url('https://i.imgur.com/1OMeuwu.png') no-repeat;
-    top: 32px;
-    left: 32px;
-}
-
-i.icon.icon-room {
-    background: url('https://i.imgur.com/1OMeuwu.png') no-repeat;
-    width: 32px;
-    height: 32px;
-}
-
 .icon-room {
     background: url('https://i.imgur.com/1OMeuwu.png') no-repeat;
     width: 32px;
