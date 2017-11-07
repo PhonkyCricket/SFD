@@ -27,7 +27,7 @@
     text-shadow: 1px;
     text-align: center;
     font-weight: bold;
-    width: 60%;
+    width: 70%;
     overflow: hidden;
 }
 
@@ -37,7 +37,7 @@
 }
 
 #room-settings .general-settings .welcome {
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 #room-settings .general-settings .edit span {
@@ -63,10 +63,10 @@
     background: rgba(1, 1, 1, 0.8);
     text-align: center;
     font-weight: bold;
-    width: 60% ;
+    width: 50%;
     border-radius: 50px;
     margin-left: 20%;
-    height: 50% ;
+    height: 45%;
 }
 
 #room-settings .general-settings .option .title {
@@ -78,13 +78,13 @@
 }
 
 #room-settings .general-settings .description textarea {
-    min-width: 50%;
-    max-width: 50%;
-    width: 50%;
+    min-width: 45%;
+    max-width: 45%;
+    width: 45%;
 }
 
 #room-settings .general-settings .description .value {
-    width: 50% ;
+    width: 80% ;
     height: 100% ;
 }
 
@@ -118,12 +118,3 @@
 #room-settings-menu .title {
     color: #5b9eea;
 }
-
-#chat-messages .from .icon {
-    position: relative;
-    top: 1px;
-    z-index: 0;
-    float: left;
-    margin-right: 4px;
-}
-
