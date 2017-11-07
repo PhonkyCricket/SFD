@@ -10,30 +10,30 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/WAM.css");
 
 #room-settings .general-settings .option button.off {
-    background: linear-gradient(to bottom right, #314673, #263344);
+    background: linear-gradient(to bottom right, #000000, #000000);
 }
 
 #room-settings .general-settings .option.enabled>button.off {
     color: white;
-    background: #0A1328;
+    background: #000000;
 }
 
 #room-settings .general-settings .option.enabled>button.on {
-    background: linear-gradient(to bottom right, #314673, #263344);
+    background: linear-gradient(to bottom right, #000000, #000000);
 }
 
 #room-settings .general-settings .value {
-    color: #6bd9ea;
+    color: #00ff00;
     text-shadow: 1px;
     text-align: center;
     font-weight: bold;
-    width: 60% ;
+    width: 60%;
     overflow: hidden;
 }
 
 #room-settings .general-settings .value a {
-    color: #4298a5 ;
-    text-shadow: 1px;
+    color: #00ff00;
+    text-shadow: 20px;
 }
 
 #room-settings .general-settings .welcome {
@@ -54,13 +54,13 @@
 }
 
 #room-settings .general-settings .option button {
-    border-radius: 20px;
-    background: #0A1328;
-    color: blue;
+    border-radius: 50px;
+    background: #000000;
+    color: white;
 }
 
 #room-settings .general-settings .description {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(1, 1, 1, 0.8);
     text-align: center;
     font-weight: bold;
     width: 60% ;
@@ -70,7 +70,7 @@
 }
 
 #room-settings .general-settings .option .title {
-    color: #c2f2f9;
+    color: #ff0000;
 }
 
 #room-settings .general-settings .panel .title {
@@ -84,7 +84,7 @@
 }
 
 #room-settings .general-settings .description .value {
-    width: 70% ;
+    width: 50% ;
     height: 100% ;
 }
 
@@ -109,8 +109,8 @@
 }
 
 #room-settings-menu .item.selected {
-    background: rgba(255,255,0
-    255, 0.5);
+    background: rgba(255,255,9
+    255, 0.9);
     border-radius: 255px;
     color: white;
 }
@@ -121,20 +121,9 @@
 
 #chat-messages .from .icon {
     position: relative;
-    top: 2px;
+    top: 1px;
     z-index: 0;
     float: left;
     margin-right: 4px;
 }
 
-element.style {
-    height: 200px ;
-}
-
-#user-rollover .meta {
-    min-height: 138px;
-}
-
-#user-rollover.role-cohost .role span {
-    color: #00b5e6 ;
-}
