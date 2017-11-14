@@ -1,57 +1,45 @@
 {
-   "room":"Titan Music",
-   "author":"xUndisputed & Aw, Maik!",
-   "icon":"https://i.imgur.com/1OMeuwu.png",
-   "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.css",
-   "rules":{
-      "allowAutorespond":false,
-      "allowAutowoot":true,
-      "allowAutojoin":false,
-      "allowAutograb":true,
-      "allowSmartVote":false,
-      "allowEmotes":true,
-      "allowShowingMehs":false,
-      "forceSmartVote":false
-   },
-   "ccc":{
-      "admin":"",
-      "ambassador":"",
-      "host":"#39c9f6",
-      "cohost":"#39c9f6",
-      "manager":"#E15",
-      "bouncer":"#FFB042",
-      "rdj":"#F95",
-      "subscriber":"#919191",
-      "silversubscriber":"#C1C100"
-   },
-   "images":{
-      "background":"https://i.imgur.com/6FWQBBR.jpg",
-      "playback":"",
-      "admin":"",
-      "ambassador":"",
-      "host":"",
-      "cohost":"",
-      "manager":"",
-      "bouncer":"",
-      "rdj":"",
-      "subscriber":"",
-      "silversubscriber":""
-   },
-   "autocomplete":{
-      "!add":"2",
-      "!lock":"2",
-      "!unlock":"2",
-      "!kick":"2",
-      "!ban":"2",
-      "!getban":"2",
-      "!clearchat":"2",
-      "!skip":"2",
-      "!rcs":"1",
-      "!plug3":"1",
-      "!staff":"1",
-      "!website":"1"
-   },
-   "emotes":{
-      "emote_name":"null"
-   }
+	"room": "Titan Music",
+	"author": "xUndisputed & Aw, Maik!",
+	"icon": "https://i.imgur.com/JUXBLcA.png?1",
+	"css": "https://rawgit.com/TitanMusicDev/TMCss/master/TM.css",
+	"rules": {
+		"allowAutorespond": true,
+		"allowAutowoot":    true,
+		"allowAutojoin":    true,
+		"allowAutograb":    true,
+		"allowSmartVote":   true,
+		"allowEmotes":      true,
+		"allowShowingMehs": true,
+		"forceSmartVote":   false
+	},
+	"ccc": {
+		"admin":            "#AD1F1F",
+		"ambassador":       "#E9812D",
+		"host":             "#ffffff",
+		"cohost":           "#ffffff",
+		"manager":          "#990000",
+		"bouncer":          "#FACC2E",
+		"rdj":              "#b3b3b3",
+		"subscriber":       "#8694b2",
+		"silversubscriber": "#8694b2",
+		"friend":           "#A68CD9",
+		"you":              "0AF"
+	},
+	"images": {
+		"background":       "https://i.imgur.com/6FWQBBR.jpg",
+		"playback":         "null",
+		"admin":            "null",
+		"ambassador":       "null",
+		"host":             "https://i.imgur.com/LaiPfo7.png",
+		"cohost":           "https://i.imgur.com/O7Eb30Z.png",
+		"manager":          "https://i.imgur.com/LKl1TjV.png",
+		"bouncer":          "https://i.imgur.com/8plo73x.png",
+		"rdj":              "https://i.imgur.com/KJC6J8C.png",
+		"subscriber":       "http://i.imgur.com/gYyGQel.png",
+		"silversubscriber": "http://i.imgur.com/nFbwvVJ.png"
+	},
+	"emotes": {
+		"emote_name": null
+	}
 }
