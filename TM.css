@@ -8,6 +8,8 @@
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Custom%20PP.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/Custom.css");
 @import url("https://rawgit.com/TitanMusicDev/TMCss/master/WAM.css");
+@import url("https://rawgit.com/TitanMusicDev/TMCss/master/Theme");
+
 
 #room-settings .general-settings .option button.off {
     background: linear-gradient(to bottom right, #000000, #000000);
