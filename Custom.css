@@ -1,1 +1,11 @@
+/* COLOR */
 
+.dark-label, .user-content.profile .meta .joined, #user-settings .container .cap .value, .user-content.profile .meta .link .url a, .user-content.profile .meta .link .url a:visited {
+    color: #cccc00;
+}
+
+/* BACKGROUND-COLOR */
+
+#footer .bar-button .section .chevron:after, #footer .bar-button .section .chevron:before, #chat-messages::-webkit-scrollbar-thumb, #footer-user .info .bar .progress, .experience .xp .bar .progress, #rcs-progress-container .bar, .votes-rs .title.grab, .jspDrag {
+    background-color: #cccc00 ;
+}
