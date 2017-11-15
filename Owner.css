@@ -1,4 +1,4 @@
-/* MsiGaming | Developer = 3669054 */
+/* xUndisputed = 3669054 */
 
 #user-rollover.id-3669054 .badge-box > i.bdg {
     border-radius: 10px;
@@ -7,7 +7,7 @@
     background-position: center center;
 }
 
-/* MsiGaming | Developer = 3669054 */
+/* xUndisputed = 3669054 */
 
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
     height: 200px;
@@ -67,9 +67,9 @@ element.style {
 #user-rollover.id-3669054 > .info > .role span:after
 {
     visibility: visible;
-    content:'/Co-Host';
+    content:'/Host';
 
-/* MsiGaming | Developer = 3669054 */
+/* xUndisputed = 3669054 */
 
 #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4405644-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4613422-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4412452-'] .un:after {
     content: 'Developer/Css/Theme';
@@ -84,7 +84,7 @@ element.style {
     background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
 }
 
-/* MsiGaming | Developer = 3669054 */
+/* xUndisputed = 3669054 */
 
 #user-rollover.id-3669054 .meta {
     height: 200px;
