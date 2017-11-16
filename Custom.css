@@ -182,3 +182,71 @@
     width: 0px;
     height: 0px;
 }
+/* Footer right buttons */
+#footer-user .buttons .button,
+#footer-user .buttons .button.store,
+/* Subscribe button */
+.social-menu .subscribe,
+/* Auto Complete */
+.chat-suggestion-item,
+/* Dj Button */
+#dj-button,
+
+/* Playlist Button */
+#playlist-button,
+/* Playlist Menu left button */
+#playlist-menu .menu .row,
+
+/* Menu left Profile */
+#user-menu .item,
+/* DropDown Profile */
+.dropdown dd .row,
+
+/* User info buttons */
+#user-rollover .actions .action,
+
+/* TOP right Buttons */
+#header-panel-bar .header-panel-button,
+/* Itens menu PLUG */
+#app-menu .list .item,
+/* Skip and History Button */
+#rs-skip-button,
+#history-button,
+/* User List */
+#user-lists .list .user,
+#user-lists .header .button,
+
+/* Join community button */
+.communities .grid .cell .meta .join
+
+{
+	-webkit-box-shadow: inset 0 0 0 0 #d61717;
+			box-shadow: inset 0 0 0 0 #d61717;
+	-webkit-transition: all .5s ease-out;
+			transition: all .5s ease-out;
+}
+
+.communities .grid .cell {
+  background: #111;
+  border-radius: 25px 0 0 0;
+}
+
+.communities .grid .cell .bar {
+  background: rgba(0,0,0,.8);
+  border-radius: 25px 0 0 0;
+}
+
+.communities .grid .cell .favorite {
+  border-radius: 25px 0 0 0;
+  width: 75px;
+} .communities .grid .cell .favorite i {
+  left: 25px;
+}
+
+.communities .grid .cell .meta {
+  background: #111;
+}
+
+.communities .grid .cell:hover>.meta {
+  background: rgba(0,0,0,.8);
+}
