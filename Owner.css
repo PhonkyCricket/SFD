@@ -2,21 +2,9 @@
     display: none;
 }
 
-#user-rollover.id-3669054 .info .badge-box:after {
-    content: "BOSS";
-    position: absolute;
-    top: 6px;
-    left: 228px;
-    color: #00e600;
-    font-weight: bold;
-    font-size: 13px;
-}
-
 #user-rollover.id-3669054 .info .role i {
     display: none;
 }
-
-/* BOSS */
 
 #chat-messages [data-cid^="3669054-"] .timestamp, #chat [data-cid^="3669054-"].emote .timestamp {
     color: #00e600 ;
