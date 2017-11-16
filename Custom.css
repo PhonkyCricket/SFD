@@ -279,7 +279,7 @@
 }
 
 /*--------------------------------------------------------------------------------\
-|		Backgrounds 
+|		Backgrounds CORES
  \--------------------------------------------------------------------------------*/
 
 /* BLACK TRANSPARENT 75 OPACITY */
@@ -297,11 +297,11 @@
 /* BLACK TRANSPARENT 30 OPACITY */
 
 #chat .cm:nth-child(2n+1) {
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.9);
 }
 
 /*--------------------------------------------------------------------------------\
-|		Backgrounds 
+|		Backgrounds DEGRADÊ
  \--------------------------------------------------------------------------------*/
 
 /*  */
@@ -315,13 +315,13 @@
 /* TO LEFT > #000 */
 
 #user-menu {
-    background: linear-gradient(to right, rgba(214, 23, 23, .3), rgba(0,0,0,.5));
+    background: linear-gradient(to right, rgba(200, 40, 5, .5), rgba(0,0,0,.5));
 }
 
 /* TO LEFT BOTTOM > #000 */
 
 #footer-user .info, .communities .grid .cell .favorite {
-    background: linear-gradient(to left bottom, rgba(214, 23, 23, 1), #000);
+    background: linear-gradient(to left bottom, rgba(200, 40, 5, 5), #000);
 }
 
 /*--------------------------------------------------------------------------------\
