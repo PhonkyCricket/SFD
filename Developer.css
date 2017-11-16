@@ -1,1 +1,53 @@
+#user-rollover.is-staff.id-5485122 .info .role span {
+    display: none;
+}
 
+#user-rollover.id-5485122 .info .role i {
+    display: none;
+}
+
+#chat-messages [data-cid^="5485122-"] .timestamp, #chat [data-cid^="5485122-"].emote .timestamp {
+    color: #00e600 ;
+}
+
+#user-lists .list .user.id-5485122 .name:after, #user-rollover.id-5485122 .meta .username:after, #chat [data-cid^='5485122-'] .un:after {
+    content: "DEV/CSS";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(172, 118, 255,.3);
+    border-radius: 5px;
+    color: #00e600;
+    font-size: 10px;
+}
+
+#chat [data-cid^="3669054-"].message .timestamp {
+    color: #00e600 ;
+}
+
+#chat [data-cid^="5485122-"] .icon, #chat .id-5485122 .icon {
+    display: none ;
+}
+
+#user-rollover.id-5485122 .username, #user-lists .list .user.id-5485122 .name, #user-rollover.id-5485122 .username, #chat [data-cid^='5485122-'] .un {
+    color: #00e600 ;
+}
+
+#chat-messages [data-cid^="5485122-"] .text {
+    font-weight: bold;
+}
+
+#chat-messages [data-cid^="5485122-"] .msg {
+    font-weight: bold;
+}
+
+#chat [data-cid^='5485122-'] {
+    background: transparent;
+    box-shadow: inset 0 1.5px 0 rgba(172, 118, 255,.3), inset 0 -1.5px 0 rgba(172, 118, 255,.3);
+}
+
+#chat [data-cid^='5485122-'] .from {
+    background: linear-gradient(to right, rgba(172, 118, 255,.3), transparent);
+    padding: 3px 0 3px 10px;
+    border-radius: 10px 0 0 10px;
+}
