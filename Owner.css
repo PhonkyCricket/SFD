@@ -1,28 +1,19 @@
 /* xUndisputed = 3669054 */
 
-#user-rollover.id-3669054 .badge-box > i.bdg {
-    border-radius: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-/* xUndisputed = 3669054 */
-
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 200px;
+    height: 150px;
 }
 
 element.style {
-    height: 200px;
+    height: 150px;
 }
 
 #user-rollover .meta {
-    min-height: 200px;
+    min-height: 150px;
 }
 
 #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before, #chat [data-cid^='3669054-'] .un:before {
-    content: url("");
+    content: url("https://i.imgur.com/tT2beq5.png?1");
     top: 3px;
     left: -3px;
     position: relative;
@@ -33,20 +24,8 @@ element.style {
     position: relative;
 }
 
-#chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after, #chat [data-cid^='3669054-'] .un:hover:after {
-    content: '';
-    background: url('');
-    padding: 3px 6px;
-    color: ;
-    bottom: 20px;
-    position: absolute;
-    left: 5px;
-    width: 79px;
-    height: 26px;
-}
-
 #user-rollover.id-3669054 .meta, #user-rollover.id-3669054 .meta {
-    height: 200px ;
+    height: 150px ;
 }
 
 #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before, #user-rollover.id-3669054 .meta:before {
@@ -64,60 +43,8 @@ element.style {
     left: 130px;
 }
 
-#user-rollover.id-3669054 > .info > .role span:after
-{
+#user-rollover.id-3669054 > .info > .role span:after {
     visibility: visible;
-    content:'/Host';
-
-/* xUndisputed = 3669054 */
-
-#user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4405644-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4613422-'] .un:after, #user-lists .list .user.id-3669054 .name:after, #chat [data-cid^='4412452-'] .un:after {
-    content: 'Developer/Css/Theme';
-    display: inline-block;
-    margin: 4px;
-    padding: 0px;
-    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
-    border-radius: 10px;
-    font-size: 10px;
-}
-#user-lists .list .user.id-3669054:hover .name:after, #chat [data-cid^='3669054-'] .un:hover:after, #user-lists .list .user.id-3669054:hover .name:after, #chat [data-cid^='3669054-'] .un:hover:after, #user-lists .list .user.id-3669054:hover .name:after, #chat [data-cid^='3669054-'] .un:hover:after {
-    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
-}
-
-/* xUndisputed = 3669054 */
-
-#user-rollover.id-3669054 .meta {
-    height: 200px;
-}
-
-element.style {
-    height: 200px;
-}
-
-element.style {
-    weight: 40.000%;
-
-#user-rollover .meta {
-    min-height: 200px;
-}
-
-#user-rollover.id-3669054 .meta:before {
-    content: 'CSS/Devs';
-    top: 136px;
-    left: 110px;
-    position: absolute;
-    display: inline-block;
-    padding: 0px;
-    color: ;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    border-radius: 0px;
-    font-size: 10px;
-}
-
-#user-rollover.id-3669054 .meta:after {
-    content: 'TM Developer';
-    color: blue;
-    position: absolute;
-    top: 121px;
-    left: 110px;
+    content: '/Host';
+    /* xUndisputed = 3669054 */
 }
