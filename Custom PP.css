@@ -1,1 +1,247 @@
 
+/* icon */
+.icon {
+  background-image: url("https://theme.edm-and-indie.com/@/imagens/todos-iconesv1.png");
+}
+
+/* app */
+#app {
+    overflow-y: hidden;
+}
+
+/* social */
+.social-menu .icon {
+    cursor: pointer;
+}
+
+.buttons:hover > .button,
+#user-menu:hover > .item,
+.list:hover > .item, .list:hover > a .item,
+#header-panel-bar:hover > .header-panel-button {
+  opacity: .3;
+  transition: all .5s ease-out;
+}
+
+#user-menu .item:hover,
+#footer-user .button:hover,
+.list .item:hover, .list a .item:hover,
+#header-panel-bar .header-panel-button:hover {
+  opacity: 1;
+} 
+
+/* chat */
+#chat .delete-button,
+.radiantimg-delete,
+.rcs-delete {
+  border-radius: 10px;
+  padding: 8px 10px !important;
+}
+
+/* rcs */
+#rcs-appright-button { left:  286px !important; }
+#waitlist-button     { width: 101px !important; }
+#rs-skip-button      { right: 54px  !important; }
+
+/* chat
+#chat-messages .text {
+  line-height: 1.5;
+}*/
+
+/* Input text */
+#chat-input {
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.20);
+    -webkit-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.20);
+}
+
+#chat-input.focused {
+    -webkit-box-shadow: 0 0 0 1px #d61717 !important;
+            box-shadow: 0 0 0 1px #d61717 !important;
+}
+
+.focused {
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 3px rgb(66, 165, 220);
+    -webkit-box-shadow: 0 0 3px rgb(66, 165, 220);
+}
+
+/* Is you */
+#chat .from.you .un {
+    color: #d61717;
+}
+
+/* Wait list */
+#waitlist .list.manager .user .meta {
+    border-bottom: 1px solid rgba(148, 103, 33, .3);
+}
+
+/* Emotes*/
+.radiantemote {
+    max-height: 150px !important;
+}
+
+/* 
+#chat span.emoji-sizer {
+  width: 25px !important;
+  height: 25px !important;
+}*/
+
+#tooltip span,
+#toast-notifications .notification .right,
+#toast-notifications .notification .left {
+    background: rgba(214, 23, 23, 0.8) !important;
+	border-radius: 25px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+#tooltip .corner {
+  border-left-color: rgba(214, 23, 23, 0.8) !important;
+  border-top-color: rgba(214, 23, 23, 0.8) !important;
+}
+
+#tooltip.right .corner {
+  border-right-color: rgba(214, 23, 23, 0.8) !important;
+  border-top-color: rgba(214, 23, 23, 0.8) !important;
+  border-bottom: 10px solid transparent !important;
+  border-left: 10px solid transparent !important;
+}
+
+#toast-notifications .notification {
+  background: #222;
+}
+
+#toast-notifications .notification .right,
+#toast-notifications .notification .left {
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+ .app-header {
+    background: linear-gradient(0deg, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,.8)), to(rgba(0,0,0,.3)));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: -o-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    -webkit-box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+            box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+}
+
+#footer {
+    background: -webkit-linear-gradient(top, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: -o-linear-gradient(top, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: linear-gradient(180deg, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    -webkit-box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+            box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+}
+
+#footer-user .buttons {
+    background: -webkit-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: -o-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3));
+}
+
+ .experience .xp .next-level,
+#user-settings .container .item span {
+  color: #fff;
+}
+
+.user-content .header span {
+  color: #ccc;
+}
+
+#user-inventory .history .legend,
+.user-content.profile .meta .link .label,
+#user-settings .container .cap .title {
+  color: #cecece;
+}
+
+#user-settings .container .cap .value {
+  font-weight: bold;
+}
+
+.user-content.profile .points .label {
+  border-radius: 5px;
+    background: rgba(0,0,0,.5);
+    padding: 3px 10px;
+    color: #cecece;
+    border: 2px solid #d61717;
+    margin-top: 3px;
+}
+
+#app-menu .list .item {
+  -webkit-box-shadow: inset 0 -1px 0 0 rgba(255,255,255,.1);
+      box-shadow: inset 0 -1px 0 0 rgba(255,255,255,.1);
+}
+
+ #room-settings-menu .title {
+  font-size: 20px;
+  text-align: center;
+}
+
+#user-rollover .info    { background: rgba(0,0,0,.5); }
+#user-rollover          { background: rgba(0,0,0,.8); }
+
+#user-rollover .arrow-down,
+#user-rollover.expand .arrow-down,
+#user-rollover.expand.self.can-skip .arrow-down {
+    border-top: 8px solid rgba(0,0,0,.8);
+}
+
+#user-rollover .meta .joined {
+    color: #fff;
+}
+
+ #user-rollover .meta .showID {
+    color: #ccc !important;
+ }
+
+ #app {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+body::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+#chat-messages::-webkit-scrollbar-thumb,
+.jspDrag { border-radius: 100px; }
+
+#app-menu .appbadges {
+  padding-top: 5px;
+} #app-menu .android-badge,
+  #app-menu .iphone-badge {
+  width: 121px;
+  height: 35px;
+  background-size: 121px 35px;
+} #app-menu .android-badge {
+  margin-top: 0;
+}
+
+.tab-menu button:first-child { border-radius: 100px 0 0 100px; }
+.tab-menu button:last-child { border-radius: 0 100px 100px 0; }
+
+#room-settings .general-settings .option button.off {
+    border-radius: 100px 0 0 100px;
+} #room-settings .general-settings .option button.on {
+    border-radius: 0 100px 100px 0;
+}
+
+.user-content.profile .meta .blurb .box {
+    background: rgba(255, 255, 255, 0.13)!important;
+    text-align: center;
+    border-radius: 7px;
+}
+.experience .levels .level .label, .experience .levels .level.mystery .label{
+  background: black;
+}
+.user-content.profile .notifications .row {
+  background: rgba(255, 255, 255, 0.13)!important;
+}.experience .description {
+  text-align: center;
+}.user-content .section {
+   margin-left: 1.5% !important;
+}
+
+.experience .xp .bar {
+   background: rgba(255, 255, 255, 0.13)!important;
+}
