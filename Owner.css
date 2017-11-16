@@ -48,3 +48,14 @@ element.style {
     content: '/Host';
     /* xUndisputed = 3669054 */
 }
+
+#user-lists .list .user.id-3669054 .name:after, #user-rollover.id-3669054 .meta .username:after, #chat [data-cid^='3669054-'] .un:after {
+    content: "DEV/CSS/THEME";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(172, 118, 255,.3);
+    border-radius: 5px;
+    color: #ac76ff;
+    font-size: 10px;
+}
