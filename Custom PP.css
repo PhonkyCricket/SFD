@@ -245,3 +245,52 @@ body::-webkit-scrollbar {
 .experience .xp .bar {
    background: rgba(255, 255, 255, 0.13)!important;
 }
+/* icon and settings */
+
+.icon-settings-white {
+    transform: rotate(0deg);
+    transition: 1.5s ease-in-out;
+    -o-transition: 1.5s ease-in-out;
+    -webkit-transition: 1.5s ease-in-out;
+}
+
+.settings.button:hover > .icon-settings-white {
+    transform: rotate(360deg);
+}
+
+/* Fade */
+
+#chat .cm {
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+}
+
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+}
+
+/* Chat Fade */
+
+keyframes fadein {
+}
+
+-moz-keyframes fadein {
+}
+
+-webkit-keyframes fadein {
+}
+
+-ms-keyframes fadein {
+}
+
+-o-keyframes fadein {
+}
+
+
