@@ -1,5 +1,5 @@
 #woot:before {
-    content: url();
+    content: url(https://i.imgur.com/fb6GC0U.png?1);
     position: absolute;
     top: 0px;
     left: 265px;
@@ -21,20 +21,15 @@
     text-shadow: 0 1px 3px rgba(0,0,0,.8);
 }
 
-.icon-woot {
-    background-image: url(https://i.imgur.com/fb6GC0U.png?1);
-    background-position: 0px 0px;
-}
-
 #woot.crowd-response.disabled .icon:before, #woot.crowd-response.selected .icon:before {
-    content: url(https://i.imgur.com/fb6GC0U.png?1);
+    content: url(https://i.imgur.com/A8b60i9.png?1);
     position: absolute;
     right: 0px;
     padding: 0 1px;
 }
 
 #woot.crowd-response .icon:before {
-    content: url(https://i.imgur.com/fb6GC0U.png?1);
+    content: url(https://i.imgur.com/A8b60i9.png?1);
     position: absolute;
     right: 0px;
     padding: 0 0px;
