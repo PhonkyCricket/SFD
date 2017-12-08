@@ -5,6 +5,11 @@
     left: 265px;
 }
 
+.icon-woot {
+    background-image: url(https://i.imgur.com/fb6GC0U.png?1);
+    background-position: 0px 0px;
+}
+
 .votes-rs {
     top: -18px;
     z-index: -1 ;
