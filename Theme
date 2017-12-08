@@ -2,7 +2,7 @@
 .icon-room {
 	width: 84px;
 	top: 14px !important; left: 5px !important;
-	background: url(https://i.imgur.com/JUXBLcA.png?1) 0 / cover no-repeat !important;
+	background: url(https://i.imgur.com/0oKo3JM.jpg) 0 / cover no-repeat !important;
 }
 #room-name, #room-host {
 	left: 95px;
@@ -111,18 +111,13 @@
 #chat-input {
 	transition: all .25s linear;
 	background: none !important;
-	box-shadow:
-		inset 0 0 0 20px rgba(0,0,0,.5),
-		inset 0 0 0 1px #000,
-		0 0 0 #000
-	!important;
+	box-shadow: inset 0 0 0 20px rgba(0,0,0,.5), 
+	inset 0 0 0 1px #000, 0 0 0 #000 !important;
 }
 #chat .focused {
 	box-shadow:
-		inset 0 0 0 20px rgba(30,30,30,.8),
-		inset 0 0 0 1px #EEE,
-		0 0 5px #EEE
-	!important;
+	inset 0 0 0 20px rgba(30,30,30,.8),
+	inset 0 0 0 1px #EEE, 0 0 5px #EEE !important;
 }
 #chat .cm:nth-child(odd) {
 	background: rgba(10,10,10,.8);
@@ -130,7 +125,6 @@
 #chat .cm:nth-child(even) {
 	background: rgba(25,25,25,.8);
 }
-
 
 /*tooltips*/
 #tooltip span, #tooltip.blue span {
