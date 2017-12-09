@@ -14,17 +14,20 @@
       "forceSmartVote":false
    },
    "ccc":{
-      "admin":"#AD1F1F",
-      "ambassador":"#E9812D",
-      "host":"#ffffff",
-      "cohost":"#ffffff",
-      "manager":"#990000",
-      "bouncer":"#FACC2E",
-      "rdj":"#b3b3b3",
+      "admin":"#00d6ff",
+      "brand ambassador":"#00ff00",
+      "site Moderator":"#ff1400",
+      "pLoT Member":"#e94b00",
+      "promoter":"#359422",
+      "host":"#0099ff",
+      "cohost":"#0099ff",
+      "manager":"#ff1e00",
+      "bouncer":"#dd00ff",
+      "rdj":"#ff9900",
       "subscriber":"#8694b2",
       "silversubscriber":"#8694b2",
       "friend":"#A68CD9",
-      "you":"0AF"
+      "you":"#ffec00"
    },
    "images":{
       "background":"https://i.imgur.com/qX1AtXG.jpg",
