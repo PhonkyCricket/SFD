@@ -4,6 +4,12 @@
 	top: 14px !important; left: 5px !important;
 	background: url(https://i.imgur.com/0oKo3JM.jpg) 0 / cover no-repeat !important;
 }
+i.icon-site-logo {
+        width: 30px;
+        top: 0px 
+        left: 0px;
+        background: url(https://i.imgur.com/0oKo3JM.jpg);
+}
 #room-name, #room-host {
 	left: 95px;
 }
