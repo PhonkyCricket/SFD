@@ -1,6 +1,6 @@
 {
    "room":"Titan Music",
-   "author":"xUndisputed & Aw, Maik!",
+   "author":"xUndisputed",
    "icon":"https://i.imgur.com/0oKo3JM.jpg",
    "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.css",
    "rules":{
@@ -30,7 +30,7 @@
       "you":"#ffec00"
    },
    "images":{
-      "background":"https://i.imgur.com/qX1AtXG.jpg",
+      "background":"https://i.imgur.com/czgtfcy.jpg",
       "playback":"https://dl.dropboxusercontent.com/s/59fnfbk24s8l6zm/playback.png",
       "admin":"null",
       "ambassador":"null",
