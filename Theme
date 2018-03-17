@@ -4,14 +4,14 @@
     width: 84px;
     top: 14px ;
     left: 5px ;
-    background: url(https://i.imgur.com/0oKo3JM.jpg) 0 / cover no-repeat ;
+    background: url() 0 / cover no-repeat ;
 }
 
 i.icon-site-logo {
     width: 30px;
     top: 0px 
-        left: 0px;
-    background: url(https://i.imgur.com/0oKo3JM.jpg);
+    left: 0px;
+    background: url();
 }
 
 #room-name, #room-host {
