@@ -1,7 +1,7 @@
 {
-   "room":"UltraGrandMusic",
+   "room":"UltraNightMusic",
    "author":"xUndisputed",
-   "icon":"https://i.imgur.com/0oKo3JM.jpg",
+   "icon":"",
    "css":"https://rawgit.com/xUndisputed/TMCss/master/UGM.css",
    "rules":{
       "allowAutorespond":true,
