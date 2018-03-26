@@ -1,6 +1,6 @@
 {
    "room":"UltraNightMusic",
-   "author":"xUndisputed",
+   "author":"xUndisputed | MVP",
    "icon":"",
    "css":"https://rawgit.com/xUndisputed/TMCss/master/UGM.css",
    "rules":{
@@ -30,10 +30,13 @@
       "you":"#ffec00"
    },
    "images":{
-      "background":"https://i.imgur.com/czgtfcy.jpg",
+      "background":"https://i.imgur.com/vRliZw3.jpg",
       "playback":"https://dl.dropboxusercontent.com/s/59fnfbk24s8l6zm/playback.png",
       "admin":"null",
       "ambassador":"null",
+      "site Moderator":"null",
+      "pLoT Member":"null",
+      "promoter":"null",
       "host":"https://i.imgur.com/LaiPfo7.png",
       "cohost":"https://i.imgur.com/O7Eb30Z.png",
       "manager":"https://i.imgur.com/LKl1TjV.png",
@@ -41,6 +44,8 @@
       "rdj":"https://i.imgur.com/KJC6J8C.png",
       "subscriber":"http://i.imgur.com/gYyGQel.png",
       "silversubscriber":"http://i.imgur.com/nFbwvVJ.png"
+      "friend":"null",
+      "you":"null"
    },
    "emotes":{
       "emote_name":null
