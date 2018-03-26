@@ -279,7 +279,7 @@
 }
 
 /*--------------------------------------------------------------------------------\
-|		Backgrounds CORES
+|		Backgrounds room, chat
  \--------------------------------------------------------------------------------*/
 
 /* BLACK TRANSPARENT 75 OPACITY */
@@ -301,7 +301,7 @@
 }
 
 /*--------------------------------------------------------------------------------\
-|		Backgrounds DEGRADÊ
+|		Backgrounds app, user, footer
  \--------------------------------------------------------------------------------*/
 
 /*  */
@@ -325,9 +325,27 @@
 }
 
 /*--------------------------------------------------------------------------------\
-|		Backgrounds TRANSPARENTES
+|		Backgrounds app menu
  \--------------------------------------------------------------------------------*/
 
 #app-menu, #app-menu.open .list, #waitlist .list .user, #user-view .jspContainer, .user-content.profile .points .subscribe-button {
     background: transparent;
+}
+
+/*--------------------------------------------------------------------------------\
+|		Backgrounds log after color
+ \--------------------------------------------------------------------------------*/
+
+.log:after {
+    position: relative;
+    font-family: Arial;
+    margin-left: 10px;
+    font-size: 11px;
+    width: 300px;
+    box-sizing: border-box;
+    content: "xUndisputed | MVP's PlugThemed - Red: V 1.2!";
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(95, 195, 295);
+    border-radius: 20px;
 }
