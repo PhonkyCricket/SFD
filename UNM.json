@@ -2,7 +2,7 @@
    "room":"UltraNightMusic",
    "author":"xUndisputed | MVP",
    "icon":"",
-   "css":"https://rawgit.com/xUndisputed/TMCss/master/UNM.css",
+   "css":"https://rawgit.com/xUndisputed/UNMCSs/master/UNM.css",
    "rules":{
       "allowAutorespond":true,
       "allowAutowoot":true,
