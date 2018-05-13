@@ -1,6 +1,6 @@
 {
    "room":"UltraNightMusic",
-   "author":"xUndisputed | MVP",
+   "author":"xUndisputed | MVP & Kermon55",
    "icon":"",
    "css":"https://rawgit.com/xUndisputed/UNMCSs/master/UNM.css",
    "rules":{
@@ -31,9 +31,9 @@
    },
    "images":{
       "background":"https://i.imgur.com/vRliZw3.jpg",
-      "playback":"https://dl.dropboxusercontent.com/s/59fnfbk24s8l6zm/playback.png",
-      "admin":"null",
-      "ambassador":"null",
+      "playback":"https://i.imgur.com/AHid0ad.png",
+      "admin":"https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
+      "ambassador":"https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
       "host":"https://i.imgur.com/LaiPfo7.png",
       "cohost":"https://i.imgur.com/O7Eb30Z.png",
       "manager":"https://i.imgur.com/LKl1TjV.png",
