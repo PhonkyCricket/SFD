@@ -1,112 +1,3 @@
-/* COLOR */
-
-.dark-label, .user-content.profile .meta .joined, #user-settings .container .cap .value, .user-content.profile .meta .link .url a, .user-content.profile .meta .link .url a:visited {
-    color: #cccc00;
-}
-
-/* BACKGROUND-COLOR */
-
-#footer .bar-button .section .chevron:after, #footer .bar-button .section .chevron:before, #chat-messages::-webkit-scrollbar-thumb, #footer-user .info .bar .progress, .experience .xp .bar .progress, #rcs-progress-container .bar, .votes-rs .title.grab, .jspDrag {
-    background-color: #cccc00 ;
-}
-
-/* STAFF Mention */
-#chat .mention.is-staff,
-#chat .mention.is-you,
-#chat .mention.is-dj {
-    background: linear-gradient(130deg, rgba(172, 118, 255, 0.30), #000) !important;
-    background: -webkit-linear-gradient(320deg, rgba(172, 118, 255, 0.30), #000) !important;
-    background: -o-linear-gradient(320deg, rgba(172, 118, 255, 0.30), #000) !important;
-    box-shadow: inset 0 -1px 0 rgba(113, 96, 173, 0.5), inset 0 1px 0 rgba(113, 96, 173, 0.5);
-    -webkit-box-shadow: inset 0 -1px 0 rgba(113, 96, 173, 0.5), inset 0 1px 0 rgba(113, 96, 173, 0.5);
-    padding: 5px 0;
-}
-
-#chat .mention.is-staff .timestamp,
-#chat .mention.is-you .timestamp,
-#chat .mention.is-dj .timestamp {
-  color: #ac76ff;
-}
-
-/*Chat */
-#chat .welcome {
-    background: linear-gradient(to right, rgba(159, 104, 255, 0.30), transparent);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(159, 104, 255, 0.30)), to(transparent));
-    background: -webkit-linear-gradient(left, rgba(159, 104, 255, 0.30), transparent);
-    background: -o-linear-gradient(left, rgba(159, 104, 255, 0.30), transparent);
-}
-
-/* LOGS */
-#chat .rsshit.sml.rs-log-green {
-    background: linear-gradient(to right, rgba(144, 173, 58, 0.30), transparent);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(144, 173, 58, 0.30)), to(transparent));
-    background: -webkit-linear-gradient(left, rgba(144, 173, 58, 0.30), transparent);
-    background: -o-linear-gradient(left, rgba(144, 173, 58, 0.30), transparent);
-}
-
-#chat .rsshit.sml.rs-log-red {
-    background: linear-gradient(to right, rgba(193, 37, 37, 0.3), transparent);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(193, 37, 37, 0.3)), to(transparent));
-    background: -webkit-linear-gradient(left, rgba(193, 37, 37, 0.3), transparent);
-    background: -o-linear-gradient(left, rgba(193, 37, 37, 0.3), transparent);
-}
-
-/* Footer right buttons */
-
-#footer-user .buttons .button:hover, #footer-user .buttons .button.store:hover, .social-menu .subscribe:hover, .chat-suggestion-item:hover, #dj-button:hover, #playlist-button:hover, #playlist-menu .menu .row:hover, #user-menu .item:hover, .dropdown dd .row:hover, #user-rollover .actions .action:hover, #header-panel-bar .header-panel-button:hover, #app-menu .list .item:hover, #rs-skip-button:hover, #history-button:hover, #user-lists .list .user:hover, #user-lists .header .button:hover, .communities .grid .cell .meta .join:hover {
-    background: rgba(200, 40, 5, 0.5) ;
-    -webkit-box-shadow: inset 0 4px 0 #ffbf00,
-    					inset 0 -4px 0 #ffbf00;
-    box-shadow: inset 0 4px 0 #d61717,
-    					inset 0 -4px 0 #ffbf00;
-}
-
-#room-settings .general-settings .option button.on, #room-settings-menu .item.selected, #playlist-menu .menu .row.selected, #user-menu .item.selected, #dj-button.is-leave .left, #dj-button.is-quit .left, .tab-menu button, .dropdown {
-    background: rgba(0, 0, 0, .9) ;
-}
-
-#playlist-button, .social-menu .subscribe, .header-panel-button.selected {
-    background: rgba(0, 0, 0, .9) ;
-}
-
-.tab-menu button.selected, #room-settings .general-settings .option button.off, #dj-button .left {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) 5%, rgba(0, 0, 0, 0.9)) ;
-}
-
-#footer-user.showing .back, .dialog.destructive .button.submit, .dialog-frame .button.submit.destructive, #room-settings .general-settings .option.enabled>button.on, #chat .delete-button:hover, #app-menu .list .rcsunload, #app-menu .list .logout {
-    background: linear-gradient(to top, rgb(200, 40, 5), rgb(200, 40, 5) 5%, rgb(200, 40, 5)) ;
-}
-
-.header-panel-button {
-    background: rgba(0, 0, 0, 0.9) ;
-}
-
-.dropdown dt {
-    web-kit-box-shadow: inset -39px 0 0 0 rgba(200,40,5,.5);
-    box-shadow: inset -39px 0 0 0 rgba(200,40,5,.5);
-}
-
-#app-menu .list .rcsunload, #app-menu .list .logout {
-    color: #fff;
-    border: none ;
-}
-
-#app-menu .list .rcsunload:hover, #app-menu .list .logout:hover {
-    border: none ;
-    -webkit-box-shadow: inset 0 0 1px rgba(200,40,5,3);
-    box-shadow: inset 0 0 1px rgba(200,40,5,3);
-}
-
-#room-settings .general-settings .value {
-    text-shadow: 1px;
-    text-align: center;
-    overflow: hidden;
-}
-
-#room-settings .general-settings .edit span {
-    display: none;
-}
-
 #room-settings .general-settings .edit i {
     display: none;
 }
@@ -162,7 +53,7 @@
 #room-settings .general-settings .welcome:after {
     text-align: center;
     position: absolute;
-    content: "Copyright © 2017 ♫ Titan Music ♫ #TM! 🔥﻿";
+    content: "Copyright © 2017-2018 🎧 UltraNightMusic #UNM 🎧";
     margin-top: 150px;
     left: 40.5%
 ;
@@ -182,74 +73,7 @@
     width: 0px;
     height: 0px;
 }
-/* Footer right buttons */
-#footer-user .buttons .button,
-#footer-user .buttons .button.store,
-/* Subscribe button */
-.social-menu .subscribe,
-/* Auto Complete */
-.chat-suggestion-item,
-/* Dj Button */
-#dj-button,
 
-/* Playlist Button */
-#playlist-button,
-/* Playlist Menu left button */
-#playlist-menu .menu .row,
-
-/* Menu left Profile */
-#user-menu .item,
-/* DropDown Profile */
-.dropdown dd .row,
-
-/* User info buttons */
-#user-rollover .actions .action,
-
-/* TOP right Buttons */
-#header-panel-bar .header-panel-button,
-/* Itens menu PLUG */
-#app-menu .list .item,
-/* Skip and History Button */
-#rs-skip-button,
-#history-button,
-/* User List */
-#user-lists .list .user,
-#user-lists .header .button,
-
-/* Join community button */
-.communities .grid .cell .meta .join
-
-{
-	-webkit-box-shadow: inset 0 0 0 0 #d61717;
-			box-shadow: inset 0 0 0 0 #d61717;
-	-webkit-transition: all .5s ease-out;
-			transition: all .5s ease-out;
-}
-
-.communities .grid .cell {
-  background: #111;
-  border-radius: 25px 0 0 0;
-}
-
-.communities .grid .cell .bar {
-  background: rgba(0,0,0,.8);
-  border-radius: 25px 0 0 0;
-}
-
-.communities .grid .cell .favorite {
-  border-radius: 25px 0 0 0;
-  width: 75px;
-} .communities .grid .cell .favorite i {
-  left: 25px;
-}
-
-.communities .grid .cell .meta {
-  background: #111;
-}
-
-.communities .grid .cell:hover>.meta {
-  background: rgba(0,0,0,.8);
-}
 /*--------------------------------------------------------------------------------\
 |    	Backgrounds
  \--------------------------------------------------------------------------------*/
@@ -257,7 +81,7 @@
 /* APP MENU LEFT */
 
 #app-menu.open, #playlist-panel, #history-panel, #user-view, #dashboard, #room-settings {
-    background-image: url("https://i.imgur.com/PEhIYQd.jpg?1");
+    background-image: url("");
     background-size: cover;
 }
 
@@ -268,11 +92,11 @@
 #user-menu .avatar {
     box-shadow: inset 0 0 30px rgba(0,0,0,.5);
     -webkit-box-shadow: inset 0 0 30px rgba(0,0,0,.5);
-    background: url("https://i.imgur.com/3moYyb0.jpg?1");
+    background: url("");
 }
 
 .user-content .grid .cell .top {
-    background: url("https://i.imgur.com/3moYyb0.jpg?1") no-repeat ;
+    background: url("") no-repeat ;
     background-size: 185px 175px ;
     box-shadow: inset 0 0 30px rgba(0,0,0,.5);
     -webkit-box-shadow: inset 0 0 30px rgba(0,0,0,.5);
@@ -343,7 +167,7 @@
     font-size: 11px;
     width: 300px;
     box-sizing: border-box;
-    content: "xUndisputed | MVP's PlugThemed - Red: V 1.2!";
+    content: "xUndisputed | MVP's PlugThemed - Red: V 1.5!";
     font-weight: bold;
     padding: 5px;
     background-color: rgb(95, 195, 295);
