@@ -5,15 +5,15 @@
 #room-settings .general-settings .description {
     background: rgba(255, 255, 255, 0.08);
     text-align: center;
-    width: 80% ;
+    width: 80%;
     border-radius: 30px;
     margin-left: 9%;
-    height: 50% ;
+    height: 50%;
 }
 
 #room-settings .general-settings .description .input-background {
-    height: 235px ;
-    width: 796px ;
+    height: 235px;
+    width: 796px;
 }
 
 #room-settings .general-settings .panel .title {
@@ -21,33 +21,33 @@
 }
 
 #room-settings .general-settings .description textarea {
-    min-width: 99% ;
-    max-width: 99% ;
-    width: 99% ;
+    min-width: 99%;
+    max-width: 99%;
+    width: 99%;
 }
 
 #room-settings .general-settings .description .value {
-    width: 97.7% ;
-    height: 100% ;
+    width: 97.7%;
+    height: 100%;
 }
 
 #room-settings .general-settings .welcome textarea {
-    min-width: 99% ;
-    max-width: 99% ;
-    width: 99% ;
+    min-width: 99%;
+    max-width: 99%;
+    width: 99%;
 }
 
 #room-settings .general-settings .welcome .value {
-    width: 97.7% ;
-    height: 100% ;
+    width: 97.7%;
+    height: 100%;
 }
 
 #room-settings .general-settings .welcome {
     text-align: center;
-    width: 80% ;
+    width: 80%;
     border-radius: 30px;
     margin-left: 9%;
-    height: 50% ;
+    height: 50%;
 }
 
 #room-settings .general-settings .welcome:after {
@@ -60,8 +60,8 @@
 }
 
 #room-settings .general-settings .welcome .input-background {
-    height: 80px ;
-    width: 796px ;
+    height: 80px;
+    width: 796px;
 }
 
 #room-settings .general-settings .description .value a:nth-of-type(7) {
@@ -72,88 +72,6 @@
     display: none;
     width: 0px;
     height: 0px;
-}
-
-/*--------------------------------------------------------------------------------\
-|    	Backgrounds
- \--------------------------------------------------------------------------------*/
-
-/* APP MENU LEFT */
-
-#app-menu.open, #playlist-panel, #history-panel, #user-view, #dashboard, #room-settings {
-    background-image: url("");
-    background-size: cover;
-}
-
-/*--------------------------------------------------------------------------------\
-|		Background AVATAR
- \--------------------------------------------------------------------------------*/
-
-#user-menu .avatar {
-    box-shadow: inset 0 0 30px rgba(0,0,0,.5);
-    -webkit-box-shadow: inset 0 0 30px rgba(0,0,0,.5);
-    background: url("");
-}
-
-.user-content .grid .cell .top {
-    background: url("") no-repeat ;
-    background-size: 185px 175px ;
-    box-shadow: inset 0 0 30px rgba(0,0,0,.5);
-    -webkit-box-shadow: inset 0 0 30px rgba(0,0,0,.5);
-}
-
-/*--------------------------------------------------------------------------------\
-|		Backgrounds room, chat
- \--------------------------------------------------------------------------------*/
-
-/* BLACK TRANSPARENT 75 OPACITY */
-
-#room .app-right {
-    background: rgba(0,0,0,.75);
-}
-
-/* BLACK TRANSPARENT 50 OPACITY */
-
-#room-settings-menu {
-    background: rgba(0,0,0,.5);
-}
-
-/* BLACK TRANSPARENT 30 OPACITY */
-
-#chat .cm:nth-child(2n+1) {
-    background-color: rgba(0,0,0,.9);
-}
-
-/*--------------------------------------------------------------------------------\
-|		Backgrounds app, user, footer
- \--------------------------------------------------------------------------------*/
-
-/*  */
-
-/* TO LEFT > TRANSPARENT */
-
-.app-right .jspContainer {
-    background: linear-gradient(to right, rgba(214, 23, 23, .3), transparent);
-}
-
-/* TO LEFT > #000 */
-
-#user-menu {
-    background: linear-gradient(to right, rgba(200, 40, 5, .5), rgba(0,0,0,.5));
-}
-
-/* TO LEFT BOTTOM > #000 */
-
-#footer-user .info, .communities .grid .cell .favorite {
-    background: linear-gradient(to left bottom, rgba(200, 40, 5, 5), #000);
-}
-
-/*--------------------------------------------------------------------------------\
-|		Backgrounds app menu
- \--------------------------------------------------------------------------------*/
-
-#app-menu, #app-menu.open .list, #waitlist .list .user, #user-view .jspContainer, .user-content.profile .points .subscribe-button {
-    background: transparent;
 }
 
 /*--------------------------------------------------------------------------------\
@@ -170,6 +88,6 @@
     content: "xUndisputed | MVP's PlugThemed - Red: V 1.5!";
     font-weight: bold;
     padding: 5px;
-    background-color: rgb(95, 195, 295);
+    background-color: rgb(255, 25, 25);
     border-radius: 20px;
 }
