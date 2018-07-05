@@ -2,16 +2,16 @@
 
 .icon-room {
     width: 84px;
-    top: 14px ;
-    left: 5px ;
-    background: url() 0 / cover no-repeat ;
+    top: 14px;
+    left: 5px;
+    background: url() 0 / cover no-repeat;
 }
 
 i.icon-site-logo {
     width: 30px;
-    top: 0px 
+    top: 0px; 
     left: 0px;
-    background: url();
+    background: url(https://i.imgur.com/q0kO0gW.png?1);
 }
 
 #room-name, #room-host {
@@ -19,7 +19,7 @@ i.icon-site-logo {
 }
 
 .room-background {
-    background: url(https://i.imgur.com/czgtfcy.jpg) 0 0 / 1600px 900px no-repeat ;
+    background: url(https://i.imgur.com/vRliZw3.jpg) 0 0 / 1600px 900px no-repeat ;
 }
 
 #playback .background img {
@@ -27,7 +27,7 @@ i.icon-site-logo {
 }
 
 #playback .background {
-    background: url(https://dl.dropboxusercontent.com/s/59fnfbk24s8l6zm/playback.png) 0 0 / cover no-repeat;
+    background: url(https://i.imgur.com/AHid0ad.png) 0 0 / cover no-repeat;
     width: 874px;
     height: 329px;
     left: -196px;
@@ -47,7 +47,7 @@ i.icon-site-logo {
 /*less transparent things*/
 
 #playlist-panel, #playlist-menu, #room-settings, #room-settings-menu {
-    background: rgba(0,0,0,.8) ;
+    background: rgba(0,0,0,.5) ;
 }
 
 /* medium dark */
@@ -94,22 +94,21 @@ i.icon-site-logo {
 /* App menu lower button */
 
 #chat .delete-button, .rcs-delete, #app-menu .logout, #rcs-unload {
-    background: rgba(150,50,50,.2) ;
-    border: 1px solid rgba(250,50,50,.2) ;
+    background: rgba(150,50,50,.5);
+    border: 1px solid rgba(250,50,50,.5);
 }
 
 #chat .delete-button:hover, .rcs-delete:hover, #app-menu .logout:hover, #rcs-unload:hover {
-    background: rgba(150,50,50,.8) ;
-    border: 1px solid rgba(250,50,50,.8) ;
+    background: rgba(150,50,50,.5);
+    border: 1px solid rgba(250,50,50,.5);
 }
 
 /* Chat */
 
 #chat-input {
     transition: all .25s linear;
-    background: none ;
+    background: none;
     box-shadow: inset 0 0 0 20px rgba(0,0,0,.5), 
-	inset 0 0 0 1px #000, 0 0 0 #000 ;
 }
 
 #chat .focused {
@@ -118,29 +117,29 @@ i.icon-site-logo {
 }
 
 #chat .cm:nth-child(odd) {
-    background: rgba(10,10,10,.8);
+    background: rgba(10,10,10,.5);
 }
 
 #chat .cm:nth-child(even) {
-    background: rgba(25,25,25,.8);
+    background: rgba(25,25,25,.5);
 }
 
 /*tooltips*/
 
 #tooltip span, #tooltip.blue span {
-    background: rgba(150,150,150,.8) ;
+    background: rgba(150,150,150,.5) ;
 }
 
 #tooltip .corner {
     border-top: 10px solid transparent ;
     border-right: 0px solid transparent ;
-    border-left: 10px solid rgba(150,150,150,.8) ;
+    border-left: 10px solid rgba(150,150,150,.5) ;
     border-bottom: 10px solid transparent ;
 }
 
 #tooltip.right .corner {
-    border-top: 10px solid rgba(150,150,150,.8) ;
-    border-right: 10px solid rgba(150,150,150,.8) ;
+    border-top: 10px solid rgba(150,150,150,.5) ;
+    border-right: 10px solid rgba(150,150,150,.5) ;
     border-left: 10px solid transparent ;
     border-bottom: 10px solid transparent ;
 }
@@ -201,15 +200,15 @@ i.icon-site-logo {
 }
 
 .dropdown dd, #chat-suggestion, #dialog-user-role .role-menu .menu ul li, #search-suggestion li, #dialog-restricted-media .row.selected {
-    background: hsla(210,10%,10%,.8);
+    background: hsla(210,10%,10%,.5);
 }
 
 #dialog-user-role .role-menu .menu ul li {
-    right-color: hsla(210,10%,8%,.8);
+    right-color: hsla(210,10%,8%,.5);
 }
 
 .dropdown dd .row:hover, .chat-suggestion-item[style='background: rgb(45, 49, 58);'], #search-suggestion .search-suggestion-item.selected, #dialog-restricted-media .row.selected, #dialog-user-role .role-menu .menu ul li:hover {
-    background: linear-gradient(hsla(210,10%,20%,.8), hsla(210,10%,15%,.8)) ;
+    background: linear-gradient(hsla(210,10%,20%,.5), hsla(210,10%,15%,.5)) ;
 }
 
 .icon.icon-check-purple, .icon.icon-next-track, .icon.icon-check-blue, .icon.icon-check-circle, .icon.icon-chat, .icon.icon-population, .icon.icon-waitlist, #chat-header, #playlist-button {
@@ -240,15 +239,15 @@ i.icon-site-logo {
 }
 
 #woot.selected, #woot-rs .title, #woot-rs-list::-webkit-scrollbar-thumb {
-    background: linear-gradient(hsla(90,50%,50%,.8), hsla(90,50%,40%,.8)) ;
+    background: linear-gradient(hsla(90,50%,50%,.5), hsla(90,50%,40%,.5)) ;
 }
 
 #grab.selected, #grab-rs .title, #grab-rs-list::-webkit-scrollbar-thumb {
-    background: linear-gradient(hsla(270,50%,50%,.8), hsla(265,50%,40%,.8)) ;
+    background: linear-gradient(hsla(270,50%,50%,.5), hsla(265,50%,40%,.5)) ;
 }
 
 #meh.selected, #meh-rs .title, #meh-rs-list::-webkit-scrollbar-thumb {
-    background: linear-gradient(hsla(5,50%,50%,.5), hsla(0,50%,40%,.8)) ;
+    background: linear-gradient(hsla(5,50%,50%,.5), hsla(0,50%,40%,.5)) ;
 }
 
 /* Grab menu */
@@ -258,15 +257,15 @@ i.icon-site-logo {
 }
 
 .pop-menu .bar {
-    background: linear-gradient(hsla(260,50%,50%,.8), hsla(260,50%,30%,.8));
+    background: linear-gradient(hsla(260,50%,50%,.5), hsla(260,50%,30%,.5));
 }
 
 .pop-menu .bar-divider {
-    background: linear-gradient(hsla(0,0%,90%,.8), hsla(0,0%,60%,.8));
+    background: linear-gradient(hsla(0,0%,90%,.5), hsla(0,0%,60%,.5));
 }
 
 .pop-menu .menu ul {
-    background: hsla(260,5%,7%,.8);
+    background: hsla(260,5%,7%,.5);
 }
 
 .pop-menu .menu ul i + span {
@@ -274,7 +273,7 @@ i.icon-site-logo {
 }
 
 .pop-menu .menu ul li:hover {
-    background: linear-gradient(hsla(260,50%,50%,.2), hsla(260,50%,30%,.2));
+    background: linear-gradient(hsla(260,50%,50%,.5), hsla(260,50%,30%,.5));
 }
 
 .pop-menu .menu ul .create:hover {
@@ -289,7 +288,7 @@ i.icon-site-logo {
 
 .pop-menu .menu::-webkit-scrollbar-thumb {
     background: linear-gradient(to right, hsl(260,40%,60%), hsl(260,40%,40%));
-    box-shadow: inset 0 0 5px hsla(0,0%,100%,.3);
+    box-shadow: inset 0 0 5px hsla(0,0%,100%,.5);
 }
 
 .description.panel .value a[href*=".json"] {
