@@ -1,77 +1,13 @@
-#room-settings .general-settings .edit i {
-    display: none;
-}
-
-#room-settings .general-settings .description {
-    background: rgba(255, 255, 255, 0.08);
-    text-align: center;
-    width: 80%;
-    border-radius: 30px;
-    margin-left: 9%;
-    height: 50%;
-}
-
-#room-settings .general-settings .description .input-background {
-    height: 235px;
-    width: 796px;
-}
-
-#room-settings .general-settings .panel .title {
-    display: none;
-}
-
-#room-settings .general-settings .description textarea {
-    min-width: 99%;
-    max-width: 99%;
-    width: 99%;
-}
-
-#room-settings .general-settings .description .value {
-    width: 97.7%;
-    height: 100%;
-}
-
-#room-settings .general-settings .welcome textarea {
-    min-width: 99%;
-    max-width: 99%;
-    width: 99%;
-}
-
-#room-settings .general-settings .welcome .value {
-    width: 97.7%;
-    height: 100%;
-}
-
-#room-settings .general-settings .welcome {
-    text-align: center;
-    width: 80%;
-    border-radius: 30px;
-    margin-left: 9%;
-    height: 50%;
-}
+/*--------------------------------------------------------------------------------\
+|		Room Settings
+ \--------------------------------------------------------------------------------*/
 
 #room-settings .general-settings .welcome:after {
     text-align: center;
     position: absolute;
     content: "Copyright © 2017-2018 #SquadColdLava";
     margin-top: 150px;
-    left: 40.5%
-;
-}
-
-#room-settings .general-settings .welcome .input-background {
-    height: 80px;
-    width: 796px;
-}
-
-#room-settings .general-settings .description .value a:nth-of-type(7) {
-    display: none;
-}
-
-#room-settings-menu {
-    display: none;
-    width: 0px;
-    height: 0px;
+    left: 40.5%;
 }
 
 /*--------------------------------------------------------------------------------\
@@ -85,9 +21,9 @@
     font-size: 11px;
     width: 300px;
     box-sizing: border-box;
-    content: "#SquadColdLava | PlugThemed - Red: V 1.8!";
+    content: "#SquadColdLava | PlugThemed - Red: V 1.9!";
     font-weight: bold;
     padding: 5px;
-    background-color: rgb(255, 10, 10);
+    background-color: rgb(255, 5, 5);
     border-radius: 20px;
 }
