@@ -1,19 +1,1 @@
-/* Making sure the json gets applied */
 
-.room-background {
-    background: url(https://i.imgur.com/R73LfIu.jpg?1) no-repeat !important;
-    width: 500% !important;
-    height: 500% !important;
-}
-
-#playback .background img {
-    display: none;
-}
-
-#playback .background {
-    background: url(https://i.imgur.com/naGaai9.png) 0 0 / cover no-repeat;
-    width: 874px;
-    height: 329px;
-    left: -196px;
-    top: 0;
-}
