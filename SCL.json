@@ -1,7 +1,7 @@
 {
-   "room":" #SquadColdLava",
+   "room":"#SquadColdLava",
    "author":"📣 xUndisputed | TCL 📣 & Kermon55",
-   "icon":"null",
+   "icon":"https://i.imgur.com/jNxmpo5.png?1",
    "css":"https://rawgit.com/xUndisputed/SCLCss/master/SCL.css",
    "rules":{
       "allowAutorespond":true,
@@ -30,9 +30,9 @@
       "you":"#ffec00"
    },
    "images":{
-      "background":"https://i.imgur.com/R73LfIu.jpg?1",
-      "playback":"https://i.imgur.com/naGaai9.png",
-      "admin":"https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
+      "background":null,
+      "playback":null,
+      "admin":null,
       "ambassador":"https://i.imgur.com/MAp5lyN.png",
       "site Moderator":"https://i.imgur.com/ymlxU4x.png",
       "pLoT Member":"https://i.imgur.com/4odH1j1.png",
