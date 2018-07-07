@@ -1,5 +1,5 @@
 #user-lists .list .user.id-3669054 .name:after, #user-rollover.id-3669054 .meta .username:after, #chat [data-cid^='3669054-'] .un:after {
-    content: "DEV/CSS";
+    content: "";
     margin-left: 5px;
     background: rgba(0,0,0,.5);
     padding: 0px 5px;
