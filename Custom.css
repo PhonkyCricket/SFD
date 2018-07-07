@@ -21,9 +21,9 @@
     font-size: 11px;
     width: 300px;
     box-sizing: border-box;
-    content: "#SquadColdLava | PlugThemed - Red: V 1.9!";
+    content: "#SquadColdLava | PlugThemed - Blue: V 2.1.1!";
     font-weight: bold;
     padding: 5px;
-    background-color: rgb(255, 5, 5);
+    background-color: rgb(25, 255, 255);
     border-radius: 20px;
 }
