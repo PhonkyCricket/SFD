@@ -4,14 +4,14 @@
     width: 84px;
     top: 14px;
     left: 5px;
-    background: url(https://i.imgur.com/q0kO0gW.png?1) 0 / cover no-repeat;
+    background: url("https://i.imgur.com/q0kO0gW.png?1") 0 / cover no-repeat;
 }
 
 i.icon-site-logo {
     width: 30px;
     top: 0px; 
     left: 0px;
-    background: url(https://i.imgur.com/q0kO0gW.png?1);
+    background: url("https://i.imgur.com/q0kO0gW.png?1");
 }
 
 #room-name, #room-host {
@@ -19,7 +19,7 @@ i.icon-site-logo {
 }
 
 .room-background {
-    background: url(https://i.imgur.com/vRliZw3.jpg) 0 0 / 1600px 900px no-repeat;
+    background: url("https://i.imgur.com/R73LfIu.jpg?1") 0 0 / 1600px 900px no-repeat;
 }
 
 #playback .background img {
@@ -27,7 +27,7 @@ i.icon-site-logo {
 }
 
 #playback .background {
-    background: url(https://i.imgur.com/AHid0ad.png) 0 0 / cover no-repeat;
+    background: url("https://i.imgur.com/naGaai9.png") 0 0 / cover no-repeat;
     width: 874px;
     height: 329px;
     left: -196px;
