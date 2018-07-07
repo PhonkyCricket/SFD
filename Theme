@@ -1,21 +1,9 @@
 /* Making sure the json gets applied */
 
-.icon-room {
-    width: 84px;
-    top: 14px;
-    left: 5px;
-    background: url() 0 / cover no-repeat;
-}
-
-i.icon-site-logo {
-    width: 30px;
-    top: 0px; 
-    left: 0px;
-    background: url();
-}
-
 .room-background {
-    background: url() 0 0 / 1600px 900px no-repeat;
+    background: url(https://i.imgur.com/R73LfIu.jpg?1) no-repeat !important;
+    width: 500% !important;
+    height: 500% !important;
 }
 
 #playback .background img {
@@ -23,7 +11,7 @@ i.icon-site-logo {
 }
 
 #playback .background {
-    background: url() 0 0 / cover no-repeat;
+    background: url(https://i.imgur.com/naGaai9.png) 0 0 / cover no-repeat;
     width: 874px;
     height: 329px;
     left: -196px;
