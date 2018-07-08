@@ -2,12 +2,6 @@
 content:url(https://i.imgur.com/jNxmpo5.png?1);
 }
 
-.room-background {
-    background: url("https://i.imgur.com/R73LfIu.jpg?1") no-repeat !important;
-    width: 500% !important;
-    height: 500% !important;
-}
-
 #app .logo-wrapper .plugdj-logo {
     width: 30px;
     height: 30px;
@@ -35,9 +29,9 @@ background-image: url("https://i.imgur.com/NzD2wGL.png");
 }
 
 #user-rollover.id-4701536>.info>.role .icon {
-    background: url("") !important;
+    background: url("https://i.imgur.com/WF8hCMv.png") !important;
 }
 
 #user-rollover.id-21226293>.info>.role:hover .icon {
-    background: url("") !important;
+    background: url("https://i.imgur.com/FZ5aFRl.png") !important;
 }
