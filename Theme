@@ -1,1 +1,35 @@
+#room-name {
+content:url(https://i.imgur.com/jNxmpo5.png?1);
+}
 
+.room-background {
+    background: url("https://i.imgur.com/R73LfIu.jpg?1") no-repeat !important;
+    width: 500% !important;
+    height: 500% !important;
+}
+
+#app .logo-wrapper .plugdj-logo {
+    width: 30px;
+    height: 30px;
+    background: url("https://i.imgur.com/jNxmpo5.png?1") no-repeat 0 0;
+}
+
+#user-rollover.id-3669054>.info>.role span:after {
+    text-indent: 0;
+    content: 'Host';
+    display: block;
+    line-height: initial;
+    color: #db182e;
+}
+
+#user-rollover.id-3669054>.info>.role:hover span:after {
+    text-indent: 0;
+    content: 'Promoter';
+    display: block;
+    line-height: initial;
+    color: #89be6c;
+}
+
+.icon {
+background-image: url("https://i.imgur.com/NzD2wGL.png");
+}
