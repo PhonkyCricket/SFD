@@ -1,5 +1,5 @@
 #room-name {
-content:url(https://i.imgur.com/jNxmpo5.png?1);
+    content: url("https://i.imgur.com/jNxmpo5.png?1");
 }
 
 #app .logo-wrapper .plugdj-logo {
@@ -10,7 +10,7 @@ content:url(https://i.imgur.com/jNxmpo5.png?1);
 
 #user-rollover.id-3669054>.info>.role span:after {
     text-indent: 0;
-    content: 'Host';
+    content: "Host";  
     display: block;
     line-height: initial;
     color: #db182e;
@@ -18,14 +18,10 @@ content:url(https://i.imgur.com/jNxmpo5.png?1);
 
 #user-rollover.id-3669054>.info>.role:hover span:after {
     text-indent: 0;
-    content: 'Promoter';
+    content: "Promoter";
     display: block;
     line-height: initial;
     color: #89be6c;
-}
-
-.icon {
-background-image: url("https://i.imgur.com/NzD2wGL.png");
 }
 
 #user-rollover.id-3669054>.info>.role .icon {
@@ -34,4 +30,13 @@ background-image: url("https://i.imgur.com/NzD2wGL.png");
 
 #user-rollover.id-3669054>.info>.role:hover .icon {
     background: url("https://i.imgur.com/FZ5aFRl.png") !important;
+}
+
+.user.id-21226293 .icon-chat-promoter {
+    background: url("https://i.imgur.com/WF8hCMv.png")!important;
+}
+
+/* Icons */	
+.icon {
+    background-image: url("https://i.imgur.com/NzD2wGL.png");
 }
