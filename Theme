@@ -33,3 +33,11 @@ content:url(https://i.imgur.com/jNxmpo5.png?1);
 .icon {
 background-image: url("https://i.imgur.com/NzD2wGL.png");
 }
+
+#user-rollover.id-4701536>.info>.role .icon {
+    background: url("") !important;
+}
+
+#user-rollover.id-21226293>.info>.role:hover .icon {
+    background: url("") !important;
+}
