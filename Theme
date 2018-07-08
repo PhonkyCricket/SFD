@@ -1,5 +1,5 @@
 #room-name {
-    content: url("https://i.imgur.com/jNxmpo5.png?1");
+    content: url("https://i.imgur.com/jNxmpo5.png?1") !important;
 }
 
 #app .logo-wrapper .plugdj-logo {
@@ -33,10 +33,10 @@
 }
 
 .user.id-3669054 .icon-chat-promoter {
-    background: url("https://i.imgur.com/WF8hCMv.png")!important;
+    background: url("https://i.imgur.com/WF8hCMv.png") !important;
 }
 
 /* Icons */	
 .icon {
-    background-image: url("https://i.imgur.com/NzD2wGL.png");
+    background-image: url("https://i.imgur.com/NzD2wGL.png") !important;
 }
