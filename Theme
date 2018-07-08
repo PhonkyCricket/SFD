@@ -28,10 +28,10 @@ content:url(https://i.imgur.com/jNxmpo5.png?1);
 background-image: url("https://i.imgur.com/NzD2wGL.png");
 }
 
-#user-rollover.id-4701536>.info>.role .icon {
+#user-rollover.id-3669054>.info>.role .icon {
     background: url("https://i.imgur.com/WF8hCMv.png") !important;
 }
 
-#user-rollover.id-21226293>.info>.role:hover .icon {
+#user-rollover.id-3669054>.info>.role:hover .icon {
     background: url("https://i.imgur.com/FZ5aFRl.png") !important;
 }
