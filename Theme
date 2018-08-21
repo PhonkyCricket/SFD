@@ -1,13 +1,3 @@
-#room-name {
-    content: url("https://i.imgur.com/jNxmpo5.png?1") !important;
-}
-
-#app .logo-wrapper .plugdj-logo {
-    width: 30px;
-    height: 30px;
-    background: url("https://i.imgur.com/jNxmpo5.png?1") no-repeat 0 0;
-}
-
 #user-rollover.id-3669054>.info>.role span:after {
     text-indent: 0;
     content: "Host";  
