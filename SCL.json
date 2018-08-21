@@ -1,9 +1,9 @@
 {
    "room":"☯F E A R F O X Y☯™",
-   "author":"📣 xUndisputed | TCL 📣 & Blexo_O",
-   "icon":"https://i.imgur.com/jNxmpo5.png?1",
+   "author":"📣 xUndisputed | TCL 📣 & Blexo_O & DOVŪZĄ",
+   "icon":null,
    "css":"https://rawgit.com/xUndisputed/SCLCss/master/SCL.css",
-   "rules":{
+   "rules": {
       "allowAutorespond":true,
       "allowAutowoot":true,
       "allowAutojoin":true,
@@ -13,7 +13,7 @@
       "allowShowingMehs":true,
       "forceSmartVote":false
    },
-   "ccc":{
+   "ccc": {
       "admin":"#42a5dc",
       "brand ambassador":"#89be6c",
       "site Moderator":"#ff1400",
@@ -29,10 +29,10 @@
       "friend":"#A68CD9",
       "you":"#ffec00"
    },
-   "images":{
+   "images": {
       "background":"https://i.imgur.com/aB6W0lV.jpg?2",
-      "playback":"null",
-      "admin": null,
+      "playback":null,
+      "admin":null,
       "ambassador":"https://i.imgur.com/MAp5lyN.png",
       "site Moderator":"https://i.imgur.com/ymlxU4x.png",
       "pLoT Member":"https://i.imgur.com/4odH1j1.png",
@@ -45,7 +45,7 @@
       "subscriber":"https://i.imgur.com/RAXv3RD.png",
       "silversubscriber":"https://i.imgur.com/wnGRoKq.png"
    },
-   "emotes":{
+   "emotes": {
       "emote_name":null
    }
 }
