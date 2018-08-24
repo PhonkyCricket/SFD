@@ -1,3 +1,4 @@
+[![Discord](https://img.shields.io/discord/450685330887016451.svg)](https://discord.gg/pqTgPd6) [![facebook group](https://img.shields.io/badge/facebook-group-3b5998.svg?style=flat)](https://goo.gl/tYBE1L) [![twitter](https://img.shields.io/twitter/follow/FearFoxYPlugdj.svg?style=social)](https://twitter.com/FearFoxYPlugdj)
 ___________________________________________________________________________________________________________________________________
 Welcome to ☯F E A R F O X Y☯™ Team!
 ___________________________________________________________________________________________________________________________________
