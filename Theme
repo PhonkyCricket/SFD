@@ -28,5 +28,5 @@
 
 /* Icons */	
 .icon {
-    background-image: url("https://i.imgur.com/NzD2wGL.png") !important;
+    background: url("https://i.imgur.com/NzD2wGL.png") !important;
 }
