@@ -1,1 +1,61 @@
+#user-rollover.id-3669054 .meta {
+    height: 200px;
+}
 
+#user-rollover.id-3669054 .joined:after {
+    position: absolute;
+    content: 'I am helping people!';
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    color: #00799E;
+    margin: 75px 0 0 -103px;
+    padding-left: 19px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+/*Lee*/
+
+#user-rollover.id-3669054 .level:after {
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    content: "Fear Foxy";
+    display: inline-block;
+    color: #00BB95;
+    font-weight: bold;
+    margin: 0px 0px 0 14px;
+    padding-left: 19px
+;
+}
+
+#user-rollover.id-3669054 .thumb, #user-rollover.id-3669054 .thumb {
+    border-color: #00BB95 ;
+}
+
+#user-lists .list .user.id-3669054 .name, #user-rollover.id-3669054 .username, #chat [data-cid^='3669054-'] .un {
+    color: #00BB95 ;
+}
+
+#user-rollover.id-3669054 .joined:before {
+    position: absolute;
+    content: 'Music Producer/Artist';
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    color: #00799E;
+    margin: 97px 0 0 0px;
+    padding-left: 20px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+#chat [data-cid^='3669054-'] .un:before {
+    content: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    margin: 100px 0 0 0px;
+    padding: 3px 5px 0px 5px;
+}
