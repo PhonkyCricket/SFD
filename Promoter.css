@@ -1,7 +1,51 @@
-#user-rollover.id-3669054 .info .role i {
-    position: absolute;
-    margin: -17px 0 0 45px;
-    display: none;
+/*#####[Promoter]#####*/
+
+.icon-chat-promoter+span {
+    color: #359422;
+}
+
+/*#####[HOST]#####*/
+
+.icon-chat-host {
+    background: url("https://i.imgur.com/a2zR8CP.png");
+}
+
+.icon-chat-host+span, #user-lists .group.host~.user span, #dialog-user-role .role-menu .menu ul .host span {
+    color: #0078c7;
+}
+
+#user-lists .group.host {
+    color: #0078c7;
+    background: linear-gradient(to right, hsla(360, 100%, 30%, 0.5), hsla(360, 100%, 40%, 0.5)) ;
+    top: 1px;
+}
+
+/* F0xYG0d | PGD */
+
+#user-rollover.id-3669054 .badge-box>i.bdg, .id-3669054>.badge-box>i.bdg {
+    background-image: url("https://i.imgur.com/a2zR8CP.png");
+    border-radius: 6px;
+}
+
+#user-rollover.id-3669054>.info>.role span {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+#user-rollover.id-3669054>.info>.role span:after {
+    text-indent: 0;
+    content: 'Host';
+    display: block;
+    line-height: initial;
+    color: #0078c7;
+}
+
+#user-rollover.id-3669054>.info>.role:hover span:after {
+    text-indent: 0;
+    content: 'Promoter';
+    display: block;
+    line-height: initial;
+    color: #359422;
 }
 
 #user-rollover.is-promoter.id-3669054 .info .role {
@@ -24,17 +68,3 @@
   font-size: 13px;
   color: #1abc9c !important;
 } 
-  #user-rollover.id-3669054 .level:before {
-  position: absolute;
-  background-image: url("https://i.imgur.com/a2zR8CP.png");
-  background-repeat: no-repeat;
-  content: "Host";
-  display: inline-block;
-  color: #148ee0 !important;
-  margin: 0px 0px 0 170px !important;
-  padding: 0 0 0 18px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-} 
-  #user-rollover.id-3669054 .meta {
-    height: 145px;
