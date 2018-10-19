@@ -1,7 +1,7 @@
 #rcs-style-anchor-2 {
     background-color: rgba(0, 0, 0, 0.9) ;
     border-radius: 5px ;
-    border: 1px solid #ff0000 ;
+    border: 1px solid #21b1af;
     position: absolute;
     top: 55px;
     right: 355px ;
@@ -19,7 +19,7 @@
     font-family: 'fontawesome';
     content: 'Welcome To FearFoxy!';
     font-size: 16px;
-    color: #ff0000;
+    color: #21b1af;
 }
 
 #rcs-style-anchor-2.toggled {
@@ -32,16 +32,16 @@
 }
 
 #rcs-style-anchor-2:after {
-    content: 'Enjoy our community! :D <3 ';
+    content: 'Enjoy our community!';
     margin: 30px 0px 0px 10px;
     position: absolute;
 }
 
 #rcs-style-anchor-1 {
     background-color: rgba(0, 0, 0, 0.9) ;
-    background-image: url(https://i.imgur.com/BiwEV4l.jpg) ;
+    background-image: url() ;
     border-radius: 5px ;
-    border: 1px solid #ff0000;
+    border: 1px solid #21b1af;
     position: absolute;
     /*height: 435px !important;*/
     /*width: 300px !important;*/
@@ -66,7 +66,7 @@
     font-family: 'fontawesome';
     content: 'Event is coming Soon';
     font-size: 16px;
-    color: #ff0000;
+    color: #21b1af;
 }
 
 #rcs-style-anchor-1.toggled:before {
