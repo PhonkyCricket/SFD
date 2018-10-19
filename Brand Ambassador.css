@@ -1,1 +1,45 @@
+/*#####[BA]#####*/
 
+.icon-chat-ambassador+span {
+    color: #9C0 ;
+}
+
+/* Bloom <3 */
+
+#user-rollover.id-3148591 .badge-box>i.bdg, .id-3148591>.badge-box>i.bdg {
+    background-image: url("https://i.imgur.com/qyXFcl5.gif");
+    border-radius: 6px;
+}
+
+#user-rollover.id-3148591>.info>.role span {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+#user-rollover.id-3148591>.info>.role span:after {
+    text-indent: 0;
+    content: 'Manager';
+    display: block;
+    line-height: initial;
+    color: #db182e;
+}
+
+#user-rollover.id-3148591>.info>.role:hover span:after {
+    text-indent: 0;
+    content: 'Brand Ambassador';
+    display: block;
+    line-height: initial;
+    color: #89be6c;
+}
+
+#user-rollover.id-3148591>.info>.role .icon {
+    background: url("https://i.imgur.com/xQsRBMB.png") ;
+}
+
+#user-rollover.id-3148591>.info>.role:hover .icon {
+    background: url("https://i.imgur.com/IO84f0g.png") ;
+}
+
+#user-lists .list.room .user.id-3148591 .icon-chat-ambassador {
+    background: url("https://i.imgur.com/xQsRBMB.png");
+}
