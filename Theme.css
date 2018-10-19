@@ -64,13 +64,13 @@
     top: 8px;
     left: 8px;
     font-family: 'fontawesome';
-    content: 'Event is coming Soon xd <3 :D';
+    content: 'Event is coming Soon';
     font-size: 16px;
     color: #ff0000;
 }
 
 #rcs-style-anchor-1.toggled:before {
-    content: 'Event is coming Soon xd <3 :D';
+    content: '';
 }
 
 #rcs-style-anchor-1.toggled {
