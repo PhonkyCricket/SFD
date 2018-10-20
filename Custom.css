@@ -30,7 +30,7 @@
 
 #chat .cm.welcome {
     color: hsl(225, 80%, 60%);
-    box-shadow: inset 0 0 0 1px hsl(50, 50%, 30%);
+    box-shadow: inset 0 0 0 1px hsl(225, 50%, 30%);
 }
 
 #chat .log {
@@ -44,4 +44,27 @@
 
 .cm em {
     color: #21b1af;
+}
+
+/*--[moderation]--*/
+
+#chat .cm.moderation {
+    background: linear-gradient(hsla(225, 50%, 25%, 0.8), hsla(225, 50%, 15%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) ;
+    box-shadow: inset 0 0 0 1px hsl(225, 50%, 50%);
+    border: none ;
+}
+
+#chat .cm.moderation .timestamp {
+    color: hsl(225, 70%, 70%);
+}
+
+/*--[user-action]--*/
+
+#chat .cm.user-action {
+    background: linear-gradient(hsla(225, 100%, 20%, 0.8), hsla(225, 100%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) ;
+    box-shadow: inset 0 0 0 1px hsla(0, 0%, 100%, 0.1);
+}
+
+#chat .cm.user-action .msg .from .un, #chat .cm.user-action .timestamp {
+    color: hsl(225, 90%, 70%) ;
 }
