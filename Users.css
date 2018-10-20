@@ -10,3 +10,69 @@
     color: #ccc;
     font-size: 11px;
 }
+
+/* -Xam. */
+
+#user-lists .list .user.id-5485122 .name:after, #user-rollover.id-5485122 .meta .username:after, #chat [data-cid^='5485122-'] .un:after {
+    content: "Helper/Theme/ccs";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* c0x. 😈 */
+
+#user-lists .list .user.id-20856137 .name:after, #user-rollover.id-20856137 .meta .username:after, #chat [data-cid^='20856137-'] .un:after {
+    content: "Helper/Theme/ccs";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* DJ Polar */
+
+#user-lists .list .user.id-13533383 .name:after, #user-rollover.id-13533383 .meta .username:after, #chat [data-cid^='13533383-'] .un:after {
+    content: "Helper/Website Developer";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+
+/* YourturnGaming */
+
+#user-lists .list .user.id-3594631 .name:after, #user-rollover.id-3594631 .meta .username:after, #chat [data-cid^='3594631-'] .un:after {
+    content: "Helper/Website Developer/ccs";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* Diplomacy standards ;) */
+
+#user-lists .list .user.id-31796557 .name:after, #user-rollover.id-31796557 .meta .username:after, #chat [data-cid^='31796557-'] .un:after {
+    content: "Helper/Invites people";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
