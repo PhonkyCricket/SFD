@@ -206,3 +206,12 @@
     background: radial-gradient(hsla(225, 100%, 30%, 0.9), hsla(225, 100%, 20%, 0.9)) ;
     box-shadow: inset 0 0 50px #000 ;
 }
+
+#user-rollover .meta.subscriber .thumb, #waitlist .is-subscriber .thumb {
+    border-color: hsl(225, 80%, 45%) ;
+    box-shadow: 0 0 7px hsl(225, 80%, 45%) ;
+}
+
+#user-rollover .meta.subscriber .thumb.large {
+    box-shadow: 0 0 15px hsl(225, 80%, 45%) ;
+}
