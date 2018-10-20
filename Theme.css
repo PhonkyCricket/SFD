@@ -130,3 +130,69 @@
     margin-right: 10px;
     padding: 10px 20px;
 }
+
+.community-settings .community-settings__menu .preview-settings-button, .community-settings .about-settings .about-settings__links-container .flex-container button.add {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+    color: #21b1af;
+    white-space: nowrap;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .4s;
+    display: inline-table;
+    font-weight: 400px;
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+
+.community-settings .edit-settings {
+    background: #21b1af;
+}
+
+.community-settings .community-settings__container .general-settings .panel .title, .community-settings .community-settings__container .general-settings .title {
+    text-transform: uppercase;
+}
+
+.community-settings .community-settings__container .general-settings .value, .community-settings .community-settings__container .about-settings .helptext, .community-settings .community-settings__container .general-settings .helptext {
+    opacity: 1;
+    color: #21b1af;
+}
+
+.switch-widget__option--on.selected {
+    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+}
+
+.plug-tab-menu .item.selected, .plug-tab-menu .item:last-child.selected {
+    width: 100%;
+    border-bottom: none;
+    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+}
+
+.community-settings .about-settings .widget .widget__title, .community-settings .general-settings .widget .widget__title {
+    color: #21b1af;
+    text-transform: uppercase;
+}
+
+.community-settings .about-settings .widget .widget__recommendation, .community-settings .general-settings .widget .widget__recommendation, .community-settings .about-settings .widget .widget__help, .community-settings .general-settings .widget .widget__help {
+    color: #21b1af;
+    opacity: 1;
+}
+
+#preview-about .top-about .top-background-black {
+    z-index: -5;
+}
+
+.community-settings .community-settings__top .edit-community {
+    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+    color: #21b1af;
+}
+
+.plug-tab-menu .item, .plug-tab-menu .item:last-child {
+    width: 100%;
+}
