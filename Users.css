@@ -90,3 +90,68 @@
     color: #ccc;
     font-size: 11px;
 }
+
+/* DOVŪZĄ */
+
+#user-lists .list .user.id-27182685 .name:after, #user-rollover.id-27182685 .meta .username:after, #chat [data-cid^='27182685-'] .un:after {
+    content: "Helper";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* SpriteG */
+
+#user-lists .list .user.id-8703069 .name:after, #user-rollover.id-8703069 .meta .username:after, #chat [data-cid^='8703069-'] .un:after {
+    content: "Helper";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* Strawberry_princess 🍓 */
+
+#user-lists .list .user.id-3833976 .name:after, #user-rollover.id-3833976 .meta .username:after, #chat [data-cid^='3833976-'] .un:after {
+    content: "Helper";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* ＰＨＯＮＫ */
+
+#user-lists .list .user.id-39700215 .name:after, #user-rollover.id-39700215 .meta .username:after, #chat [data-cid^='39700215-'] .un:after {
+    content: "Helper";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* The`DovysS */
+
+#user-lists .list .user.id-6309776 .name:after, #user-rollover.id-6309776 .meta .username:after, #chat [data-cid^='6309776-'] .un:after {
+    content: "Helper";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
