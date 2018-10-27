@@ -272,3 +272,75 @@
 #user-lists .header .button {
     top: 0px;
 }
+
+#user-lists .header .button.staff.selected {
+    border-bottom: 1px solid #ac76ff;
+}
+
+#user-lists .header .button.ignored.selected {
+    border-bottom: 1px solid #f04f30;
+}
+
+/*--[user-rollover]--*/
+
+#user-rollover {
+    background: linear-gradient(135deg, hsla(0, 0%, 20%, 0.6), hsla(0, 0%, 0%, 0.6));
+    box-shadow: 0 0 10px #000;
+}
+
+#user-rollover .info {
+    background: linear-gradient(hsl(205, 100%, 40%, 0.5), hsl(205, 100%, 30%, 0.5));
+    box-shadow: 0px -2px 10px -1px #000;
+}
+
+#user-rollover .info i+span {
+    text-shadow: 0 0 5px #000;
+}
+
+.thumb {
+    background: hsla(210, 10%, 10%, 0.4);
+}
+
+#user-rollover .info .badge-box, #user-rollover .background, #video-only-dj .background, #search-suggestion, #search-suggestion ul {
+    background: rgba(0, 0, 0, 0);
+}
+
+.thumb.large, .thumb, #user-rollover .meta.online .thumb {
+    border-color: hsl(80, 70%, 50%) ;
+    box-shadow: 0 0 7px hsl(80, 70%, 50%) ;
+}
+
+.thumb.large, #user-rollover .meta.online .thumb.large {
+    box-shadow: 0 0 15px hsl(80, 70%, 50%) ;
+}
+
+#user-rollover.is-staff .meta.online .thumb, #waitlist .is-staff .thumb {
+    border-color: hsl(270, 50%, 50%) ;
+    box-shadow: 0 0 7px hsl(270, 50%, 50%) ;
+}
+
+#user-rollover.is-staff .meta.online .thumb.large {
+    box-shadow: 0 0 15px hsl(270, 50%, 50%) ;
+}
+
+#user-rollover .meta.subscriber .thumb, #waitlist .is-subscriber .thumb {
+    border-color: hsl(225, 80%, 45%) ;
+    box-shadow: 0 0 7px hsl(225, 80%, 45%) ;
+}
+
+#user-rollover .meta.subscriber .thumb.large {
+    box-shadow: 0 0 15px hsl(225, 80%, 45%) ;
+}
+
+#user-rollover .meta.online .status i {
+    display: none;
+}
+
+#user-rollover .meta.online .status span {
+    color: hsl(80, 70%, 50%);
+    margin-left: 0;
+}
+
+#user-rollover .meta.offline .status i {
+    top: 0px;
+}
