@@ -215,3 +215,60 @@
 #user-rollover .meta.subscriber .thumb.large {
     box-shadow: 0 0 15px hsl(225, 80%, 45%) ;
 }
+
+.rcspdjheader {
+    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+    height: 30px;
+}
+
+.rcspdjheader span {
+    color: #eee;
+    top: 7px;
+}
+
+.communities .grid .cell .meta .host {
+    margin-top: 6px;
+}
+
+.btn-no-dj-secondary__icon {
+    overflow: visible;
+}
+
+#user-rollover .meta .status i {
+    top: -2px;
+    left: 2px;
+}
+
+#user-lists .list {
+    top: 55px;
+}
+
+#user-lists .group {
+    border: none ;
+    box-shadow: 0 0 1px 1px;
+}
+
+#user-lists .user:hover {
+    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
+}
+
+.right-side-wrapper #waitlist .list .user:hover {
+    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
+}
+
+#user-lists .list.staff .user:hover .name {
+    color: #eee ;
+}
+
+#user-lists .header {
+    height: 42px;
+}
+
+#user-lists .list-header {
+    display: none;
+}
+
+#user-lists .header .button {
+    top: 0px;
+}
