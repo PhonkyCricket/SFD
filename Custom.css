@@ -68,3 +68,31 @@
 #chat .cm.user-action .msg .from .un, #chat .cm.user-action .timestamp {
     color: hsl(225, 90%, 70%) ;
 }
+
+#chat .cm.emote {
+    background: linear-gradient(hsla(219, 100%, 20%, 0.8), hsla(219, 100%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) ;
+    border-left: none ;
+    text-align: left;
+    box-shadow: inset 0 0 0 1px hsla(220, 100%, 50%, 0.5);
+    border: none ;
+}
+
+#chat .cm.emote .un, #chat .cm.emote .timestamp {
+    color: hsl(210, 100%, 60%) ;
+}
+
+#chat .cm.emote i {
+    display: inline ;
+}
+
+#chat .emote .text {
+    font-style: oblique ;
+}
+
+.fa-thumbs-up:before {
+    content: "^";
+}
+
+.fa-thumbs-down:before {
+ content: "¤";
+}
