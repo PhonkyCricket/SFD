@@ -1,1 +1,21 @@
+votes-rs {
+    color: #00fffc;
+}
+
+.community .left-side-wrapper .left-side-wrapper-inner .room-controls .room-vote--desktop .votes-rs {
+    border-color: rgba(0,0,0,.9);
+}
+
+i.fa.fa-thumbs-up {
+    color: #00fffc;
+}
+
+i.fa.fa-thumbs-down {
+    color: #00fffc;
+}
+
+i.plugdjfont.icon-list {
+    color: #00fffc;
+}
+
 
