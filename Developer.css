@@ -1,5 +1,5 @@
 #user-rollover.id-3669054 .meta {
-    height: 400px;
+    top: -50px;
 }
 
 #user-rollover.id-3669054 .joined:after {
@@ -7,7 +7,7 @@
     content: 'I am helping people!';
     background-image: url(https://i.imgur.com/a2zR8CP.png);
     background-repeat: no-repeat;
-    color: #00799E;
+    color: #21b1af;
     margin: 75px 0 0 -103px;
     padding-left: 19px;
     font-weight: 400;
@@ -23,11 +23,10 @@
     background-repeat: no-repeat;
     content: "Fear Foxy";
     display: inline-block;
-    color: #00BB95;
+    color: #21b1af;
     font-weight: bold;
     margin: 0px 0px 0 14px;
-    padding-left: 19px
-;
+    padding-left: 19px;
 }
 
 #user-rollover.id-3669054 .thumb, #user-rollover.id-3669054 .thumb {
@@ -43,7 +42,7 @@
     content: 'Music Producer/Artist';
     background-image: url(https://i.imgur.com/a2zR8CP.png);
     background-repeat: no-repeat;
-    color: #00799E;
+    color: #21b1af;
     margin: 97px 0 0 0px;
     padding-left: 20px;
     font-weight: 400;
@@ -67,7 +66,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #0078c7;
+    border: 1px solid #21b1af;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
