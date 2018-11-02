@@ -344,3 +344,42 @@
 #user-rollover .meta.offline .status i {
     top: 0px;
 }
+
+::-moz-selection {
+    background: rgba(180,138,18,.25);
+}
+
+::-webkit-scrollbar {
+    background: #0c1217;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(180,138,18,.8);
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.5);
+}
+
+::selection {
+    background: rgba(180,138,18,.25);
+}
+
+@media  (max-width: 1325px) {
+    
+.community .right-side-wrapper .community__right-bar #chat #chat-suggestion {
+    background: #21b1af;
+}
+
+.community .right-side-wrapper .community__right-bar #header-panel-bar .header-panel-button {
+    border-bottom-color: rgba(180,138,18,.8);
+    height: 50px;
+}
+
+.community .right-side-wrapper .community__right-bar #header-panel-bar .header-panel-button.selected {
+    background: linear-gradient(to top,rgba(180,138,18,.25),transparent);
+    border-bottom: 1px solid #21b1af;
+}
+
+.community .right-side-wrapper .community__right-bar #header-panel-bar .header-panel-button.selected .bar-count,.community .right-side-wrapper .community__right-bar #header-panel-bar .header-panel-button.selected i {
+    color: #21b1af;
+}
+    
