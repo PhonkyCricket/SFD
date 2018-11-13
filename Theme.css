@@ -457,3 +457,35 @@
 #rs-toggle-sidebar {
     display: none;
 }    
+    
+.offline .thumb {
+    border-color: hsl(0, 0%, 40%) ;
+    box-shadow: none ;
+}
+
+.signed-in .community__top-right .btn-subscribe {
+    display: none;
+}
+
+.user-content.profile .meta {
+    margin-top: 60px;
+}
+
+.user-level-dropdown__level-text {
+    color: #00c6ff;
+}
+
+.user-level-dropdown__level-number .fa, .user-level-dropdown__progress .progress .progress-bar, .btn-level {
+    background-color: #00c6ff;
+    color: #fff;
+}
+
+.btn-level {
+    color: #fff
+;
+}
+
+.user-level-dropdown .user-name {
+    font-weight: 500;
+}
+    
