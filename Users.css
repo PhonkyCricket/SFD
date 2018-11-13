@@ -37,6 +37,17 @@
     font-size: 11px;
 }
 
+#user-rollover.id-20856137 .level:after {
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    content: "Fear Foxy";
+    display: inline-block;
+    color: #21b1af;
+    font-weight: bold;
+    margin: 0px 0px 0 14px;
+    padding-left: 19px;
+}
+
 /* DJ Polar */
 
 #user-lists .list .user.id-13533383 .name:after, #user-rollover.id-13533383 .meta .username:after, #chat [data-cid^='13533383-'] .un:after {
@@ -180,4 +191,49 @@
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
+}
+
+/* Kimps ~ Hardstyle Heaven */
+
+#user-lists .list .user.id-7895511 .name:after, #user-rollover.id-7895511 .meta .username:after, #chat [data-cid^='7895511-'] .un:after {
+    content: "Helper";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #21b1af;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+
+#user-rollover.id-7895511 .meta {
+    top: -50px;
+}
+
+#user-rollover.id-7895511 .joined:after {
+    position: absolute;
+    content: '» supporting » community »';
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    color: #21b1af;
+    margin: 75px 0 0 -103px;
+    padding-left: 19px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+/* Kimps ~ Hardstyle Heaven */
+
+#user-rollover.id-7895511 .level:after {
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    content: "Fear Foxy";
+    display: inline-block;
+    color: #21b1af;
+    font-weight: bold;
+    margin: 0px 0px 0 14px;
+    padding-left: 19px;
 }
