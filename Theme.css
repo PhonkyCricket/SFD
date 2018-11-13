@@ -383,3 +383,77 @@
     color: #21b1af;
 }
     
+/** Move the X on waitlist to the side **/
+
+.right-side-wrapper #waitlist .icon-x-white {
+    right: -8px ;
+}
+
+/** Make badges great again **/
+
+#chat .badge-box i {
+    -webkit-transform: unset;
+    -ms-transform: unset;
+    transform: unset;
+}
+
+/** Remove the blue from player **/
+
+.community .community__playing-top {
+    background-color: unset;
+}
+
+/** Fixes the song title **/
+
+.community__playing-bottom-container {
+    max-width: 100%;
+}
+    
+.rs-skip-button {
+    margin-left: 0px;
+}
+
+[data-theme] .left-side-wrapper .left-side-wrapper-inner {
+    background-image: url("https://i.imgur.com/WK1lRBo.png");
+}
+
+.rsrow:hover {
+    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
+}
+
+#waitlist-button .count {
+    color: #eee;
+}
+
+#user-menu .item i {
+    color: #eee;
+    opacity: 1;
+}
+
+#user-view .user-content .tab-menu button.selected, #user-view .user-content .tab-menu button {
+    border: none;
+}
+
+.share-song-item.share-facebook, .share-room-item.share-facebook {
+    color: #21b1af;
+}
+
+.share-song-item.share-twitter, .share-room-item.share-twitter {
+    color: #21b1af;
+}
+
+.share-song-item.share-facebook:hover, .share-song-item.share-twitter:hover {
+    color: #eee;
+}
+
+.description.panel .value a[href*=".json"] {
+    display: none;
+}
+    
+.friends .jspContainer {
+    height: 730px;
+}
+   
+#rs-toggle-sidebar {
+    display: none;
+}    
