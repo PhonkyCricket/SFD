@@ -90,11 +90,11 @@
 }
 
 .fa-thumbs-up:before {
-    content: "^";
+    content: "";
 }
 
 .fa-thumbs-down:before {
- content: "¤";
+ content: "";
 }
 
 #chat .cm.mention.role-host {
