@@ -1,10 +1,13 @@
 #rcs-style-anchor-2 {
     background-color: rgba(0, 0, 0, 0.9) ;
-    border-radius: 5px ;
-    border: 1px solid #21b1af;
+    border-radius: 10px ;
+    border: 1px solid;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
     position: absolute;
     top: 55px;
-    right: 355px ;
+    left: 55px;
     z-index: 9;
     cursor: pointer;
     height: 52px ;
@@ -41,14 +44,17 @@
     background-color: rgba(0, 0, 0, 0.9) ;
     background-image: url() ;
     border-radius: 5px ;
-    border: 1px solid #21b1af;
+    border: 1px solid;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
     position: absolute;
     /*height: 435px !important;*/
     /*width: 300px !important;*/
     height: 100%;
     width: 100%;
-    top: 180px;
-    right: 355px ;
+    top: 145px;
+    left: 55px;
     z-index: 9;
     cursor: pointer;
     background-size: 100%;
@@ -494,7 +500,7 @@ div.room-controls--desktop.room-vote--desktop {
     background-color: rgba(0, 0, 0, 0.9);
     border: 3px solid;
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -503,6 +509,10 @@ p.community__about {
     background-color: rgba(0, 0, 0, 0.9) ;
     border-radius: 15px;
     border: 2px solid;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
     
     
@@ -511,7 +521,7 @@ button.btn.btn-no-dj-secondary.play.btn-no-dj-secondary__bottom {
     border-radius: 15px;
     border: 3px solid;
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: absolute;
