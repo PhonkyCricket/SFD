@@ -89,14 +89,6 @@
     font-style: oblique ;
 }
 
-.fa-thumbs-up:before {
-    content: "";
-}
-
-.fa-thumbs-down:before {
- content: "";
-}
-
 #chat .cm.mention.role-host {
     background: linear-gradient(hsla(200, 100%, 30%, 0.8), hsla(200, 100%, 20%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) ;
     box-shadow: inset 0 0 0 1px hsl(200, 50%, 50%);
