@@ -1,1 +1,36 @@
+/*Define Animation*/
+@keyframes rainbow {
+from{
+    color: #30ad2f;
+}
 
+10% {
+    color: #873aff;
+}
+20% {
+    color: #d6202f;
+}
+30% {
+    color: #fbba22;
+}
+40% {
+    color: #35e621;
+}
+50% {
+    color: #2b84f7;
+}
+60% {
+    color: #922bec;
+}
+70% {
+    color: #009cdd;
+}
+80% {
+    color: #ae2ec4;
+}
+90% {
+    color: #f93e4e;
+}
+to {
+    color: #30ad2f;
+}
