@@ -489,3 +489,31 @@
     font-weight: 500;
 }
     
+
+div.room-controls--desktop.room-vote--desktop {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 3px solid;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+    
+p.community__about {
+    background-color: rgba(0, 0, 0, 0.9) ;
+    border-radius: 15px;
+    border: 2px solid;
+}
+    
+    
+button.btn.btn-no-dj-secondary.play.btn-no-dj-secondary__bottom {
+    background-color: rgba(0, 0, 0, 0.9) ;
+    border-radius: 15px;
+    border: 3px solid;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left: -85px;
+}
