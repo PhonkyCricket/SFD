@@ -490,8 +490,9 @@
 }
     
 
-div.room-controls--desktop.room-vote--desktop {
+.community .room-controls--desktop {
     background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid #ff0000;
 }
     
 p.community__about {
