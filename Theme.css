@@ -1,13 +1,13 @@
 #rcs-style-anchor-2 {
-    background-color: rgba(0, 0, 0, 0.9) ;
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     border: 3px solid #ff0000;
     top: 55px;
     left: 55px;
     z-index: 9;
     cursor: pointer;
-    height: 52px ;
-    width: 230px ;
+    height: 52px;
+    width: 230px;
 }
 
 #rcs-style-anchor-2:before {
@@ -22,8 +22,8 @@
 }
 
 #rcs-style-anchor-2.toggled {
-    height: 50px ;
-    width: 155px ;
+    height: 50px;
+    width: 155px;
 }
 
 #rcs-style-anchor-2.toggled:after {
@@ -38,8 +38,8 @@
 
 #rcs-style-anchor-1 {
     background-color: rgba(0, 0, 0, 0.9) ;
-    background-image: url(https://cdn.discordapp.com/attachments/502505905443831826/516009457403166743/Logopit_1543096624227.png) ;
-    border-radius: 5px ;
+    background-image: url(https://cdn.discordapp.com/attachments/502505905443831826/516009457403166743/Logopit_1543096624227.png);
+    border-radius: 5px;
     border: 3px solid #ff0000;
     position: absolute;
     /*height: 435px !important;*/
@@ -52,9 +52,9 @@
     cursor: pointer;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 0px 33px ;
-    max-width: 300px ;
-    max-height: 455px ;
+    background-position: 0px 33px;
+    max-width: 300px;
+    max-height: 455px;
 }
 
 #rcs-style-anchor-1:before {
@@ -73,8 +73,8 @@
 }
 
 #rcs-style-anchor-1.toggled {
-    height: 35px ;
-    width: 85px ;
+    height: 35px;
+    width: 85px;
 }
 
 /* About */
@@ -496,34 +496,33 @@ div.room-controls--desktop.room-vote--desktop {
 }
     
 p.community__about {
-    background-color: rgba(0, 0, 0, 0.9) ;
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 15px;
     border: 3px solid #ff0000;
 }    
     
     
 button.btn.btn-no-dj-secondary.play.btn-no-dj-secondary__bottom {
-    background-color: rgba(0, 0, 0, 0.9) ;
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 15px;
     border: 3px solid #ff0000;
     left: -85px;
 }
 
     div.community__top {
-    background-color: rgba(0, 0, 0, 0.9) ;
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 5px;
     border: 3px solid #ff0000;
 }
 
 div.community__playlist--desktop {
-    background-color: rgba(0, 0, 0, 0.9) ;
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 5px;
     border: 3px solid #ff0000;
 }
 
 #chat {
-    background-color: rgba(0, 0, 0, 0.9) ;
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 5px;
     border: 3px solid #ff0000;
 }
-
