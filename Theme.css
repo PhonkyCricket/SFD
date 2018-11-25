@@ -579,3 +579,10 @@ div.community__playlist--desktop {
     background-color: #ff0000;
 }
 
+#playlist-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+div.playlist--override.plugdj__panel.plugdj__panel-left {
+    background-color: rgba(0, 0, 0, 0.9);
+}
