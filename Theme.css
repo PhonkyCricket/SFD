@@ -491,38 +491,25 @@
 
 div.room-controls--desktop.room-vote--desktop {
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 15px;
-    border: 3px solid #ff0000;
 }
     
 p.community__about {
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 15px;
-    border: 3px solid #ff0000;
 }    
-    
     
 button.btn.btn-no-dj-secondary.play.btn-no-dj-secondary__bottom {
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 15px;
-    border: 3px solid #ff0000;
     left: -85px;
 }
 
     div.community__top {
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 5px;
-    border: 3px solid #ff0000;
 }
 
 div.community__playlist--desktop {
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 5px;
-    border: 3px solid #ff0000;
 }
 
 #chat {
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 5px;
-    border: 3px solid #ff0000;
 }
