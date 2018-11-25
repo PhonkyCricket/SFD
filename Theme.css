@@ -2,6 +2,7 @@
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     border: 3px solid #ff0000;
+    position: absolute;
     top: 55px;
     left: 55px;
     z-index: 9;
