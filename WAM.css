@@ -1,19 +1,24 @@
 votes-rs {
-    color: #00fffc;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ff0000;
+    border: 3px solid #ff0000;
+    border-color: rgba(0,0,0,.9);
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .room-controls .room-vote--desktop .votes-rs {
+    background-color: rgba(0, 0, 0, 0.9);
     border-color: rgba(0,0,0,.9);
 }
 
 i.fa.fa-thumbs-up {
-    color: #00fffc;
+    color: #ff0000;
 }
 
 i.fa.fa-thumbs-down {
-    color: #00fffc;
+    color: #ff0000;
 }
 
 i.plugdjfont.icon-list {
-    color: #00fffc;
+    color: #ff0000;
 }
+
