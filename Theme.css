@@ -223,7 +223,7 @@
 }
 
 .rcspdjheader span {
-    color: #eee;
+    color: #ff0000;
     top: 7px;
 }
 
@@ -231,8 +231,13 @@
     margin-top: 6px;
 }
 
-.btn-no-dj-secondary__icon {
+.btn-no-dj-secondary__bottom {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 3px solid #ff0000;
+    border-radius: 0px;
+    position: absolute;
     overflow: visible;
+    left: -95px;
 }
 
 #user-rollover .meta .status i {
@@ -245,8 +250,8 @@
 }
 
 #user-lists .group {
-    border: none ;
-    box-shadow: 0 0 1px 1px;
+    border: none;
+    box-shadow: 0 0 2px 2px;
 }
 
 #user-lists .user:hover {
@@ -258,7 +263,7 @@
 }
 
 #user-lists .list.staff .user:hover .name {
-    color: #eee ;
+    color: #ff0000;
 }
 
 #user-lists .header {
@@ -274,11 +279,11 @@
 }
 
 #user-lists .header .button.staff.selected {
-    border-bottom: 1px solid #ac76ff;
+    border-bottom: 2px solid #ff0000;
 }
 
 #user-lists .header .button.ignored.selected {
-    border-bottom: 1px solid #f04f30;
+    border-bottom: 2px solid #ff0000;
 }
 
 /*--[user-rollover]--*/
@@ -323,15 +328,6 @@
     box-shadow: 0 0 15px hsl(270, 50%, 50%) ;
 }
 
-#user-rollover .meta.subscriber .thumb, #waitlist .is-subscriber .thumb {
-    border-color: hsl(225, 80%, 45%) ;
-    box-shadow: 0 0 7px hsl(225, 80%, 45%) ;
-}
-
-#user-rollover .meta.subscriber .thumb.large {
-    box-shadow: 0 0 15px hsl(225, 80%, 45%) ;
-}
-
 #user-rollover .meta.online .status i {
     display: none;
 }
@@ -362,3 +358,13 @@
 ::selection {
     background: rgba(180,138,18,.25);
 }
+
+/* --------------------------------------- icon --------------------------------------- */
+
+.icon {
+    background-image: url("https://cdn.discordapp.com/attachments/375275674505838594/517061966175666186/icons.png")
+;
+}
+
+/* --------------------------------------- Katsetused --------------------------------------- */
+
