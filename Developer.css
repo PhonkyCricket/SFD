@@ -7,7 +7,7 @@
     content: 'I am helping people!';
     background-image: url(https://i.imgur.com/a2zR8CP.png);
     background-repeat: no-repeat;
-    color: #21b1af;
+    color: #ff0000;
     margin: 75px 0 0 -103px;
     padding-left: 19px;
     font-weight: 400;
@@ -23,18 +23,20 @@
     background-repeat: no-repeat;
     content: "Fear Foxy";
     display: inline-block;
-    color: #21b1af;
+    color: #ff0000;
     font-weight: bold;
     margin: 0px 0px 0 14px;
     padding-left: 19px;
 }
 
 #user-rollover.id-3669054 .thumb, #user-rollover.id-3669054 .thumb {
-    border-color: #00BB95 ;
+    shadow: 5px solid #ff0000;
+    border-color: #ff0000;
 }
 
 #user-lists .list .user.id-3669054 .name, #user-rollover.id-3669054 .username, #chat [data-cid^='3669054-'] .un {
-    color: #00BB95 ;
+    shadow: 5px solid #ff0000;
+    color: #ff0000;
 }
 
 #user-rollover.id-3669054 .joined:before {
@@ -42,7 +44,7 @@
     content: 'Music Producer/Artist';
     background-image: url(https://i.imgur.com/a2zR8CP.png);
     background-repeat: no-repeat;
-    color: #21b1af;
+    color: #ff0000;
     margin: 97px 0 0 0px;
     padding-left: 20px;
     font-weight: 400;
@@ -63,11 +65,11 @@
 
 #user-lists .list .user.id-3669054 .name:after, #user-rollover.id-3669054 .meta .username:after, #chat [data-cid^='3669054-'] .un:after {
     content: "Web/Ccs/Theme/Room Dev";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .7);
-    padding: 0px 5px;
-    border: 1px solid #21b1af;
-    border-radius: 5px;
+    margin-left: 3px;
+    background: rgba(0, 0, 0, .9);
+    padding: 0px 3px;
+    border: 2px solid #ff0000;
+    border-radius: 100px;
     color: #ccc;
     font-size: 11px;
 }
