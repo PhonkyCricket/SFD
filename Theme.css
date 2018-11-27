@@ -368,3 +368,10 @@
 
 /* --------------------------------------- Katsetused --------------------------------------- */
 
+#playlist-panel {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+div.community__playlist--desktop {
+    background-color: rgba(0, 0, 0, 0.9);
+}  
