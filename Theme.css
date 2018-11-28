@@ -375,3 +375,46 @@
 div.community__playlist--desktop {
     background-color: rgba(0, 0, 0, 0.9);
 }  
+
+#dj-button {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 3px solid #ff0000;
+    border-radius: 0px;
+    position: absolute;
+    overflow: visible;
+    left: -95px;
+}
+
+#dj-button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#dj-button .left {
+    background-color: rgba(0, 0, 0, 0.9); 0.28));
+    border: 3px solid #ff0000;
+    border-radius: 0px;
+    position: absolute;
+    overflow: visible;
+    left: -95px;
+}
+
+#dj-button:hover .left {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#dj-button.is-leave:hover .left, #dj-button.is-quit:hover .left {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#dj-button.is-locked {cursor: no-drop}
+#dj-button.is-locked .left, #dj-button.is-full .left {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#dj-button.is-locked:hover .left, #dj-button.is-full:hover .left {
+    background-color: rgba(0, 0, 0, 0.9);
+}
