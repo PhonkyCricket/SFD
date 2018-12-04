@@ -5,7 +5,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -18,7 +18,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -31,7 +31,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -42,7 +42,7 @@
     background-repeat: no-repeat;
     content: "Fear Foxy";
     display: inline-block;
-    color: #21b1af;
+    color: #ff0000;
     font-weight: bold;
     margin: 0px 0px 0 14px;
     padding-left: 19px;
@@ -55,7 +55,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -69,7 +69,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -82,7 +82,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -96,7 +96,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -109,7 +109,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -122,7 +122,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -135,7 +135,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -148,7 +148,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -161,7 +161,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -174,7 +174,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -187,7 +187,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -200,7 +200,7 @@
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
-    border: 1px solid #21b1af;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #ccc;
     font-size: 11px;
@@ -216,7 +216,7 @@
     content: '» supporting » community »';
     background-image: url(https://i.imgur.com/a2zR8CP.png);
     background-repeat: no-repeat;
-    color: #21b1af;
+    color: #ff0000;
     margin: 75px 0 0 -103px;
     padding-left: 19px;
     font-weight: 400;
@@ -232,8 +232,21 @@
     background-repeat: no-repeat;
     content: "Fear Foxy";
     display: inline-block;
-    color: #21b1af;
+    color: #ff0000;
     font-weight: bold;
     margin: 0px 0px 0 14px;
     padding-left: 19px;
+}
+
+/* ForcePlaysFF */
+
+#user-lists .list .user.id-29497090 .name:after, #user-rollover.id-29497090 .meta .username:after, #chat [data-cid^='29497090-'] .un:after {
+    content: "Web/Theme";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
 }
