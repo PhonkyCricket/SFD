@@ -241,7 +241,7 @@
 /* ForcePlaysFF */
 
 #user-lists .list .user.id-29497090 .name:after, #user-rollover.id-29497090 .meta .username:after, #chat [data-cid^='29497090-'] .un:after {
-    content: "Web/Theme";
+    content: "Helper/Web/Theme";
     margin-left: 5px;
     background: rgba(0, 0, 0, .3);
     padding: 0px 5px;
