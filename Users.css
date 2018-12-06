@@ -224,3 +224,16 @@
     color: #ccc;
     font-size: 11px;
 }
+
+/* Anment */
+
+#user-lists .list .user.id-16689928 .name:after, #user-rollover.id-16689928 .meta .username:after, #chat [data-cid^='16689928-'] .un:after {
+    content: "Helper/Coding/JavaScript";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .5);
+    padding: 0px 5px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
