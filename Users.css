@@ -1,22 +1,9 @@
-/* Jαє♡ */
-
-#user-lists .list .user.id-9125358 .name:after, #user-rollover.id-9125358 .meta .username:after, #chat [data-cid^='9125358-'] .un:after {
-    content: "BotX Dev";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
 /* -Xam. */
 
 #user-lists .list .user.id-5485122 .name:after, #user-rollover.id-5485122 .meta .username:after, #chat [data-cid^='5485122-'] .un:after {
     content: "Helper/Theme/ccs";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -29,7 +16,7 @@
 #user-lists .list .user.id-20856137 .name:after, #user-rollover.id-20856137 .meta .username:after, #chat [data-cid^='20856137-'] .un:after {
     content: "Helper/Theme/ccs";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -53,7 +40,7 @@
 #user-lists .list .user.id-13533383 .name:after, #user-rollover.id-13533383 .meta .username:after, #chat [data-cid^='13533383-'] .un:after {
     content: "Helper/Website Developer";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -65,9 +52,9 @@
 /* YourturnGaming */
 
 #user-lists .list .user.id-3594631 .name:after, #user-rollover.id-3594631 .meta .username:after, #chat [data-cid^='3594631-'] .un:after {
-    content: "Helper/Website Developer/ccs";
+    content: "Helper/Website Developer/ccs/coding";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -80,7 +67,7 @@
 #user-lists .list .user.id-31796557 .name:after, #user-rollover.id-31796557 .meta .username:after, #chat [data-cid^='31796557-'] .un:after {
     content: "Helper/Invites people";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -94,7 +81,7 @@
 #user-lists .list .user.id-3148591 .name:after, #user-rollover.id-3148591 .meta .username:after, #chat [data-cid^='3148591-'] .un:after {
     content: "Helper/Best Ba";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -107,7 +94,7 @@
 #user-lists .list .user.id-27182685 .name:after, #user-rollover.id-27182685 .meta .username:after, #chat [data-cid^='27182685-'] .un:after {
     content: "Helper";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -120,7 +107,7 @@
 #user-lists .list .user.id-8703069 .name:after, #user-rollover.id-8703069 .meta .username:after, #chat [data-cid^='8703069-'] .un:after {
     content: "Helper";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -133,7 +120,7 @@
 #user-lists .list .user.id-3833976 .name:after, #user-rollover.id-3833976 .meta .username:after, #chat [data-cid^='3833976-'] .un:after {
     content: "Helper";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -146,46 +133,7 @@
 #user-lists .list .user.id-39700215 .name:after, #user-rollover.id-39700215 .meta .username:after, #chat [data-cid^='39700215-'] .un:after {
     content: "Helper/Invites people";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-/* The`DovysS */
-
-#user-lists .list .user.id-6309776 .name:after, #user-rollover.id-6309776 .meta .username:after, #chat [data-cid^='6309776-'] .un:after {
-    content: "Helper";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-/* mauricevdam */
-
-#user-lists .list .user.id-6566146 .name:after, #user-rollover.id-6566146 .meta .username:after, #chat [data-cid^='6566146-'] .un:after {
-    content: "Helper";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-/* 💙ItsMatuska💙 */
-
-#user-lists .list .user.id-27897869 .name:after, #user-rollover.id-27897869 .meta .username:after, #chat [data-cid^='27897869-'] .un:after {
-    content: "Helper";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -198,7 +146,7 @@
 #user-lists .list .user.id-7895511 .name:after, #user-rollover.id-7895511 .meta .username:after, #chat [data-cid^='7895511-'] .un:after {
     content: "Helper";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
@@ -243,7 +191,33 @@
 #user-lists .list .user.id-29497090 .name:after, #user-rollover.id-29497090 .meta .username:after, #chat [data-cid^='29497090-'] .un:after {
     content: "Helper/Web/Theme";
     margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
+    padding: 0px 5px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* D0RIT0S */
+
+#user-lists .list .user.id-3905933 .name:after, #user-rollover.id-3905933 .meta .username:after, #chat [data-cid^='3905933-'] .un:after {
+    content: "Helper/invites People/";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .5);
+    padding: 0px 5px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* tay_guwap */
+
+#user-lists .list .user.id-41513090 .name:after, #user-rollover.id-41513090 .meta .username:after, #chat [data-cid^='41513090-'] .un:after {
+    content: "Helper/invites People/";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
     border: 2px solid #ff0000;
     border-radius: 5px;
