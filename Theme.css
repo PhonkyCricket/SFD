@@ -390,7 +390,7 @@ div.community__playlist--desktop {
 }
 
 #dj-button .left {
-    background-color: rgba(0, 0, 0, 0.9); 0.28));
+    background-color: rgba(0, 0, 0, 0.9);
     border: 3px solid #ff0000;
     border-radius: 0px;
     position: absolute;
@@ -417,4 +417,56 @@ div.community__playlist--desktop {
 
 #dj-button.is-locked:hover .left, #dj-button.is-full:hover .left {
     background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.community .community__info-item, .community .community__player-item, .community .room-controls--desktop__item, .community .bottom__playback-controls--desktop .community__player-item.history .fa, .community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
+    color: #ff0000;
+    opacity: 1;
+}
+
+.community .community__info-item:hover, .community .community__player-item:hover, .community .room-controls--desktop__item:hover, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger:hover, .community .bottom__playback-controls--desktop .community__player-item.history:hover {
+    opacity: .5;
+}
+
+@media  (min-width: 576px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 93.2% !important;
+  }
+}
+
+@media  (min-width: 980px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 93.2% !important;
+  }
+}
+
+@media  (min-width: 1200px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 91.33% !important;
+  }
+}
+
+@media  (min-width: 1600px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 92.33% !important;
+  }
+}
+
+@media  (min-width: 1800px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 93.7% !important;
+  }
+}
+
+@media  (min-width: 1920px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 93.7% !important;
+  }
+}
+
+@media  (min-width: 992px) {
+  .community__bottom {    
+    width: 100%;
+  }
 }
