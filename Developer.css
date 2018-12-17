@@ -1,5 +1,5 @@
 #user-rollover.id-3669054 .meta {
-    top: -50px;
+    top: -80px;
 }
 
 #user-rollover.id-3669054 .joined:after {
@@ -74,17 +74,21 @@
     font-size: 11px;
 }
 
-#user-rollover.id-3669054 .meta:before{
+#user-rollover.id-3669054 .meta:before {
     content: url("https://i.imgur.com/lVc7TDE.jpg?1");
     top: 190px;
     left: 109px;
     position: absolute;
 }
 
-#user-rollover.id-3669054 .meta:after{
-    content: 'Christmas Event 2018';
+#user-rollover.id-3669054 .meta:after {
+    content: 'Christmas Event 2018-2019';
     color: #b9290f;
     position: absolute;
     top: 190px;
     left: 130px;
+}
+
+div.is-promoter.can-mention.can-friend.can-ignore.expand.chat.id-3669054.is-coffee-supporter.is-bronze-supporter.role-promoter.role-host.role-subscriber {
+    top: 175px;
 }
