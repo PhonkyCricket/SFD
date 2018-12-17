@@ -73,3 +73,18 @@
     color: #ccc;
     font-size: 11px;
 }
+
+#user-rollover.id-3669054 .meta:before{
+    content: url("https://i.imgur.com/lVc7TDE.jpg?1");
+    top: 190px;
+    left: 109px;
+    position: absolute;
+}
+
+#user-rollover.id-3669054 .meta:after{
+    content: 'Christmas Event 2018';
+    color: #b9290f;
+    position: absolute;
+    top: 190px;
+    left: 130px;
+}
