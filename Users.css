@@ -188,6 +188,10 @@
 
 /* ForcePlaysFF */
 
+#user-rollover.id-29497090 .meta {
+    top: -50px;
+}
+
 #user-lists .list .user.id-29497090 .name:after, #user-rollover.id-29497090 .meta .username:after, #chat [data-cid^='29497090-'] .un:after {
     content: "Helper/Web/Theme";
     margin-left: 5px;
