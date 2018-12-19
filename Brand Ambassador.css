@@ -6,10 +6,6 @@
 
 /* Bloom <3 */
 
-#user-rollover.id-3148591 .badge-box>i.bdg, .id-3148591>.badge-box>i.bdg {
-    border-radius: 6px;
-}
-
 #user-rollover.id-3148591>.info>.role span {
     text-indent: -9999px;
     line-height: 0;
