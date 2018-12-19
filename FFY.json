@@ -1,8 +1,8 @@
 {
    "room":"F E A R F O X Y",
-   "author":"Created by - F0xYG0d | PGD & Nataly for community",
-   "icon":null,
-   "css":"https://rawgit.com/xUndisputed/FFYCss/master/FFY.css",
+   "author":"Created by - F0xYG0d | PGD",
+   "icon":"https://i.imgur.com/iTg17U7.jpg",
+   "css":"https://rawgit.com/F0xYG0d/FFYCss/master/FFY.css",
    "rules":{
       "allowAutorespond":true,
       "allowAutowoot":true,
