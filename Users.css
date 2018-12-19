@@ -294,3 +294,29 @@
     color: #ccc;
     font-size: 11px;
 }
+
+/* Flacki */
+
+#user-lists .list .user.id-41576692 .name:after, #user-rollover.id-41576692 .meta .username:after, #chat [data-cid^='41576692-'] .un:after {
+    content: "Helper";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .5);
+    padding: 0px 5px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* Gerten1 */
+
+#user-lists .list .user.id-21878762 .name:after, #user-rollover.id-21878762 .meta .username:after, #chat [data-cid^='21878762-'] .un:after {
+    content: "Helper";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .5);
+    padding: 0px 5px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
