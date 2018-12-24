@@ -64,7 +64,7 @@
     top: 8px;
     left: 8px;
     font-family: 'fontawesome';
-    content: 'Event is coming Soon';
+    content: 'Event';
     font-size: 16px;
     color: #21b1af;
 }
@@ -81,7 +81,7 @@
 /* About */
 
 #preview-about {
-    background: #21b1af;
+    background: #ff0000;
 }
 
 #preview-about .top-about {
@@ -109,7 +109,7 @@
 }
 
 #preview-about .top-profile .follow:hover {
-    color: #21b1af;
+    color: #ff0000;
 }
 
 #preview-about .top-profile .share {
@@ -118,7 +118,7 @@
     letter-spacing: 1px;
     text-align: center;
     background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    color: #21b1af;
+    color: #ff0000;
     white-space: nowrap;
     border: 0;
     border-radius: 25px;
@@ -137,7 +137,7 @@
     letter-spacing: 1px;
     text-align: center;
     background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    color: #21b1af;
+    color: #ff0000;
     white-space: nowrap;
     border: 0;
     border-radius: 25px;
@@ -151,7 +151,7 @@
 }
 
 .community-settings .edit-settings {
-    background: #21b1af;
+    background: #ff0000;
 }
 
 .community-settings .community-settings__container .general-settings .panel .title, .community-settings .community-settings__container .general-settings .title {
@@ -160,7 +160,7 @@
 
 .community-settings .community-settings__container .general-settings .value, .community-settings .community-settings__container .about-settings .helptext, .community-settings .community-settings__container .general-settings .helptext {
     opacity: 1;
-    color: #21b1af;
+    color: #ff0000;
 }
 
 .switch-widget__option--on.selected {
@@ -175,12 +175,12 @@
 }
 
 .community-settings .about-settings .widget .widget__title, .community-settings .general-settings .widget .widget__title {
-    color: #21b1af;
+    color: #ff0000;
     text-transform: uppercase;
 }
 
 .community-settings .about-settings .widget .widget__recommendation, .community-settings .general-settings .widget .widget__recommendation, .community-settings .about-settings .widget .widget__help, .community-settings .general-settings .widget .widget__help {
-    color: #21b1af;
+    color: #ff0000;
     opacity: 1;
 }
 
@@ -190,7 +190,7 @@
 
 .community-settings .community-settings__top .edit-community {
     background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    color: #21b1af;
+    color: #ff0000;
 }
 
 .plug-tab-menu .item, .plug-tab-menu .item:last-child {
