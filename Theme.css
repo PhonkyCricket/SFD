@@ -39,7 +39,7 @@
 
 #rcs-style-anchor-1 {
     background-color: rgba(0, 0, 0, 0.9) ;
-    content: '31 december new event, new year! :D 11:00pm begins event.';
+    content: 'Event';
     border-radius: 5px;
     border: 3px solid #ff0000;
     position: absolute;
@@ -64,7 +64,7 @@
     top: 8px;
     left: 8px;
     font-family: 'fontawesome';
-    content: 'Event';
+    content: '31 december new event, new year! :D 11:00pm begins event.';
     font-size: 16px;
     color: #21b1af;
 }
