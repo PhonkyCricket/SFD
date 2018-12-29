@@ -42,10 +42,11 @@
       "subscriber":"https://i.imgur.com/Kc5cBwE.png",
       "silversubscriber":"https://i.imgur.com/2NHcBei.png"
    },
-   "emotes":[
-      "ffy_xmas": "https://i.imgur.com/hhgha1r.jpg?1",
+   "emotes": {
      
-
+   "ffy": "ffy",
+      "ffy": "https://i.imgur.com/hhgha1r.jpg?1",
+      
    ],
    "autocomplete":{
       "!cookie":0,
