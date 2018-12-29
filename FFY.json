@@ -45,7 +45,7 @@
    "emotes": {
      
    "ffy": "ffy",
-      "ffy": "https://i.imgur.com/hhgha1r.jpg?1",
+      "ffy": "https://i.imgur.com/hhgha1r.jpg?1"
       
    },
    "autocomplete":{
@@ -53,22 +53,22 @@
       "!dc":0,
       "!duel":0,
       "!woot":0,
-      "!emotes":0,
+      "!emotes":1,
       "!eta":0,
       "!google":0,
       "!hug":0,
-      "!image":0,
+      "!image":!,
       "!link":0,
-      "!lottery":0,
+      "!lottery":1,
       "!points":0,
       "!reject":0,
-      "!rule":0,
-      "!slots":0,
+      "!rule":1,
+      "!slots":1,
       "!song":0,
       "!taco":0,
       "!kiss":0,
-      "!youtube":0,
-      "!discord":0,
+      "!youtube":1,
+      "!discord":1,
       "!kill":0,
       "!adblock":1,
       "!ask":1,
