@@ -130,6 +130,11 @@
 
 /* ＰＨＯＮＫ */
 
+
+#user-rollover.id-39700215 .meta {
+    top: -80px;
+}
+
 #user-lists .list .user.id-39700215 .name:after, #user-rollover.id-39700215 .meta .username:after, #chat [data-cid^='39700215-'] .un:after {
     content: "Helper/Invites people";
     margin-left: 5px;
