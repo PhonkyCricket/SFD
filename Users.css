@@ -166,6 +166,20 @@
     font-size: 14px;
 }
 
+#user-rollover.id-39700215 .joined:after {
+    position: absolute;
+    content: '» helping people »';
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    color: #ff0000;
+    margin: 75px 0 0 -103px;
+    padding-left: 19px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
 /* Kimps ~ Hardstyle Heaven */
 
 #user-lists .list .user.id-7895511 .name:after, #user-rollover.id-7895511 .meta .username:after, #chat [data-cid^='7895511-'] .un:after {
