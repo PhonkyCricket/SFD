@@ -231,15 +231,6 @@
     margin-top: 6px;
 }
 
-.btn-no-dj-secondary__bottom {
-    background-color: rgba(0, 0, 0, 0.9);
-    border: 3px solid #ff0000;
-    border-radius: 0px;
-    position: absolute;
-    overflow: visible;
-    left: -95px;
-}
-
 #user-rollover .meta .status i {
     top: -2px;
     left: 2px;
@@ -362,62 +353,255 @@
 /* --------------------------------------- icon --------------------------------------- */
 
 .icon {
-    background-image: url("https://cdn.discordapp.com/attachments/375275674505838594/517076857200312340/iconsTest.png")
-;
+    background-image: url("https://cdn.discordapp.com/attachments/375275674505838594/517076857200312340/iconsTest.png");
 }
 
 /* --------------------------------------- Katsetused --------------------------------------- */
 
-#playlist-panel {
-    background-color: rgba(0, 0, 0, 0.9);
+#room-settings .general-settings .option button.off {
+    background: linear-gradient(to bottom right, #ff0000, #ff0000) ;
 }
 
-div.community__playlist--desktop {
-    background-color: rgba(0, 0, 0, 0.9);
-}  
-
-#dj-button {
-    background-color: rgba(0, 0, 0, 0.9);
-    border: 3px solid #ff0000;
-    border-radius: 0px;
-    position: absolute;
-    overflow: visible;
-    left: -95px;
+#room-settings .general-settings .option.enabled > button.off {
+    color: white;
+    background: #ff0000 ;
 }
 
-#dj-button:hover {
-    background-color: rgba(0, 0, 0, 0.9);
+#room-settings .general-settings .option.enabled > button.on {
+    background: linear-gradient(to bottom right, #ff0000, #ff0000) ;
 }
 
-#dj-button .left {
-    background-color: rgba(0, 0, 0, 0.9);
-    border: 3px solid #ff0000;
-    border-radius: 0px;
-    position: absolute;
-    overflow: visible;
-    left: -95px;
+#room-settings .general-settings .option button {
+    border-radius: 5px;
+    background: #ff0000;
+    color: white;
 }
 
-#dj-button:hover .left {
-    background-color: rgba(0, 0, 0, 0.9);
+#room-settings .general-settings .description .value {
+    width: 95% ;
 }
 
-#dj-button.is-leave .left, #dj-button.is-quit .left {
-    background-color: rgba(0, 0, 0, 0.9);
+.plug-option.chat-level .dropdown dd .row, .row {
+    margin: 0 ;
 }
 
-#dj-button.is-leave:hover .left, #dj-button.is-quit:hover .left {
-    background-color: rgba(0, 0, 0, 0.9);
+.dropdown dd, .dropdown.open dd {
+    padding: 0;
 }
 
-#dj-button.is-locked {cursor: no-drop}
-#dj-button.is-locked .left, #dj-button.is-full .left {
-    background-color: rgba(0, 0, 0, 0.9);
+.community-settings .community-settings__container .chat-level .title, .community-settings .community-settings__container .dj-cycle .title, .community-settings .community-settings__container .wait-list .title, .community-settings .community-settings__container .general-settings .panel .title {
+    color: #ff0000;
+    font-weight: bold;
 }
 
-#dj-button.is-locked:hover .left, #dj-button.is-full:hover .left {
-    background-color: rgba(0, 0, 0, 0.9);
+.switch-widget--small .switch-widget__option {
+    border-radius: 100px;
 }
+
+.switch-widget__option-wrapper {
+    background-color: #ff0000;
+    border-radius: 100px;
+    width: 100px;
+}
+
+.community-settings .edit-settings {
+    background: url("https://i.imgur.com/H1j6L3s.jpg")
+;
+}
+
+.dropdown dt {
+    box-shadow: inset -39px 0 0 0 #9D7575;
+}
+
+.switch-widget__option--off,.switch-widget__option--on {
+    color: white;
+    background: #ff0000;
+}
+
+.preview-settings {
+    background: url("https://i.imgur.com/H1j6L3s.jpg") no-repeat ;
+    background-size: cover ;
+}
+
+#preview-about .top-profile .top-profile__image {
+    border-radius: 100px ;
+}
+
+#preview-about .top-profile {
+    background: rgba(255, 25, 25, 0.75) ;
+    text-align: center ;
+    font-weight: bold;
+    width: 80% ;
+    border-radius: 75px;
+    margin-left: 4%;
+    margin-top: 30px;
+    height: 50% ;
+    padding: 30px 50px 30px 50px;
+}
+
+#preview-about .about-content h1 {
+    visibility: hidden;
+}
+
+#preview-about .about-content .short-description, #preview-about .flex-component.text {
+    margin-left: 3%;
+}
+
+.switch-widget__option--off.selected, .switch-widget__option--on.selected {
+    background: linear-gradient(to bottom right, #ff0000, #ff0000) ;
+}
+
+.plug-tab-menu .item.selected, .plug-tab-menu .item:last-child.selected {
+    border-color: #ff0000;
+}
+
+.community-settings .community-settings__top .edit-community.small {
+    background-color: rgba(255, 25, 25, 0.7);
+    color: white;
+    border: 1px solid white;
+}
+
+.community-settings .community-settings__top .edit-community.small:hover {
+    background-color: rgba(255, 25, 25, 0.7) ;
+}
+
+/*menu*/
+
+.nav-left {
+    background: transparent ;
+}
+
+.nav-left.shown {
+    background: url("https://i.imgur.com/H1j6L3s.jpg") no-repeat ;
+    background-size: cover ;
+}
+
+#app .logo-wrapper .plugdj-logo {
+    background: url("https://i.imgur.com/0gcqGVE.jpg?1") no-repeat;
+    background-size: 21px 21px ;
+}
+
+.nav-left__top .plugdj-logo {
+    background: url("https://i.imgur.com/0gcqGVE.jpg?1") no-repeat 0 0;
+    background-size: 25px 25px ;
+}
+
+.nav-left__item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.nav-left__item-text {
+    color: #c8b1b1 ;
+    font-weight: bold;
+}
+
+.nav-left__item.selected {
+    border-left: 2px solid #e3d8d8 ;
+}
+
+.nav-left__item.selected .nav-left__item-icon, .nav-left__item.selected .nav-left__item-text {
+    color: #e3d8d8;
+}
+
+.nav-left .download-app {
+    background-color: transparent ;
+}
+
+/* Playlist */
+
+#app-menu.open, #playlist-panel, #history-panel, #user-view, #dashboard, #room-settings {
+    background-image: url("https://i.imgur.com/H1j6L3s.jpg");
+    background-size: cover;
+}
+
+/* BLACK TRANSPARENT 75 OPACITY */
+
+#room .app-right {
+    background: rgba(0,0,0,.75);
+}
+
+/* BLACK TRANSPARENT 50 OPACITY */
+
+#room-settings-menu {
+    background: rgba(0,0,0,.5);
+}
+
+/* BLACK TRANSPARENT 30 OPACITY */
+
+#chat .cm:nth-child(2n+1) {
+    background-color: rgba(0,0,0,.9);
+}
+
+/*  */
+
+/* TO LEFT > TRANSPARENT */
+
+.app-right .jspContainer {
+    background: linear-gradient(to right, rgba(255, 25, 25, .3), transparent);
+}
+
+/* TO LEFT > #000 */
+
+#user-menu {
+    background: linear-gradient(to right, rgba(25, 25, 25, .7), rgba(255,25,25, .7));
+}
+
+/* TO LEFT BOTTOM > #000 */
+
+#footer-user .info, .communities .grid .cell .favorite {
+    background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
+}
+
+.room-controls--desktop__item:hover .room-controls--desktop__item-value {
+  display: block;
+  animation: voteslide 0.5s;
+  animation-fill-mode: forwards;
+}
+.room-controls--desktop__item .room-controls--desktop__item-value {
+  animation: otherway 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.room-controls--desktop__item-value {
+  display: block;
+  font-size: 14px !important;
+  padding-top: 4px;
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100px;
+  width: 27px;
+  height: 22px;
+  margin-left: 15px;
+  margin-top: -25px;
+  background-color: #000000;
+}
+
+.community .room-controls--desktop__item .btn-like.clicked::before {
+  border-radius: 200px;
+  background-color: rgba(255, 25, 25, 0.5) !important;
+}
+
+.community .room-controls--desktop__item .btn-meh.clicked::before {
+  border-radius: 200px;
+
+  background-color: rgba(255, 25, 25, 0.5) !important;
+}
+.community .room-controls--desktop__item .btn-playlist.clicked::before {
+  border-radius: 200px;
+
+  background-color: rgba(255, 25, 25, 0.5);
+}
+
+.btn-no-dj-primary.btn-no-dj-secondary__bottom,
+.btn-no-dj-secondary.btn-no-dj-secondary__bottom {
+  border: 3px solid white;
+  border-radius: 100px;
+  background-color: rgba(255, 25, 25, 0.5);
+}
+.btn-no-dj-secondary:hover {
+  background-color: rgba(255, 25, 25, 0.5) !important;
 
 
 .community .community__info-item, .community .community__player-item, .community .room-controls--desktop__item, .community .bottom__playback-controls--desktop .community__player-item.history .fa, .community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
