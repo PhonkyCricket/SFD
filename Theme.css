@@ -508,46 +508,30 @@
     background-color: transparent ;
 }
 
-/* Playlist */
-
 #app-menu.open, #playlist-panel, #history-panel, #user-view, #dashboard, #room-settings {
     background-image: url("https://i.imgur.com/H1j6L3s.jpg");
     background-size: cover;
 }
 
-/* BLACK TRANSPARENT 75 OPACITY */
-
 #room .app-right {
     background: rgba(0,0,0,.75);
 }
-
-/* BLACK TRANSPARENT 50 OPACITY */
 
 #room-settings-menu {
     background: rgba(0,0,0,.5);
 }
 
-/* BLACK TRANSPARENT 30 OPACITY */
-
 #chat .cm:nth-child(2n+1) {
     background-color: rgba(0,0,0,.9);
 }
-
-/*  */
-
-/* TO LEFT > TRANSPARENT */
 
 .app-right .jspContainer {
     background: linear-gradient(to right, rgba(255, 25, 25, .3), transparent);
 }
 
-/* TO LEFT > #000 */
-
 #user-menu {
     background: linear-gradient(to right, rgba(25, 25, 25, .7), rgba(255,25,25, .7));
 }
-
-/* TO LEFT BOTTOM > #000 */
 
 #footer-user .info, .communities .grid .cell .favorite {
     background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
@@ -558,6 +542,7 @@
   animation: voteslide 0.5s;
   animation-fill-mode: forwards;
 }
+
 .room-controls--desktop__item .room-controls--desktop__item-value {
   animation: otherway 0.5s;
   animation-fill-mode: forwards;
@@ -585,12 +570,10 @@
 
 .community .room-controls--desktop__item .btn-meh.clicked::before {
   border-radius: 200px;
-
   background-color: rgba(255, 25, 25, 0.5) !important;
 }
 .community .room-controls--desktop__item .btn-playlist.clicked::before {
   border-radius: 200px;
-
   background-color: rgba(255, 25, 25, 0.5);
 }
 
@@ -600,9 +583,10 @@
   border-radius: 100px;
   background-color: rgba(255, 25, 25, 0.5);
 }
+
 .btn-no-dj-secondary:hover {
   background-color: rgba(255, 25, 25, 0.5) !important;
-
+}
 
 .community .community__info-item, .community .community__player-item, .community .room-controls--desktop__item, .community .bottom__playback-controls--desktop .community__player-item.history .fa, .community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
     color: #ff0000;
