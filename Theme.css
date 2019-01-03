@@ -835,3 +835,22 @@
     width: 100%;
   }
 }
+}
+/*BG FIX*/
+#app-menu, #app-menu.open .list, #waitlist .list .user, #user-view .jspContainer, .user-content.profile .points .subscribe-button {
+    background: transparent;
+}
+[data-view="room"]
+  .bottom__playback-controls
+  .volume-bar
+  .progress
+  .progress-bar {
+  background-color: #c8b3b2 !important;
+}
+
+.left-side-wrapper {
+  background-image: url(https://i.imgur.com/BiwEV4l.jpg) !important;
+  background-position-x: center !important;
+  background-position-y: bottom !important;
+  background-size: 1600px 900px;
+}
