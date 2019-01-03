@@ -537,67 +537,6 @@
     background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
 }
 
-.plugdjfont.icon-list {
-  display: none;
-}
-
-.room-controls--desktop__item:hover .room-controls--desktop__item-value {
-  display: block;
-  animation: voteslide 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.room-controls--desktop__item .room-controls--desktop__item-value {
-  animation: otherway 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.room-controls--desktop__item-value {
-  display: block;
-  font-size: 14px !important;
-  padding-top: 4px;
-  border-color: white;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 100px;
-  width: 27px;
-  height: 22px;
-  margin-left: 15px;
-  margin-top: -25px;
-  background-color: #40100c;
-}
-
-.community .room-controls--desktop__item .btn-like.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(33, 230, 0, 0.2) !important;
-}
-
-.community .room-controls--desktop__item .btn-meh.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(255, 109, 40, 0.2) !important;
-}
-
-.community .room-controls--desktop__item .btn-playlist.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(0, 235, 255, 0.2);
-}
-
-.btn-no-dj-primary.btn-no-dj-secondary__bottom,
-.btn-no-dj-secondary.btn-no-dj-secondary__bottom {
-  border: 3px solid white;
-  border-radius: 100px;
-  background-color: rgba(64, 16, 12, 0.9);
-}
-.btn-no-dj-secondary:hover {
-  background-color: rgba(94, 66, 62, 0.9) !important;
-} 
-/*ddddd*/
-/* TO LEFT BOTTOM > #000 */
-
-#footer-user .info, .communities .grid .cell .favorite {
-    background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
-}
-
 .room-controls--desktop__item:hover .room-controls--desktop__item-value {
   display: block;
   animation: voteslide 0.5s;
@@ -631,10 +570,8 @@
 
 .community .room-controls--desktop__item .btn-meh.clicked::before {
   border-radius: 200px;
-
   background-color: rgba(255, 25, 25, 0.5) !important;
 }
-
 .community .room-controls--desktop__item .btn-playlist.clicked::before {
   border-radius: 200px;
   background-color: rgba(255, 25, 25, 0.5);
@@ -702,6 +639,13 @@
   }
 }
 
+/*FOXXXXXXXXXXXX*/
+}
+
+.plugdjfont.icon-list {
+  display: none;
+}
+
 @keyframes voteslide {
   0% {
     margin-top: 15px;
@@ -731,5 +675,163 @@
   100% {
     margin-top: 15px;
     opacity: 0;
+  }
+}
+
+.room-controls--desktop__item:hover .room-controls--desktop__item-value {
+  display: block;
+  animation: voteslide 0.5s;
+  animation-fill-mode: forwards;
+}
+.room-controls--desktop__item .room-controls--desktop__item-value {
+  animation: otherway 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.room-controls--desktop__item-value {
+  display: block;
+  font-size: 14px !important;
+  padding-top: 4px;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100px;
+  width: 27px;
+  height: 22px;
+  margin-left: 15px;
+  margin-top: -25px;
+  background-color: #40100c;
+}
+
+.community .room-controls--desktop__item .btn-like.clicked::before {
+  border-radius: 200px;
+  background-color: rgba(33, 230, 0, 0.2) !important;
+}
+
+.community .room-controls--desktop__item .btn-meh.clicked::before {
+  border-radius: 200px;
+
+  background-color: rgba(255, 109, 40, 0.2) !important;
+}
+.community .room-controls--desktop__item .btn-playlist.clicked::before {
+  border-radius: 200px;
+
+  background-color: rgba(0, 235, 255, 0.2);
+}
+
+.btn-no-dj-primary.btn-no-dj-secondary__bottom,
+.btn-no-dj-secondary.btn-no-dj-secondary__bottom {
+  border: 3px solid white;
+  border-radius: 100px;
+  background-color: rgba(64, 16, 12, 0.9);
+}
+.btn-no-dj-secondary:hover {
+  background-color: rgba(94, 66, 62, 0.9) !important;
+} /*ddddd*/
+/* TO LEFT BOTTOM > #000 */
+
+#footer-user .info, .communities .grid .cell .favorite {
+    background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
+}
+
+.room-controls--desktop__item:hover .room-controls--desktop__item-value {
+  display: block;
+  animation: voteslide 0.5s;
+  animation-fill-mode: forwards;
+}
+.room-controls--desktop__item .room-controls--desktop__item-value {
+  animation: otherway 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.room-controls--desktop__item-value {
+  display: block;
+  font-size: 14px !important;
+  padding-top: 4px;
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100px;
+  width: 27px;
+  height: 22px;
+  margin-left: 15px;
+  margin-top: -25px;
+  background-color: #000000;
+}
+
+.community .room-controls--desktop__item .btn-like.clicked::before {
+  border-radius: 200px;
+  background-color: rgba(255, 25, 25, 0.5) !important;
+}
+
+.community .room-controls--desktop__item .btn-meh.clicked::before {
+  border-radius: 200px;
+
+  background-color: rgba(255, 25, 25, 0.5) !important;
+}
+.community .room-controls--desktop__item .btn-playlist.clicked::before {
+  border-radius: 200px;
+
+  background-color: rgba(255, 25, 25, 0.5);
+}
+
+.btn-no-dj-primary.btn-no-dj-secondary__bottom,
+.btn-no-dj-secondary.btn-no-dj-secondary__bottom {
+  border: 3px solid red;
+  border-radius: 100px;
+  background-color: rgba(255, 25, 25, 0.5);
+}
+.btn-no-dj-secondary:hover {
+  background-color: rgba(255, 25, 25, 0.5) !important;
+
+
+.community .community__info-item, .community .community__player-item, .community .room-controls--desktop__item, .community .bottom__playback-controls--desktop .community__player-item.history .fa, .community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
+    color: #ff0000;
+    opacity: 1;
+}
+
+.community .community__info-item:hover, .community .community__player-item:hover, .community .room-controls--desktop__item:hover, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger:hover, .community .bottom__playback-controls--desktop .community__player-item.history:hover {
+    opacity: .5;
+}
+
+@media  (min-width: 576px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 93.2% !important;
+  }
+}
+
+@media  (min-width: 980px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 93.2% !important;
+  }
+}
+
+@media  (min-width: 1200px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 91.33% !important;
+  }
+}
+
+@media  (min-width: 1600px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 92.33% !important;
+  }
+}
+
+@media  (min-width: 1800px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 93.7% !important;
+  }
+}
+
+@media  (min-width: 1920px) {
+  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
+    height: 93.7% !important;
+  }
+}
+
+@media  (min-width: 992px) {
+  .community__bottom {    
+    width: 100%;
   }
 }
