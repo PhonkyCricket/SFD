@@ -364,3 +364,27 @@
     color: #ccc;
     font-size: 11px;
 }
+
+/* Tharon */
+
+#user-lists .list .user.id-6632231 .name:after, #user-rollover.id-6632231 .meta .username:after, #chat [data-cid^='6632231-'] .un:after {
+    content: "Helper";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .5);
+    padding: 0px 5px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+#user-rollover.id-6632231 .level:after {
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    content: "FearFoxy";
+    display: inline-block;
+    color: #ff0000;
+    font-weight: bold;
+    margin: 0px 0px 0 14px;
+    padding-left: 19px;
+}
