@@ -17,7 +17,7 @@
 /* F0xYG0d | PGD */
 
 #user-rollover.id-3669054 .badge-box>i.bdg, .id-3669054>.badge-box>i.bdg {
-    background-image: url("https://i.imgur.com/OfxuKsE.png?1");
+    background-image: url("https://i.imgur.com/OfxuKsE.png");
     border-radius: 6px;
 }
 
@@ -47,7 +47,7 @@
 }
 
 #user-rollover.id-3669054>.info>.role:hover .icon {
-    background: url("https://i.imgur.com/WqmVmlZ.png") ;
+    background: url("https://i.imgur.com/LZgFvsZ.png") ;
 }
 
 #user-lists .list.room .user.id-3669054 .icon-chat-promoter {
