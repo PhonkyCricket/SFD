@@ -123,12 +123,12 @@
     top: 1px;
 }
 
-#user-rollover.id-5485122>.info>.role span {
+#user-rollover.id-5541888>.info>.role span {
     text-indent: -9999px;
     line-height: 0;
 }
 
-#user-rollover.id-5485122>.info>.role span:after {
+#user-rollover.id-5541888>.info>.role span:after {
     text-indent: 0;
     content: 'Manager';
     display: block;
@@ -136,7 +136,7 @@
     color: #0078c7;
 }
 
-#user-rollover.id-5485122>.info>.role:hover span:after {
+#user-rollover.id-5541888>.info>.role:hover span:after {
     text-indent: 0;
     content: 'Promoter';
     display: block;
@@ -144,14 +144,14 @@
     color: #359422;
 }
 
-#user-rollover.id-5485122>.info>.role .icon {
-    background: url("https://i.imgur.com/WqmVmlZ.png") ;
+#user-rollover.id-5541888>.info>.role .icon {
+    background: url("https://i.imgur.com/xQsRBMB.png") ;
 }
 
-#user-rollover.id-5485122>.info>.role:hover .icon {
+#user-rollover.id-5541888>.info>.role:hover .icon {
     background: url("https://i.imgur.com/LZgFvsZ.png") ;
 }
 
-#user-lists .list.room .user.id-5485122 .icon-chat-promoter {
+#user-lists .list.room .user.id-5541888 .icon-chat-promoter {
     background: url("https://i.imgur.com/LZgFvsZ.png");
 }
