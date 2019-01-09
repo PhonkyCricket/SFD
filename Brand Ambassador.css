@@ -3,7 +3,7 @@
 /* Bloom */
 
 .icon-chat-ambassador+span {
-    color: #9C0 ;
+    color: #9C0;
 }
 
 #user-rollover.id-3148591>.info>.role span {
@@ -28,13 +28,95 @@
 }
 
 #user-rollover.id-3148591>.info>.role .icon {
-    background: url("https://i.imgur.com/xQsRBMB.png") ;
+    background: url("https://i.imgur.com/xQsRBMB.png");
 }
 
 #user-rollover.id-3148591>.info>.role:hover .icon {
-    background: url("https://i.imgur.com/IO84f0g.png") ;
+    background: url("https://i.imgur.com/IO84f0g.png");
 }
 
 #user-lists .list.room .user.id-3148591 .icon-chat-ambassador {
+    background: url("https://i.imgur.com/IO84f0g.png");
+}
+
+/*#####[BA]#####*/
+
+/* Kayla */
+
+.icon-chat-ambassador+span {
+    color: #9C0;
+}
+
+#user-rollover.id-6432868>.info>.role span {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+#user-rollover.id-6432868>.info>.role span:after {
+    text-indent: 0;
+    content: 'Manager';
+    display: block;
+    line-height: initial;
+    color: #db182e;
+}
+
+#user-rollover.id-6432868>.info>.role:hover span:after {
+    text-indent: 0;
+    content: 'Brand Ambassador';
+    display: block;
+    line-height: initial;
+    color: #89be6c;
+}
+
+#user-rollover.id-6432868>.info>.role .icon {
+    background: url("https://i.imgur.com/xQsRBMB.png");
+}
+
+#user-rollover.id-6432868>.info>.role:hover .icon {
+    background: url("https://i.imgur.com/IO84f0g.png");
+}
+
+#user-lists .list.room .user.id-6432868 .icon-chat-ambassador {
+    background: url("https://i.imgur.com/IO84f0g.png");
+}
+
+/*#####[BA]#####*/
+
+/* Aw, Snap! */
+
+.icon-chat-ambassador+span {
+    color: #9C0;
+}
+
+#user-rollover.id-4559972>.info>.role span {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+#user-rollover.id-4559972>.info>.role span:after {
+    text-indent: 0;
+    content: 'Resident DJ
+    display: block;
+    line-height: initial;
+    color: #db182e;
+}
+
+#user-rollover.id-4559972>.info>.role:hover span:after {
+    text-indent: 0;
+    content: 'Brand Ambassador';
+    display: block;
+    line-height: initial;
+    color: #89be6c;
+}
+
+#user-rollover.id-4559972>.info>.role .icon {
+    background: url("https://i.imgur.com/gCnHw5j.png");
+}
+
+#user-rollover.id-4559972>.info>.role:hover .icon {
+    background: url("https://i.imgur.com/IO84f0g.png");
+}
+
+#user-lists .list.room .user.id-4559972 .icon-chat-ambassador {
     background: url("https://i.imgur.com/IO84f0g.png");
 }
