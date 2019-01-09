@@ -58,23 +58,18 @@
 
 /* -Xam. */
 
-.icon-chat-host {
+.icon-chat-cohost {
     background: url("https://i.imgur.com/WqmVmlZ.png");
 }
 
-.icon-chat-host+span, #user-lists .group.host~.user span, #dialog-user-role .role-menu .menu ul .host span {
+.icon-chat-cohost+span, #user-lists .group.cohost~.user span, #dialog-user-role .role-menu .menu ul .cohost span {
     color: #0078c7;
 }
 
-#user-lists .group.host {
+#user-lists .group.cohost {
     color: #0078c7;
     background: linear-gradient(to right, hsla(360, 100%, 30%, 0.5), hsla(360, 100%, 40%, 0.5)) ;
     top: 1px;
-}
-
-#user-rollover.id-5485122 .badge-box>i.bdg, .id-5485122>.badge-box>i.bdg {
-    background-image: url("https://i.imgur.com/OfxuKsE.png");
-    border-radius: 6px;
 }
 
 #user-rollover.id-5485122>.info>.role span {
@@ -84,7 +79,58 @@
 
 #user-rollover.id-5485122>.info>.role span:after {
     text-indent: 0;
-    content: 'Co-Hosts';
+    content: 'Co-Host';
+    display: block;
+    line-height: initial;
+    color: #0078c7;
+}
+
+#user-rollover.id-5485122>.info>.role:hover span:after {
+    text-indent: 0;
+    content: 'Promoter';
+    display: block;
+    line-height: initial;
+    color: #359422;
+}
+
+#user-rollover.id-5485122>.info>.role .icon {
+    background: url("https://i.imgur.com/WqmVmlZ.png") ;
+}
+
+#user-rollover.id-5485122>.info>.role:hover .icon {
+    background: url("https://i.imgur.com/LZgFvsZ.png") ;
+}
+
+#user-lists .list.room .user.id-5485122 .icon-chat-promoter {
+    background: url("https://i.imgur.com/LZgFvsZ.png");
+}
+
+/*#####[MANAGERS]#####*/
+
+/* JackyJohnny */
+
+.icon-chat-manager {
+    background: url("https://i.imgur.com/xQsRBMB.png");
+}
+
+.icon-chat-manager+span, #user-lists .group.manager~.user span, #dialog-user-role .role-menu .menu ul .manager span {
+    color: #0078c7;
+}
+
+#user-lists .group.manager {
+    color: #0078c7;
+    background: linear-gradient(to right, hsla(360, 100%, 30%, 0.5), hsla(360, 100%, 40%, 0.5)) ;
+    top: 1px;
+}
+
+#user-rollover.id-5485122>.info>.role span {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+#user-rollover.id-5485122>.info>.role span:after {
+    text-indent: 0;
+    content: 'Manager';
     display: block;
     line-height: initial;
     color: #0078c7;
