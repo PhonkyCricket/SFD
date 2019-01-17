@@ -854,3 +854,25 @@
   background-position-y: bottom !important;
   background-size: 1600px 900px;
 }
+
+.community .community__playlist--desktop, .community .community__playlist--mobile {
+    background: linear-gradient(to right,#000000 0,rgba(0, 0, 0, 0.9) 100%) ;
+}
+
+.community__playback-meta--desktop {
+    background: linear-gradient(to left,#000000 0,rgba(0, 0, 0, 0.9) 100%) ;
+}
+
+.community .bottom__playback-controls--desktop .list-unstyled:first-child {
+    margin-left: 0px ;
+}
+
+.community .bottom__playback-controls--desktop .community__player-item.history, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger {
+    background: linear-gradient(to right,#000000 0,rgba(0, 0, 0, 0.9) 100%) ;
+    flex-basis: 88px ;
+    border-left: 1px solid #ff0000 ;
+}
+
+.community__playlist--desktop[data-song] .icon-playlist {
+    color: #ff0000;
+}
