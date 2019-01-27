@@ -64,13 +64,13 @@
     top: 8px;
     left: 8px;
     font-family: 'fontawesome';
-    content: 'Welcome to FFY Community 2019!';
+    content: 'https://cdn.discordapp.com/attachments/403538022374572034/539087363071016990/FearFoxY_Producer_Event.png';
     font-size: 16px;
     color: #21b1af;
 }
 
 #rcs-style-anchor-1.toggled:before {
-    content: 'https://cdn.discordapp.com/attachments/403538022374572034/539087363071016990/FearFoxY_Producer_Event.png';
+    content: 'Event';
 }
 
 #rcs-style-anchor-1.toggled {
