@@ -39,23 +39,15 @@
 
 #rcs-style-anchor-1 {
     background-color: rgba(0, 0, 0, 0.9) ;
-    content: 'Event';
-    border-radius: 5px;
-    border: 3px solid #ff0000;
+    border-radius: 5px ;
+    border: 3px solid #ff0000 ;
     position: absolute;
-    /*height: 435px !important;*/
-    /*width: 300px !important;*/
-    height: 100%;
-    width: 100%;
-    top: 145px;
-    left: 55px;
+    height: 52px ;
+    width: 230px ;
+    top: 180px;
     z-index: 9;
     cursor: pointer;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 0px 33px;
-    max-width: 300px;
-    max-height: 455px;
+    right: 355px ;
 }
 
 #rcs-style-anchor-1:before {
@@ -64,18 +56,24 @@
     top: 8px;
     left: 8px;
     font-family: 'fontawesome';
-    content: 'https://i.imgur.com/Mc4chfw.jpg';
+    content: ' Events';
     font-size: 16px;
-    color: #21b1af;
+    color: #ff0000;
 }
 
-#rcs-style-anchor-1.toggled:before {
-    content: 'Event';
+#rcs-style-anchor-1:after {
+    content: 'https://i.imgur.com/Mc4chfw.jpg';
+    margin: 30px 0px 0px 10px;
+    position: absolute;
 }
 
 #rcs-style-anchor-1.toggled {
-    height: 35px;
-    width: 85px;
+    height: 35px ;
+    width: 85px ;
+}
+
+#rcs-style-anchor-1.toggled:after {
+    content: '';
 }
 
 /* About */
