@@ -876,3 +876,17 @@
 .community__playlist--desktop[data-song] .icon-playlist {
     color: #ff0000;
 }
+
+.community__share-room:after {
+    background-image: url();
+    background-repeat: no-repeat;
+    content: "JOIN US DISCORD, MC SERVER IP: ROYALNETWORK.ML AND CHECK MUSIC.FEARFOXY.COM";
+    display: inline-block;
+    color: #ff0!important;
+    font-weight: 500;
+    margin: 0px 0px 0 50px!important;
+    padding: 0 0 0 15px;
+    font-size: 12px;
+    animation: rainbow 7s infinite;
+    cursor: none;
+}
