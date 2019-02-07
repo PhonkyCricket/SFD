@@ -405,7 +405,7 @@
 }
 
 .community-settings .edit-settings {
-    background: url("https://i.imgur.com/H1j6L3s.jpg")
+    background: url("")
 ;
 }
 
@@ -419,7 +419,7 @@
 }
 
 .preview-settings {
-    background: url("https://i.imgur.com/H1j6L3s.jpg") no-repeat ;
+    background: url("") no-repeat ;
     background-size: cover ;
 }
 
@@ -509,7 +509,7 @@
 }
 
 #app-menu.open, #playlist-panel, #history-panel, #user-view, #dashboard, #room-settings {
-    background-image: url("https://i.imgur.com/H1j6L3s.jpg");
+    background-image: url("");
     background-size: cover;
 }
 
