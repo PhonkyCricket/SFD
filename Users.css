@@ -128,63 +128,6 @@
     font-size: 11px;
 }
 
-/* ＰＨＯＮＫ */
-
-
-#user-rollover.id-39700215 .meta {
-    top: -80px;
-}
-
-#user-lists .list .user.id-39700215 .name:after, #user-rollover.id-39700215 .meta .username:after, #chat [data-cid^='39700215-'] .un:after {
-    content: "Helper/Invites people";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-#user-rollover.id-39700215 .level:after {
-    background-image: url(https://i.imgur.com/a2zR8CP.png);
-    background-repeat: no-repeat;
-    content: "FearFoxy";
-    display: inline-block;
-    color: #ff0000;
-    font-weight: bold;
-    margin: 0px 0px 0 14px;
-    padding-left: 19px;
-}
-
-#user-rollover.id-39700215 .joined:after {
-    position: absolute;
-    content: '» Music Producer » Artist »';
-    background-image: url(https://i.imgur.com/a2zR8CP.png);
-    background-repeat: no-repeat;
-    color: #ff0000;
-    margin: 75px 0 0 -103px;
-    padding-left: 19px;
-    font-weight: 400;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 14px;
-}
-
-#user-rollover.id-39700215 .joined:after {
-    position: absolute;
-    content: '» helping people »';
-    background-image: url(https://i.imgur.com/a2zR8CP.png);
-    background-repeat: no-repeat;
-    color: #ff0000;
-    margin: 75px 0 0 -103px;
-    padding-left: 19px;
-    font-weight: 400;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 14px;
-}
-
 /* Kimps ~ Hardstyle Heaven */
 
 #user-lists .list .user.id-7895511 .name:after, #user-rollover.id-7895511 .meta .username:after, #chat [data-cid^='7895511-'] .un:after {
@@ -298,37 +241,10 @@
     font-size: 11px;
 }
 
-/* Anment */
-
-#user-lists .list .user.id-16689928 .name:after, #user-rollover.id-16689928 .meta .username:after, #chat [data-cid^='16689928-'] .un:after {
-    content: "Helper/Coding/JavaScript";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
 /* Chillout Susan */
 
 #user-lists .list .user.id-4849359 .name:after, #user-rollover.id-4849359 .meta .username:after, #chat [data-cid^='4849359-'] .un:after {
     content: "Helper/Developer/ccs";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-
-/* MaluRose */
-
-#user-lists .list .user.id-13659086 .name:after, #user-rollover.id-13659086 .meta .username:after, #chat [data-cid^='13659086-'] .un:after {
-    content: "Helper";
     margin-left: 5px;
     background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
