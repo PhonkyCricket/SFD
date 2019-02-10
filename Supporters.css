@@ -1,1 +1,82 @@
+/*RepiSvK*/
 
+#user-rollover.id-40796598 .meta {
+    top: -50px;
+}
+
+#user-rollover.id-40796598 .joined:after {
+    position: absolute;
+    content: '1# top supporter';
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    color: #ff0000;
+    margin: 75px 0 0 -103px;
+    padding-left: 19px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+#user-rollover.id-40796598 .level:after {
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    content: "FearFoxy";
+    display: inline-block;
+    color: #ff0000;
+    font-weight: bold;
+    margin: 0px 0px 0 14px;
+    padding-left: 19px;
+}
+
+#user-rollover.id-40796598 .thumb, #user-rollover.id-40796598 .thumb {
+    shadow: 5px solid #ff0000;
+    border-color: #ff0000;
+}
+
+#user-lists .list .user.id-40796598 .name, #user-rollover.id-40796598 .username, #chat [data-cid^='40796598-'] .un {
+    shadow: 5px solid #ff0000;
+    color: #ff0000;
+}
+
+#user-rollover.id-40796598 .joined:before {
+    position: absolute;
+    content: 'Donator';
+    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    color: #ff0000;
+    margin: 97px 0 0 0px;
+    padding-left: 20px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+#chat [data-cid^='40796598-'] .un:before {
+    content: url(https://i.imgur.com/a2zR8CP.png);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    margin: 100px 0 0 0px;
+    padding: 3px 5px 0px 5px;
+}
+
+/* FearFoxy */
+
+#user-lists .list .user.id-40796598 .name:after, #user-rollover.id-40796598 .meta .username:after, #chat [data-cid^='40796598-'] .un:after {
+    content: "Donator";
+    margin-left: 3px;
+    background: rgba(0, 0, 0, .9);
+    padding: 0px 3px;
+    border: 2px solid #ff0000;
+    border-radius: 100px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+#user-rollover.id-40796598 .meta:before {
+    content: url("https://i.imgur.com/lVc7TDE.jpg?1");
+    top: 190px;
+    left: 109px;
+    position: absolute;
+}
