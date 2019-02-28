@@ -1,20 +1,20 @@
 [![Discord](https://img.shields.io/discord/450685330887016451.svg)](https://discord.gg/pqTgPd6) [![facebook group](https://img.shields.io/badge/facebook-group-3b5998.svg?style=flat)](https://goo.gl/tYBE1L) [![twitter](https://img.shields.io/twitter/follow/FearFoxYPlugdj.svg?style=social)](https://twitter.com/FearFoxYPlugdj)
 ___________________________________________________________________________________________________________________________________
-Welcome to ☯FearFoxY☯™ [2 0 1 7 - 2 0 1 9] Team!
+Welcome to ⭐ ❤️ ToxicUltraSplashFoxy ❤️ ⭐ Team!
 ___________________________________________________________________________________________________________________________________
 come and let music and listen music: 
 ___________________________________________________________________________________________________________________________________
-https://plug.dj/coldlava-family-fan-club?refuid=3669054
+https://plug.dj/toxicultrasplashfoxy?refuid=3669054
 ___________________________________________________________________________________________________________________________________
 We discord: https://discord.gg/pqTgPd6
 ___________________________________________________________________________________________________________________________________
 Best regards!
 ___________________________________________________________________________________________________________________________________
-☯FearFoxY☯™ [2 0 1 7 - 2 0 1 9] Team.
+⭐ ❤️ ToxicUltraSplashFoxy ❤️ ⭐ Team.
 ___________________________________________________________________________________________________________________________________
 By: F0xYG0d | PGD in plug.dj name.
 ___________________________________________________________________________________________________________________________________
-Copyright © 2017-2019 FFYCss
+Copyright © 2019 TUSFCCS
 
 Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original css.
 ___________________________________________________________________________________________________________________________________
