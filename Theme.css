@@ -87,7 +87,7 @@
 #preview-about .top-about {
     height: 350px;
     width: 100%;
-    background: url("") no-repeat 0 0;
+    background: url("https://cdn.pixabay.com/photo/2017/12/29/18/47/nature-3048299_960_720.jpg") no-repeat 0 0;
     background-size: cover;
     background-position: center top;
     position: static;
@@ -363,7 +363,7 @@
 }
 
 #room-settings .general-settings .option.enabled > button.off {
-    color: white;
+    color: red;
     background: #ff0000 ;
 }
 
@@ -374,7 +374,7 @@
 #room-settings .general-settings .option button {
     border-radius: 5px;
     background: #ff0000;
-    color: white;
+    color: red;
 }
 
 #room-settings .general-settings .description .value {
@@ -472,17 +472,17 @@
 }
 
 .nav-left.shown {
-    background: url("https://i.imgur.com/u1UNHll.jpg") no-repeat ;
+    background: url("https://cdn.pixabay.com/photo/2017/12/29/18/47/nature-3048299_960_720.jpg") no-repeat ;
     background-size: cover ;
 }
 
 #app .logo-wrapper .plugdj-logo {
-    background: url("https://i.imgur.com/YT3yc30.jpg?1") no-repeat;
+    background: url("") no-repeat;
     background-size: 21px 21px ;
 }
 
 .nav-left__top .plugdj-logo {
-    background: url("https://i.imgur.com/YT3yc30.jpg?1") no-repeat 0 0;
+    background: url("") no-repeat 0 0;
     background-size: 25px 25px ;
 }
 
