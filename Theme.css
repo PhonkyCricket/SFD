@@ -878,15 +878,15 @@
 }
 
 .community__share-room:after {
-    background-image: url(https://i.imgur.com/YT3yc30.jpg?1);
+    background-image: url();
     background-repeat: no-repeat;
-    content: "JOIN US DISCORD, CHECK MUSIC.FEARFOXY.COM";
+    content: "Join us discord, copyrighted 2019";
     display: inline-block;
-    color: #ff0!important;
+    color: #ff0000!important;
     font-weight: 500;
     margin: 0px 0px 0 50px!important;
     padding: 0 0 0 15px;
     font-size: 12px;
-    animation: rainbow 7s infinite;
+    animation: rainbow 5s infinite;
     cursor: none;
 }
