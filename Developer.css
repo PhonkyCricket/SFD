@@ -5,7 +5,7 @@
 #user-rollover.id-3669054 .joined:after {
     position: absolute;
     content: 'I am helping people!';
-    background-image: url(https://i.imgur.com/a4fn1hj.png);
+    background-image: url();
     background-repeat: no-repeat;
     color: #ff0000;
     margin: 75px 0 0 -103px;
@@ -19,7 +19,7 @@
 /*F0xYG0d | PGD*/
 
 #user-rollover.id-3669054 .level:after {
-    background-image: url(https://i.imgur.com/a4fn1hj.png);
+    background-image: url();
     background-repeat: no-repeat;
     content: "FearFoxy";
     display: inline-block;
@@ -42,7 +42,7 @@
 #user-rollover.id-3669054 .joined:before {
     position: absolute;
     content: 'Music Producer/Artist';
-    background-image: url(https://i.imgur.com/a4fn1hj.png);
+    background-image: url();
     background-repeat: no-repeat;
     color: #ff0000;
     margin: 97px 0 0 0px;
@@ -54,7 +54,7 @@
 }
 
 #chat [data-cid^='3669054-'] .un:before {
-    content: url(https://i.imgur.com/a4fn1hj.png);
+    content: url();
     background-repeat: no-repeat;
     background-size: 14px 14px;
     margin: 100px 0 0 0px;
@@ -75,7 +75,7 @@
 }
 
 #user-rollover.id-3669054 .meta:before {
-    content: url("https://i.imgur.com/a4fn1hj.png");
+    content: url("");
     top: 190px;
     left: 109px;
     position: absolute;
