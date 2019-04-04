@@ -353,7 +353,7 @@
 /* --------------------------------------- icon --------------------------------------- */
 
 .icon {
-    background-image: url("https://cdn.discordapp.com/attachments/375275674505838594/517076857200312340/iconsTest.png");
+    background-image: url("https://i.imgur.com/PpWvor1.png");
 }
 
 /* --------------------------------------- Katsetused --------------------------------------- */
@@ -477,12 +477,12 @@
 }
 
 #app .logo-wrapper .plugdj-logo {
-    background: url("") no-repeat;
+    background: url("https://i.imgur.com/a4fn1hj.png") no-repeat;
     background-size: 21px 21px ;
 }
 
 .nav-left__top .plugdj-logo {
-    background: url("") no-repeat 0 0;
+    background: url("https://i.imgur.com/a4fn1hj.png") no-repeat 0 0;
     background-size: 25px 25px ;
 }
 
@@ -849,7 +849,7 @@
 }
 
 .left-side-wrapper {
-  background-image: url(https://i.imgur.com/BiwEV4l.jpg) !important;
+  background-image: url(https://cdn.radiant.dj/rcs/bg/4.png) !important;
   background-position-x: center !important;
   background-position-y: bottom !important;
   background-size: 1600px 900px;
