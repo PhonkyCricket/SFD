@@ -1,54 +1,3 @@
-/* -Xam. */
-
-#user-lists .list .user.id-5485122 .name:after, #user-rollover.id-5485122 .meta .username:after, #chat [data-cid^='5485122-'] .un:after {
-    content: "Helper/Theme/ccs";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-/* c0x. 😈 */
-
-#user-lists .list .user.id-20856137 .name:after, #user-rollover.id-20856137 .meta .username:after, #chat [data-cid^='20856137-'] .un:after {
-    content: "Helper/Theme/ccs";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-#user-rollover.id-20856137 .level:after {
-    background-image: url(https://i.imgur.com/a2zR8CP.png);
-    background-repeat: no-repeat;
-    content: "FearFoxy";
-    display: inline-block;
-    color: #ff0000;
-    font-weight: bold;
-    margin: 0px 0px 0 14px;
-    padding-left: 19px;
-}
-
-/* DJ Polar */
-
-#user-lists .list .user.id-13533383 .name:after, #user-rollover.id-13533383 .meta .username:after, #chat [data-cid^='13533383-'] .un:after {
-    content: "Helper/Website Developer";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-
 /* YourturnGaming */
 
 #user-lists .list .user.id-3594631 .name:after, #user-rollover.id-3594631 .meta .username:after, #chat [data-cid^='3594631-'] .un:after {
@@ -75,7 +24,6 @@
     font-size: 11px;
 }
 
-
 /* Bloom */
 
 #user-lists .list .user.id-3148591 .name:after, #user-rollover.id-3148591 .meta .username:after, #chat [data-cid^='3148591-'] .un:after {
@@ -89,35 +37,9 @@
     font-size: 11px;
 }
 
-/* DOVŪZĄ */
-
-#user-lists .list .user.id-27182685 .name:after, #user-rollover.id-27182685 .meta .username:after, #chat [data-cid^='27182685-'] .un:after {
-    content: "Helper";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
 /* SpriteG */
 
 #user-lists .list .user.id-8703069 .name:after, #user-rollover.id-8703069 .meta .username:after, #chat [data-cid^='8703069-'] .un:after {
-    content: "Helper";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-/* Strawberry_princess 🍓 */
-
-#user-lists .list .user.id-3833976 .name:after, #user-rollover.id-3833976 .meta .username:after, #chat [data-cid^='3833976-'] .un:after {
     content: "Helper";
     margin-left: 5px;
     background: rgba(0, 0, 0, .5);
@@ -148,7 +70,7 @@
 #user-rollover.id-7895511 .joined:after {
     position: absolute;
     content: '» supporting » community »';
-    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-image: url();
     background-repeat: no-repeat;
     color: #ff0000;
     margin: 75px 0 0 -103px;
@@ -162,52 +84,9 @@
 /* Kimps ~ Hardstyle Heaven */
 
 #user-rollover.id-7895511 .level:after {
-    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-image: url();
     background-repeat: no-repeat;
-    content: "FearFoxy";
-    display: inline-block;
-    color: #ff0000;
-    font-weight: bold;
-    margin: 0px 0px 0 14px;
-    padding-left: 19px;
-}
-
-/* ForcePlaysFF */
-
-#user-rollover.id-29497090 .meta {
-    top: -50px;
-}
-
-#user-lists .list .user.id-29497090 .name:after, #user-rollover.id-29497090 .meta .username:after, #chat [data-cid^='29497090-'] .un:after {
-    content: "Helper/Web/Theme";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-#user-rollover.id-29497090 .meta:before {
-    content: url("https://i.imgur.com/lVc7TDE.jpg?1");
-    top: 130px;
-    left: 109px;
-    position: absolute;
-}
-
-#user-rollover.id-29497090 .meta:after {
-    content: 'Christmas Event Designer 2018-2019';
-    color: #b9290f;
-    position: absolute;
-    top: 130px;
-    left: 130px;
-} 
-
-#user-rollover.id-29497090 .level:after {
-    background-image: url(https://i.imgur.com/a2zR8CP.png);
-    background-repeat: no-repeat;
-    content: "FearFoxy";
+    content: "TUSF";
     display: inline-block;
     color: #ff0000;
     font-weight: bold;
@@ -218,19 +97,6 @@
 /* D0RIT0S */
 
 #user-lists .list .user.id-3905933 .name:after, #user-rollover.id-3905933 .meta .username:after, #chat [data-cid^='3905933-'] .un:after {
-    content: "Helper/invites People/";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .5);
-    padding: 0px 5px;
-    border: 2px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
-}
-
-/* tay_guwap */
-
-#user-lists .list .user.id-41513090 .name:after, #user-rollover.id-41513090 .meta .username:after, #chat [data-cid^='41513090-'] .un:after {
     content: "Helper/invites People/";
     margin-left: 5px;
     background: rgba(0, 0, 0, .5);
@@ -294,9 +160,9 @@
 }
 
 #user-rollover.id-6632231 .level:after {
-    background-image: url(https://i.imgur.com/a2zR8CP.png);
+    background-image: url();
     background-repeat: no-repeat;
-    content: "FearFoxy";
+    content: "TUSF";
     display: inline-block;
     color: #ff0000;
     font-weight: bold;
