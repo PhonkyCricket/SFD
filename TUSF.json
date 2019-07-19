@@ -12,24 +12,24 @@
       "allowEmotes":true,
       "allowShowingMehs":true,
       "forceSmartVote":false
-   },
-   "ccc":{
+      },
+      "ccc":{
       "admin":"#00fff9",
-      "ambassador":"#84B423",
+      "brand ambassador":"#84B423",
+      "site Moderator":"#E74C3C",
+      "pLoT Member":"#F2A15A",
+      "promoter":"#158420",
       "host":"#2070DF",
       "cohost":"#2070DF",
       "manager":"#20B9DF",
       "bouncer":"#80A3DF",
       "rdj":"#0acc8f",
-      "plot":"#F2A15A",
-      "promoter":"#158420",
-      "sitemod":"#E74C3C",
       "subscriber":"#C1C100",
       "silversubscriber":"#919191",
       "friend":"#a8cbfd",
       "user":"#949393"
-   },
-   "images":{
+      },
+      "images":{
       "background":null,
       "playback":null,
       "admin":"https://i.imgur.com/JFsn5HY.png",
