@@ -1,7 +1,10 @@
-/* YourturnGaming */
+/*Co-Hosts here*/
+_____________________________________________________________________________________________________________________________________
 
-#user-lists .list .user.id-3594631 .name:after, #user-rollover.id-3594631 .meta .username:after, #chat [data-cid^='3594631-'] .un:after {
-    content: "Helper/Website Developer/ccs/coding";
+/* Skullyboy2 */
+
+#user-lists .list .user.id-44218992 .name:after, #user-rollover.id-44218992 .meta .username:after, #chat [data-cid^='44218992-'] .un:after {
+    content: "Helper/inviting people";
     margin-left: 5px;
     background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
@@ -11,10 +14,39 @@
     font-size: 11px;
 }
 
-/* Diplomacy standards ;) */
+#user-rollover.id-44218992 .meta:before {
+content : url(https://i.imgur.com/wicLrfT.png);
+top : 130px;
+left : 109px;
+position : absolute;    
+}
 
-#user-lists .list .user.id-31796557 .name:after, #user-rollover.id-31796557 .meta .username:after, #chat [data-cid^='31796557-'] .un:after {
-    content: "Helper/Invites people";
+#user-rollover.id-44218992 .meta:after {
+content : 'Discord Linked';
+white-space : pre-wrap;
+color : #808691;
+position : absolute;
+top : 130px;
+left : 130px;
+}
+
+#user-rollover.id-44218992 .meta {
+height : 170px !important ;
+}
+
+#user-rollover.id-4849359 .meta:after {
+content : '\A Discord Linked';
+white-space : pre-wrap;
+color : #808691;
+position : absolute;
+top : 130px;
+left : 130px;
+}
+
+/* MarkuzPlayZ */
+
+#user-lists .list .user.id-44172088 .name:after, #user-rollover.id-44172088 .meta .username:after, #chat [data-cid^='44172088-'] .un:after {
+    content: "Helper/inviting people";
     margin-left: 5px;
     background: rgba(0, 0, 0, .5);
     padding: 0px 5px;
