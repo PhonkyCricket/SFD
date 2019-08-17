@@ -24,7 +24,7 @@
 }
 
 #rcs-style-anchor-1:after {
-    content: url('  ');
+    content: url(' https://i.imgur.com/MOlLFSG.jpg ');
     margin: 30px 0px 0px 0px;
     position: absolute;
 }
@@ -35,16 +35,16 @@
 }
 
 #rcs-style-anchor-1.toggled:after {
-    content: '';
+    content: 'Enjoy!';
 }
 
 #rcs-style-anchor-1:after {
-    content: url();
+    content: url(https://i.imgur.com/MOlLFSG.jpg);
     width: 100px;
     height: 100px;
 }
 #rcs-style-anchor-1.toggled:after {
-    content: '';
+    content: 'Enjoy!';
 }
 
 /* About */
