@@ -17,7 +17,7 @@ ________________________________________________________________________________
 By: F0xYG0d | PGD
 Css by: Chillout Susan
 ___________________________________________________________________________________________________________________________________
-Copyright © 2018-2020 TUSFCCS
+Copyright © 2018-2020 13375P34KCCS
 
 Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original css.
 ___________________________________________________________________________________________________________________________________
