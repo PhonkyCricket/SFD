@@ -1,6 +1,6 @@
-[![Discord](https://img.shields.io/discord/450685330887016451.svg)](https://discord.gg/CqPz8jc) [![facebook group](https://img.shields.io/badge/facebook-group-3b5998.svg?style=flat)](https://goo.gl/tYBE1L) [![twitter](https://img.shields.io/twitter/follow/FearFoxYPlugdj.svg?style=social)](https://twitter.com/FearFoxYPlugdj)
+[![Discord](https://img.shields.io/discord/450685330887016451.svg)](https://discord.gg/CqPz8jc) [![facebook group](https://img.shields.io/badge/facebook-group-3b5998.svg?style=flat)](https://goo.gl/tYBE1L) [![twitter](https://img.shields.io/twitter/follow/FearFoxYPlugdj.svg?style=social)](https://twitter.com/13375P34KPLUGDJ)
 ___________________________________________________________________________________________________________________________________
-Welcome to ⭐ ❤️ ToxicUltraSplashFoxy ❤️ ⭐ Team!
+Welcome to ⚪13375P34K⚪ Team!
 ___________________________________________________________________________________________________________________________________
 come and let music and listen music: 
 ___________________________________________________________________________________________________________________________________
@@ -12,7 +12,7 @@ We discord: https://discord.gg/CqPz8jc
 ___________________________________________________________________________________________________________________________________
 Best regards!
 ___________________________________________________________________________________________________________________________________
-⭐ ❤️ ToxicUltraSplashFoxy ❤️ ⭐ Team.
+⚪13375P34K⚪ Team.
 ___________________________________________________________________________________________________________________________________
 By: F0xYG0d | PGD
 Css by: Chillout Susan
