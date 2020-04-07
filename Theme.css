@@ -502,10 +502,6 @@
     background: linear-gradient(to right, rgba(25, 25, 25, .7), rgba(255,25,25, .7));
 }
 
-#footer-user .info, .communities .grid .cell .favorite {
-    background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
-}
-
 .room-controls--desktop__item:hover .room-controls--desktop__item-value {
   display: block;
   animation: voteslide 0.5s;
