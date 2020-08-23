@@ -1,23 +1,20 @@
-[![Discord](https://img.shields.io/discord/450685330887016451.svg)](https://discord.gg/CqPz8jc) [![facebook group](https://img.shields.io/badge/facebook-group-3b5998.svg?style=flat)](https://goo.gl/tYBE1L) [![twitter](https://img.shields.io/twitter/follow/FearFoxYPlugdj.svg?style=social)](https://twitter.com/13375P34KPLUGDJ)
+[![Discord](https://img.shields.io/discord/450685330887016451.svg)](https://discord.gg/8upS3Qg) [![facebook group](https://img.shields.io/badge/facebook-group-3b5998.svg?style=flat)](https://goo.gl/tYBE1L) [![twitter](https://img.shields.io/twitter/follow/FearFoxYPlugdj.svg?style=social)](https://twitter.com/13375P34KPLUGDJ)
 ___________________________________________________________________________________________________________________________________
-Welcome to ⚪13375P34K⚪ Team!
+Welcome to FMG COMMUNITY Team!
 ___________________________________________________________________________________________________________________________________
 come and let music and listen music: 
 ___________________________________________________________________________________________________________________________________
-https://plug.dj/toxicultrasplashfoxy?refuid=3669054
-
-https://plug.dj/thechilloutmusic?refuid=4849359
+https://plug.dj/fmg-community?refuid=3669054
 ___________________________________________________________________________________________________________________________________
-We discord: https://discord.gg/CqPz8jc
+We discord: https://discord.gg/8upS3Qg
 ___________________________________________________________________________________________________________________________________
 Best regards!
 ___________________________________________________________________________________________________________________________________
-⚪13375P34K⚪ Team.
+FMG COMMUNITY Team.
 ___________________________________________________________________________________________________________________________________
-By: F0xYG0d | PGD
-Css by: Chillout Susan
+By: F0xMilkG0d
 ___________________________________________________________________________________________________________________________________
-Copyright © 2018-2020 13375P34KCCS
+Copyright © 2018-2020 FMG
 
 Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original css.
 ___________________________________________________________________________________________________________________________________
