@@ -441,8 +441,8 @@
 }
 
 .nav-left.shown {
-    background: url("https://i.imgur.com/OI1iHK6.png?1") no-repeat ;
-    background-size: cover ;
+    background: url("https://i.imgur.com/8BT4lXj.png?1") no-repeat ;
+    background-size: center;
 }
 
 #app .logo-wrapper .plugdj-logo {
@@ -608,39 +608,7 @@
 }
 
 .plugdjfont.icon-list {
-  display: none;
-}
-
-@keyframes voteslide {
-  0% {
-    margin-top: 15px;
-    opacity: 0;
-  }
-  25% {
-    margin-top: 20px;
-  }
-  75% {
-    margin-top: 25px;
-  }
-  100% {
-    margin-top: 30px;
-  }
-}
-
-@keyframes otherway {
-  0% {
-    margin-top: 30px;
-  }
-  25% {
-    margin-top: 25px;
-  }
-  75% {
-    margin-top: 20px;
-  }
-  100% {
-    margin-top: 15px;
-    opacity: 0;
-  }
+  display: block;
 }
 
 .room-controls--desktop__item:hover .room-controls--desktop__item-value {
@@ -843,15 +811,15 @@
 }
 
 .community__share-room:after {
-    background-image: url(https://i.imgur.com/a4fn1hj.png);
+    background-image: url(https://i.imgur.com/SOho8aF.png?1);
     background-repeat: no-repeat;
-    content: "Join us discord, copyrighted 2019";
+    content: "Join us discord, copyrighted 2018-2020";
     display: inline-block;
-    color: #ff0000!important;
-    font-weight: 500;
-    margin: 0px 0px 0 50px!important;
-    padding: 0 0 0 15px;
-    font-size: 12px;
-    animation: rainbow 5s infinite;
+    color: #ff0000 !important;
+    font-weight: 3500;
+    margin: 0px 0px 0 50px !important;
+    padding: 0 0 0 165px;
+    font-size: 18px;
+    animation: 5s;
     cursor: none;
 }
