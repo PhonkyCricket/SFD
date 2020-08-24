@@ -1,50 +1,50 @@
 /* Announcements */
 #rcs-style-anchor-1 {
-    background-color: rgba(0, 0, 0, 0.9) ;
-    border-radius: 5px ;
-    border: 3px solid #ff0000 ;
-    position: absolute;
-    height: 335px ;
-    width: 230px ;
-    top: 50px;
-    z-index: 9;
-    cursor: pointer;
-    right: 355px ;
+    background-color:rgba(0, 0, 0, 0.9) ;
+    border-radius:0px;
+    border:0px solid #009CDD;
+    position:absolute;
+    height:0px;
+    width:275px;
+    top:30px;
+    z-index:9;
+    cursor:pointer;
+    right:355px;
 }
 
 #rcs-style-anchor-1:before {
     display: block;
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 10px;
+    left: 10px;
     font-family: 'fontawesome';
-    content: ' Event';
-    font-size: 16px;
-    color: #ff0000;
+    content: '';
+    font-size: 18px;
+    color: #009CDD;
 }
 
 #rcs-style-anchor-1:after {
-    content: url(' https://i.imgur.com/MOlLFSG.jpg ');
-    margin: 30px 0px 0px 0px;
+    content: url("");
+    margin: 25px 0px 0px 25px;
     position: absolute;
 }
 
 #rcs-style-anchor-1.toggled {
-    height: 35px ;
-    width: 85px ;
+    height:25px;
+    width:25px;
 }
 
 #rcs-style-anchor-1.toggled:after {
-    content: 'Enjoy!';
+    content: '';
 }
 
 #rcs-style-anchor-1:after {
-    content: url(https://i.imgur.com/MOlLFSG.jpg);
+    content: url("");
     width: 100px;
     height: 100px;
 }
 #rcs-style-anchor-1.toggled:after {
-    content: 'Enjoy!';
+    content: '';
 }
 
 /* About */
@@ -56,7 +56,7 @@
 #preview-about .top-about {
     height: 350px;
     width: 100%;
-    background: url("https://i.imgur.com/MOlLFSG.jpg") no-repeat 0 0;
+    background: url("") no-repeat 0 0;
     background-size: cover;
     background-position: center top;
     position: static;
