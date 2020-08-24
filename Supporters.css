@@ -21,7 +21,7 @@
 #user-rollover.id-40796598 .level:after {
     background-image: url(https://i.imgur.com/a2zR8CP.png);
     background-repeat: no-repeat;
-    content: "13375P34K";
+    content: "FMG";
     display: inline-block;
     color: #ff0000;
     font-weight: bold;
@@ -61,7 +61,7 @@
     padding: 3px 5px 0px 5px;
 }
 
-/* F0xMilkG0d */
+/*RepiSvK*/
 
 #user-lists .list .user.id-40796598 .name:after, #user-rollover.id-40796598 .meta .username:after, #chat [data-cid^='40796598-'] .un:after {
     content: "Donator";
@@ -75,7 +75,7 @@
 }
 
 #user-rollover.id-40796598 .meta:before {
-    content: url("https://i.imgur.com/MUaFz2M.jpg?1");
+    content: url("");
     top: 190px;
     left: 109px;
     position: absolute;
