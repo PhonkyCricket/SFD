@@ -4,7 +4,7 @@
 
 #user-rollover.id-3669054 .joined:after {
     position: absolute;
-    content: 'I am helping people!';
+    content: 'FMG Community Owner';
     background-image: url();
     background-repeat: no-repeat;
     color: #ff0000;
@@ -64,7 +64,7 @@
 /* F0xMilkG0d */
 
 #user-lists .list .user.id-3669054 .name:after, #user-rollover.id-3669054 .meta .username:after, #chat [data-cid^='3669054-'] .un:after {
-    content: "Web/Ccs/Theme/Room Dev";
+    content: "Room Dev";
     margin-left: 3px;
     background: rgba(0, 0, 0, .9);
     padding: 0px 3px;
