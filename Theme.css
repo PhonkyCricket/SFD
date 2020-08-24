@@ -39,7 +39,7 @@
 }
 
 #rcs-style-anchor-1:after {
-    content: url("");
+    content: url("https://i.imgur.com/pYdVTQB.png?1");
     width: 100px;
     height: 100px;
 }
@@ -56,7 +56,7 @@
 #preview-about .top-about {
     height: 350px;
     width: 100%;
-    background: url("") no-repeat 0 0;
+    background: url("https://i.imgur.com/4zE4EnD.png?1") no-repeat 0 0;
     background-size: cover;
     background-position: center top;
     position: static;
@@ -441,17 +441,17 @@
 }
 
 .nav-left.shown {
-    background: url("https://i.imgur.com/MOlLFSG.jpg") no-repeat ;
+    background: url("https://i.imgur.com/OI1iHK6.png?1") no-repeat ;
     background-size: cover ;
 }
 
 #app .logo-wrapper .plugdj-logo {
-    background: url("https://i.imgur.com/MOlLFSG.jpg") no-repeat;
+    background: url("https://i.imgur.com/OI1iHK6.png?1") no-repeat;
     background-size: 21px 21px ;
 }
 
 .nav-left__top .plugdj-logo {
-    background: url("https://i.imgur.com/MOlLFSG.jpg") no-repeat 0 0;
+    background: url("https://i.imgur.com/OI1iHK6.png?1") no-repeat 0 0;
     background-size: 25px 25px ;
 }
 
@@ -478,7 +478,7 @@
 }
 
 #app-menu.open, #playlist-panel, #history-panel, #user-view, #dashboard, #room-settings {
-    background-image: url("");
+    background-image: url("https://i.imgur.com/4zE4EnD.png?1");
     background-size: cover;
 }
 
