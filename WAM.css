@@ -79,3 +79,277 @@
 	background: -ms-linear-gradient(top, #f46b40 0, #ff0000 100%);
 	background: linear-gradient(to bottom, #f46b40 0, #ff0000 100%)
 }
+
+.community .room-controls--desktop {
+  border: none !important;
+  background-color: transparent !important;
+  width: 200px;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+.community .room-controls {
+  width: 67% !important;
+
+}
+@media only screen and (min-width: 1700px) {
+  .community .room-controls {
+    width: 55% !important;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .community .room-controls {
+    width: 65% !important;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .community .room-controls {
+    width: 55% !important;
+  }
+}
+
+@media only screen and (max-width: 1355px) {
+  .community .room-controls {
+    width: 73% !important;
+  }
+}
+@media only screen and (max-width: 1310px) {
+  .community .room-controls {
+    width: 73% !important;
+  }
+}
+
+@media only screen and (max-width: 1285px) {
+  .community .room-controls {
+    width: 78% !important;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .community .room-controls {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .community .room-controls {
+    width: 94% !important;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .community .room-controls {
+    width: 84% !important;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .community .room-controls {
+    width: 89% !important;
+  }
+}
+
+@media only screen and (max-width: 1035px) {
+  .community .room-controls--desktop__item:nth-of-type(4),
+  .community .room-controls--desktop__item:nth-of-type(5),
+  .community .room-controls--desktop__item:nth-of-type(6) {
+    height: 30px !important;
+  }
+  .community .room-controls--desktop {
+    width: 170px;
+  }
+}
+
+/* @media only screen and (max-width: 1180px) {
+  .community .room-controls--desktop {
+    width: 200px;
+}
+  .community .room-controls--desktop__item {
+
+    height: 60px!important;
+
+}
+} */
+,
+.community .room-controls--desktop__item .btn-meh {
+}
+
+.community .room-controls--desktop__item .btn-like::before {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  content: "";
+  background: url("https://i.imgur.com/s63VvMp.png?1") no-repeat 0 0;
+  background-size: 70%;
+  background-position: center !important;
+}
+
+.community .room-controls--desktop__item .btn-playlist:before {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  content: "";
+  background: url("https://i.imgur.com/xPp3bz6.png")
+    no-repeat 0 0;
+  background-size: 70%;
+  background-position: center !important;
+}
+
+.community .room-controls--desktop__item .btn-meh::before {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  content: "";
+  background: url("https://i.imgur.com/yOpjqTX.png?1")
+    no-repeat 0 0;
+  background-size: 70%;
+  background-position: center !important;
+}
+
+.fa-thumbs-down:before,
+.fa-thumbs-up:before {
+  content: "" !important;
+}
+
+
+.community .room-controls--desktop__item:nth-of-type(4),
+.community .room-controls--desktop__item:nth-of-type(5),
+.community .room-controls--desktop__item:nth-of-type(6) {
+  width: 75px !important;
+  height: 60px !important;
+  transition: ease-in-out 0.2s !important;
+  border-style: solid;
+  border-color: black;
+  border-radius: 200px;
+  border-width: 3px;
+}
+
+
+@keyframes voteslide {
+  0% {
+    margin-top: 15px;
+    opacity: 0;
+  }
+  25% {
+    margin-top: 20px;
+  }
+  75% {
+    margin-top: 25px;
+  }
+  100% {
+    margin-top: 30px;
+  }
+}
+
+@keyframes otherway {
+  0% {
+    margin-top: 30px;
+  }
+  25% {
+    margin-top: 25px;
+  }
+  75% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 15px;
+    opacity: 0;
+  }
+}
+
+.room-controls--desktop__item:hover .room-controls--desktop__item-value {
+  display: block;
+  animation: voteslide 0.5s;
+  animation-fill-mode: forwards;
+}
+.room-controls--desktop__item .room-controls--desktop__item-value {
+  animation: otherway 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.room-controls--desktop__item-value {
+  display: block;
+  font-size: 14px !important;
+  padding-top: 4px;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100px;
+  width: 27px;
+  height: 22px;
+  margin-left: 15px;
+  margin-top: -25px;
+  background-color: #000000;
+}
+
+.plugdjfont.icon-list {
+	display: none;
+}
+
+@media (min-width: 576px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.2% !important;
+	}
+}
+
+@media (min-width: 980px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.2% !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 91.33% !important;
+	}
+}
+
+@media (min-width: 1600px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 92.33% !important;
+	}
+}
+
+@media (min-width: 1800px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.7% !important;
+	}
+}
+
+@media (min-width: 1920px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.7% !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.community__bottom {
+		width: 100%;
+	}
+}
