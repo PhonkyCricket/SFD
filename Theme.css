@@ -1,790 +1,894 @@
 /* Announcements */
+
 #rcs-style-anchor-1 {
-    background-color:rgba(0, 0, 0, 0.9) ;
-    border-radius:0px;
-    border:0px solid #009CDD;
-    position:absolute;
-    height:0px;
-    width:275px;
-    top:30px;
-    z-index:9;
-    cursor:pointer;
-    right:355px;
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius: 0px;
+	border: 0px solid #009CDD;
+	position: absolute;
+	height: 0px;
+	width: 275px;
+	top: 30px;
+	z-index: 9;
+	cursor: pointer;
+	right: 355px;
 }
 
 #rcs-style-anchor-1:before {
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-family: 'fontawesome';
-    content: '';
-    font-size: 18px;
-    color: #009CDD;
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: 'fontawesome';
+	content: '';
+	font-size: 18px;
+	color: #009CDD;
 }
 
 #rcs-style-anchor-1:after {
-    content: url("");
-    margin: 25px 0px 0px 25px;
-    position: absolute;
+	content: url("");
+	margin: 25px 0px 0px 25px;
+	position: absolute;
 }
 
 #rcs-style-anchor-1.toggled {
-    height:25px;
-    width:25px;
+	height: 25px;
+	width: 25px;
 }
 
 #rcs-style-anchor-1.toggled:after {
-    content: '';
+	content: '';
 }
 
 #rcs-style-anchor-1:after {
-    content: url("https://i.imgur.com/pYdVTQB.png?1");
-    width: 100px;
-    height: 100px;
+	content: url("https://i.imgur.com/pYdVTQB.png?1");
+	width: 100px;
+	height: 100px;
 }
+
 #rcs-style-anchor-1.toggled:after {
-    content: '';
+	content: '';
 }
 
 /* About */
 
 #preview-about {
-    background: #000000;
+	background: #000000;
 }
 
 #preview-about .top-about {
-    height: 350px;
-    width: 100%;
-    background: url("https://i.imgur.com/4zE4EnD.png?1") no-repeat 0 0;
-    background-size: cover;
-    background-position: center top;
-    position: static;
-    z-index: -1;
+	height: 350px;
+	width: 100%;
+	background: url("https://i.imgur.com/4zE4EnD.png?1") no-repeat 0 0;
+	background-size: cover;
+	background-position: center top;
+	position: static;
+	z-index: -1;
 }
 
 #preview-about .top-profile .top-profile__image {
-    border: 3px solid #000000;
+	border: 3px solid #000000;
 }
 
-#preview-about .flex-component .item, #preview-about .flex-component.text .item-text, #preview-about .about-content .long-description p {
-    opacity: 1;
+#preview-about .flex-component .item,
+#preview-about .flex-component.text .item-text,
+#preview-about .about-content .long-description p {
+	opacity: 1;
 }
 
 #preview-about .top-profile .follow.white {
-    background: linear-gradient(hsl(255, 100%, 40%), hsl(255, 100%, 30%));
-    color: #ff0000;
-    padding-left: 20px;
+	background: linear-gradient(hsl(255, 100%, 40%), hsl(255, 100%, 30%));
+	color: #ff0000;
+	padding-left: 20px;
 }
 
 #preview-about .top-profile .follow:hover {
-    color: #000000;
+	color: #000000;
 }
 
 #preview-about .top-profile .share {
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
-    background: linear-gradient(hsl(255, 100%, 40%), hsl(255, 100%, 30%));
-    color: #ff0000;
-    white-space: nowrap;
-    border: 0;
-    border-radius: 25px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all .4s;
-    display: inline-table;
-    font-weight: 400px;
-    margin-right: 10px;
-    padding: 10px 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	background: linear-gradient(hsl(255, 100%, 40%), hsl(255, 100%, 30%));
+	color: #ff0000;
+	white-space: nowrap;
+	border: 0;
+	border-radius: 25px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all .4s;
+	display: inline-table;
+	font-weight: 400px;
+	margin-right: 10px;
+	padding: 10px 20px;
 }
 
-.community-settings .community-settings__menu .preview-settings-button, .community-settings .about-settings .about-settings__links-container .flex-container button.add {
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    color: #ff0000;
-    white-space: nowrap;
-    border: 0;
-    border-radius: 25px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all .4s;
-    display: inline-table;
-    font-weight: 400px;
-    margin-right: 10px;
-    padding: 10px 20px;
+.community-settings .community-settings__menu .preview-settings-button,
+.community-settings .about-settings .about-settings__links-container .flex-container button.add {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	color: #ff0000;
+	white-space: nowrap;
+	border: 0;
+	border-radius: 25px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all .4s;
+	display: inline-table;
+	font-weight: 400px;
+	margin-right: 10px;
+	padding: 10px 20px;
 }
 
 .community-settings .edit-settings {
-    background: #ff0000;
+	background: #ff0000;
 }
 
-.community-settings .community-settings__container .general-settings .panel .title, .community-settings .community-settings__container .general-settings .title {
-    text-transform: uppercase;
+.community-settings .community-settings__container .general-settings .panel .title,
+.community-settings .community-settings__container .general-settings .title {
+	text-transform: uppercase;
 }
 
-.community-settings .community-settings__container .general-settings .value, .community-settings .community-settings__container .about-settings .helptext, .community-settings .community-settings__container .general-settings .helptext {
-    opacity: 1;
-    color: #ff0000;
+.community-settings .community-settings__container .general-settings .value,
+.community-settings .community-settings__container .about-settings .helptext,
+.community-settings .community-settings__container .general-settings .helptext {
+	opacity: 1;
+	color: #ff0000;
 }
 
 .switch-widget__option--on.selected {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
 }
 
-.plug-tab-menu .item.selected, .plug-tab-menu .item:last-child.selected {
-    width: 100%;
-    border-bottom: none;
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+.plug-tab-menu .item.selected,
+.plug-tab-menu .item:last-child.selected {
+	width: 100%;
+	border-bottom: none;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
 }
 
-.community-settings .about-settings .widget .widget__title, .community-settings .general-settings .widget .widget__title {
-    color: #ff0000;
-    text-transform: uppercase;
+.community-settings .about-settings .widget .widget__title,
+.community-settings .general-settings .widget .widget__title {
+	color: #ff0000;
+	text-transform: uppercase;
 }
 
-.community-settings .about-settings .widget .widget__recommendation, .community-settings .general-settings .widget .widget__recommendation, .community-settings .about-settings .widget .widget__help, .community-settings .general-settings .widget .widget__help {
-    color: #ff0000;
-    opacity: 1;
+.community-settings .about-settings .widget .widget__recommendation,
+.community-settings .general-settings .widget .widget__recommendation,
+.community-settings .about-settings .widget .widget__help,
+.community-settings .general-settings .widget .widget__help {
+	color: #ff0000;
+	opacity: 1;
 }
 
 #preview-about .top-about .top-background-black {
-    z-index: -5;
+	z-index: -5;
 }
 
 .community-settings .community-settings__top .edit-community {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    color: #ff0000;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	color: #ff0000;
 }
 
-.plug-tab-menu .item, .plug-tab-menu .item:last-child {
-    width: 100%;
+.plug-tab-menu .item,
+.plug-tab-menu .item:last-child {
+	width: 100%;
 }
 
 #user-rollover .action {
-    background: radial-gradient(hsla(0, 0%, 10%, 0.9), hsla(0, 0%, 0%, 0.9)) ;
-    box-shadow: 0 0 2px 1px #21b1af;
+	background: radial-gradient(hsla(0, 0%, 10%, 0.9), hsla(0, 0%, 0%, 0.9));
+	box-shadow: 0 0 2px 1px #21b1af;
 }
 
 #user-rollover .action:hover {
-    background: radial-gradient(hsla(225, 100%, 30%, 0.9), hsla(225, 100%, 20%, 0.9)) ;
-    box-shadow: inset 0 0 50px #000 ;
+	background: radial-gradient(hsla(225, 100%, 30%, 0.9), hsla(225, 100%, 20%, 0.9));
+	box-shadow: inset 0 0 50px #000;
 }
 
-#user-rollover .meta.subscriber .thumb, #waitlist .is-subscriber .thumb {
-    border-color: hsl(225, 80%, 45%) ;
-    box-shadow: 0 0 7px hsl(225, 80%, 45%) ;
+#user-rollover .meta.subscriber .thumb,
+#waitlist .is-subscriber .thumb {
+	border-color: hsl(225, 80%, 45%);
+	box-shadow: 0 0 7px hsl(225, 80%, 45%);
 }
 
 #user-rollover .meta.subscriber .thumb.large {
-    box-shadow: 0 0 15px hsl(225, 80%, 45%) ;
+	box-shadow: 0 0 15px hsl(225, 80%, 45%);
 }
 
 .rcspdjheader {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
-    height: 30px;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	height: 30px;
 }
 
 .rcspdjheader span {
-    color: #ff0000;
-    top: 7px;
+	color: #ff0000;
+	top: 7px;
 }
 
 .communities .grid .cell .meta .host {
-    margin-top: 6px;
+	margin-top: 6px;
 }
 
 #user-rollover .meta .status i {
-    top: -2px;
-    left: 2px;
+	top: -2px;
+	left: 2px;
 }
 
 #user-lists .list {
-    top: 55px;
+	top: 55px;
 }
 
 #user-lists .group {
-    border: none;
-    box-shadow: 0 0 2px 2px;
+	border: none;
+	box-shadow: 0 0 2px 2px;
 }
 
 #user-lists .user:hover {
-    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
+	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
 }
 
 .right-side-wrapper #waitlist .list .user:hover {
-    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
+	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
 }
 
 #user-lists .list.staff .user:hover .name {
-    color: #ff0000;
+	color: #ff0000;
 }
 
 #user-lists .header {
-    height: 42px;
+	height: 42px;
 }
 
 #user-lists .list-header {
-    display: none;
+	display: none;
 }
 
 #user-lists .header .button {
-    top: 0px;
+	top: 0px;
 }
 
 #user-lists .header .button.staff.selected {
-    border-bottom: 2px solid #ff0000;
+	border-bottom: 2px solid #ff0000;
 }
 
 #user-lists .header .button.ignored.selected {
-    border-bottom: 2px solid #ff0000;
+	border-bottom: 2px solid #ff0000;
 }
 
 /*--[user-rollover]--*/
 
 #user-rollover {
-    background: linear-gradient(135deg, hsla(0, 0%, 20%, 0.6), hsla(0, 0%, 0%, 0.6));
-    box-shadow: 0 0 10px #000;
+	background: linear-gradient(135deg, hsla(0, 0%, 20%, 0.6), hsla(0, 0%, 0%, 0.6));
+	box-shadow: 0 0 10px #000;
 }
 
 #user-rollover .info {
-    background: linear-gradient(hsl(205, 100%, 40%, 0.5), hsl(205, 100%, 30%, 0.5));
-    box-shadow: 0px -2px 10px -1px #000;
+	background: linear-gradient(hsl(205, 100%, 40%, 0.5), hsl(205, 100%, 30%, 0.5));
+	box-shadow: 0px -2px 10px -1px #000;
 }
 
 #user-rollover .info i+span {
-    text-shadow: 0 0 5px #000;
+	text-shadow: 0 0 5px #000;
 }
 
 .thumb {
-    background: hsla(210, 10%, 10%, 0.4);
+	background: hsla(210, 10%, 10%, 0.4);
 }
 
-#user-rollover .info .badge-box, #user-rollover .background, #video-only-dj .background, #search-suggestion, #search-suggestion ul {
-    background: rgba(0, 0, 0, 0);
+#user-rollover .info .badge-box,
+#user-rollover .background,
+#video-only-dj .background,
+#search-suggestion,
+#search-suggestion ul {
+	background: rgba(0, 0, 0, 0);
 }
 
-.thumb.large, .thumb, #user-rollover .meta.online .thumb {
-    border-color: hsl(80, 70%, 50%) ;
-    box-shadow: 0 0 7px hsl(80, 70%, 50%) ;
+.thumb.large,
+.thumb,
+#user-rollover .meta.online .thumb {
+	border-color: hsl(80, 70%, 50%);
+	box-shadow: 0 0 7px hsl(80, 70%, 50%);
 }
 
-.thumb.large, #user-rollover .meta.online .thumb.large {
-    box-shadow: 0 0 15px hsl(80, 70%, 50%) ;
+.thumb.large,
+#user-rollover .meta.online .thumb.large {
+	box-shadow: 0 0 15px hsl(80, 70%, 50%);
 }
 
-#user-rollover.is-staff .meta.online .thumb, #waitlist .is-staff .thumb {
-    border-color: hsl(270, 50%, 50%) ;
-    box-shadow: 0 0 7px hsl(270, 50%, 50%) ;
+#user-rollover.is-staff .meta.online .thumb,
+#waitlist .is-staff .thumb {
+	border-color: hsl(270, 50%, 50%);
+	box-shadow: 0 0 7px hsl(270, 50%, 50%);
 }
 
 #user-rollover.is-staff .meta.online .thumb.large {
-    box-shadow: 0 0 15px hsl(270, 50%, 50%) ;
+	box-shadow: 0 0 15px hsl(270, 50%, 50%);
 }
 
 #user-rollover .meta.online .status i {
-    display: none;
+	display: none;
 }
 
 #user-rollover .meta.online .status span {
-    color: hsl(80, 70%, 50%);
-    margin-left: 0;
+	color: hsl(80, 70%, 50%);
+	margin-left: 0;
 }
 
 #user-rollover .meta.offline .status i {
-    top: 0px;
+	top: 0px;
 }
 
 ::-moz-selection {
-    background: rgba(180,138,18,.25);
+	background: rgba(180, 138, 18, .25);
 }
 
 ::-webkit-scrollbar {
-    background: #0c1217;
+	background: #0c1217;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(180,138,18,.8);
-    border-radius: 3px;
-    box-shadow: inset 0 0 0 1px rgba(0,0,0,.5);
+	background: rgba(180, 138, 18, .8);
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .5);
 }
 
 ::selection {
-    background: rgba(180,138,18,.25);
+	background: rgba(180, 138, 18, .25);
 }
+
 
 /* --------------------------------------- icon --------------------------------------- */
 
 .icon {
-    background-image: url("https://i.imgur.com/8bspLCF.png");
+	background-image: url("https://i.imgur.com/8bspLCF.png");
 }
 
 /* --------------------------------------- Katsetused --------------------------------------- */
 
 #room-settings .general-settings .option button.off {
-    background: linear-gradient(to bottom right, #ff0000, #ff0000) ;
+	background: linear-gradient(to bottom right, #ff0000, #ff0000);
 }
 
-#room-settings .general-settings .option.enabled > button.off {
-    color: red;
-    background: #ff0000 ;
+#room-settings .general-settings .option.enabled>button.off {
+	color: red;
+	background: #ff0000;
 }
 
-#room-settings .general-settings .option.enabled > button.on {
-    background: linear-gradient(to bottom right, #ff0000, #ff0000) ;
+#room-settings .general-settings .option.enabled>button.on {
+	background: linear-gradient(to bottom right, #ff0000, #ff0000);
 }
 
 #room-settings .general-settings .option button {
-    border-radius: 5px;
-    background: #ff0000;
-    color: red;
+	border-radius: 5px;
+	background: #ff0000;
+	color: red;
 }
 
 #room-settings .general-settings .description .value {
-    width: 95% ;
+	width: 95%;
 }
 
-.plug-option.chat-level .dropdown dd .row, .row {
-    margin: 0 ;
+.plug-option.chat-level .dropdown dd .row,
+.row {
+	margin: 0;
 }
 
-.dropdown dd, .dropdown.open dd {
-    padding: 0;
+.dropdown dd,
+.dropdown.open dd {
+	padding: 0;
 }
 
-.community-settings .community-settings__container .chat-level .title, .community-settings .community-settings__container .dj-cycle .title, .community-settings .community-settings__container .wait-list .title, .community-settings .community-settings__container .general-settings .panel .title {
-    color: #ff0000;
-    font-weight: bold;
+.community-settings .community-settings__container .chat-level .title,
+.community-settings .community-settings__container .dj-cycle .title,
+.community-settings .community-settings__container .wait-list .title,
+.community-settings .community-settings__container .general-settings .panel .title {
+	color: #ff0000;
+	font-weight: bold;
 }
 
 .switch-widget--small .switch-widget__option {
-    border-radius: 100px;
+	border-radius: 100px;
 }
 
 .switch-widget__option-wrapper {
-    background-color: #ff0000;
-    border-radius: 100px;
-    width: 100px;
+	background-color: #ff0000;
+	border-radius: 100px;
+	width: 100px;
 }
 
 .community-settings .edit-settings {
-    background: url("");
+	background: url("");
 }
 
 .dropdown dt {
-    box-shadow: inset -39px 0 0 0 #9D7575;
+	box-shadow: inset -39px 0 0 0 #9D7575;
 }
 
-.switch-widget__option--off,.switch-widget__option--on {
-    color: white;
-    background: #ff0000;
+.switch-widget__option--off,
+.switch-widget__option--on {
+	color: white;
+	background: #ff0000;
 }
 
 .preview-settings {
-    background: url("") no-repeat ;
-    background-size: cover ;
+	background: url("") no-repeat;
+	background-size: cover;
 }
 
 #preview-about .top-profile .top-profile__image {
-    border-radius: 100px ;
+	border-radius: 100px;
 }
 
 #preview-about .top-profile {
-    background: rgba(255, 25, 25, 0.75) ;
-    text-align: center ;
-    font-weight: bold;
-    width: 80% ;
-    border-radius: 75px;
-    margin-left: 4%;
-    margin-top: 30px;
-    height: 50% ;
-    padding: 30px 50px 30px 50px;
+	background: rgba(255, 25, 25, 0.75);
+	text-align: center;
+	font-weight: bold;
+	width: 80%;
+	border-radius: 75px;
+	margin-left: 4%;
+	margin-top: 30px;
+	height: 50%;
+	padding: 30px 50px 30px 50px;
 }
 
 #preview-about .about-content h1 {
-    visibility: hidden;
+	visibility: hidden;
 }
 
-#preview-about .about-content .short-description, #preview-about .flex-component.text {
-    margin-left: 3%;
+#preview-about .about-content .short-description,
+#preview-about .flex-component.text {
+	margin-left: 3%;
 }
 
-.switch-widget__option--off.selected, .switch-widget__option--on.selected {
-    background: linear-gradient(to bottom right, #ff0000, #ff0000) ;
+.switch-widget__option--off.selected,
+.switch-widget__option--on.selected {
+	background: linear-gradient(to bottom right, #ff0000, #ff0000);
 }
 
-.plug-tab-menu .item.selected, .plug-tab-menu .item:last-child.selected {
-    border-color: #ff0000;
+.plug-tab-menu .item.selected,
+.plug-tab-menu .item:last-child.selected {
+	border-color: #ff0000;
 }
 
 .community-settings .community-settings__top .edit-community.small {
-    background-color: rgba(255, 25, 25, 0.7);
-    color: white;
-    border: 1px solid white;
+	background-color: rgba(255, 25, 25, 0.7);
+	color: white;
+	border: 1px solid white;
 }
 
 .community-settings .community-settings__top .edit-community.small:hover {
-    background-color: rgba(255, 25, 25, 0.7) ;
+	background-color: rgba(255, 25, 25, 0.7);
 }
+
 
 /*menu*/
 
 .nav-left {
-    background: transparent ;
+	background: transparent;
 }
 
 .nav-left.shown {
-    background: url("https://i.imgur.com/8BT4lXj.png?1") no-repeat ;
-    background-size: center;
+	background: url("https://i.imgur.com/8BT4lXj.png?1") no-repeat;
+	background-size: center;
 }
 
 #app .logo-wrapper .plugdj-logo {
-    background: url("https://i.imgur.com/OI1iHK6.png?1") no-repeat;
-    background-size: 21px 21px ;
+	background: url("https://i.imgur.com/OI1iHK6.png?1") no-repeat;
+	background-size: 21px 21px;
 }
 
 .nav-left__top .plugdj-logo {
-    background: url("https://i.imgur.com/OI1iHK6.png?1") no-repeat 0 0;
-    background-size: 25px 25px ;
+	background: url("https://i.imgur.com/OI1iHK6.png?1") no-repeat 0 0;
+	background-size: 25px 25px;
 }
 
 .nav-left__item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
 }
 
 .nav-left__item-text {
-    color: #c8b1b1 ;
-    font-weight: bold;
+	color: #c8b1b1;
+	font-weight: bold;
 }
 
 .nav-left__item.selected {
-    border-left: 2px solid #e3d8d8 ;
+	border-left: 2px solid #e3d8d8;
 }
 
-.nav-left__item.selected .nav-left__item-icon, .nav-left__item.selected .nav-left__item-text {
-    color: #e3d8d8;
+.nav-left__item.selected .nav-left__item-icon,
+.nav-left__item.selected .nav-left__item-text {
+	color: #e3d8d8;
 }
 
 .nav-left .download-app {
-    background-color: transparent ;
+	background-color: transparent;
 }
 
-#app-menu.open, #playlist-panel, #history-panel, #user-view, #dashboard, #room-settings {
-    background-image: url("https://i.imgur.com/4zE4EnD.png?1");
-    background-size: cover;
+#app-menu.open,
+#playlist-panel,
+#history-panel,
+#user-view,
+#dashboard,
+#room-settings {
+	background-image: url("https://i.imgur.com/4zE4EnD.png?1");
+	background-size: cover;
 }
 
 #room .app-right {
-    background: rgba(0,0,0,.75);
+	background: rgba(0, 0, 0, .75);
 }
 
 #room-settings-menu {
-    background: rgba(0,0,0,.5);
+	background: rgba(0, 0, 0, .5);
 }
 
 #chat .cm:nth-child(2n+1) {
-    background-color: rgba(0,0,0,.9);
+	background-color: rgba(0, 0, 0, .9);
 }
 
 .app-right .jspContainer {
-    background: linear-gradient(to right, rgba(255, 25, 25, .3), transparent);
+	background: linear-gradient(to right, rgba(255, 25, 25, .3), transparent);
 }
 
 #user-menu {
-    background: linear-gradient(to right, rgba(25, 25, 25, .7), rgba(255,25,25, .7));
+	background: linear-gradient(to right, rgba(25, 25, 25, .7), rgba(255, 25, 25, .7));
 }
 
 .room-controls--desktop__item:hover .room-controls--desktop__item-value {
-  display: block;
-  animation: voteslide 0.5s;
-  animation-fill-mode: forwards;
+	display: block;
+	animation: voteslide 0.5s;
+	animation-fill-mode: forwards;
 }
 
 .room-controls--desktop__item .room-controls--desktop__item-value {
-  animation: otherway 0.5s;
-  animation-fill-mode: forwards;
+	animation: otherway 0.5s;
+	animation-fill-mode: forwards;
 }
 
 .room-controls--desktop__item-value {
-  display: block;
-  font-size: 14px !important;
-  padding-top: 4px;
-  border-color: red;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 100px;
-  width: 27px;
-  height: 22px;
-  margin-left: 15px;
-  margin-top: -25px;
-  background-color: #000000;
+	display: block;
+	font-size: 14px !important;
+	padding-top: 4px;
+	border-color: red;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 100px;
+	width: 27px;
+	height: 22px;
+	margin-left: 15px;
+	margin-top: -25px;
+	background-color: #000000;
 }
 
 .community .room-controls--desktop__item .btn-like.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(255, 25, 25, 0.5) !important;
+	border-radius: 200px;
+	background-color: rgba(255, 25, 25, 0.5) !important;
 }
 
 .community .room-controls--desktop__item .btn-meh.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(255, 25, 25, 0.5) !important;
+	border-radius: 200px;
+	background-color: rgba(255, 25, 25, 0.5) !important;
 }
+
 .community .room-controls--desktop__item .btn-playlist.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(255, 25, 25, 0.5);
+	border-radius: 200px;
+	background-color: rgba(255, 25, 25, 0.5);
 }
 
-.community .community__info-item, .community .community__player-item, .community .room-controls--desktop__item, .community .bottom__playback-controls--desktop .community__player-item.history .fa, .community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
-    color: #ff0000;
-    opacity: 1;
+.community .community__info-item,
+.community .community__player-item,
+.community .room-controls--desktop__item,
+.community .bottom__playback-controls--desktop .community__player-item.history .fa,
+.community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont,
+.community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa,
+.community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
+	color: #ff0000;
+	opacity: 1;
 }
 
-.community .community__info-item:hover, .community .community__player-item:hover, .community .room-controls--desktop__item:hover, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger:hover, .community .bottom__playback-controls--desktop .community__player-item.history:hover {
-    opacity: .5;
+.community .community__info-item:hover,
+.community .community__player-item:hover,
+.community .room-controls--desktop__item:hover,
+.community .bottom__playback-controls--desktop .community__player-item.share-song-trigger:hover,
+.community .bottom__playback-controls--desktop .community__player-item.history:hover {
+	opacity: .5;
 }
 
-@media  (min-width: 576px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 93.2% !important;
-  }
+@media (min-width: 576px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.2% !important;
+	}
 }
 
-@media  (min-width: 980px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 93.2% !important;
-  }
+@media (min-width: 980px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.2% !important;
+	}
 }
 
-@media  (min-width: 1200px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 91.33% !important;
-  }
+@media (min-width: 1200px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 91.33% !important;
+	}
 }
 
-@media  (min-width: 1600px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 92.33% !important;
-  }
+@media (min-width: 1600px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 92.33% !important;
+	}
 }
 
-@media  (min-width: 1800px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 93.7% !important;
-  }
+@media (min-width: 1800px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.7% !important;
+	}
 }
 
-@media  (min-width: 1920px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 93.7% !important;
-  }
+@media (min-width: 1920px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.7% !important;
+	}
 }
 
-@media  (min-width: 992px) {
-  .community__bottom {    
-    width: 100%;
-  }
+@media (min-width: 992px) {
+	.community__bottom {
+		width: 100%;
+	}
 }
+
 
 /*FOXXXXXXXXXXXX*/
-}
 
+
+}
 .plugdjfont.icon-list {
-  display: block;
+	display: block;
 }
-
 .room-controls--desktop__item:hover .room-controls--desktop__item-value {
-  display: block;
-  animation: voteslide 0.5s;
-  animation-fill-mode: forwards;
+	display: block;
+	animation: voteslide 0.5s;
+	animation-fill-mode: forwards;
 }
 .room-controls--desktop__item .room-controls--desktop__item-value {
-  animation: otherway 0.5s;
-  animation-fill-mode: forwards;
+	animation: otherway 0.5s;
+	animation-fill-mode: forwards;
 }
-
 .room-controls--desktop__item-value {
-  display: block;
-  font-size: 14px !important;
-  padding-top: 4px;
-  border-color: white;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 100px;
-  width: 27px;
-  height: 22px;
-  margin-left: 15px;
-  margin-top: -25px;
-  background-color: #40100c;
+	display: block;
+	font-size: 14px !important;
+	padding-top: 4px;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 100px;
+	width: 27px;
+	height: 22px;
+	margin-left: 15px;
+	margin-top: -25px;
+	background-color: #40100c;
 }
-
 .community .room-controls--desktop__item .btn-like.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(33, 230, 0, 0.2) !important;
+	border-radius: 200px;
+	background-color: rgba(33, 230, 0, 0.2) !important;
 }
-
 .community .room-controls--desktop__item .btn-meh.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(255, 109, 40, 0.2) !important;
+	border-radius: 200px;
+	background-color: rgba(255, 109, 40, 0.2) !important;
 }
 .community .room-controls--desktop__item .btn-playlist.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(0, 235, 255, 0.2);
+	border-radius: 200px;
+	background-color: rgba(0, 235, 255, 0.2);
 }
-
-#footer-user .info, .communities .grid .cell .favorite {
-    background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
+#footer-user .info,
+.communities .grid .cell .favorite {
+	background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
 }
-
 .room-controls--desktop__item:hover .room-controls--desktop__item-value {
-  display: block;
-  animation: voteslide 0.5s;
-  animation-fill-mode: forwards;
+	display: block;
+	animation: voteslide 0.5s;
+	animation-fill-mode: forwards;
 }
 .room-controls--desktop__item .room-controls--desktop__item-value {
-  animation: otherway 0.5s;
-  animation-fill-mode: forwards;
+	animation: otherway 0.5s;
+	animation-fill-mode: forwards;
 }
-
 .room-controls--desktop__item-value {
-  display: block;
-  font-size: 14px !important;
-  padding-top: 4px;
-  border-color: red;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 100px;
-  width: 27px;
-  height: 22px;
-  margin-left: 15px;
-  margin-top: -25px;
-  background-color: #000000;
+	display: block;
+	font-size: 14px !important;
+	padding-top: 4px;
+	border-color: red;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 100px;
+	width: 27px;
+	height: 22px;
+	margin-left: 15px;
+	margin-top: -25px;
+	background-color: #000000;
 }
-
 .community .room-controls--desktop__item .btn-like.clicked::before {
-  border-radius: 200px;
-  background-color: rgba(255, 25, 25, 0.5) !important;
+	border-radius: 200px;
+	background-color: rgba(255, 25, 25, 0.5) !important;
 }
-
 .community .room-controls--desktop__item .btn-meh.clicked::before {
-  border-radius: 200px;
-
-  background-color: rgba(255, 25, 25, 0.5) !important;
+	border-radius: 200px;
+	background-color: rgba(255, 25, 25, 0.5) !important;
 }
 .community .room-controls--desktop__item .btn-playlist.clicked::before {
-  border-radius: 200px;
-
-  background-color: rgba(255, 25, 25, 0.5);
+	border-radius: 200px;
+	background-color: rgba(255, 25, 25, 0.5);
+}
+.community .community__info-item,
+.community .community__player-item,
+.community .room-controls--desktop__item,
+.community .bottom__playback-controls--desktop .community__player-item.history .fa,
+.community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont,
+.community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa,
+.community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
+	color: #ff0000;
+	opacity: 1;
+}
+.community .community__info-item:hover,
+.community .community__player-item:hover,
+.community .room-controls--desktop__item:hover,
+.community .bottom__playback-controls--desktop .community__player-item.share-song-trigger:hover,
+.community .bottom__playback-controls--desktop .community__player-item.history:hover {
+	opacity: .5;
+}
+@media (min-width: 576px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.2% !important;
+	}
+}
+@media (min-width: 980px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.2% !important;
+	}
+}
+@media (min-width: 1200px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 91.33% !important;
+	}
+}
+@media (min-width: 1600px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 92.33% !important;
+	}
+}
+@media (min-width: 1800px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.7% !important;
+	}
+}
+@media (min-width: 1920px) {
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.7% !important;
+	}
+}
+@media (min-width: 992px) {
+	.community__bottom {
+		width: 100%;
+	}
 }
 
-.community .community__info-item, .community .community__player-item, .community .room-controls--desktop__item, .community .bottom__playback-controls--desktop .community__player-item.history .fa, .community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
-    color: #ff0000;
-    opacity: 1;
 }
 
-.community .community__info-item:hover, .community .community__player-item:hover, .community .room-controls--desktop__item:hover, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger:hover, .community .bottom__playback-controls--desktop .community__player-item.history:hover {
-    opacity: .5;
-}
-
-@media  (min-width: 576px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 93.2% !important;
-  }
-}
-
-@media  (min-width: 980px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 93.2% !important;
-  }
-}
-
-@media  (min-width: 1200px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 91.33% !important;
-  }
-}
-
-@media  (min-width: 1600px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 92.33% !important;
-  }
-}
-
-@media  (min-width: 1800px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 93.7% !important;
-  }
-}
-
-@media  (min-width: 1920px) {
-  .community__right-bar, #user-lists, #waitlist, .community .friends, #rcs-menu {    
-    height: 93.7% !important;
-  }
-}
-
-@media  (min-width: 992px) {
-  .community__bottom {    
-    width: 100%;
-  }
-}
-}
 /*BG FIX*/
-#app-menu, #app-menu.open .list, #waitlist .list .user, #user-view .jspContainer, .user-content.profile .points .subscribe-button {
-    background: transparent;
+#app-menu,
+#app-menu.open .list,
+#waitlist .list .user,
+#user-view .jspContainer,
+.user-content.profile .points .subscribe-button {
+	background: transparent;
 }
-[data-view="room"]
-  .bottom__playback-controls
-  .volume-bar
-  .progress
-  .progress-bar {
-  background-color: #c8b3b2 !important;
+[data-view="room"] .bottom__playback-controls .volume-bar .progress .progress-bar {
+	background-color: #c8b3b2 !important;
 }
-
 .left-side-wrapper {
-  background-image: url(https://cdn.radiant.dj/rcs/bg/4.png) !important;
-  background-position-x: center !important;
-  background-position-y: bottom !important;
-  background-size: 1600px 900px;
+	background-image: url(https://cdn.radiant.dj/rcs/bg/4.png) !important;
+	background-position-x: center !important;
+	background-position-y: bottom !important;
+	background-size: 1600px 900px;
 }
-
-.community .community__playlist--desktop, .community .community__playlist--mobile {
-    background: linear-gradient(to right,#000000 0,rgba(0, 0, 0, 0.9) 100%) ;
+.community .community__playlist--desktop,
+.community .community__playlist--mobile {
+	background: linear-gradient(to right,
+	#000000 0,
+	rgba(0,
+	0,
+	0,
+	0.9) 100%);
 }
-
 .community__playback-meta--desktop {
-    background: linear-gradient(to left,#000000 0,rgba(0, 0, 0, 0.9) 100%) ;
+	background: linear-gradient(to left,
+	#000000 0,
+	rgba(0,
+	0,
+	0,
+	0.9) 100%);
 }
-
 .community .bottom__playback-controls--desktop .list-unstyled:first-child {
-    margin-left: 0px ;
+	margin-left: 0px;
 }
-
-.community .bottom__playback-controls--desktop .community__player-item.history, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger {
-    background: linear-gradient(to right,#000000 0,rgba(0, 0, 0, 0.9) 100%) ;
-    flex-basis: 88px ;
-    border-left: 1px solid #ff0000 ;
+.community .bottom__playback-controls--desktop .community__player-item.history,
+.community .bottom__playback-controls--desktop .community__player-item.share-song-trigger {
+	background: linear-gradient(to right,
+	#000000 0,
+	rgba(0,
+	0,
+	0,
+	0.9) 100%);
+	flex-basis: 88px;
+	border-left: 1px solid #ff0000;
 }
-
 .community__playlist--desktop[data-song] .icon-playlist {
-    color: #ff0000;
+	color: #ff0000;
 }
-
 .community__share-room:after {
-    background-image: url(https://i.imgur.com/SOho8aF.png?1);
-    background-repeat: no-repeat;
-    content: "Join us discord, copyrighted 2018-2020";
-    display: inline-block;
-    color: #ff0000 !important;
-    font-weight: 3500;
-    margin: 0px 0px 0 50px !important;
-    padding: 0 0 0 165px;
-    font-size: 18px;
-    animation: 5s;
-    cursor: none;
+	background-image: url(https://i.imgur.com/SOho8aF.png?1);
+	background-repeat: no-repeat;
+	content: "Join us discord, copyrighted 2018-2020";
+	display: inline-block;
+	color: #ff0000 !important;
+	font-weight: 3500;
+	margin: 0px 0px 0 50px !important;
+	padding: 0 0 0 165px;
+	font-size: 18px;
+	animation: 5s;
+	cursor: none;
 }
