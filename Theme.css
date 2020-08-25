@@ -560,80 +560,8 @@
 	opacity: .5;
 }
 
-@media (min-width: 576px) {
-	.community__right-bar,
-	#user-lists,
-	#waitlist,
-	.community .friends,
-	#rcs-menu {
-		height: 93.2% !important;
-	}
-}
-
-@media (min-width: 980px) {
-	.community__right-bar,
-	#user-lists,
-	#waitlist,
-	.community .friends,
-	#rcs-menu {
-		height: 93.2% !important;
-	}
-}
-
-@media (min-width: 1200px) {
-	.community__right-bar,
-	#user-lists,
-	#waitlist,
-	.community .friends,
-	#rcs-menu {
-		height: 91.33% !important;
-	}
-}
-
-@media (min-width: 1600px) {
-	.community__right-bar,
-	#user-lists,
-	#waitlist,
-	.community .friends,
-	#rcs-menu {
-		height: 92.33% !important;
-	}
-}
-
-@media (min-width: 1800px) {
-	.community__right-bar,
-	#user-lists,
-	#waitlist,
-	.community .friends,
-	#rcs-menu {
-		height: 93.7% !important;
-	}
-}
-
-@media (min-width: 1920px) {
-	.community__right-bar,
-	#user-lists,
-	#waitlist,
-	.community .friends,
-	#rcs-menu {
-		height: 93.7% !important;
-	}
-}
-
-@media (min-width: 992px) {
-	.community__bottom {
-		width: 100%;
-	}
-}
-
-
 /*FOXXXXXXXXXXXX*/
 
-
-}
-.plugdjfont.icon-list {
-	display: block;
-}
 .room-controls--desktop__item:hover .room-controls--desktop__item-value {
 	display: block;
 	animation: voteslide 0.5s;
