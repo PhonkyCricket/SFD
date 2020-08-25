@@ -49,6 +49,7 @@
 	content: '';
 }
 
+
 /* About */
 
 #preview-about {
@@ -220,6 +221,7 @@
 	left: 2px;
 }
 
+
 /*--[user-rollover]--*/
 
 #user-rollover {
@@ -307,6 +309,7 @@
 .icon {
 	background-image: url("https://i.imgur.com/8bspLCF.png");
 }
+
 
 /* --------------------------------------- Katsetused --------------------------------------- */
 
@@ -560,6 +563,7 @@
 	opacity: .5;
 }
 
+
 /*FOXXXXXXXXXXXX*/
 
 .room-controls--desktop__item:hover .room-controls--desktop__item-value {
@@ -567,10 +571,12 @@
 	animation: voteslide 0.5s;
 	animation-fill-mode: forwards;
 }
+
 .room-controls--desktop__item .room-controls--desktop__item-value {
 	animation: otherway 0.5s;
 	animation-fill-mode: forwards;
 }
+
 .room-controls--desktop__item-value {
 	display: block;
 	font-size: 14px !important;
@@ -585,31 +591,38 @@
 	margin-top: -25px;
 	background-color: #40100c;
 }
+
 .community .room-controls--desktop__item .btn-like.clicked::before {
 	border-radius: 200px;
 	background-color: rgba(33, 230, 0, 0.2) !important;
 }
+
 .community .room-controls--desktop__item .btn-meh.clicked::before {
 	border-radius: 200px;
 	background-color: rgba(255, 109, 40, 0.2) !important;
 }
+
 .community .room-controls--desktop__item .btn-playlist.clicked::before {
 	border-radius: 200px;
 	background-color: rgba(0, 235, 255, 0.2);
 }
+
 #footer-user .info,
 .communities .grid .cell .favorite {
 	background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
 }
+
 .room-controls--desktop__item:hover .room-controls--desktop__item-value {
 	display: block;
 	animation: voteslide 0.5s;
 	animation-fill-mode: forwards;
 }
+
 .room-controls--desktop__item .room-controls--desktop__item-value {
 	animation: otherway 0.5s;
 	animation-fill-mode: forwards;
 }
+
 .room-controls--desktop__item-value {
 	display: block;
 	font-size: 14px !important;
@@ -624,18 +637,22 @@
 	margin-top: -25px;
 	background-color: #000000;
 }
+
 .community .room-controls--desktop__item .btn-like.clicked::before {
 	border-radius: 200px;
 	background-color: rgba(255, 25, 25, 0.5) !important;
 }
+
 .community .room-controls--desktop__item .btn-meh.clicked::before {
 	border-radius: 200px;
 	background-color: rgba(255, 25, 25, 0.5) !important;
 }
+
 .community .room-controls--desktop__item .btn-playlist.clicked::before {
 	border-radius: 200px;
 	background-color: rgba(255, 25, 25, 0.5);
 }
+
 .community .community__info-item,
 .community .community__player-item,
 .community .room-controls--desktop__item,
@@ -646,6 +663,7 @@
 	color: #ff0000;
 	opacity: 1;
 }
+
 .community .community__info-item:hover,
 .community .community__player-item:hover,
 .community .room-controls--desktop__item:hover,
@@ -653,6 +671,7 @@
 .community .bottom__playback-controls--desktop .community__player-item.history:hover {
 	opacity: .5;
 }
+
 @media (min-width: 576px) {
 	.community__right-bar,
 	#user-lists,
@@ -662,6 +681,7 @@
 		height: 93.2% !important;
 	}
 }
+
 @media (min-width: 980px) {
 	.community__right-bar,
 	#user-lists,
@@ -671,6 +691,7 @@
 		height: 93.2% !important;
 	}
 }
+
 @media (min-width: 1200px) {
 	.community__right-bar,
 	#user-lists,
@@ -680,6 +701,7 @@
 		height: 91.33% !important;
 	}
 }
+
 @media (min-width: 1600px) {
 	.community__right-bar,
 	#user-lists,
@@ -689,6 +711,7 @@
 		height: 92.33% !important;
 	}
 }
+
 @media (min-width: 1800px) {
 	.community__right-bar,
 	#user-lists,
@@ -698,6 +721,7 @@
 		height: 93.7% !important;
 	}
 }
+
 @media (min-width: 1920px) {
 	.community__right-bar,
 	#user-lists,
@@ -707,11 +731,13 @@
 		height: 93.7% !important;
 	}
 }
+
 @media (min-width: 992px) {
 	.community__bottom {
 		width: 100%;
 	}
 }
+
 
 }
 
@@ -734,17 +760,17 @@
 }
 .community .community__playlist--desktop,
 .community .community__playlist--mobile {
-	background: linear-gradient(to right,#000000 0,rgba(0,0,0,0.9) 100%);
+	background: linear-gradient(to right, #000000 0, rgba(0, 0, 0, 0.9) 100%);
 }
 .community__playback-meta--desktop {
-	background: linear-gradient(to left,#000000 0,rgba(0,0,0,0.9) 100%);
+	background: linear-gradient(to left, #000000 0, rgba(0, 0, 0, 0.9) 100%);
 }
 .community .bottom__playback-controls--desktop .list-unstyled:first-child {
 	margin-left: 0px;
 }
 .community .bottom__playback-controls--desktop .community__player-item.history,
 .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger {
-	background: linear-gradient(to right,#000000 0,rgba(0,0,0,0.9) 100%);
+	background: linear-gradient(to right, #000000 0, rgba(0, 0, 0, 0.9) 100%);
 	flex-basis: 88px;
 	border-left: 1px solid #ff0000;
 }
