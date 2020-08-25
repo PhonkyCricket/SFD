@@ -55,8 +55,15 @@
 }
 
 .icon-chat-cohost+span,
+#user-lists .group.cohost~.user span,
 #dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
 	color: #2070DF !important;
+}
+
+#user-lists .group.cohost {
+	color: #2070DF;
+	background: linear-gradient(to right, hsla(360, 100%, 22%, 1), hsla(360, 100%, 22%, 1)) !important;
+	top: 1px;
 }
 
 /*#####[MANAGER]#####*/
