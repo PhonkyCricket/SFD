@@ -1,12 +1,14 @@
 /* FMG | Bot */
 
-#user-lists .list .user.id-20168147 .name:after, #user-rollover.id-20168147 .meta .username:after, #chat [data-cid^='20168147-'] .un:after {
-    content: "Room Bot";
-    margin-left: 5px;
-    background: rgba(0, 0, 0, .3);
-    padding: 0px 5px;
-    border: 1px solid #ff0000;
-    border-radius: 5px;
-    color: #ccc;
-    font-size: 11px;
+#user-lists .list .user.id-20168147 .name:after,
+#user-rollover.id-20168147 .meta .username:after,
+#chat [data-cid^='20168147-'] .un:after {
+	content: "Room Bot";
+	margin-left: 5px;
+	background: rgba(0, 0, 0, .3);
+	padding: 0px 5px;
+	border: 1px solid #ff0000;
+	border-radius: 5px;
+	color: #ccc;
+	font-size: 11px;
 }
