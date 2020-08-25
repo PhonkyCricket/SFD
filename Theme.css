@@ -220,47 +220,6 @@
 	left: 2px;
 }
 
-#user-lists .list {
-	top: 55px;
-}
-
-#user-lists .group {
-	border: none;
-	box-shadow: 0 0 2px 2px;
-}
-
-#user-lists .user:hover {
-	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
-}
-
-.right-side-wrapper #waitlist .list .user:hover {
-	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
-}
-
-#user-lists .list.staff .user:hover .name {
-	color: #ff0000;
-}
-
-#user-lists .header {
-	height: 42px;
-}
-
-#user-lists .list-header {
-	display: none;
-}
-
-#user-lists .header .button {
-	top: 0px;
-}
-
-#user-lists .header .button.staff.selected {
-	border-bottom: 2px solid #ff0000;
-}
-
-#user-lists .header .button.ignored.selected {
-	border-bottom: 2px solid #ff0000;
-}
-
 /*--[user-rollover]--*/
 
 #user-rollover {
@@ -847,32 +806,17 @@
 }
 .community .community__playlist--desktop,
 .community .community__playlist--mobile {
-	background: linear-gradient(to right,
-	#000000 0,
-	rgba(0,
-	0,
-	0,
-	0.9) 100%);
+	background: linear-gradient(to right,#000000 0,rgba(0,0,0,0.9) 100%);
 }
 .community__playback-meta--desktop {
-	background: linear-gradient(to left,
-	#000000 0,
-	rgba(0,
-	0,
-	0,
-	0.9) 100%);
+	background: linear-gradient(to left,#000000 0,rgba(0,0,0,0.9) 100%);
 }
 .community .bottom__playback-controls--desktop .list-unstyled:first-child {
 	margin-left: 0px;
 }
 .community .bottom__playback-controls--desktop .community__player-item.history,
 .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger {
-	background: linear-gradient(to right,
-	#000000 0,
-	rgba(0,
-	0,
-	0,
-	0.9) 100%);
+	background: linear-gradient(to right,#000000 0,rgba(0,0,0,0.9) 100%);
 	flex-basis: 88px;
 	border-left: 1px solid #ff0000;
 }
