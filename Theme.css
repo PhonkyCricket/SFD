@@ -483,6 +483,11 @@
 	background-size: cover;
 }
 
+#playlist-panel, #playlist-menu,
+#history-panel {
+    background: rgba(0,0,0,.70);
+}
+
 #room .app-right {
 	background: rgba(0, 0, 0, .75);
 }
