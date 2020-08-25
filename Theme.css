@@ -374,8 +374,7 @@
 }
 
 .community-settings .edit-settings {
-    background: url("")
-;
+    background: url("");
 }
 
 .dropdown dt {
@@ -542,17 +541,6 @@
   background-color: rgba(255, 25, 25, 0.5);
 }
 
-.btn-no-dj-primary.btn-no-dj-secondary__bottom,
-.btn-no-dj-secondary.btn-no-dj-secondary__bottom {
-  border: 3px solid red;
-  border-radius: 100px;
-  background-color: rgba(255, 25, 25, 0.5);
-}
-
-.btn-no-dj-secondary:hover {
-  background-color: rgba(255, 25, 25, 0.5) !important;
-}
-
 .community .community__info-item, .community .community__player-item, .community .room-controls--desktop__item, .community .bottom__playback-controls--desktop .community__player-item.history .fa, .community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
     color: #ff0000;
     opacity: 1;
@@ -643,25 +631,12 @@
 
 .community .room-controls--desktop__item .btn-meh.clicked::before {
   border-radius: 200px;
-
   background-color: rgba(255, 109, 40, 0.2) !important;
 }
 .community .room-controls--desktop__item .btn-playlist.clicked::before {
   border-radius: 200px;
-
   background-color: rgba(0, 235, 255, 0.2);
 }
-
-.btn-no-dj-primary.btn-no-dj-secondary__bottom,
-.btn-no-dj-secondary.btn-no-dj-secondary__bottom {
-  border: 3px solid white;
-  border-radius: 100px;
-  background-color: rgba(64, 16, 12, 0.9);
-}
-.btn-no-dj-secondary:hover {
-  background-color: rgba(94, 66, 62, 0.9) !important;
-} /*ddddd*/
-/* TO LEFT BOTTOM > #000 */
 
 #footer-user .info, .communities .grid .cell .favorite {
     background: linear-gradient(to left bottom, rgba(255, 25, 25, 5), #000);
@@ -707,16 +682,6 @@
 
   background-color: rgba(255, 25, 25, 0.5);
 }
-
-.btn-no-dj-primary.btn-no-dj-secondary__bottom,
-.btn-no-dj-secondary.btn-no-dj-secondary__bottom {
-  border: 3px solid red;
-  border-radius: 100px;
-  background-color: rgba(255, 25, 25, 0.5);
-}
-.btn-no-dj-secondary:hover {
-  background-color: rgba(255, 25, 25, 0.5) !important;
-
 
 .community .community__info-item, .community .community__player-item, .community .room-controls--desktop__item, .community .bottom__playback-controls--desktop .community__player-item.history .fa, .community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa, .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
     color: #ff0000;
