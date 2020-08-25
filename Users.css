@@ -1,1 +1,156 @@
+/*#####[YOU]#####*/
+
+/*#chat .cm .msg .from.you .un {
+	color: #0bf !important;
+} */
+
+
+/*#####[ADMIN]#####*/
+
+.icon-chat-admin + span {
+	color: #00fff9 !important;
+}
+
+/*#####[BA]#####*/
+
+.icon-chat-ambassador + span {
+	color: #84B423 !important;
+}
+
+/*#####[SM]#####*/
+
+.icon-chat-moderator + span {
+	color: #E74C3C !important;
+}
+
+/*#####[pLoT]#####*/
+
+.icon-chat-pLoT + span {
+	color: #F2A15A !important;
+}
+
+/*#####[promoter]#####*/
+
+.icon-chat-promoter + span {
+	color: ##158420 !important;
+}
+
+/*#####[HOST]#####*/
+
+.icon-chat-host {
+	background: url(https://i.imgur.com/vnt1z2p.png?1);
+	background-position: center !important;
+}
+.icon-chat-host + span,
+#user-lists .group.host ~ .user span,
+#dialog-user-role .role-menu .menu ul .host span {
+	color: #2070DF !important;
+}
+#user-lists .group.host {
+	color: #2070DF;
+	background: linear-gradient(to right, hsla(360, 100%, 22%, 1), hsla(360, 100%, 22%, 1)) !important;
+	top: 1px;
+}
+
+/*#####[CO-HOSTS]#####*/
+
+.icon-chat-cohost {
+	background: url(https://i.imgur.com/vnt1z2p.png?1);
+	background-position: center !important;
+}
+.icon-chat-cohost + span,
+#dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
+	color: #2070DF !important;
+}
+
+/*#####[MANAGER]#####*/
+
+.icon-chat-manager {
+	background: url(https://i.imgur.com/vnt1z2p.png?1);
+	background-position: center !important;
+}
+.icon-chat-manager + span,
+#user-lists .group.manager ~ .user span,
+#dialog-user-role .role-menu .menu ul .manager span {
+	color: #20B9DF !important;
+}
+#user-lists .group.manager {
+	color: #20B9DF;
+	background: linear-gradient(to right, hsla(234, 100%, 19%, 1), hsla(234, 100%, 19%, 1)) !important;
+}
+
+/*#####[BOUNCER]#####*/
+
+.icon-chat-bouncer {
+	background: url(https://i.imgur.com/vnt1z2p.png?1);
+	background-position: center !important;
+}
+.icon-chat-bouncer + span,
+#user-lists .group.bouncer ~ .user span,
+#dialog-user-role .role-menu .menu ul .bouncer span {
+	color: #80A3DF !important;
+}
+#user-lists .group.bouncer {
+	color: #80A3DF;
+	background: linear-gradient(to right, hsla(121, 64%, 12%, 1), hsla(121, 64%, 12%, 1)) !important;
+}
+
+/*#####[DJ]#####*/
+
+.icon-chat-dj {
+	background: url(https://i.imgur.com/vnt1z2p.png?1);
+	background-position: center !important;
+}
+.icon-chat-dj + span,
+#user-lists .group.dj ~ .user span,
+#dialog-user-role .role-menu .menu ul .dj span {
+	color: #0acc8f !important;
+}
+#user-lists .group.dj {
+	color: #0acc8f;
+	background: linear-gradient(to right, hsla(50, 100%, 34%, 1), hsla(50, 100%, 34%, 1)) !important;
+}
+
+/*#####[SUBS]#####*/
+
+.icon-chat-subscriber,
+#user-rollover .meta.subscriber .status i {
+	background: url(https://i.imgur.com/zIbImv1.png);
+	background-position: center !important;
+}
+.icon-chat-silver-subscriber,
+#user-rollover .meta.subscriber.silver .status i {
+	background: url(https://i.imgur.com/AHDikC9.png);
+	background-position: center !important;
+}
+.icon-chat-subscriber + span {
+	color: #C1C100 !important;
+}
+.icon-chat-silver-subscriber + span {
+    color: #919191 !important;
+}
+#user-lists .group {
+	border: none !important;
+	box-shadow: 0 0 1px 1px;
+}
+#user-lists .user:hover {
+	background: linear-gradient(to right, hsla(233, 100%, 9%, 0.66), hsla(233, 100%, 29%, 0.66)) !important;
+}
+#user-lists .list.staff .user:hover .name {
+	color: #eee !important;
+}
+#user-lists .header {
+	height: 42px;
+}
+#user-lists .list-header {
+	top: 44px;
+}
+#user-lists .header .button {
+	top: 0px;
+}
+#user-lists .header .button.selected {
+	border-radius: 0px;
+	background: radial-gradient(hsla(210, 19%, 43%, 0.73), hsla(210, 19%, 33%, 0.73));
+	border: none !important;
+}
 
