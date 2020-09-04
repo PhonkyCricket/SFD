@@ -9,13 +9,12 @@
 	font-size: 11px;
 	width: 300px;
 	box-sizing: border-box;
-	content: "FMG COMMUNITY | PlugThemed - red: V 6.5.0.0!";
+	content: "deathcore metalcore heavy | PlugThemed - red: V 6.8.0.0!";
 	font-weight: bold;
 	padding: 5px;
 	background-color: rgb(50, 0, 0);
 	border-radius: 20px;
 }
-
 
 /*--------------------------------------------------------------------------------\
 |		welcome & log & chat
@@ -47,7 +46,6 @@
 	color: #ff0000;
 }
 
-
 /*--[moderation]--*/
 
 #chat .cm.moderation {
@@ -59,7 +57,6 @@
 #chat .cm.moderation .timestamp {
 	color: hsl(225, 70%, 70%);
 }
-
 
 /*--[user-action]--*/
 
@@ -169,12 +166,10 @@
 #chat .cm.mention .msg .from .un {
 	color: hsl(70, 100%, 100%);
 }
-
+/*fix RCS*/
 #chat .cm.mention .msg {
-	/*fix RCS*/
 	background: none;
 }
-
 
 /*--[BOT]--*/
 
@@ -198,7 +193,6 @@
 #chat .emote .text {
 	font-style: oblique !important;
 }
-
 
 /*### [message] ###*/
 
