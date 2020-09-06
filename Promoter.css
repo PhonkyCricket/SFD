@@ -53,3 +53,55 @@
 #user-lists .list.room .user.id-3669054 .icon-chat-promoter {
     background: url("https://i.imgur.com/LZgFvsZ.png");
 }
+
+/*#####[Manager]#####*/
+
+/* Molly */
+
+.icon-chat-manager {
+    background: url("https://i.imgur.com/FATKOW3.gif");
+}
+
+.icon-chat-manager+span, #user-lists .group.manager~.user span, #dialog-user-role .role-menu .menu ul .manager span {
+    color: #20B9DF;
+}
+
+#user-lists .group.manager {
+    color: #20B9DF;
+    background: linear-gradient(to right, hsla(360, 100%, 30%, 0.5), hsla(360, 100%, 40%, 0.5));
+    top: 1px;
+}
+
+#user-rollover.id-4690413 .badge-box>i.bdg, .id-4690413>.badge-box>i.bdg {
+    background-image: url("https://media.tenor.com/images/a9e0ee36eb929d9fb5968a3030ea1c1d/tenor.gif");
+    border-radius: 6px;
+}
+
+#user-rollover.id-4690413>.info>.role span {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+#user-rollover.id-4690413>.info>.role span:after {
+    text-indent: 0;
+    content: 'Manager';
+    display: block;
+    line-height: initial;
+    color: #20B9DF;
+}
+
+#user-rollover.id-4690413>.info>.role:hover span:after {
+    text-indent: 0;
+    content: 'Promoter';
+    display: block;
+    line-height: initial;
+    color: #359422;
+}
+
+#user-rollover.id-4690413>.info>.role:hover .icon {
+    background: url("https://i.imgur.com/LZgFvsZ.png");
+}
+
+#user-lists .list.room .user.id-4690413 .icon-chat-promoter {
+    background: url("https://i.imgur.com/LZgFvsZ.png");
+}
