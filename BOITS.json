@@ -1,8 +1,8 @@
 {
-   "room":"BOITS COMMUNITY",
-   "author":"F0xyProxy",
+   "room":"SFD COMMUNITY",
+   "author":"ScuffedFoxyDragon",
    "icon":"",
-   "css":"https://raw.githack.com/F0xyProxy/BOITS/master/BOITS.css",
+   "css":"https://raw.githack.com/ScuffedFoxyDragon/SFD/master/SFD.css",
    "rules":{
       "allowAutorespond":true,
       "allowAutowoot":true,
